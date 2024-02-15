@@ -1,9 +1,9 @@
-# EaglerCraftX Server
+# EaglercraftX Server
 
 ## Credits
-Original Project: Lax1Dude
+eaglercraft and eaglercraftx: lax1dude (calder young)
 <br>
-Original Server Fork: EcoliEater87
+eaglercraft server: ayunami2000
 <br>
 ## Setup Guide
 Welcome to the EaglercraftX server project! Here is how you can setup your very own eaglercraft server:
