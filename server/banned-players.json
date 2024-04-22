@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "uuid": "e63a1650-11e2-3a98-b331-25827b3bea22",
+    "name": "nub",
+    "created": "2024-04-22 15:36:45 +0000",
+    "source": "mileswa1q2",
+    "expires": "forever",
+    "reason": "Banned by an operator."
+  },
+  {
+    "uuid": "30bce865-bff4-3e31-b5c4-492e8d6a2c83",
+    "name": "nubvo",
+    "created": "2024-04-22 15:44:13 +0000",
+    "source": "mileswa1q2",
+    "expires": "forever",
+    "reason": "Banned by an operator."
+  }
+]
