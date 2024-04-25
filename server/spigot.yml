@@ -14,6 +14,9 @@ config-version: 8
 settings:
   debug: false
   save-user-cache-on-stop-only: false
+  bungeecord: true
+  late-bind: false
+  sample-count: 12
   player-shuffle: 0
   filter-creative-items: true
   user-cache-size: 1000
@@ -23,7 +26,6 @@ settings:
   timeout-time: 60
   restart-on-crash: true
   restart-script: ./start.sh
-  bungeecord: true
   netty-threads: 4
   attribute:
     maxHealth:
@@ -32,8 +34,6 @@ settings:
       max: 2048.0
     attackDamage:
       max: 2048.0
-  late-bind: false
-  sample-count: 12
 timings:
   enabled: true
   verbose: true
@@ -45,6 +45,7 @@ timings:
   history-length: 3600
 commands:
   tab-complete: 0
+  log: true
   spam-exclusions:
   - /skill
   silent-commandblock-console: false
@@ -53,7 +54,6 @@ commands:
   - summon
   - testforblock
   - tellraw
-  log: true
 messages:
   whitelist: You are not whitelisted on this server!
   unknown-command: Unknown command. Type "/help" for help.
