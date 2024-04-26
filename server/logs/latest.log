@@ -1,1708 +1,371 @@
-[13:41:05] [Server thread/INFO]: Starting minecraft server version 1.8.8
-[13:41:05] [Server thread/INFO]: Loading properties
-[13:41:05] [Server thread/INFO]: Default game type: SURVIVAL
-[13:41:05] [Server thread/INFO]: This server is running CraftBukkit version git-PaperSpigot-445 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)
-[13:41:05] [Server thread/INFO]: Debug logging is disabled
-[13:41:05] [Server thread/INFO]: Spigot Timings: true - Verbose: true - Interval: 5m - Length: 60m
-[13:41:05] [Server thread/INFO]: Server Ping Player Sample Count: 12
-
-[13:41:05] [Server thread/INFO]: Using 4 threads for Netty based IO
-[13:41:06] [Server thread/INFO]: Data value allowed items: 
-[13:41:06] [Server thread/WARN]: java.lang.NoSuchFieldException: modifiers
-
-[13:41:06] [Server thread/WARN]: 	at java.base/java.lang.Class.getDeclaredField(Class.java:2782)
-
-[13:41:06] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.stackableBuckets(PaperSpigotConfig.java:192)
-
-[13:41:06] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-
-[13:41:06] [Server thread/WARN]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-
-[13:41:06] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.readConfig(PaperSpigotConfig.java:84)
-
-[13:41:06] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.init(PaperSpigotConfig.java:62)
-
-[13:41:06] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:181)
-
-[13:41:06] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563)
-
-[13:41:06] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
-
-[13:41:06] [Server thread/INFO]: Generating keypair
-[13:41:06] [Server thread/INFO]: Starting Minecraft server on localhost:25565
-[13:41:06] [Server thread/INFO]: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
-[13:41:06] [Server thread/INFO]: Using default channel type
-[13:41:06] [Server thread/INFO]: Set PluginClassLoader as parallel capable
-[13:41:06] [Server thread/INFO]: [SimpleTpa] Loading SimpleTpa v6.4
-[13:41:06] [Server thread/INFO]: [SimpleHomes] Loading SimpleHomes v2.2
-[13:41:06] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1;no_git_id
-[13:41:06] [Server thread/INFO]: [LoginSecurity] Loading LoginSecurity v3.2.0
-[13:41:06] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[13:41:06] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[13:41:06] [Server thread/WARN]: Whilst this makes it possible to use BungeeCord, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
-[13:41:06] [Server thread/WARN]: Please see http://www.spigotmc.org/wiki/firewall-guide/ for further information.
-[13:41:06] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[13:41:06] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
-[13:41:06] [Server thread/INFO]: Preparing level "world"
-[13:41:06] [Server thread/INFO]: -------- World Settings For [world] --------
-[13:41:06] [Server thread/INFO]: Mob Spawn Range: 4
-[13:41:06] [Server thread/INFO]: Anti X-Ray: true
-[13:41:06] [Server thread/INFO]: 	Engine Mode: 1
-[13:41:06] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
-[13:41:06] [Server thread/INFO]: 	Replace Blocks: [1, 5]
-[13:41:06] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[13:41:06] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[13:41:06] [Server thread/INFO]: Cane Growth Modifier: 100%
-[13:41:06] [Server thread/INFO]: Melon Growth Modifier: 100%
-[13:41:06] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[13:41:06] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[13:41:06] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[13:41:06] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[13:41:06] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[13:41:06] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[13:41:06] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[13:41:06] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
-[13:41:06] [Server thread/INFO]: Random Lighting Updates: false
-[13:41:06] [Server thread/INFO]: Structure Info Saving: true
-[13:41:06] [Server thread/INFO]: Sending up to 10 chunks per packet
-[13:41:06] [Server thread/INFO]: Max Entity Collisions: 8
-[13:41:06] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
-[13:41:06] [Server thread/INFO]: Max TNT Explosions: 100
-[13:41:06] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[13:41:06] [Server thread/INFO]: Item Despawn Rate: 6000
-[13:41:06] [Server thread/INFO]: Item Merge Radius: 2.5
-[13:41:06] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[13:41:06] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[13:41:06] [Server thread/INFO]: View Distance: 4
-[13:41:06] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[13:41:06] [Server thread/INFO]: Chunks to Grow per Tick: 650
-[13:41:06] [Server thread/INFO]: Clear tick list: false
-[13:41:06] [Server thread/INFO]: Experience Merge Radius: 3.0
-[13:41:06] [Server thread/INFO]: -------- World Settings For [world] --------
-[13:41:06] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
-[13:41:06] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
-[13:41:06] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
-[13:41:06] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
-[13:41:06] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
-[13:41:06] [Server thread/INFO]: Water over lava flow speed: 5
-[13:41:06] [Server thread/INFO]: Fix TNT cannons: false
-[13:41:06] [Server thread/INFO]: Allow undead horse types to be leashed: false
-[13:41:06] [Server thread/INFO]: Keep spawn chunk loaded: true
-[13:41:06] [Server thread/INFO]: World async lighting: false
-[13:41:06] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
-[13:41:06] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
-[13:41:06] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[13:41:06] [Server thread/INFO]: Mob Spawn Range: 4
-[13:41:06] [Server thread/INFO]: Anti X-Ray: true
-[13:41:06] [Server thread/INFO]: 	Engine Mode: 1
-[13:41:06] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
-[13:41:06] [Server thread/INFO]: 	Replace Blocks: [1, 5]
-[13:41:06] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[13:41:06] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[13:41:06] [Server thread/INFO]: Cane Growth Modifier: 100%
-[13:41:06] [Server thread/INFO]: Melon Growth Modifier: 100%
-[13:41:06] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[13:41:06] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[13:41:06] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[13:41:06] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[13:41:06] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[13:41:06] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[13:41:06] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[13:41:06] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
-[13:41:06] [Server thread/INFO]: Random Lighting Updates: false
-[13:41:06] [Server thread/INFO]: Structure Info Saving: true
-[13:41:06] [Server thread/INFO]: Sending up to 10 chunks per packet
-[13:41:06] [Server thread/INFO]: Max Entity Collisions: 8
-[13:41:06] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
-[13:41:06] [Server thread/INFO]: Max TNT Explosions: 100
-[13:41:06] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[13:41:06] [Server thread/INFO]: Item Despawn Rate: 6000
-[13:41:06] [Server thread/INFO]: Item Merge Radius: 2.5
-[13:41:06] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[13:41:06] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[13:41:06] [Server thread/INFO]: View Distance: 4
-[13:41:06] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[13:41:06] [Server thread/INFO]: Chunks to Grow per Tick: 650
-[13:41:06] [Server thread/INFO]: Clear tick list: false
-[13:41:06] [Server thread/INFO]: Experience Merge Radius: 3.0
-[13:41:06] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[13:41:06] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
-[13:41:06] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
-[13:41:06] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
-[13:41:06] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
-[13:41:06] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
-[13:41:06] [Server thread/INFO]: Water over lava flow speed: 5
-[13:41:06] [Server thread/INFO]: Fix TNT cannons: false
-[13:41:06] [Server thread/INFO]: Allow undead horse types to be leashed: false
-[13:41:06] [Server thread/INFO]: Keep spawn chunk loaded: true
-[13:41:06] [Server thread/INFO]: World async lighting: false
-[13:41:06] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
-[13:41:06] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
-[13:41:06] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[13:41:06] [Server thread/INFO]: Mob Spawn Range: 4
-[13:41:06] [Server thread/INFO]: Anti X-Ray: true
-[13:41:06] [Server thread/INFO]: 	Engine Mode: 1
-[13:41:06] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
-[13:41:06] [Server thread/INFO]: 	Replace Blocks: [1, 5]
-[13:41:06] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[13:41:06] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[13:41:06] [Server thread/INFO]: Cane Growth Modifier: 100%
-[13:41:06] [Server thread/INFO]: Melon Growth Modifier: 100%
-[13:41:06] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[13:41:06] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[13:41:06] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[13:41:06] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[13:41:06] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[13:41:06] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[13:41:06] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[13:41:06] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
-[13:41:06] [Server thread/INFO]: Random Lighting Updates: false
-[13:41:06] [Server thread/INFO]: Structure Info Saving: true
-[13:41:06] [Server thread/INFO]: Sending up to 10 chunks per packet
-[13:41:06] [Server thread/INFO]: Max Entity Collisions: 8
-[13:41:06] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
-[13:41:06] [Server thread/INFO]: Max TNT Explosions: 100
-[13:41:06] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[13:41:06] [Server thread/INFO]: Item Despawn Rate: 6000
-[13:41:06] [Server thread/INFO]: Item Merge Radius: 2.5
-[13:41:06] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[13:41:06] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[13:41:06] [Server thread/INFO]: View Distance: 4
-[13:41:06] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[13:41:06] [Server thread/INFO]: Chunks to Grow per Tick: 650
-[13:41:06] [Server thread/INFO]: Clear tick list: false
-[13:41:06] [Server thread/INFO]: Experience Merge Radius: 3.0
-[13:41:06] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[13:41:06] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
-[13:41:06] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
-[13:41:06] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
-[13:41:06] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
-[13:41:06] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
-[13:41:06] [Server thread/INFO]: Water over lava flow speed: 5
-[13:41:06] [Server thread/INFO]: Fix TNT cannons: false
-[13:41:06] [Server thread/INFO]: Allow undead horse types to be leashed: false
-[13:41:06] [Server thread/INFO]: Keep spawn chunk loaded: true
-[13:41:06] [Server thread/INFO]: World async lighting: false
-[13:41:06] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
-[13:41:06] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
-[13:41:06] [Server thread/INFO]: Preparing start region for level 0 (Seed: 6490716004152131117)
-[13:41:07] [Server thread/INFO]: Preparing spawn area: 32%
-[13:41:08] [Server thread/INFO]: Preparing start region for level 1 (Seed: 3964490407870043622)
-[13:41:09] [Server thread/INFO]: Preparing start region for level 2 (Seed: 3964490407870043622)
-[13:41:09] [Server thread/INFO]: [SimpleTpa] Enabling SimpleTpa v6.4
-[13:41:09] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9[m
-
-[13:41:09] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] Simple Tpa has been enabled on version 6.4[m
-
-[13:41:09] [Server thread/INFO]: Enabled metrics. You may opt-out by changing plugins/bStats/config.yml
-[13:41:09] [Server thread/INFO]: [SimpleHomes] Enabling SimpleHomes v2.2
-[13:41:09] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.1;no_git_id
-[13:41:09] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[13:41:09] [Server thread/INFO]: [WorldEdit] Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_8_R3 as the Bukkit adapter
-[13:41:09] [Server thread/INFO]: [LoginSecurity] Enabling LoginSecurity v3.2.0
-[13:41:09] [Server thread/INFO]: [LoginSecurity] Loading base translations from "en_us"
-[13:41:09] [Server thread/INFO]: [LoginSecurity] Loading specified translations from "en_us"
-[13:41:09] [Server thread/INFO]: [LoginSecurity] Registering commands...
-[13:41:09] [Server thread/INFO]: [LoginSecurity] Registering listeners...
-[13:41:09] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[13:41:09] [Server thread/INFO]: Done (3.344s)! For help, type "help" or "?"
-[13:41:09] [Server thread/INFO]: Timings Reset
-[13:41:10] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[21m[SimpleTpa] There is a new update available.[m
-
-[13:41:10] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[SimpleTpa] There is a new update available:[m
-
-[13:41:10] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[SimpleTpa] https://www.spigotmc.org/resources/simple-tpa.64270/[m
-
-[13:42:41] [Server thread/INFO]: * Server hi
-[13:42:47] [Server thread/INFO]: * Server or you on?
-[13:43:07] [Thread-7/INFO]: UUID of player mileswa1q2 is 24d1f12f-57ff-3135-a019-c218d8b2fef1
-[13:43:07] [Server thread/INFO]: mileswa1q2[/[0:0:0:0:0:0:0:1]:53416] logged in with entity id 514 at ([world]-352.68466459765, 59.0, 243.82142665216563)
-[13:43:17] [Thread-8/INFO]: UUID of player Mrtrump123 is e3f218f8-b4c2-3c0a-840d-ab54f69cc13f
-[13:43:17] [Server thread/INFO]: Mrtrump123[/[0:0:0:0:0:0:0:1]:34536] logged in with entity id 567 at ([world]-530.6539070638414, 124.0, 273.30000001192093)
-[13:43:23] [Server thread/INFO]: * Server hi
-[13:43:27] [Async Chat Thread - #0/INFO]: <mileswa1q2> hi[m
-
-[13:43:30] [Async Chat Thread - #0/INFO]: <Mrtrump123> yo[m
-
-[13:43:44] [Server thread/INFO]: mileswa1q2 issued server command: /tpa Mrtrump123
-[13:43:55] [Async Chat Thread - #0/INFO]: <Mrtrump123> hey[m
-
-[13:44:02] [Async Chat Thread - #0/INFO]: <Mrtrump123> wanna come to my basw[m
-
-[13:44:05] [Async Chat Thread - #0/INFO]: <Mrtrump123> base[m
-
-[13:44:08] [Thread-9/INFO]: UUID of player EDP444 is 7f4c4ca8-2e74-3a67-82e5-719a8e99ca91
-[13:44:08] [Server thread/INFO]: EDP444[/[0:0:0:0:0:0:0:1]:44844] logged in with entity id 712 at ([world]-500.665304201737, 66.85489329934836, 292.3181759760473)
-[13:44:08] [Async Chat Thread - #0/INFO]: <mileswa1q2> yes tpa[m
-
-[13:44:14] [Async Chat Thread - #0/INFO]: <Mrtrump123> just dont tell anyone[m
-
-[13:44:23] [Server thread/INFO]: mileswa1q2 issued server command: /tpa Mrtrump123
-[13:44:26] [Async Chat Thread - #0/INFO]: <Mrtrump123> or what we are gonna set up ok[m
-
-[13:44:34] [Async Chat Thread - #0/INFO]: <mileswa1q2> ecsep and i will sow up ner you[m
-
-[13:44:50] [Async Chat Thread - #0/INFO]: <Mrtrump123> cause ur server owner we trust you to be confidential[m
-
-[13:45:00] [Async Chat Thread - #0/INFO]: <mileswa1q2> huuuu[m
-
-[13:45:07] [Server thread/INFO]: mileswa1q2 issued server command: /tp mileswa1q2 Mrtrump123
-[13:45:07] [Server thread/INFO]: [mileswa1q2: Teleported mileswa1q2 to Mrtrump123]
-[13:45:11] [Server thread/INFO]: Mrtrump123 issued server command: /tpa mileswa1q2
-[13:45:14] [Async Chat Thread - #0/INFO]: <mileswa1q2> i will[m
-
-[13:45:16] [Server thread/INFO]: EDP444 lost connection: Disconnected
-[13:45:16] [Server thread/INFO]: EDP444 left the game.
-[13:45:19] [Thread-10/INFO]: UUID of player EDP444 is 7f4c4ca8-2e74-3a67-82e5-719a8e99ca91
-[13:45:19] [Server thread/INFO]: EDP444[/[0:0:0:0:0:0:0:1]:46986] logged in with entity id 845 at ([world]-545.9282978400915, 131.0, 263.37614670177817)
-[13:45:34] [Async Chat Thread - #0/INFO]: <Mrtrump123> W base[m
-
-[13:45:36] [Async Chat Thread - #0/INFO]: <mileswa1q2> i new this wus hree and i flon i specter mode[m
-
-[13:45:58] [Async Chat Thread - #0/INFO]: <Mrtrump123> this is gonna be a trap[m
-
-[13:46:03] [Async Chat Thread - #0/INFO]: <mileswa1q2> reley[m
-
-[13:46:15] [Async Chat Thread - #0/INFO]: <mileswa1q2> do you need things[m
-
-[13:46:39] [Async Chat Thread - #0/INFO]: <Mrtrump123> marshel really wants slime and redstone[m
-
-[13:46:55] [Async Chat Thread - #0/INFO]: <mileswa1q2> ok i hav sum at bass i will be bak soon[m
-
-[13:47:00] [Server thread/INFO]: mileswa1q2 issued server command: /home mileswa1q2
-[13:47:03] [Async Chat Thread - #0/INFO]: <Mrtrump123> ok[m
-
-[13:47:14] [Server thread/INFO]: mileswa1q2 issued server command: /tp mileswa1q2 Mrtrump123
-[13:47:14] [Server thread/INFO]: [mileswa1q2: Teleported mileswa1q2 to Mrtrump123]
-[13:47:40] [Async Chat Thread - #0/INFO]: <Mrtrump123> u get soem?[m
-
-[13:48:16] [Async Chat Thread - #0/INFO]: <Mrtrump123> hey and if i can get some iron[m
-
-[13:48:22] [Async Chat Thread - #0/INFO]: <Mrtrump123> i need a water bucket[m
-
-[13:48:24] [Async Chat Thread - #0/INFO]: <mileswa1q2> no prod aney time you need thigs say so i will give you ti if i have it[m
-
-[13:48:30] [Async Chat Thread - #0/INFO]: <Mrtrump123> for my sand trap[m
-
-[13:48:35] [Async Chat Thread - #0/INFO]: <mileswa1q2> i will get it[m
-
-[13:48:40] [Server thread/INFO]: mileswa1q2 issued server command: /home mileswa1q2
-[13:49:05] [Server thread/INFO]: mileswa1q2 issued server command: /tp mileswa1q2 Mrtrump123
-[13:49:05] [Server thread/INFO]: [mileswa1q2: Teleported mileswa1q2 to Mrtrump123]
-[13:49:26] [Async Chat Thread - #0/INFO]: <Mrtrump123> now i can start setting up my pit[m
-
-[13:49:39] [Async Chat Thread - #0/INFO]: <Mrtrump123> miles[m
-
-[13:49:54] [Async Chat Thread - #0/INFO]: <Mrtrump123> so do u have restone and slime?[m
-
-[13:50:20] [Server thread/INFO]: mileswa1q2 issued server command: /sethome Mrtrump123
-[13:50:30] [Async Chat Thread - #0/INFO]: <mileswa1q2> thanks i gess[m
-
-[13:50:32] [Thread-12/INFO]: UUID of player mr_guy123 is f218021f-06b8-3d8f-a32e-d3fde9e356e8
-[13:50:32] [Server thread/INFO]: mr_guy123[/[0:0:0:0:0:0:0:1]:53198] logged in with entity id 1408 at ([world]-240.4165927834918, 71.0, 225.21637662760972)
-[13:50:33] [Async Chat Thread - #0/INFO]: <EDP444> slime redston[m
-
-[13:50:45] [Async Chat Thread - #0/INFO]: <mileswa1q2> hi[m
-
-[13:50:50] [Server thread/INFO]: mr_guy123 issued server command: /hi
-[13:50:55] [Async Chat Thread - #0/INFO]: <mr_guy123> hi[m
-
-[13:50:55] [Async Chat Thread - #0/INFO]: <EDP444> slime and redstone pls[m
-
-[13:51:19] [Async Chat Thread - #0/INFO]: <mileswa1q2> ?[m
-
-[13:51:26] [Async Chat Thread - #0/INFO]: <Mrtrump123> for marshel[m
-
-[13:51:27] [Async Chat Thread - #0/INFO]: <mr_guy123> miles I still cant breack anything[m
-
-[13:51:32] [Async Chat Thread - #0/INFO]: <mileswa1q2> wu do you need me to do[m
-
-[13:51:43] [Async Chat Thread - #0/INFO]: <EDP444> give me slime[m
-
-[13:51:56] [Async Chat Thread - #0/INFO]: <mileswa1q2> i is fin for me[m
-
-[13:52:08] [Server thread/INFO]: EDP444 has just earned the achievement [Hot Topic]
-[13:52:12] [Async Chat Thread - #0/INFO]: <mr_guy123> miles I steill cant breack stuff[m
-
-[13:52:31] [Async Chat Thread - #0/INFO]: <mr_guy123> never mind[m
-
-[13:52:51] [Server thread/INFO]: mileswa1q2 issued server command: /home mileswa1q2
-[13:52:56] [Server thread/INFO]: mr_guy123 has just earned the achievement [Getting Wood]
-[13:52:57] [Server thread/INFO]: mileswa1q2 issued server command: /home mn
-[13:54:47] [Server thread/INFO]: mr_guy123 has just earned the achievement [Benchmarking]
-[13:55:10] [Server thread/INFO]: mr_guy123 has just earned the achievement [Time to Strike!]
-[13:56:32] [Thread-13/INFO]: UUID of player literalyultraman is def825bd-d70c-36f5-831b-28f4b37fdb0f
-[13:56:32] [Server thread/INFO]: literalyultraman[/[0:0:0:0:0:0:0:1]:33328] logged in with entity id 2624 at ([world]-264.69999998807907, 50.0, 183.30000001192093)
-[13:56:56] [Server thread/INFO]: mr_guy123 lost connection: Disconnected
-[13:56:56] [Server thread/INFO]: mr_guy123 left the game.
-[13:57:02] [Server thread/INFO]: literalyultraman lost connection: Login timed out!
-[13:57:02] [Server thread/INFO]: literalyultraman left the game.
-[13:57:02] [Server thread/WARN]: handleDisconnection() called twice
-[13:57:11] [Server thread/INFO]: mileswa1q2 issued server command: /home mileswa1q2
-[13:57:50] [Server thread/INFO]: mileswa1q2 issued server command: /home mn
-[13:59:36] [Thread-14/INFO]: UUID of player mr_guy123 is f218021f-06b8-3d8f-a32e-d3fde9e356e8
-[13:59:36] [Server thread/INFO]: mr_guy123[/[0:0:0:0:0:0:0:1]:46232] logged in with entity id 3264 at ([world]-271.7422432966483, 70.0, 176.08739176600523)
-[14:02:11] [Server thread/INFO]: mileswa1q2 has just earned the achievement [DIAMONDS!]
-[14:02:21] [Async Chat Thread - #1/INFO]: <Mrtrump123> LUCKY[m
-
-[14:02:36] [Async Chat Thread - #1/INFO]: <mileswa1q2> i no[m
-
-[14:02:50] [Async Chat Thread - #1/INFO]: <mileswa1q2> it tok like 10 howers to get[m
-
-[14:02:56] [Thread-15/INFO]: UUID of player Innocent is c0ae7e60-0889-39b5-b518-a0a07d98c1dc
-[14:02:57] [Server thread/INFO]: Innocent[/[0:0:0:0:0:0:0:1]:46580] logged in with entity id 4381 at ([world]-238.4841765546747, 64.0, 208.98642573939767)
-[14:03:25] [Async Chat Thread - #1/INFO]: <Innocent> how do i f5?[m
-
-[14:03:37] [Async Chat Thread - #1/INFO]: <mileswa1q2> hit f then 5[m
-
-[14:03:58] [Async Chat Thread - #1/INFO]: <Innocent> thanks![m
-
-[14:04:20] [Server thread/INFO]: mileswa1q2 issued server command: /home mileswa1q2
-[14:04:26] [Server thread/INFO]: Innocent has just earned the achievement [Taking Inventory]
-[14:04:39] [Async Chat Thread - #1/INFO]: <Innocent> why cant i break wood[m
-
-[14:05:49] [Async Chat Thread - #2/INFO]: <EDP444> miles are you in our base[m
-
-[14:05:51] [Async Chat Thread - #2/INFO]: <Innocent> it just breaks then spawns back in[m
-
-[14:06:08] [Async Chat Thread - #2/INFO]: <EDP444> thats a glitch spot[m
-
-[14:06:16] [Server thread/INFO]: mileswa1q2 issued server command: /home mn
-[14:06:16] [Async Chat Thread - #2/INFO]: <Innocent> now it works[m
-
-[14:06:18] [Server thread/INFO]: Innocent has just earned the achievement [Getting Wood]
-[14:06:25] [Server thread/INFO]: Mrtrump123 drowned
-[14:06:29] [Async Chat Thread - #2/INFO]: <Innocent> what the[m
-
-[14:06:31] [Server thread/INFO]: Mrtrump123 issued server command: /back
-[14:06:55] [Async Chat Thread - #2/INFO]: <Innocent> can you timeset 1000?[m
-
-[14:07:00] [Async Chat Thread - #2/INFO]: <mileswa1q2> yes[m
-
-[14:07:10] [Server thread/INFO]: mileswa1q2 issued server command: /time set day
-[14:07:10] [Server thread/INFO]: [mileswa1q2: Set the time to 1000]
-[14:07:45] [Server thread/INFO]: Innocent has just earned the achievement [Benchmarking]
-[14:08:37] [Async Chat Thread - #3/INFO]: <Innocent> im halfa heart[m
-
-[14:08:58] [Server thread/INFO]: EDP444 lost connection: Disconnected
-[14:08:58] [Server thread/INFO]: EDP444 left the game.
-[14:10:36] [Thread-16/INFO]: UUID of player LeoisHIM is deecb01e-0bd2-34ca-b47a-eab542f5b633
-[14:10:36] [Server thread/INFO]: LeoisHIM[/[0:0:0:0:0:0:0:1]:42506] logged in with entity id 7196 at ([world]-224.5, 70.0, 217.5)
-[14:10:38] [Thread-17/INFO]: UUID of player EDP444 is 7f4c4ca8-2e74-3a67-82e5-719a8e99ca91
-[14:10:38] [Server thread/INFO]: EDP444[/[0:0:0:0:0:0:0:1]:42520] logged in with entity id 7221 at ([world]-555.3000000119208, 94.0, 215.40981029504246)
-[14:10:58] [Server thread/INFO]: LeoisHIM has just earned the achievement [Taking Inventory]
-[14:11:06] [Server thread/INFO]: LeoisHIM lost connection: Login timed out!
-[14:11:06] [Server thread/INFO]: LeoisHIM left the game.
-[14:11:06] [Server thread/WARN]: handleDisconnection() called twice
-[14:11:27] [Thread-18/INFO]: UUID of player LeoisHIM is deecb01e-0bd2-34ca-b47a-eab542f5b633
-[14:11:28] [Server thread/INFO]: LeoisHIM[/[0:0:0:0:0:0:0:1]:43152] logged in with entity id 7655 at ([world]-224.90567349695223, 70.0, 217.9702751349676)
-[14:11:58] [Server thread/INFO]: LeoisHIM lost connection: Login timed out!
-[14:11:58] [Server thread/INFO]: LeoisHIM left the game.
-[14:11:58] [Server thread/WARN]: handleDisconnection() called twice
-[14:12:04] [Thread-19/INFO]: UUID of player LeoisHIM is deecb01e-0bd2-34ca-b47a-eab542f5b633
-[14:12:05] [Server thread/INFO]: LeoisHIM[/[0:0:0:0:0:0:0:1]:53178] logged in with entity id 7954 at ([world]-224.07775305684982, 70.0, 217.89410975133765)
-[14:12:17] [Server thread/INFO]: LeoisHIM issued server command: /rgister <12345> <12345>
-[14:12:23] [Server thread/INFO]: mileswa1q2 issued server command: /home mileswa1q2
-[14:12:35] [Server thread/INFO]: LeoisHIM lost connection: Login timed out!
-[14:12:35] [Server thread/INFO]: LeoisHIM left the game.
-[14:12:35] [Server thread/WARN]: handleDisconnection() called twice
-[14:12:39] [Thread-20/INFO]: UUID of player LeoisHIM is deecb01e-0bd2-34ca-b47a-eab542f5b633
-[14:12:39] [Server thread/INFO]: LeoisHIM[/[0:0:0:0:0:0:0:1]:34226] logged in with entity id 8217 at ([world]-224.07775305684982, 70.0, 217.89410975133765)
-[14:13:11] [Server thread/INFO]: LeoisHIM lost connection: Disconnected
-[14:13:11] [Server thread/INFO]: LeoisHIM left the game.
-[14:13:28] [Async Chat Thread - #4/INFO]: <Innocent> can someone give food[m
-
-[14:15:00] [Thread-21/INFO]: UUID of player Skillalogan7722 is a869545a-574b-317f-8ce2-a3161b83a6f8
-[14:15:00] [Server thread/INFO]: Skillalogan7722[/[0:0:0:0:0:0:0:1]:51920] logged in with entity id 8957 at ([world]-262.2982774893554, 64.16610926093821, 204.69806309805742)
-[14:15:00] [Thread-22/INFO]: UUID of player LeoisHIM is deecb01e-0bd2-34ca-b47a-eab542f5b633
-[14:15:00] [Server thread/INFO]: LeoisHIM[/[0:0:0:0:0:0:0:1]:51934] logged in with entity id 8996 at ([world]-217.7579243894173, 66.0, 223.384112551855)
-[14:15:01] [Thread-23/INFO]: UUID of player Jack12345 is aa903ea5-a460-33a1-b6ce-dcd5e5a79786
-[14:15:01] [Server thread/INFO]: Jack12345[/[0:0:0:0:0:0:0:1]:51936] logged in with entity id 9089 at ([world]-234.5, 64.0, 208.5)
-[14:15:06] [Server thread/INFO]: Innocent was blown up by Creeper
-[14:15:35] [Async Chat Thread - #5/INFO]: <Innocent> thanks[m
-
-[14:15:43] [Async Chat Thread - #5/INFO]: <mr_guy123> your welcome[m
-
-[14:15:49] [Async Chat Thread - #5/INFO]: <Innocent> imma make a secret base[m
-
-[14:15:51] [Async Chat Thread - #5/INFO]: <Jack12345> drugs guns boold voilence[m
-
-[14:16:07] [Thread-24/INFO]: UUID of player Viggyee is 486aade3-d423-3ba4-ab11-0c276ac78afe
-[14:16:07] [Server thread/INFO]: Viggyee[/[0:0:0:0:0:0:0:1]:49058] logged in with entity id 9436 at ([world]-378.8566166446192, 57.0, 31.64009190290554)
-[14:16:25] [Server thread/INFO]: mileswa1q2 issued server command: /home mileswa1q2
-[14:16:50] [Server thread/INFO]: LeoisHIM has just earned the achievement [Getting Wood]
-[14:17:17] [Server thread/INFO]: Jack12345 has just earned the achievement [Taking Inventory]
-[14:17:18] [Async Chat Thread - #6/INFO]: <Innocent> take me with u mr guy'[m
-
-[14:17:26] [Async Chat Thread - #6/INFO]: <Innocent> nvm[m
-
-[14:17:31] [Server thread/INFO]: mileswa1q2 has just earned the achievement [Time to Farm!]
-[14:18:02] [Async Chat Thread - #6/INFO]: <Viggyee> zzz[m
-
-[14:18:07] [Server thread/INFO]: LeoisHIM has just earned the achievement [Benchmarking]
-[14:18:19] [Async Chat Thread - #6/INFO]: <Innocent> time set 1000 plz[m
-
-[14:18:29] [Async Chat Thread - #6/INFO]: <mr_guy123> ya[m
-
-[14:18:48] [Server thread/INFO]: Mrtrump123 fell from a high place
-[14:18:53] [Server thread/INFO]: Mrtrump123 issued server command: /back
-[14:18:54] [Server thread/INFO]: LeoisHIM has just earned the achievement [Time to Mine!]
-[14:19:04] [Server thread/INFO]: mileswa1q2 issued server command: /time set day
-[14:19:04] [Server thread/INFO]: [mileswa1q2: Set the time to 1000]
-[14:19:12] [Async Chat Thread - #6/INFO]: <Innocent> ty[m
-
-[14:19:24] [Server thread/INFO]: Mrtrump123 fell from a high place
-[14:19:30] [Server thread/INFO]: Mrtrump123 issued server command: /back
-[14:19:45] [Async Chat Thread - #6/INFO]: <Innocent> hi[m
-
-[14:19:47] [Async Chat Thread - #6/INFO]: <Viggyee> hi[m
-
-[14:19:49] [Server thread/INFO]: Jack12345 has just earned the achievement [Getting Wood]
-[14:19:50] [Async Chat Thread - #6/INFO]: <Viggyee> who are u[m
-
-[14:19:52] [Async Chat Thread - #6/INFO]: <Innocent> i need help[m
-
-[14:20:04] [Async Chat Thread - #6/INFO]: <Innocent> do u have iron[m
-
-[14:20:10] [Async Chat Thread - #6/INFO]: <Viggyee> no[m
-
-[14:20:10] [Server thread/INFO]: Mrtrump123 fell from a high place
-[14:20:13] [Async Chat Thread - #6/INFO]: <Viggyee> who are u[m
-
-[14:20:18] [Async Chat Thread - #6/INFO]: <Innocent> im you[m
-
-[14:20:22] [Server thread/INFO]: Mrtrump123 issued server command: /back
-[14:20:22] [Server thread/INFO]: mileswa1q2 issued server command: /tp mileswa1q2 mr_guy123
-[14:20:22] [Server thread/INFO]: [mileswa1q2: Teleported mileswa1q2 to mr_guy123]
-[14:20:42] [Server thread/INFO]: mileswa1q2 issued server command: /gamemode spectator
-[14:20:42] [Server thread/INFO]: [mileswa1q2: Set own game mode to Spectator Mode]
-[14:21:03] [Async Chat Thread - #6/INFO]: <Innocent> can you show me where the snowy mountains are[m
-
-[14:21:09] [Async Chat Thread - #6/INFO]: <Innocent> i want spruce[m
-
-[14:21:20] [Server thread/INFO]: LeoisHIM has just earned the achievement [Getting an Upgrade]
-[14:21:29] [Server thread/INFO]: mr_guy123 has just earned the achievement [Time to Mine!]
-[14:21:29] [Server thread/INFO]: mr_guy123 has just earned the achievement [Getting an Upgrade]
-[14:21:56] [Server thread/INFO]: Jack12345 has just earned the achievement [Benchmarking]
-[14:22:45] [Server thread/INFO]: EDP444 has just earned the achievement [Acquire Hardware]
-[14:23:00] [Server thread/INFO]: Jack12345 has just earned the achievement [Time to Mine!]
-[14:23:02] [Server thread/INFO]: Skillalogan7722 has just earned the achievement [Acquire Hardware]
-[14:23:03] [Server thread/INFO]: Innocent issued server command: /tpa mr_guy123
-[14:23:09] [Server thread/INFO]: mileswa1q2 issued server command: /home mileswa1q2
-[14:23:11] [Async Chat Thread - #7/INFO]: <Mrtrump123> YO MILES[m
-
-[14:23:19] [Async Chat Thread - #7/INFO]: <mileswa1q2> yess[m
-
-[14:23:20] [Async Chat Thread - #7/INFO]: <Mrtrump123> MILESSSSS[m
-
-[14:23:28] [Async Chat Thread - #7/INFO]: <mileswa1q2> i cna see you[m
-
-[14:23:31] [Async Chat Thread - #7/INFO]: <Mrtrump123> turn off keep invintory[m
-
-[14:23:38] [Async Chat Thread - #7/INFO]: <mileswa1q2> ok[m
-
-[14:23:38] [Async Chat Thread - #7/INFO]: <Innocent> keep on pls[m
-
-[14:23:43] [Async Chat Thread - #7/INFO]: <Skillalogan7722> Turn off bro[m
-
-[14:23:48] [Async Chat Thread - #7/INFO]: <Mrtrump123> it ruins the purpose of the game[m
-
-[14:23:55] [Server thread/INFO]: mileswa1q2 issued server command: /gamerule keepInventory falss
-[14:23:55] [Server thread/INFO]: [mileswa1q2: 'falss' is not true or false]
-[14:23:59] [Async Chat Thread - #7/INFO]: <Innocent> i die easily[m
-
-[14:24:02] [Server thread/INFO]: Skillalogan7722 hit the ground too hard
-[14:24:05] [Async Chat Thread - #7/INFO]: <Mrtrump123> so let us hunt each other like we alr have /back[m
-
-[14:24:05] [Server thread/INFO]: mileswa1q2 issued server command: /gamemode s
-[14:24:05] [Server thread/INFO]: [mileswa1q2: Set own game mode to Survival Mode]
-[14:24:10] [Async Chat Thread - #7/INFO]: <mileswa1q2> i did[m
-
-[14:24:16] [Server thread/INFO]: Jack12345 was slain by Skillalogan7722
-[14:24:17] [Async Chat Thread - #7/INFO]: <Mrtrump123> BET[m
-
-[14:24:18] [Server thread/INFO]: LeoisHIM was slain by Skillalogan7722
-[14:24:20] [Server thread/INFO]: Innocent issued server command: /tpa mileswa1q2
-[14:24:31] [Server thread/INFO]: mr_guy123 burned to death
-[14:24:35] [Server thread/INFO]: mileswa1q2 issued server command: /tpaccept
-[14:24:37] [Server thread/INFO]: mr_guy123 issued server command: /back
-[14:24:39] [Server thread/INFO]: Innocent issued server command: /tpaccept Mrtrump1\w
-[14:24:49] [Async Chat Thread - #7/INFO]: <Viggyee> hi[m
-
-[14:24:49] [Server thread/WARN]: LeoisHIM moved wrongly!
-[14:24:50] [Async Chat Thread - #7/INFO]: <Mrtrump123> MILES[m
-
-[14:24:50] [Server thread/WARN]: LeoisHIM moved wrongly!
-[14:24:51] [Server thread/INFO]: Innocent issued server command: /tpa mileswa1q2
-[14:24:55] [Server thread/INFO]: Viggyee was slain by mileswa1q2
-[14:25:01] [Server thread/INFO]: Viggyee issued server command: /back
-[14:25:02] [Async Chat Thread - #7/INFO]: <Mrtrump123> KEEP INVINTORY IS STILL ON[m
-
-[14:25:08] [Server thread/INFO]: mr_guy123 issued server command: /BACK
-[14:25:08] [Async Chat Thread - #7/INFO]: <Innocent> accept my tp[m
-
-[14:25:11] [Async Chat Thread - #7/INFO]: <Mrtrump123> TURN IT OFF[m
-
-[14:25:13] [Server thread/INFO]: Innocent issued server command: /tpa Mrtrump123
-[14:25:17] [Server thread/INFO]: Innocent issued server command: /tpa LeoisHIM
-[14:25:23] [Async Chat Thread - #7/INFO]: <mileswa1q2> sory no i killed a prsen just noqw and thay joped[m
-
-[14:25:25] [Server thread/INFO]: mileswa1q2 was slain by Viggyee
-[14:25:30] [Server thread/INFO]: Viggyee was slain by mileswa1q2
-[14:25:38] [Async Chat Thread - #7/INFO]: <mr_guy123> you killed me[m
-
-[14:25:44] [Async Chat Thread - #7/INFO]: <mr_guy123> keegan[m
-
-[14:25:50] [Async Chat Thread - #7/INFO]: <Innocent> who keegan[m
-
-[14:25:51] [Async Chat Thread - #7/INFO]: <Mrtrump123> I GTG SOON[m
-
-[14:25:53] [Server thread/INFO]: mileswa1q2 issued server command: /kill Viggyee
-[14:25:53] [Server thread/INFO]: Viggyee fell out of the world
-[14:25:53] [Server thread/INFO]: [mileswa1q2: Killed Viggyee]
-[14:25:59] [Async Chat Thread - #7/INFO]: <Innocent> we all gtg soon[m
-
-[14:26:25] [Async Chat Thread - #7/INFO]: <mileswa1q2> at lunch we can takk[m
-
-[14:26:40] [Server thread/INFO]: Innocent issued server command: /tpa mileswa1q2
-[14:26:42] [Async Chat Thread - #7/INFO]: <Innocent> accept[m
-
-[14:26:45] [Server thread/INFO]: Innocent was slain by Spider
-[14:26:46] [Server thread/INFO]: mileswa1q2 issued server command: /tpaccept
-[14:26:57] [Server thread/INFO]: LeoisHIM was slain by Skillalogan7722
-[14:26:58] [Server thread/INFO]: Innocent issued server command: /tpa mileswa1q2
-[14:27:03] [Async Chat Thread - #7/INFO]: <Mrtrump123> NRN INOCENT LATER[m
-
-[14:27:07] [Server thread/INFO]: mileswa1q2 issued server command: /gamerule keepInventory falss
-[14:27:07] [Server thread/INFO]: [mileswa1q2: 'falss' is not true or false]
-[14:27:11] [Async Chat Thread - #7/INFO]: <Innocent> what[m
-
-[14:27:11] [Server thread/INFO]: mileswa1q2 issued server command: /tpaccept
-[14:27:20] [Async Chat Thread - #7/INFO]: <Innocent> hi[m
-
-[14:27:22] [Server thread/INFO]: LeoisHIM lost connection: Disconnected
-[14:27:22] [Server thread/INFO]: LeoisHIM left the game.
-[14:27:23] [Server thread/INFO]: Jack12345 lost connection: Disconnected
-[14:27:23] [Server thread/INFO]: Jack12345 left the game.
-[14:27:27] [Server thread/INFO]: mr_guy123 has just earned the achievement [Monster Hunter]
-[14:27:30] [Async Chat Thread - #7/INFO]: <Innocent> can i get loot bro[m
-
-[14:27:31] [Async Chat Thread - #7/INFO]: <mileswa1q2> leve[m
-
-[14:27:40] [Async Chat Thread - #7/INFO]: <mileswa1q2> soon this is a secret[m
-
-[14:27:42] [Server thread/INFO]: Innocent lost connection: Disconnected
-[14:27:42] [Server thread/INFO]: Innocent left the game.
-[14:27:50] [Async Chat Thread - #7/INFO]: <Mrtrump123> OOF[m
-
-[14:28:42] [Server thread/INFO]: Mrtrump123 issued server command: /tpa EDP444
-[14:28:49] [Async Chat Thread - #7/INFO]: <Viggyee> who wants to go to the nether with me[m
-
-[14:28:49] [Server thread/INFO]: EDP444 issued server command: /tpaccept
-[14:28:53] [Async Chat Thread - #7/INFO]: <Viggyee> i got obsideon[m
-
-[14:29:35] [Server thread/INFO]: Viggyee lost connection: Disconnected
-[14:29:35] [Server thread/INFO]: Viggyee left the game.
-[14:29:36] [Server thread/INFO]: Skillalogan7722 lost connection: Disconnected
-[14:29:36] [Server thread/INFO]: Skillalogan7722 left the game.
-[14:29:41] [Server thread/INFO]: mr_guy123 lost connection: Disconnected
-[14:29:41] [Server thread/INFO]: mr_guy123 left the game.
-[14:29:46] [Async Chat Thread - #7/INFO]: <mileswa1q2> s a[m
-
-[14:29:58] [Server thread/INFO]: mileswa1q2 issued server command: /save-all
-[14:29:59] [Server thread/INFO]: [mileswa1q2: Saved the world]
-[14:30:05] [Server thread/INFO]: mileswa1q2 lost connection: Disconnected
-[14:30:05] [Server thread/INFO]: mileswa1q2 left the game.
-[14:30:18] [Server thread/INFO]: Mrtrump123 issued server command: /tpa EDP444
-[14:30:28] [Server thread/INFO]: EDP444 issued server command: /tpaccept
-[14:30:51] [Server thread/INFO]: EDP444 lost connection: Disconnected
-[14:30:51] [Server thread/INFO]: EDP444 left the game.
-[14:31:00] [Thread-26/INFO]: UUID of player EDP444 is 7f4c4ca8-2e74-3a67-82e5-719a8e99ca91
-[14:31:00] [Server thread/INFO]: EDP444[/[0:0:0:0:0:0:0:1]:50418] logged in with entity id 15262 at ([world]-544.3000000119207, 131.0, 262.8643161493616)
-[14:31:16] [Thread-27/INFO]: UUID of player Skillalogan7722 is a869545a-574b-317f-8ce2-a3161b83a6f8
-[14:31:16] [Server thread/INFO]: Skillalogan7722[/[0:0:0:0:0:0:0:1]:38332] logged in with entity id 15286 at ([world]-271.6467713796225, 64.0, 158.61918350498846)
-[14:31:31] [Async Chat Thread - #8/INFO]: <Mrtrump123> MAKE ME A BED[m
-
-[14:31:44] [Async Chat Thread - #8/INFO]: <Skillalogan7722> Someone stole my bed and i killed him but he didnt drop it[m
-
-[14:31:54] [Async Chat Thread - #8/INFO]: <Mrtrump123> IK[m
-
-[14:31:55] [Async Chat Thread - #8/INFO]: <Skillalogan7722> thats why drop invitory should be on[m
-
-[14:32:11] [Async Chat Thread - #8/INFO]: <Mrtrump123> I NEED TO EGT HIM TO TURN IT OFF AT LUNCH[m
-
-[14:32:17] [Async Chat Thread - #8/INFO]: <Skillalogan7722> Yea[m
-
-[14:32:33] [Async Chat Thread - #8/INFO]: <EDP444> jacob come to the mines[m
-
-[14:32:43] [Thread-28/INFO]: UUID of player mr_guy123 is f218021f-06b8-3d8f-a32e-d3fde9e356e8
-[14:32:43] [Server thread/INFO]: mr_guy123[/[0:0:0:0:0:0:0:1]:49242] logged in with entity id 15554 at ([world]-239.45027532190144, 12.0, 519.3286219068683)
-[14:32:45] [Async Chat Thread - #8/INFO]: <Mrtrump123> Ima log off[m
-
-[14:33:17] [Async Chat Thread - #8/INFO]: <Mrtrump123> MAke me iron[m
-
-[14:33:31] [Async Chat Thread - #8/INFO]: <Mrtrump123> give me iron plaese[m
-
-[14:33:48] [Async Chat Thread - #8/INFO]: <EDP444> i gave u iron boots[m
-
-[14:33:51] [Async Chat Thread - #8/INFO]: <Mrtrump123> yay[m
-
-[14:34:00] [Async Chat Thread - #8/INFO]: <EDP444> bread[m
-
-[14:35:08] [Thread-29/INFO]: UUID of player Innocent is c0ae7e60-0889-39b5-b518-a0a07d98c1dc
-[14:35:08] [Server thread/INFO]: Innocent[/[0:0:0:0:0:0:0:1]:46886] logged in with entity id 16184 at ([world]-352.2866687177323, 59.0, 243.80026894288807)
-[14:35:11] [Async Chat Thread - #9/INFO]: <Mrtrump123> e[m
-
-[14:35:51] [Async Chat Thread - #9/INFO]: <EDP444> sleep[m
-
-[14:36:17] [Server thread/INFO]: EDP444 lost connection: Disconnected
-[14:36:17] [Server thread/INFO]: EDP444 left the game.
-[14:36:18] [Server thread/INFO]: Skillalogan7722 lost connection: Disconnected
-[14:36:18] [Server thread/INFO]: Skillalogan7722 left the game.
-[14:37:09] [Server thread/INFO]: Mrtrump123 has just earned the achievement [Acquire Hardware]
-[14:37:24] [Thread-30/INFO]: UUID of player Skillalogan7722 is a869545a-574b-317f-8ce2-a3161b83a6f8
-[14:37:24] [Server thread/INFO]: Skillalogan7722[/[0:0:0:0:0:0:0:1]:58078] logged in with entity id 16694 at ([world]-286.7032574548089, 72.24918707874468, 190.28165251367417)
-[14:37:56] [Server thread/INFO]: Skillalogan7722 fell from a high place
-[14:39:20] [Server thread/INFO]: mr_guy123 has just earned the achievement [Hot Topic]
-[14:41:19] [Server thread/INFO]: mr_guy123 has just earned the achievement [Acquire Hardware]
-[14:42:09] [Server thread/INFO]: Innocent fell from a high place
-[14:42:14] [Server thread/INFO]: Innocent issued server command: /back
-[14:42:34] [Server thread/INFO]: Innocent was slain by Mrtrump123
-[14:42:40] [Server thread/INFO]: Innocent issued server command: /back
-[14:43:30] [Server thread/INFO]: mr_guy123 lost connection: Disconnected
-[14:43:30] [Server thread/INFO]: mr_guy123 left the game.
-[14:45:15] [Server thread/INFO]: Innocent issued server command: /tpa Mrtrump123
-[14:45:36] [Server thread/INFO]: Mrtrump123 issued server command: /tpa accept
-[14:45:48] [Server thread/INFO]: Innocent issued server command: /tpa Mrtrump123
-[14:45:50] [Server thread/INFO]: Mrtrump123 issued server command: /tpa accept
-[14:46:03] [Server thread/INFO]: Mrtrump123 issued server command: /tpaaccept
-[14:46:06] [Server thread/INFO]: Innocent issued server command: /
-[14:49:12] [Thread-32/INFO]: UUID of player german is 37318338-23f9-3376-bca6-4bcc543a651f
-[14:49:12] [Server thread/INFO]: german[/[0:0:0:0:0:0:0:1]:57136] logged in with entity id 19924 at ([world]-251.50581905816918, 73.0, -46.93959190796629)
-[14:51:23] [Async Chat Thread - #10/INFO]: <german> wheres spawn?[m
-
-[14:51:26] [Server thread/INFO]: Innocent hit the ground too hard
-[14:51:28] [Server thread/INFO]: Skillalogan7722 was slain by Zombie
-[14:51:29] [Server thread/INFO]: Innocent issued server command: /back
-[14:51:37] [Server thread/INFO]: german lost connection: Disconnected
-[14:51:37] [Server thread/INFO]: german left the game.
-[14:51:38] [Server thread/INFO]: Skillalogan7722 lost connection: Disconnected
-[14:51:38] [Server thread/INFO]: Skillalogan7722 left the game.
-[14:54:30] [Server thread/INFO]: Innocent was slain by Spider
-[14:54:34] [Server thread/INFO]: Innocent issued server command: /back
-[14:55:42] [Server thread/INFO]: * Server hi
-[14:55:57] [Server thread/INFO]: * Server how or you gays
-[14:56:04] [Async Chat Thread - #11/INFO]: <Innocent> what[m
-
-[14:56:10] [Async Chat Thread - #11/INFO]: <Innocent> im good[m
-
-[14:56:19] [Server thread/INFO]: Innocent hit the ground too hard
-[14:56:24] [Server thread/INFO]: Innocent issued server command: /back
-[14:56:32] [Async Chat Thread - #11/INFO]: <Innocent> r u working on pixel[m
-
-[14:57:06] [Server thread/INFO]: Innocent was slain by Spider
-[14:57:09] [Server thread/INFO]: Innocent issued server command: /back
-[14:58:21] [Thread-33/INFO]: UUID of player Skillalogan7722 is a869545a-574b-317f-8ce2-a3161b83a6f8
-[14:58:21] [Server thread/INFO]: Skillalogan7722[/[0:0:0:0:0:0:0:1]:43476] logged in with entity id 21873 at ([world]-272.49187826409457, 64.0, 152.4494760790759)
-[14:58:36] [Server thread/INFO]: Skillalogan7722 lost connection: Disconnected
-[14:58:36] [Server thread/INFO]: Skillalogan7722 left the game.
-[14:58:36] [Server thread/INFO]: Innocent was slain by Mrtrump123
-[14:58:39] [Server thread/INFO]: Innocent issued server command: /back
-[14:59:10] [Thread-34/INFO]: UUID of player Skillalogan7722 is a869545a-574b-317f-8ce2-a3161b83a6f8
-[14:59:10] [Server thread/INFO]: Skillalogan7722[/[0:0:0:0:0:0:0:1]:49344] logged in with entity id 22302 at ([world]-272.49187826409457, 64.0, 152.4494760790759)
-[14:59:25] [Thread-35/INFO]: UUID of player mr_guy123 is f218021f-06b8-3d8f-a32e-d3fde9e356e8
-[14:59:25] [Server thread/INFO]: mr_guy123[/[0:0:0:0:0:0:0:1]:35266] logged in with entity id 22420 at ([world]-246.3215215721735, 19.0, 526.3000000119209)
-[14:59:51] [Server thread/INFO]: mr_guy123 lost connection: Disconnected
-[14:59:51] [Server thread/INFO]: mr_guy123 left the game.
-[15:00:37] [Thread-36/INFO]: UUID of player mr_guy123 is f218021f-06b8-3d8f-a32e-d3fde9e356e8
-[15:00:37] [Server thread/INFO]: mr_guy123[/[0:0:0:0:0:0:0:1]:40880] logged in with entity id 22677 at ([world]-246.76622447558734, 20.0, 523.520437238268)
-[15:00:45] [Server thread/INFO]: Innocent has just earned the achievement [Time to Mine!]
-[15:01:00] [Server thread/INFO]: Innocent has just earned the achievement [Getting an Upgrade]
-[15:04:49] [Server thread/INFO]: Mrtrump123 fell from a high place
-[15:04:56] [Server thread/INFO]: Mrtrump123 issued server command: /back
-[15:06:15] [Server thread/INFO]: Saving...
-[15:06:15] [Server thread/INFO]: Saved the world
-[15:06:20] [Server thread/INFO]: * Server hi
-[15:06:23] [Server thread/INFO]: Innocent has just earned the achievement [Hot Topic]
-[15:06:25] [Server thread/INFO]: mr_guy123 issued server command: /hi
-[15:06:26] [Async Chat Thread - #12/INFO]: <Mrtrump123> yo[m
-
-[15:06:26] [Server thread/INFO]: * Server you on?
-[15:06:28] [Async Chat Thread - #12/INFO]: <Skillalogan7722> hi[m
-
-[15:06:29] [Async Chat Thread - #12/INFO]: <mr_guy123> hi[m
-
-[15:06:32] [Server thread/INFO]: * Server hi
-[15:06:39] [Async Chat Thread - #12/INFO]: <Innocent> yea[m
-
-[15:06:44] [Async Chat Thread - #12/INFO]: <Innocent> workin on my secret base[m
-
-[15:06:44] [Server thread/INFO]: * Server this is mileswa1q2
-[15:06:47] [Async Chat Thread - #12/INFO]: <mr_guy123> miles[m
-
-[15:06:47] [Async Chat Thread - #12/INFO]: <Mrtrump123> OOF[m
-
-[15:06:52] [Server thread/INFO]: * Server offfffffff
-[15:07:00] [Async Chat Thread - #12/INFO]: <Skillalogan7722> Found emerald[m
-
-[15:07:10] [Server thread/INFO]: * Server i will get on in 4th
-[15:07:14] [Async Chat Thread - #12/INFO]: <Innocent> ok[m
-
-[15:07:19] [Server thread/INFO]: * Server can you to?
-[15:07:19] [Thread-37/INFO]: UUID of player 9810 is b5c13ecc-34ff-3fb7-9e3b-479f83904969
-[15:07:19] [Server thread/INFO]: 9810[/[0:0:0:0:0:0:0:1]:34964] logged in with entity id 24929 at ([world]-232.08986176063954, 16.0, 172.624950596093)
-[15:07:26] [Async Chat Thread - #12/INFO]: <Innocent> maybe[m
+[16:21:44] [Server thread/INFO]: Starting minecraft server version 1.8.8
+[16:21:44] [Server thread/INFO]: Loading properties
+[16:21:44] [Server thread/INFO]: Default game type: SURVIVAL
+[16:21:44] [Server thread/INFO]: This server is running CraftBukkit version git-PaperSpigot-445 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)
+[16:21:44] [Server thread/INFO]: Debug logging is disabled
+[16:21:44] [Server thread/INFO]: Spigot Timings: true - Verbose: true - Interval: 5m - Length: 60m
+[16:21:44] [Server thread/INFO]: Server Ping Player Sample Count: 12
+
+[16:21:44] [Server thread/INFO]: Using 4 threads for Netty based IO
+[16:21:44] [Server thread/INFO]: Data value allowed items: 
+[16:21:44] [Server thread/WARN]: java.lang.NoSuchFieldException: modifiers
+
+[16:21:44] [Server thread/WARN]: 	at java.base/java.lang.Class.getDeclaredField(Class.java:2782)
+
+[16:21:44] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.stackableBuckets(PaperSpigotConfig.java:192)
+
+[16:21:44] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+
+[16:21:44] [Server thread/WARN]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+
+[16:21:44] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.readConfig(PaperSpigotConfig.java:84)
+
+[16:21:44] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.init(PaperSpigotConfig.java:62)
+
+[16:21:44] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:181)
+
+[16:21:44] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563)
+
+[16:21:44] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+[16:21:44] [Server thread/INFO]: Generating keypair
+[16:21:44] [Server thread/INFO]: Starting Minecraft server on localhost:25565
+[16:21:44] [Server thread/INFO]: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
+[16:21:44] [Server thread/INFO]: Using default channel type
+[16:21:45] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[16:21:45] [Server thread/INFO]: [SimpleTpa] Loading SimpleTpa v6.4
+[16:21:45] [Server thread/INFO]: [SimpleHomes] Loading SimpleHomes v2.2
+[16:21:45] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1;no_git_id
+[16:21:45] [Server thread/INFO]: [LoginSecurity] Loading LoginSecurity v3.2.0
+[16:21:45] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[16:21:45] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[16:21:45] [Server thread/WARN]: Whilst this makes it possible to use BungeeCord, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
+[16:21:45] [Server thread/WARN]: Please see http://www.spigotmc.org/wiki/firewall-guide/ for further information.
+[16:21:45] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[16:21:45] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[16:21:45] [Server thread/INFO]: Preparing level "world"
+[16:21:45] [Server thread/INFO]: -------- World Settings For [world] --------
+[16:21:45] [Server thread/INFO]: Mob Spawn Range: 4
+[16:21:45] [Server thread/INFO]: Anti X-Ray: true
+[16:21:45] [Server thread/INFO]: 	Engine Mode: 1
+[16:21:45] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[16:21:45] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[16:21:45] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[16:21:45] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[16:21:45] [Server thread/INFO]: Cane Growth Modifier: 100%
+[16:21:45] [Server thread/INFO]: Melon Growth Modifier: 100%
+[16:21:45] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[16:21:45] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[16:21:45] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[16:21:45] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[16:21:45] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[16:21:45] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[16:21:45] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[16:21:45] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[16:21:45] [Server thread/INFO]: Random Lighting Updates: false
+[16:21:45] [Server thread/INFO]: Structure Info Saving: true
+[16:21:45] [Server thread/INFO]: Sending up to 10 chunks per packet
+[16:21:45] [Server thread/INFO]: Max Entity Collisions: 8
+[16:21:45] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[16:21:45] [Server thread/INFO]: Max TNT Explosions: 100
+[16:21:45] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[16:21:45] [Server thread/INFO]: Item Despawn Rate: 6000
+[16:21:45] [Server thread/INFO]: Item Merge Radius: 2.5
+[16:21:45] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[16:21:45] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[16:21:45] [Server thread/INFO]: View Distance: 4
+[16:21:45] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[16:21:45] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[16:21:45] [Server thread/INFO]: Clear tick list: false
+[16:21:45] [Server thread/INFO]: Experience Merge Radius: 3.0
+[16:21:45] [Server thread/INFO]: -------- World Settings For [world] --------
+[16:21:45] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[16:21:45] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[16:21:45] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[16:21:45] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[16:21:45] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[16:21:45] [Server thread/INFO]: Water over lava flow speed: 5
+[16:21:45] [Server thread/INFO]: Fix TNT cannons: false
+[16:21:45] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[16:21:45] [Server thread/INFO]: Keep spawn chunk loaded: true
+[16:21:45] [Server thread/INFO]: World async lighting: false
+[16:21:45] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[16:21:45] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[16:21:45] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[16:21:45] [Server thread/INFO]: Mob Spawn Range: 4
+[16:21:45] [Server thread/INFO]: Anti X-Ray: true
+[16:21:45] [Server thread/INFO]: 	Engine Mode: 1
+[16:21:45] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[16:21:45] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[16:21:45] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[16:21:45] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[16:21:45] [Server thread/INFO]: Cane Growth Modifier: 100%
+[16:21:45] [Server thread/INFO]: Melon Growth Modifier: 100%
+[16:21:45] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[16:21:45] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[16:21:45] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[16:21:45] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[16:21:45] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[16:21:45] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[16:21:45] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[16:21:45] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[16:21:45] [Server thread/INFO]: Random Lighting Updates: false
+[16:21:45] [Server thread/INFO]: Structure Info Saving: true
+[16:21:45] [Server thread/INFO]: Sending up to 10 chunks per packet
+[16:21:45] [Server thread/INFO]: Max Entity Collisions: 8
+[16:21:45] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[16:21:45] [Server thread/INFO]: Max TNT Explosions: 100
+[16:21:45] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[16:21:45] [Server thread/INFO]: Item Despawn Rate: 6000
+[16:21:45] [Server thread/INFO]: Item Merge Radius: 2.5
+[16:21:45] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[16:21:45] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[16:21:45] [Server thread/INFO]: View Distance: 4
+[16:21:45] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[16:21:45] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[16:21:45] [Server thread/INFO]: Clear tick list: false
+[16:21:45] [Server thread/INFO]: Experience Merge Radius: 3.0
+[16:21:45] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[16:21:45] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[16:21:45] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[16:21:45] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[16:21:45] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[16:21:45] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[16:21:45] [Server thread/INFO]: Water over lava flow speed: 5
+[16:21:45] [Server thread/INFO]: Fix TNT cannons: false
+[16:21:45] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[16:21:45] [Server thread/INFO]: Keep spawn chunk loaded: true
+[16:21:45] [Server thread/INFO]: World async lighting: false
+[16:21:45] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[16:21:45] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[16:21:45] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[16:21:45] [Server thread/INFO]: Mob Spawn Range: 4
+[16:21:45] [Server thread/INFO]: Anti X-Ray: true
+[16:21:45] [Server thread/INFO]: 	Engine Mode: 1
+[16:21:45] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[16:21:45] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[16:21:45] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[16:21:45] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[16:21:45] [Server thread/INFO]: Cane Growth Modifier: 100%
+[16:21:45] [Server thread/INFO]: Melon Growth Modifier: 100%
+[16:21:45] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[16:21:45] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[16:21:45] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[16:21:45] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[16:21:45] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[16:21:45] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[16:21:45] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[16:21:45] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[16:21:45] [Server thread/INFO]: Random Lighting Updates: false
+[16:21:45] [Server thread/INFO]: Structure Info Saving: true
+[16:21:45] [Server thread/INFO]: Sending up to 10 chunks per packet
+[16:21:45] [Server thread/INFO]: Max Entity Collisions: 8
+[16:21:45] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[16:21:45] [Server thread/INFO]: Max TNT Explosions: 100
+[16:21:45] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[16:21:45] [Server thread/INFO]: Item Despawn Rate: 6000
+[16:21:45] [Server thread/INFO]: Item Merge Radius: 2.5
+[16:21:45] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[16:21:45] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[16:21:45] [Server thread/INFO]: View Distance: 4
+[16:21:45] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[16:21:45] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[16:21:45] [Server thread/INFO]: Clear tick list: false
+[16:21:45] [Server thread/INFO]: Experience Merge Radius: 3.0
+[16:21:45] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[16:21:45] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[16:21:45] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[16:21:45] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[16:21:45] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[16:21:45] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[16:21:45] [Server thread/INFO]: Water over lava flow speed: 5
+[16:21:45] [Server thread/INFO]: Fix TNT cannons: false
+[16:21:45] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[16:21:45] [Server thread/INFO]: Keep spawn chunk loaded: true
+[16:21:45] [Server thread/INFO]: World async lighting: false
+[16:21:45] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[16:21:45] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[16:21:45] [Server thread/INFO]: Preparing start region for level 0 (Seed: 6490716004152131117)
+[16:21:46] [Server thread/INFO]: Preparing spawn area: 58%
+[16:21:46] [Server thread/INFO]: Preparing start region for level 1 (Seed: 3964490407870043622)
+[16:21:47] [Server thread/INFO]: Preparing spawn area: 84%
+[16:21:47] [Server thread/INFO]: Preparing start region for level 2 (Seed: 3964490407870043622)
+[16:21:48] [Server thread/INFO]: [SimpleTpa] Enabling SimpleTpa v6.4
+[16:21:48] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9[m
+
+[16:21:48] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] Simple Tpa has been enabled on version 6.4[m
+
+[16:21:48] [Server thread/INFO]: Enabled metrics. You may opt-out by changing plugins/bStats/config.yml
+[16:21:48] [Server thread/INFO]: [SimpleHomes] Enabling SimpleHomes v2.2
+[16:21:48] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.1;no_git_id
+[16:21:48] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[16:21:48] [Server thread/INFO]: [WorldEdit] Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_8_R3 as the Bukkit adapter
+[16:21:48] [Server thread/INFO]: [LoginSecurity] Enabling LoginSecurity v3.2.0
+[16:21:48] [Server thread/INFO]: [LoginSecurity] Loading base translations from "en_us"
+[16:21:48] [Server thread/INFO]: [LoginSecurity] Loading specified translations from "en_us"
+[16:21:48] [Server thread/INFO]: [LoginSecurity] Registering commands...
+[16:21:48] [Server thread/INFO]: [LoginSecurity] Registering listeners...
+[16:21:48] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[16:21:49] [Server thread/INFO]: Done (3.927s)! For help, type "help" or "?"
+[16:21:49] [Server thread/INFO]: Timings Reset
+[16:21:49] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[21m[SimpleTpa] There is a new update available.[m
+
+[16:21:49] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[SimpleTpa] There is a new update available:[m
+
+[16:21:49] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[SimpleTpa] https://www.spigotmc.org/resources/simple-tpa.64270/[m
+
+[16:22:21] [Thread-7/INFO]: UUID of player SecretSwmSociety is 63adb29a-a5c9-3bfd-b5de-cfba538d2b57
+[16:22:21] [Server thread/INFO]: SecretSwmSociety[/[0:0:0:0:0:0:0:1]:55208] logged in with entity id 659 at ([world]-236.5, 69.0, 216.5)
+[16:22:51] [Server thread/INFO]: SecretSwmSociety lost connection: Login timed out!
+[16:22:51] [Server thread/INFO]: SecretSwmSociety left the game.
+[16:22:51] [Server thread/WARN]: handleDisconnection() called twice
+[16:24:39] [Thread-8/INFO]: UUID of player xxlilwrld is d1b26827-3bfb-322e-85db-ba7204fbef30
+[16:24:39] [Server thread/INFO]: xxlilwrld[/[0:0:0:0:0:0:0:1]:59490] logged in with entity id 673 at ([world]-238.5, 66.0, 212.5)
+[16:25:33] [Server thread/INFO]: xxlilwrld lost connection: Disconnected
+[16:25:33] [Server thread/INFO]: xxlilwrld left the game.
+[16:26:17] [Thread-9/INFO]: UUID of player mileswa1q2 is 24d1f12f-57ff-3135-a019-c218d8b2fef1
+[16:26:17] [Server thread/INFO]: mileswa1q2[/[0:0:0:0:0:0:0:1]:50492] logged in with entity id 744 at ([world]-352.5, 59.0, 241.5)
+[16:26:29] [pool-4-thread-2/WARN]: [LoginSecurity] Updater was in unexpected state, please report on https://github.com/lenis0012/LoginSecurity-2/issues
+[16:27:10] [Thread-11/INFO]: UUID of player sowrdsmithsoren5 is d05d5a39-cf40-3b2d-b5dc-3b8e2c6bb6a6
+[16:27:10] [Server thread/INFO]: sowrdsmithsoren5[/[0:0:0:0:0:0:0:1]:35174] logged in with entity id 797 at ([world]-354.8596761884416, 64.0, 231.84957624998253)
+[16:28:06] [Server thread/INFO]: mileswa1q2 was slain by sowrdsmithsoren5
+[16:28:15] [Thread-12/INFO]: UUID of player SecretSwmSociety is 63adb29a-a5c9-3bfd-b5de-cfba538d2b57
+[16:28:15] [Server thread/INFO]: SecretSwmSociety[/[0:0:0:0:0:0:0:1]:37630] logged in with entity id 905 at ([world]-236.91227125693337, 70.0, 216.92354290072913)
+[16:28:45] [Server thread/INFO]: SecretSwmSociety lost connection: Login timed out!
+[16:28:46] [Server thread/INFO]: SecretSwmSociety left the game.
+[16:28:46] [Server thread/WARN]: handleDisconnection() called twice
+[16:28:50] [Thread-13/INFO]: UUID of player SecretSwmSociety is 63adb29a-a5c9-3bfd-b5de-cfba538d2b57
+[16:28:50] [Server thread/INFO]: SecretSwmSociety[/[0:0:0:0:0:0:0:1]:40588] logged in with entity id 958 at ([world]-236.91227125693337, 70.0, 216.92354290072913)
+[16:29:08] [Server thread/INFO]: mileswa1q2 lost connection: Disconnected
+[16:29:08] [Server thread/INFO]: mileswa1q2 left the game.
+[16:31:08] [Thread-14/INFO]: UUID of player Innocent is c0ae7e60-0889-39b5-b518-a0a07d98c1dc
+[16:31:08] [Server thread/INFO]: Innocent[/[0:0:0:0:0:0:0:1]:49936] logged in with entity id 1177 at ([world]-231.5, 68.0, 216.5)
+[16:31:39] [Server thread/INFO]: Innocent lost connection: Login timed out!
+[16:31:39] [Server thread/INFO]: Innocent left the game.
+[16:31:39] [Server thread/WARN]: handleDisconnection() called twice
+[16:31:43] [Thread-15/INFO]: UUID of player Innocent is c0ae7e60-0889-39b5-b518-a0a07d98c1dc
+[16:31:43] [Server thread/INFO]: Innocent[/[0:0:0:0:0:0:0:1]:59046] logged in with entity id 1234 at ([world]-231.5, 68.0, 216.5)
+[16:31:58] [Thread-16/INFO]: UUID of player EDP444 is 7f4c4ca8-2e74-3a67-82e5-719a8e99ca91
+[16:31:58] [Server thread/INFO]: EDP444[/[0:0:0:0:0:0:0:1]:54416] logged in with entity id 1272 at ([world]-546.6999999880793, 12.0, 241.69999998807907)
+[16:32:00] [Thread-17/INFO]: UUID of player xxlilwrld is d1b26827-3bfb-322e-85db-ba7204fbef30
+[16:32:00] [Server thread/INFO]: xxlilwrld[/[0:0:0:0:0:0:0:1]:54430] logged in with entity id 1372 at ([world]-244.69779926969628, 64.0, 224.68145654793818)
+[16:32:09] [Async Chat Thread - #0/INFO]: <Innocent> xp pls iv me[m
+
+[16:32:13] [Async Chat Thread - #0/INFO]: <Innocent> edpp[m
+
+[16:32:16] [Async Chat Thread - #0/INFO]: <Innocent> tp me[m
+
+[16:33:18] [Server thread/INFO]: sowrdsmithsoren5 lost connection: Disconnected
+[16:33:18] [Server thread/INFO]: sowrdsmithsoren5 left the game.
+[16:33:35] [Server thread/INFO]: SecretSwmSociety issued server command: /s
+[16:33:44] [Server thread/INFO]: xxlilwrld lost connection: Disconnected
+[16:33:44] [Server thread/INFO]: xxlilwrld left the game.
+[16:33:45] [Thread-18/INFO]: UUID of player _killer_ is 320d3c42-24a2-3b4c-a641-31e6adf311ff
+[16:33:45] [Server thread/INFO]: _killer_[/[0:0:0:0:0:0:0:1]:54872] logged in with entity id 1946 at ([world]-231.5, 68.0, 216.5)
+[16:34:00] [Thread-19/INFO]: UUID of player Mrtrump123 is e3f218f8-b4c2-3c0a-840d-ab54f69cc13f
+[16:34:00] [Server thread/INFO]: Mrtrump123[/[0:0:0:0:0:0:0:1]:58672] logged in with entity id 1952 at ([world]-354.69999998807907, 19.0, 419.52012330336316)
+[16:34:05] [Thread-20/INFO]: UUID of player sowrdsmithsoren5 is d05d5a39-cf40-3b2d-b5dc-3b8e2c6bb6a6
+[16:34:05] [Server thread/INFO]: sowrdsmithsoren5[/[0:0:0:0:0:0:0:1]:58684] logged in with entity id 2048 at ([world]-312.3038108171219, 63.0, 259.30000001192093)
+[16:34:24] [Server thread/INFO]: sowrdsmithsoren5 lost connection: Disconnected
+[16:34:24] [Server thread/INFO]: sowrdsmithsoren5 left the game.
+[16:34:29] [Server thread/INFO]: SecretSwmSociety issued server command: /tp @sowrdsmithsoren5
+[16:34:38] [Thread-21/INFO]: UUID of player sowrdsmithsoren5 is d05d5a39-cf40-3b2d-b5dc-3b8e2c6bb6a6
+[16:34:38] [Server thread/INFO]: sowrdsmithsoren5[/[0:0:0:0:0:0:0:1]:45162] logged in with entity id 2198 at ([world]-312.69999998807907, 63.0, 259.86277278581105)
+[16:35:15] [Thread-22/INFO]: UUID of player Christina is 9aaf891c-7b79-334f-93f5-71986298e39b
+[16:35:15] [Server thread/INFO]: Christina[/[0:0:0:0:0:0:0:1]:45538] logged in with entity id 2349 at ([world]-238.5, 73.0, 221.5)
+[16:35:30] [Server thread/INFO]: Christina has just earned the achievement [Taking Inventory]
+[16:35:54] [Server thread/INFO]: _killer_ has just earned the achievement [Taking Inventory]
+[16:35:59] [Server thread/INFO]: Christina was slain by sowrdsmithsoren5
+[16:36:06] [Async Chat Thread - #1/INFO]: <Christina> soren[m
+
+[16:36:08] [Async Chat Thread - #1/INFO]: <Christina> whyyyy[m
+
+[16:36:16] [Async Chat Thread - #1/INFO]: <Innocent> whs christina[m
+
+[16:36:17] [Async Chat Thread - #1/INFO]: <Innocent> whos[m
+
+[16:36:25] [Async Chat Thread - #1/INFO]: <Christina> christina is Chris[m
+
+[16:36:26] [Server thread/INFO]: _killer_ has just earned the achievement [Getting Wood]
+[16:36:26] [Async Chat Thread - #1/INFO]: <Christina> aka me[m
+
+[16:36:30] [Async Chat Thread - #1/INFO]: <Innocent> ok[m
+
+[16:36:43] [Server thread/INFO]: Christina was shot by Skeleton
+[16:36:58] [Thread-23/INFO]: UUID of player ThatSpinnyThing is 9afcad4d-a1c7-3b16-9dc9-7d9705626cf5
+[16:36:58] [Server thread/INFO]: ThatSpinnyThing[/[0:0:0:0:0:0:0:1]:34464] logged in with entity id 2984 at ([world]-241.5, 67.0, 212.5)
+[16:37:11] [Async Chat Thread - #1/INFO]: <Christina> stop kids[m
+
+[16:37:12] [Server thread/INFO]: _killer_ fell from a high place
+[16:37:15] [Server thread/INFO]: SecretSwmSociety was slain by sowrdsmithsoren5
+[16:37:19] [Server thread/INFO]: Mrtrump123 has just earned the achievement [Time to Strike!]
+[16:37:28] [Server thread/INFO]: ThatSpinnyThing lost connection: Login timed out!
+[16:37:28] [Server thread/INFO]: ThatSpinnyThing left the game.
+[16:37:28] [Server thread/WARN]: handleDisconnection() called twice
+[16:37:30] [Thread-24/INFO]: UUID of player E_H_14 is adc30141-e574-312e-8ce2-b2de6c54fe34
+[16:37:30] [Server thread/INFO]: E_H_14[/[0:0:0:0:0:0:0:1]:35462] logged in with entity id 3255 at ([world]-262.348666892009, 63.0, 200.81715648355168)
+[16:37:31] [Thread-25/INFO]: UUID of player 9810 is b5c13ecc-34ff-3fb7-9e3b-479f83904969
+[16:37:31] [Server thread/INFO]: 9810[/[0:0:0:0:0:0:0:1]:35476] logged in with entity id 3266 at ([world]-252.8978235866742, 68.0, 185.01214638408538)
+[16:37:36] [Thread-26/INFO]: UUID of player ThatSpinnyThing is 9afcad4d-a1c7-3b16-9dc9-7d9705626cf5
+[16:37:36] [Server thread/INFO]: ThatSpinnyThing[/[0:0:0:0:0:0:0:1]:50680] logged in with entity id 3281 at ([world]-241.76950727698812, 67.0, 212.06033156731303)
+[16:37:44] [Async Chat Thread - #1/INFO]: <9810> is keep inv on>[m
+
+[16:37:57] [Server thread/INFO]: Christina was slain by sowrdsmithsoren5
+[16:37:59] [Async Chat Thread - #1/INFO]: <Mrtrump123> yep[m
+
+[16:38:01] [Server thread/INFO]: Innocent drowned
+[16:38:01] [Async Chat Thread - #1/INFO]: <Christina> fuck you[m
+
+[16:38:02] [Async Chat Thread - #1/INFO]: <Mrtrump123> for rn[m
+
+[16:38:11] [Async Chat Thread - #1/INFO]: <Innocent> hey be nice[m
+
+[16:38:15] [Server thread/INFO]: Christina was slain by 9810
+[16:38:21] [Async Chat Thread - #1/INFO]: <Christina> why the fuck[m
+
+[16:38:24] [Server thread/INFO]: sowrdsmithsoren5 was slain by _killer_
+[16:38:26] [Async Chat Thread - #1/INFO]: <Innocent> hi griffin[m
+
+[16:38:30] [Async Chat Thread - #1/INFO]: <Innocent> im with avion at lunch[m
+
+[16:38:33] [Server thread/INFO]: SecretSwmSociety was slain by 9810
+[16:38:34] [Async Chat Thread - #1/INFO]: <E_H_14> hop off[m
+
+[16:38:35] [Server thread/INFO]: ThatSpinnyThing was slain by 9810
+[16:38:42] [Async Chat Thread - #1/INFO]: <9810> Nah![m
+
+[16:38:44] [Async Chat Thread - #1/INFO]: <Innocent> avion said give me loot[m
+
+[16:38:47] [Server thread/INFO]: Christina was slain by 9810
+[16:38:50] [Server thread/INFO]: sowrdsmithsoren5 lost connection: Disconnected
+[16:38:50] [Server thread/INFO]: sowrdsmithsoren5 left the game.
+[16:38:55] [Async Chat Thread - #1/INFO]: <Innocent> plzz[m
+
+[16:38:55] [Server thread/INFO]: ThatSpinnyThing was slain by 9810
+[16:38:57] [Async Chat Thread - #1/INFO]: <Christina> who is 9810[m
+
+[16:39:05] [Async Chat Thread - #1/INFO]: <E_H_14> mr chaimberlain would not like that..[m
+
+[16:39:07] [Async Chat Thread - #1/INFO]: <9810> i dont have much extra[m
+
+[16:39:08] [Async Chat Thread - #1/INFO]: <Innocent> plsssss[m
+
+[16:39:09] [Server thread/WARN]: ThatSpinnyThing moved wrongly!
+[16:39:09] [Server thread/WARN]: ThatSpinnyThing moved wrongly!
+[16:39:09] [Async Chat Thread - #1/INFO]: <9810> Fr[m
+
+[16:39:10] [Server thread/WARN]: ThatSpinnyThing moved wrongly!
+[16:39:10] [Server thread/INFO]: SecretSwmSociety has just earned the achievement [Taking Inventory]
+[16:39:12] [Async Chat Thread - #1/INFO]: <Innocent> jsut some iron[m
+
+[16:39:12] [Server thread/WARN]: ThatSpinnyThing moved wrongly!
+[16:39:13] [Server thread/WARN]: ThatSpinnyThing moved wrongly!
+[16:39:17] [Server thread/INFO]: Innocent issued server command: /plz plazz'
+[16:39:19] [Async Chat Thread - #1/INFO]: <Christina> 9810 fr man fucker[m
+
+[16:39:21] [Server thread/INFO]: E_H_14 has just earned the achievement [Getting Wood]
+[16:39:21] [Server thread/INFO]: Mrtrump123 has just earned the achievement [Monster Hunter]
+[16:39:21] [Server thread/INFO]: Saving...
+[16:39:21] [Server thread/INFO]: Saved the world
+[16:39:23] [Async Chat Thread - #1/INFO]: <Innocent> pls[m
 
-[15:07:29] [Async Chat Thread - #12/INFO]: <mr_guy123> miles you need to help ahmed[m
-
-[15:07:34] [Async Chat Thread - #12/INFO]: <9810> whats good[m
-
-[15:07:46] [Async Chat Thread - #12/INFO]: <Innocent> hi[m
-
-[15:07:50] [Async Chat Thread - #12/INFO]: <9810> who is innocent[m
-
-[15:07:56] [Async Chat Thread - #12/INFO]: <Innocent> who r u[m
-
-[15:08:20] [Server thread/INFO]: * Server miles
-[15:08:24] [Server thread/INFO]: * Server miles allen
-[15:08:27] [Async Chat Thread - #12/INFO]: <9810> ??[m
-
-[15:08:31] [Server thread/INFO]: Innocent issued server command: /whisper
-[15:08:34] [Server thread/INFO]: Innocent issued server command: /help
-[15:08:36] [Async Chat Thread - #12/INFO]: <9810> also why are cheats on[m
-
-[15:08:42] [Async Chat Thread - #12/INFO]: <9810> keep inventory dont make the server fun[m
-
-[15:08:44] [Async Chat Thread - #12/INFO]: <Innocent> 9810 who r u[m
-
-[15:08:48] [Async Chat Thread - #12/INFO]: <9810> Griffin[m
-
-[15:09:02] [Async Chat Thread - #12/INFO]: <Innocent> Oh, no wonder you talk like a internet veteran.[m
-
-[15:09:11] [Async Chat Thread - #12/INFO]: <9810> Funny!!1[m
-
-[15:09:14] [Server thread/INFO]: * Server i no
-[15:09:15] [Thread-38/INFO]: UUID of player EDP444 is 7f4c4ca8-2e74-3a67-82e5-719a8e99ca91
-[15:09:16] [Server thread/INFO]: EDP444[/[0:0:0:0:0:0:0:1]:41282] logged in with entity id 25550 at ([world]-540.7046700350542, 131.0, 261.9495804233469)
-[15:09:16] [Server thread/INFO]: mr_guy123 issued server command: /gamemode c
-[15:09:21] [Async Chat Thread - #12/INFO]: <Innocent> EDP[m
-
-[15:09:25] [Async Chat Thread - #12/INFO]: <Innocent> im ahmed by the way[m
-
-[15:10:15] [Server thread/INFO]: * Server no one hass op ok
-[15:10:23] [Async Chat Thread - #12/INFO]: <Innocent> yes[m
-
-[15:10:26] [Async Chat Thread - #12/INFO]: <9810> Bad server icl!1[m
-
-[15:10:32] [Async Chat Thread - #12/INFO]: <Innocent> epw9uirsjodfk 8eriudcjgh dyfgrvfdhbvncxuykhdfncbgyuefdc][m
-
-[15:10:33] [Async Chat Thread - #12/INFO]: <9810> Im getting banned arent i[m
-
-[15:10:36] [Async Chat Thread - #12/INFO]: <Innocent> WHy[m
-
-[15:10:38] [Async Chat Thread - #12/INFO]: <Innocent> why??[m
-
-[15:10:53] [Server thread/INFO]: * Server you want a crativ srver i will make one if thar is a damaned
-[15:11:06] [Async Chat Thread - #12/INFO]: <9810> this guy cant spell[m
-
-[15:11:44] [Server thread/INFO]: * Server i haev to haed my screen i em tipeng so fass i cant spell sorey
-[15:11:50] [Async Chat Thread - #12/INFO]: <9810> Nah[m
-
-[15:11:56] [Server thread/INFO]: * Server nah
-[15:11:57] [Async Chat Thread - #12/INFO]: <9810> is this miles[m
-
-[15:12:01] [Async Chat Thread - #12/INFO]: <9810> I bet it is[m
-
-[15:12:03] [Async Chat Thread - #12/INFO]: <Innocent> server is miles[m
-
-[15:12:05] [Server thread/INFO]: * Server N
-[15:12:09] [Async Chat Thread - #12/INFO]: <Innocent> the typing is so obvious its him[m
-
-[15:12:10] [Async Chat Thread - #12/INFO]: <9810> No wonder bro[m
-
-[15:12:15] [Async Chat Thread - #12/INFO]: <9810> ye[m
-
-[15:13:16] [Server thread/INFO]: Mrtrump123 issued server command: /back
-[15:13:20] [Server thread/INFO]: Mrtrump123 issued server command: /back
-[15:13:27] [Server thread/INFO]: Mrtrump123 issued server command: /back
-[15:14:01] [Async Chat Thread - #13/INFO]: <9810> why is it impossible to find diamonds on 1.8[m
-
-[15:14:03] [Async Chat Thread - #13/INFO]: <9810> :sob:[m
-
-[15:14:08] [Async Chat Thread - #13/INFO]: <Innocent> im not sure[m
-
-[15:14:26] [Async Chat Thread - #13/INFO]: <Mrtrump123> idk lol[m
-
-[15:14:30] [Async Chat Thread - #13/INFO]: <Innocent> i mined so hard on my singleplayer and i got 4 stacks of iron and gold and emeralds thats it[m
-
-[15:14:34] [Async Chat Thread - #13/INFO]: <mr_guy123> do you guys atuly go to highview[m
-
-[15:14:39] [Async Chat Thread - #13/INFO]: <Innocent> yes[m
-
-[15:14:45] [Async Chat Thread - #13/INFO]: <EDP444> yes[m
-
-[15:14:45] [Async Chat Thread - #13/INFO]: <Innocent> do you live on earth[m
-
-[15:14:47] [Async Chat Thread - #13/INFO]: <9810> e[m
-
-[15:15:05] [Async Chat Thread - #13/INFO]: <9810> i finding so much iron but not a single diamond[m
-
-[15:15:08] [Async Chat Thread - #13/INFO]: <9810> Crazy[m
-
-[15:15:11] [Async Chat Thread - #13/INFO]: <Innocent> marshall[m
-
-[15:15:22] [Async Chat Thread - #13/INFO]: <9810> @Innocent who r u[m
-
-[15:15:25] [Async Chat Thread - #13/INFO]: <mr_guy123> o im keegan[m
-
-[15:15:26] [Async Chat Thread - #13/INFO]: <Innocent> I told u[m
-
-[15:15:30] [Async Chat Thread - #13/INFO]: <9810> Wsg keegan[m
-
-[15:15:40] [Async Chat Thread - #13/INFO]: <Innocent> 9810 i told you[m
-
-[15:15:40] [Thread-39/INFO]: UUID of player monkey is 8484e308-3e05-3b28-854a-309d01b4b3ca
-[15:15:40] [Server thread/INFO]: monkey[/[0:0:0:0:0:0:0:1]:43034] logged in with entity id 27157 at ([world]-234.5, 74.0, 218.5)
-[15:15:45] [Async Chat Thread - #13/INFO]: <9810> bro[m
-
-[15:15:46] [Server thread/INFO]: monkey has just earned the achievement [Taking Inventory]
-[15:15:49] [Async Chat Thread - #13/INFO]: <mr_guy123> whos monkey[m
-
-[15:16:10] [Server thread/INFO]: monkey lost connection: Login timed out!
-[15:16:10] [Server thread/INFO]: monkey left the game.
-[15:16:10] [Server thread/WARN]: handleDisconnection() called twice
-[15:16:12] [Async Chat Thread - #13/INFO]: <9810> When is this period ending[m
-
-[15:16:24] [Thread-41/INFO]: UUID of player monkey is 8484e308-3e05-3b28-854a-309d01b4b3ca
-[15:16:24] [Server thread/INFO]: monkey[/[0:0:0:0:0:0:0:1]:59406] logged in with entity id 27403 at ([world]-234.18865062088665, 74.0, 218.18433920237703)
-[15:16:24] [Async Chat Thread - #13/INFO]: <mr_guy123> 10:23[m
-
-[15:16:27] [Async Chat Thread - #13/INFO]: <Innocent> 1023[m
-
-[15:16:37] [Server thread/INFO]: monkey issued server command: /how do i play this game
-[15:16:40] [Async Chat Thread - #13/INFO]: <Innocent> monkey dragon balz[m
-
-[15:16:41] [Async Chat Thread - #13/INFO]: <9810> i found diamonds[m
-
-[15:16:42] [Async Chat Thread - #13/INFO]: <9810> W[m
-
-[15:16:49] [Async Chat Thread - #13/INFO]: <Innocent> GIMME SOME BROSKI BADOSKI[m
-
-[15:16:50] [Async Chat Thread - #13/INFO]: <9810> YO[m
-
-[15:16:54] [Server thread/INFO]: monkey lost connection: Login timed out!
-[15:16:54] [Server thread/INFO]: monkey left the game.
-[15:16:54] [Server thread/WARN]: handleDisconnection() called twice
-[15:16:55] [Async Chat Thread - #13/INFO]: <9810> THERES A HUGE CAVE[m
-
-[15:16:57] [Async Chat Thread - #13/INFO]: <9810> WTF[m
-
-[15:16:58] [Async Chat Thread - #13/INFO]: <Innocent> pls[m
-
-[15:17:03] [Async Chat Thread - #13/INFO]: <9810> No bud[m
-
-[15:17:03] [Async Chat Thread - #13/INFO]: <Innocent> tp me myguy[m
-
-[15:17:04] [Thread-42/INFO]: UUID of player monkey is 8484e308-3e05-3b28-854a-309d01b4b3ca
-[15:17:04] [Server thread/INFO]: monkey[/[0:0:0:0:0:0:0:1]:52474] logged in with entity id 27536 at ([world]-234.18865062088665, 74.0, 218.18433920237703)
-[15:17:08] [Async Chat Thread - #13/INFO]: <Innocent> ill sell u my soul[m
-
-[15:17:09] [Async Chat Thread - #13/INFO]: <9810> I dont have op[m
-
-[15:17:17] [Async Chat Thread - #13/INFO]: <Innocent> u can do /tpahere[m
-
-[15:17:19] [Server thread/INFO]: Skillalogan7722 burned to death
-[15:17:22] [Async Chat Thread - #13/INFO]: <9810> + i think i only found 2[m
-
-[15:17:28] [Async Chat Thread - #13/INFO]: <Innocent> rip[m
-
-[15:17:29] [Async Chat Thread - #13/INFO]: <9810> im making a dia sword[m
-
-[15:17:36] [Async Chat Thread - #13/INFO]: <Innocent> save for pick ngl[m
-
-[15:17:38] [Server thread/INFO]: monkey issued server command: /cesar
-[15:17:43] [Async Chat Thread - #13/INFO]: <9810> eh[m
-
-[15:17:45] [Async Chat Thread - #13/INFO]: <monkey> cesar[m
-
-[15:17:47] [Async Chat Thread - #13/INFO]: <9810> i need to kill julian[m
-
-[15:17:49] [Async Chat Thread - #13/INFO]: <9810> thats my goal[m
-
-[15:17:51] [Server thread/INFO]: EDP444 has just earned the achievement [Time to Strike!]
-[15:18:02] [Async Chat Thread - #13/INFO]: <monkey> r[m
-
-[15:18:11] [Async Chat Thread - #13/INFO]: <9810> cya[m
-
-[15:18:13] [Server thread/INFO]: 9810 lost connection: Disconnected
-[15:18:13] [Server thread/INFO]: 9810 left the game.
-[15:18:14] [Server thread/INFO]: monkey has just earned the achievement [Getting Wood]
-[15:18:26] [Server thread/INFO]: monkey lost connection: Disconnected
-[15:18:26] [Server thread/INFO]: monkey left the game.
-[15:18:46] [Thread-43/INFO]: UUID of player monkey is 8484e308-3e05-3b28-854a-309d01b4b3ca
-[15:18:46] [Server thread/INFO]: monkey[/[0:0:0:0:0:0:0:1]:33482] logged in with entity id 28188 at ([world]-291.3659456386456, 63.0, 199.43427672535068)
-[15:18:49] [Server thread/INFO]: EDP444 has just earned the achievement [Monster Hunter]
-[15:19:00] [Async Chat Thread - #13/INFO]: <Mrtrump123> YO[m
-
-[15:19:04] [Async Chat Thread - #13/INFO]: <Mrtrump123> marshel[m
-
-[15:19:16] [Server thread/INFO]: monkey lost connection: Login timed out!
-[15:19:16] [Server thread/INFO]: monkey left the game.
-[15:19:16] [Server thread/WARN]: handleDisconnection() called twice
-[15:19:23] [Thread-44/INFO]: UUID of player monkey is 8484e308-3e05-3b28-854a-309d01b4b3ca
-[15:19:23] [Server thread/INFO]: monkey[/[0:0:0:0:0:0:0:1]:45832] logged in with entity id 28458 at ([world]-291.01811269013757, 63.0, 199.06421365655203)
-[15:20:07] [Server thread/INFO]: monkey has just earned the achievement [Benchmarking]
-[15:20:38] [Server thread/INFO]: monkey lost connection: Disconnected
-[15:20:38] [Server thread/INFO]: monkey left the game.
-[15:20:56] [Server thread/INFO]: Innocent hit the ground too hard
-[15:20:59] [Server thread/INFO]: Innocent issued server command: /back
-[15:21:06] [Async Chat Thread - #14/INFO]: <EDP444> haha[m
-
-[15:22:04] [Server thread/INFO]: Innocent issued server command: /tpa Mrtrump123
-[15:22:12] [Async Chat Thread - #15/INFO]: <Mrtrump123> tpa accept[m
-
-[15:22:19] [Server thread/INFO]: Mrtrump123 issued server command: /tpa accept
-[15:22:21] [Server thread/INFO]: Skillalogan7722 lost connection: Disconnected
-[15:22:21] [Server thread/INFO]: Skillalogan7722 left the game.
-[15:22:22] [Server thread/INFO]: mr_guy123 lost connection: Disconnected
-[15:22:22] [Server thread/INFO]: mr_guy123 left the game.
-[15:22:31] [Server thread/INFO]: Mrtrump123 issued server command: /tpaccept
-[15:23:20] [Thread-45/INFO]: UUID of player literalyultraman is def825bd-d70c-36f5-831b-28f4b37fdb0f
-[15:23:20] [Server thread/INFO]: literalyultraman[/[0:0:0:0:0:0:0:1]:41276] logged in with entity id 29533 at ([world]-264.69999998807907, 50.0, 183.30000001192093)
-[15:23:57] [Server thread/INFO]: EDP444 lost connection: Disconnected
-[15:23:57] [Server thread/INFO]: EDP444 left the game.
-[15:24:00] [Thread-46/INFO]: UUID of player 9810 is b5c13ecc-34ff-3fb7-9e3b-479f83904969
-[15:24:00] [Server thread/INFO]: 9810[/[0:0:0:0:0:0:0:1]:56966] logged in with entity id 29994 at ([world]-196.34063658149663, 13.0, 118.24637498146944)
-[15:24:06] [Thread-47/INFO]: UUID of player mileswa1q2 is 24d1f12f-57ff-3135-a019-c218d8b2fef1
-[15:24:06] [Server thread/INFO]: mileswa1q2[/[0:0:0:0:0:0:0:1]:37824] logged in with entity id 30086 at ([world]-351.2420685517325, 59.0, 242.60482329693116)
-[15:24:16] [Thread-48/INFO]: UUID of player Viggyee is 486aade3-d423-3ba4-ab11-0c276ac78afe
-[15:24:16] [Server thread/INFO]: Viggyee[/[0:0:0:0:0:0:0:1]:55656] logged in with entity id 30140 at ([world]-226.30000001192093, 10.0, 196.55713819616597)
-[15:24:28] [Async Chat Thread - #16/INFO]: <9810> ITS A 8 VANE OF DIAMONDS[m
-
-[15:24:30] [Async Chat Thread - #16/INFO]: <Mrtrump123> t][m
-
-[15:24:31] [Async Chat Thread - #16/INFO]: <9810> LMFAO[m
-
-[15:24:40] [Thread-49/INFO]: UUID of player EDP444 is 7f4c4ca8-2e74-3a67-82e5-719a8e99ca91
-[15:24:41] [Server thread/INFO]: EDP444[/[0:0:0:0:0:0:0:1]:54180] logged in with entity id 30217 at ([world]-523.6999999880788, 31.0, 259.73823851171085)
-[15:24:58] [Server thread/INFO]: mileswa1q2 issued server command: /tp Viggyee
-[15:24:58] [Server thread/INFO]: [mileswa1q2: Teleported mileswa1q2 to Viggyee]
-[15:25:03] [Async Chat Thread - #16/INFO]: <Viggyee> ?[m
-
-[15:25:05] [Async Chat Thread - #16/INFO]: <Viggyee> what[m
-
-[15:25:06] [Server thread/INFO]: Viggyee was slain by mileswa1q2
-[15:25:26] [Server thread/INFO]: Viggyee issued server command: /back
-[15:25:28] [Async Chat Thread - #16/INFO]: <Innocent> jacob im smelting MY snad[m
-
-[15:25:30] [Async Chat Thread - #16/INFO]: <Innocent> sand[m
-
-[15:25:33] [Server thread/INFO]: mileswa1q2 issued server command: /gamerule keepInventory falss
-[15:25:33] [Server thread/INFO]: [mileswa1q2: 'falss' is not true or false]
-[15:25:38] [Server thread/INFO]: Viggyee was slain by mileswa1q2
-[15:25:43] [Async Chat Thread - #16/INFO]: <Mrtrump123> BRB[m
-
-[15:25:46] [Thread-50/INFO]: UUID of player german is 37318338-23f9-3376-bca6-4bcc543a651f
-[15:25:46] [Server thread/INFO]: german[/[0:0:0:0:0:0:0:1]:54332] logged in with entity id 30514 at ([world]18.796500544711584, 67.0, -1.6910928696512402)
-[15:25:52] [Server thread/INFO]: Mrtrump123 lost connection: Disconnected
-[15:25:52] [Server thread/INFO]: Mrtrump123 left the game.
-[15:26:09] [Server thread/INFO]: literalyultraman was slain by Viggyee
-[15:26:13] [Server thread/INFO]: literalyultraman lost connection: Disconnected
-[15:26:13] [Server thread/INFO]: literalyultraman left the game.
-[15:26:28] [Thread-51/INFO]: UUID of player Mrtrump123 is e3f218f8-b4c2-3c0a-840d-ab54f69cc13f
-[15:26:28] [Server thread/INFO]: Mrtrump123[/[0:0:0:0:0:0:0:1]:60420] logged in with entity id 30691 at ([world]-545.2969542374074, 131.0, 265.3814820123031)
-[15:26:28] [Async Chat Thread - #16/INFO]: <9810> bro[m
-
-[15:26:29] [Thread-52/INFO]: UUID of player Jack12345 is aa903ea5-a460-33a1-b6ce-dcd5e5a79786
-[15:26:29] [Server thread/INFO]: Jack12345[/[0:0:0:0:0:0:0:1]:60430] logged in with entity id 30739 at ([world]-231.25251522487048, 69.0, 218.69999998807907)
-[15:26:30] [Async Chat Thread - #16/INFO]: <9810> im so stacked[m
-
-[15:26:30] [Server thread/INFO]: mileswa1q2 issued server command: /remove Viggyee
-[15:26:35] [Thread-53/INFO]: UUID of player literalyultraman is def825bd-d70c-36f5-831b-28f4b37fdb0f
-[15:26:35] [Server thread/INFO]: literalyultraman[/[0:0:0:0:0:0:0:1]:60442] logged in with entity id 30806 at ([world]-289.540984704289, 81.84986286914759, 206.91340140479312)
-[15:26:45] [Server thread/INFO]: mileswa1q2 issued server command: /kick Viggyee
-[15:26:45] [Server thread/INFO]: Viggyee lost connection: Kicked by an operator.
-[15:26:45] [Server thread/INFO]: Viggyee left the game.
-[15:26:45] [Server thread/INFO]: [mileswa1q2: Kicked Viggyee from the game]
-[15:26:45] [Server thread/WARN]: handleDisconnection() called twice
-[15:26:53] [Thread-54/INFO]: UUID of player Your_A_Pedo69420 is a7fbdb2b-4271-3e73-a533-b76ec35b7dad
-[15:26:53] [Server thread/INFO]: Your_A_Pedo69420[/[0:0:0:0:0:0:0:1]:34166] logged in with entity id 30912 at ([world]-279.88579759019206, 79.0, 209.4515235039148)
-[15:26:54] [Async Chat Thread - #16/INFO]: <Mrtrump123> yo[m
-
-[15:26:57] [Server thread/INFO]: Jack12345 lost connection: Disconnected
-[15:26:57] [Server thread/INFO]: Jack12345 left the game.
-[15:27:01] [Thread-55/INFO]: UUID of player Viggyee is 486aade3-d423-3ba4-ab11-0c276ac78afe
-[15:27:01] [Server thread/INFO]: Viggyee[/[0:0:0:0:0:0:0:1]:57620] logged in with entity id 30960 at ([world]-294.04396076475524, 63.0, 200.21393514922036)
-[15:27:03] [Async Chat Thread - #16/INFO]: <Innocent> yo[m
-
-[15:27:05] [Server thread/INFO]: mileswa1q2 issued server command: /kick Viggyee
-[15:27:05] [Server thread/INFO]: Viggyee lost connection: Kicked by an operator.
-[15:27:05] [Server thread/INFO]: Viggyee left the game.
-[15:27:05] [Server thread/INFO]: [mileswa1q2: Kicked Viggyee from the game]
-[15:27:05] [Server thread/WARN]: handleDisconnection() called twice
-[15:27:12] [Async Chat Thread - #16/INFO]: <Mrtrump123> can u leave my base while im gone?[m
-
-[15:27:13] [Async Chat Thread - #16/INFO]: <9810> dang[m
-
-[15:27:15] [Async Chat Thread - #16/INFO]: <9810> why ban avion[m
-
-[15:27:18] [Server thread/INFO]: mileswa1q2 issued server command: /home mileswa1q2
-[15:27:18] [Async Chat Thread - #16/INFO]: <Innocent> ok mi just smelting[m
-
-[15:27:22] [Async Chat Thread - #16/INFO]: <mileswa1q2> no[m
-
-[15:27:25] [Async Chat Thread - #16/INFO]: <Innocent> u know i dont steal brody[m
-
-[15:27:29] [Thread-56/INFO]: UUID of player nubokk is 7369b24b-2dc6-30bf-bcfe-b2f8b12e728d
-[15:27:29] [Server thread/INFO]: nubokk[/[0:0:0:0:0:0:0:1]:33602] logged in with entity id 31241 at ([world]-264.6999999880792, 71.0, 212.69999998807907)
-[15:27:31] [Async Chat Thread - #16/INFO]: <Mrtrump123> ok just in case[m
-
-[15:27:33] [Async Chat Thread - #16/INFO]: <Innocent> i got my own things to do in my base[m
-
-[15:27:41] [Thread-57/INFO]: UUID of player UR_A_FAULAIR is 03bafb4b-7d98-34d5-ba27-7ea299719818
-[15:27:41] [Server thread/INFO]: UR_A_FAULAIR[/[0:0:0:0:0:0:0:1]:34032] logged in with entity id 31267 at ([world]-224.5, 68.0, 225.5)
-[15:27:42] [Async Chat Thread - #16/INFO]: <mileswa1q2> Viggyee stoll dimena[m
-
-[15:27:42] [Async Chat Thread - #16/INFO]: <Your_A_Pedo69420> hallo[m
-
-[15:27:48] [Async Chat Thread - #16/INFO]: <mileswa1q2> Viggyee stoll dimens[m
-
-[15:27:49] [Server thread/INFO]: literalyultraman lost connection: Disconnected
-[15:27:49] [Server thread/INFO]: literalyultraman left the game.
-[15:27:52] [Async Chat Thread - #16/INFO]: <mileswa1q2> from me[m
-
-[15:27:54] [Async Chat Thread - #16/INFO]: <9810> and?[m
-
-[15:27:57] [Async Chat Thread - #16/INFO]: <9810> he was joking bud[m
-
-[15:28:06] [Async Chat Thread - #16/INFO]: <Innocent> Poor avion[m
-
-[15:28:12] [Thread-58/INFO]: UUID of player beatthekotonight is 86095331-7f17-3507-bb54-8de59543f0b8
-[15:28:12] [Server thread/INFO]: beatthekotonight[/[0:0:0:0:0:0:0:1]:45102] logged in with entity id 31404 at ([world]-225.5, 70.0, 218.5)
-[15:28:16] [Async Chat Thread - #16/INFO]: <9810> R.I.P Avion[m
-
-[15:28:20] [Async Chat Thread - #16/INFO]: <9810> Let avion join back[m
-
-[15:28:30] [Async Chat Thread - #16/INFO]: <Innocent> #StandForAvionAbuse[m
-
-[15:28:37] [Server thread/INFO]: beatthekotonight issued server command: /back
-[15:28:38] [Async Chat Thread - #16/INFO]: <nubokk> peter[m
-
-[15:28:41] [Async Chat Thread - #16/INFO]: <9810> #StandForAvionAbuse[m
-
-[15:28:42] [Async Chat Thread - #16/INFO]: <UR_A_FAULAIR> yes[m
-
-[15:28:43] [Server thread/INFO]: beatthekotonight lost connection: Login timed out!
-[15:28:43] [Server thread/INFO]: beatthekotonight left the game.
-[15:28:43] [Server thread/WARN]: handleDisconnection() called twice
-[15:28:46] [Async Chat Thread - #16/INFO]: <nubokk> i knew it[m
-
-[15:28:49] [Thread-59/INFO]: UUID of player beatthekotonight is 86095331-7f17-3507-bb54-8de59543f0b8
-[15:28:49] [Server thread/INFO]: beatthekotonight[/[0:0:0:0:0:0:0:1]:53368] logged in with entity id 31696 at ([world]-225.07766861710968, 70.0, 218.4133922129587)
-[15:28:49] [Async Chat Thread - #16/INFO]: <nubokk> follow em[m
-
-[15:29:08] [Thread-60/INFO]: UUID of player Viggyee is 486aade3-d423-3ba4-ab11-0c276ac78afe
-[15:29:08] [Server thread/INFO]: Viggyee[/[0:0:0:0:0:0:0:1]:54420] logged in with entity id 31764 at ([world]-294.04396076475524, 63.0, 200.21393514922036)
-[15:29:12] [Async Chat Thread - #16/INFO]: <9810> yo should we all make a big mega base[m
-
-[15:29:13] [Async Chat Thread - #16/INFO]: <Innocent> dang brodys getting stacjed[m
-
-[15:29:14] [Async Chat Thread - #16/INFO]: <9810> for all of us[m
-
-[15:29:16] [Server thread/INFO]: beatthekotonight lost connection: Disconnected
-[15:29:16] [Server thread/INFO]: beatthekotonight left the game.
-[15:29:19] [Async Chat Thread - #16/INFO]: <9810> AVION[m
-
-[15:29:20] [Async Chat Thread - #16/INFO]: <9810> W[m
-
-[15:29:24] [Server thread/INFO]: mileswa1q2 issued server command: /tp mileswa1q2 Viggyee
-[15:29:24] [Server thread/INFO]: [mileswa1q2: Teleported mileswa1q2 to Viggyee]
-[15:29:25] [Async Chat Thread - #16/INFO]: <Viggyee> IM BACKKK[m
-
-[15:29:27] [Async Chat Thread - #16/INFO]: <Innocent> nahh every1 would get ransacked by eachother[m
-
-[15:29:28] [Async Chat Thread - #16/INFO]: <Innocent> LETS Go[m
-
-[15:29:30] [Server thread/INFO]: nubokk fell from a high place
-[15:29:32] [Async Chat Thread - #16/INFO]: <Innocent> PROTESTING WORKS[m
-
-[15:29:35] [Async Chat Thread - #16/INFO]: <nubokk> there[m
-
-[15:29:35] [Thread-61/INFO]: UUID of player literalyultraman is def825bd-d70c-36f5-831b-28f4b37fdb0f
-[15:29:35] [Server thread/INFO]: literalyultraman[/[0:0:0:0:0:0:0:1]:57306] logged in with entity id 31949 at ([world]-325.69999998807907, 68.0, 228.69999998807907)
-[15:29:36] [Async Chat Thread - #16/INFO]: <mileswa1q2> give pecacs you sol[m
-
-[15:29:37] [Async Chat Thread - #16/INFO]: <Viggyee> why ban[m
-
-[15:29:38] [Thread-62/INFO]: UUID of player bugeralfed is dd2554f9-a39e-31a1-a0e5-3ee864b3ef19
-[15:29:38] [Server thread/INFO]: bugeralfed[/[0:0:0:0:0:0:0:1]:55608] logged in with entity id 31952 at ([world]-228.5, 69.0, 217.5)
-[15:29:45] [Async Chat Thread - #16/INFO]: <Viggyee> what is pecacs[m
-
-[15:29:46] [Server thread/INFO]: bugeralfed lost connection: Disconnected
-[15:29:46] [Server thread/INFO]: bugeralfed left the game.
-[15:29:52] [Async Chat Thread - #16/INFO]: <mileswa1q2> give me it or i will kill you andk kikyou[m
-
-[15:29:58] [Async Chat Thread - #16/INFO]: <9810> @mileswa1q Chill bud[m
-
-[15:30:04] [Async Chat Thread - #16/INFO]: <Viggyee> i dont know what pecacas is[m
-
-[15:30:05] [Async Chat Thread - #16/INFO]: <9810> This aint the lifesteal smp[m
-
-[15:30:08] [Async Chat Thread - #16/INFO]: <Mrtrump123> ill see u later[m
-
-[15:30:08] [Async Chat Thread - #16/INFO]: <mileswa1q2> i have your ip adres[m
-
-[15:30:12] [Async Chat Thread - #16/INFO]: <Mrtrump123> also miles[m
-
-[15:30:13] [Async Chat Thread - #16/INFO]: <nubokk> i am afk'[m
-
-[15:30:13] [Server thread/INFO]: UR_A_FAULAIR was slain by mileswa1q2
-[15:30:16] [Server thread/INFO]: UR_A_FAULAIR lost connection: Disconnected
-[15:30:16] [Server thread/INFO]: UR_A_FAULAIR left the game.
-[15:30:20] [Async Chat Thread - #16/INFO]: <Viggyee> we go to the same school...[m
-
-[15:30:21] [Async Chat Thread - #16/INFO]: <Mrtrump123> turn off keep invintory[m
-
-[15:30:23] [Async Chat Thread - #16/INFO]: <mileswa1q2> give[m
-
-[15:30:27] [Async Chat Thread - #16/INFO]: <Mrtrump123> miles[m
-
-[15:30:30] [Async Chat Thread - #16/INFO]: <Mrtrump123> turn[m
-
-[15:30:33] [Async Chat Thread - #16/INFO]: <Mrtrump123> off[m
-
-[15:30:34] [Async Chat Thread - #16/INFO]: <9810> Bro think he winning an online argument[m
-
-[15:30:35] [Async Chat Thread - #16/INFO]: <Viggyee> what is pecacas[m
-
-[15:30:35] [Async Chat Thread - #16/INFO]: <Mrtrump123> keep[m
-
-[15:30:40] [Async Chat Thread - #16/INFO]: <Mrtrump123> invintory[m
-
-[15:30:45] [Async Chat Thread - #16/INFO]: <Viggyee> ??[m
-
-[15:30:46] [Async Chat Thread - #16/INFO]: <mileswa1q2> give[m
-
-[15:30:53] [Server thread/INFO]: EDP444 lost connection: Disconnected
-[15:30:53] [Server thread/INFO]: EDP444 left the game.
-[15:30:56] [Async Chat Thread - #16/INFO]: <mileswa1q2> the dimen you stool[m
-
-[15:30:57] [Async Chat Thread - #16/INFO]: <Viggyee> idk what pecacas is[m
-
-[15:30:59] [Async Chat Thread - #16/INFO]: <Viggyee> tell me[m
-
-[15:31:03] [Async Chat Thread - #16/INFO]: <Mrtrump123> e[m
-
-[15:31:07] [Server thread/INFO]: Viggyee was slain by mileswa1q2
-[15:31:09] [Server thread/INFO]: nubokk lost connection: Disconnected
-[15:31:09] [Server thread/INFO]: nubokk left the game.
-[15:31:10] [Server thread/INFO]: mileswa1q2 lost connection: Disconnected
-[15:31:10] [Server thread/INFO]: mileswa1q2 left the game.
-[15:31:13] [Server thread/INFO]: literalyultraman lost connection: Disconnected
-[15:31:13] [Server thread/INFO]: literalyultraman left the game.
-[15:31:19] [Thread-63/INFO]: UUID of player UR_A_FAULAIR is 03bafb4b-7d98-34d5-ba27-7ea299719818
-[15:31:19] [Server thread/INFO]: UR_A_FAULAIR[/[0:0:0:0:0:0:0:1]:37332] logged in with entity id 32238 at ([world]-296.67993134959806, 62.0, 198.6232475744169)
-[15:31:24] [Server thread/INFO]: german has just earned the achievement [DIAMONDS!]
-[15:31:28] [Thread-64/INFO]: UUID of player burgeralfred is 982c6709-aa0b-3b18-9b24-9dcf1f1393fb
-[15:31:28] [Server thread/INFO]: burgeralfred[/[0:0:0:0:0:0:0:1]:44478] logged in with entity id 32284 at ([world]-227.5, 71.0, 220.5)
-[15:31:29] [Async Chat Thread - #16/INFO]: <9810> nice diamonds[m
-
-[15:31:30] [Async Chat Thread - #16/INFO]: <Innocent> NICE[m
-
-[15:31:34] [Server thread/INFO]: german lost connection: Disconnected
-[15:31:34] [Server thread/INFO]: german left the game.
-[15:31:35] [Async Chat Thread - #16/INFO]: <9810> julian i have diamonds now btw[m
-
-[15:31:37] [Server thread/INFO]: burgeralfred lost connection: Disconnected
-[15:31:37] [Server thread/INFO]: burgeralfred left the game.
-[15:31:44] [Async Chat Thread - #16/INFO]: <9810> Me and avion all done with work LOL[m
-
-[15:31:46] [Async Chat Thread - #16/INFO]: <Innocent> jacob[m
-
-[15:31:54] [Async Chat Thread - #16/INFO]: <Innocent> i have a sub[m
-
-[15:31:55] [Thread-65/INFO]: UUID of player bugeralfred is 6ebbd95c-e142-35df-b410-b9aa31a0aaac
-[15:31:55] [Server thread/INFO]: bugeralfred[/[0:0:0:0:0:0:0:1]:50514] logged in with entity id 32353 at ([world]-237.5, 63.0, 207.5)
-[15:32:01] [Server thread/INFO]: bugeralfred lost connection: Disconnected
-[15:32:01] [Server thread/INFO]: bugeralfred left the game.
-[15:32:13] [Thread-66/INFO]: UUID of player buger_alfred is 9a875326-2ed7-37de-96a6-d6e9423721cc
-[15:32:13] [Server thread/INFO]: buger_alfred[/[0:0:0:0:0:0:0:1]:60960] logged in with entity id 32384 at ([world]-234.5, 66.0, 213.5)
-[15:32:16] [Async Chat Thread - #16/INFO]: <Innocent> 9810 im Ahmed[m
-
-[15:32:31] [Async Chat Thread - #16/INFO]: <Viggyee> yo ahmed[m
-
-[15:32:34] [Async Chat Thread - #16/INFO]: <Innocent> hi[m
-
-[15:32:43] [Server thread/INFO]: buger_alfred lost connection: Login timed out!
-[15:32:43] [Server thread/INFO]: buger_alfred left the game.
-[15:32:43] [Server thread/WARN]: handleDisconnection() called twice
-[15:32:50] [Thread-67/INFO]: UUID of player buger_alfred is 9a875326-2ed7-37de-96a6-d6e9423721cc
-[15:32:50] [Server thread/INFO]: buger_alfred[/[0:0:0:0:0:0:0:1]:46186] logged in with entity id 32602 at ([world]-234.0629695112932, 66.0, 213.5)
-[15:32:56] [Async Chat Thread - #16/INFO]: <Mrtrump123> hello[m
-
-[15:32:57] [Async Chat Thread - #16/INFO]: <Innocent> i need leather plz[m
-
-[15:33:01] [Async Chat Thread - #16/INFO]: <Mrtrump123> ok[m
-
-[15:33:04] [Server thread/INFO]: UR_A_FAULAIR has just earned the achievement [Taking Inventory]
-[15:33:05] [Async Chat Thread - #16/INFO]: <Mrtrump123> wait here[m
-
-[15:33:20] [Async Chat Thread - #16/INFO]: <Mrtrump123> ok[m
-
-[15:33:27] [Server thread/INFO]: Mrtrump123 fell from a high place
-[15:33:28] [Async Chat Thread - #16/INFO]: <9810> Hi Jac[m
-
-[15:33:30] [Async Chat Thread - #16/INFO]: <9810> Jack[m
-
-[15:33:35] [Async Chat Thread - #16/INFO]: <9810> Jack JOnes[m
-
-[15:33:36] [Async Chat Thread - #16/INFO]: <9810> Wsg[m
-
-[15:33:38] [Async Chat Thread - #16/INFO]: <buger_alfred> hi[m
-
-[15:33:48] [Thread-68/INFO]: UUID of player sowrdsmithsoren5 is d05d5a39-cf40-3b2d-b5dc-3b8e2c6bb6a6
-[15:33:48] [Server thread/INFO]: sowrdsmithsoren5[/[0:0:0:0:0:0:0:1]:50250] logged in with entity id 32860 at ([world]-234.5, 64.0, 209.5)
-[15:33:53] [Async Chat Thread - #16/INFO]: <Innocent> hi soren[m
-
-[15:34:00] [Async Chat Thread - #16/INFO]: <9810> is innocent marshall[m
-
-[15:34:02] [Async Chat Thread - #16/INFO]: <buger_alfred> i changed my name and all my lot is gone[m
-
-[15:34:09] [Server thread/INFO]: Mrtrump123 fell from a high place
-[15:34:11] [Server thread/INFO]: buger_alfred fell from a high place
-[15:34:15] [Server thread/INFO]: UR_A_FAULAIR has just earned the achievement [Getting Wood]
-[15:34:16] [Async Chat Thread - #16/INFO]: <Your_A_Pedo69420> soren?[m
-
-[15:34:21] [Async Chat Thread - #16/INFO]: <Mrtrump123> there[m
-
-[15:34:24] [Async Chat Thread - #16/INFO]: <Innocent> swordsmith soren[m
-
-[15:34:28] [Async Chat Thread - #16/INFO]: <Innocent> thanks[m
-
-[15:34:31] [Async Chat Thread - #16/INFO]: <Your_A_Pedo69420> hi[m
-
-[15:34:31] [Async Chat Thread - #16/INFO]: <sowrdsmithsoren5> its me i just started[m
-
-[15:34:36] [Async Chat Thread - #16/INFO]: <Mrtrump123> thats all i have rn[m
-
-[15:34:37] [Async Chat Thread - #16/INFO]: <Innocent> hi soren[m
-
-[15:34:43] [Server thread/INFO]: buger_alfred lost connection: Disconnected
-[15:34:43] [Server thread/INFO]: buger_alfred left the game.
-[15:34:46] [Async Chat Thread - #16/INFO]: <Mrtrump123> ttttttttttt[m
-
-[15:34:47] [Thread-69/INFO]: UUID of player buger_alfred is 9a875326-2ed7-37de-96a6-d6e9423721cc
-[15:34:47] [Server thread/INFO]: buger_alfred[/[0:0:0:0:0:0:0:1]:35700] logged in with entity id 33168 at ([world]-216.5805534629511, 66.0, 225.36191288799606)
-[15:34:56] [Server thread/INFO]: Your_A_Pedo69420 has just earned the achievement [Getting Wood]
-[15:35:00] [Server thread/INFO]: sowrdsmithsoren5 has just earned the achievement [Taking Inventory]
-[15:35:25] [Server thread/INFO]: sowrdsmithsoren5 has just earned the achievement [Getting Wood]
-[15:35:30] [Async Chat Thread - #16/INFO]: <Innocent> imma have to grind for deco[m
-
-[15:35:43] [Async Chat Thread - #16/INFO]: <Innocent> who has sugar canes[m
-
-[15:35:43] [Async Chat Thread - #16/INFO]: <Your_A_Pedo69420> hi[m
-
-[15:35:56] [Async Chat Thread - #16/INFO]: <Your_A_Pedo69420> umm[m
-
-[15:36:01] [Async Chat Thread - #16/INFO]: <Your_A_Pedo69420> okay i guess[m
-
-[15:36:06] [Async Chat Thread - #16/INFO]: <Innocent> you do?[m
-
-[15:37:38] [Server thread/INFO]: buger_alfred lost connection: Disconnected
-[15:37:38] [Server thread/INFO]: buger_alfred left the game.
-[15:38:02] [Server thread/INFO]: Innocent fell from a high place
-[15:38:05] [Server thread/INFO]: Innocent issued server command: /back
-[15:38:27] [Async Chat Thread - #17/INFO]: <Innocent> who got sugar cane'[m
-
-[15:38:34] [Async Chat Thread - #17/INFO]: <UR_A_FAULAIR> me[m
-
-[15:38:40] [Async Chat Thread - #17/INFO]: <Innocent> yoo lemme get[m
-
-[15:38:42] [Server thread/WARN]: sowrdsmithsoren5 moved wrongly!
-[15:38:49] [Server thread/INFO]: UR_A_FAULAIR lost connection: Disconnected
-[15:38:49] [Server thread/INFO]: UR_A_FAULAIR left the game.
-[15:38:51] [Thread-70/INFO]: UUID of player UR_A_FAULAIR is 03bafb4b-7d98-34d5-ba27-7ea299719818
-[15:38:51] [Server thread/INFO]: UR_A_FAULAIR[/[0:0:0:0:0:0:0:1]:38438] logged in with entity id 34609 at ([world]-246.66960428178157, 66.0, 167.6200820439729)
-[15:38:54] [Server thread/INFO]: Innocent issued server command: /tpa UR_A_FAULAIR
-[15:38:58] [Async Chat Thread - #17/INFO]: <Innocent> type /tpaccept[m
-
-[15:39:02] [Async Chat Thread - #17/INFO]: <Your_A_Pedo69420> there is alot of coal[m
-
-[15:39:13] [Async Chat Thread - #17/INFO]: <9810> me julian and avion are the most stacked by far lmao[m
-
-[15:39:19] [Async Chat Thread - #17/INFO]: <Innocent> miles is tho[m
-
-[15:39:34] [Async Chat Thread - #17/INFO]: <Mrtrump123> amhad[m
-
-[15:39:36] [Async Chat Thread - #17/INFO]: <9810> hes the owner[m
-
-[15:39:43] [Async Chat Thread - #17/INFO]: <Innocent> wha[m
-
-[15:39:43] [Async Chat Thread - #17/INFO]: <Mrtrump123> give me[m
-
-[15:39:48] [Async Chat Thread - #17/INFO]: <Mrtrump123> my bucket[m
-
-[15:39:49] [Async Chat Thread - #17/INFO]: <Innocent> wat[m
-
-[15:39:52] [Server thread/INFO]: Innocent issued server command: /o
-[15:39:53] [Async Chat Thread - #17/INFO]: <Innocent> o[m
-
-[15:39:57] [Async Chat Thread - #17/INFO]: <Innocent> i fell[m
-
-[15:40:00] [Async Chat Thread - #17/INFO]: <9810> jacob i have diamonds bro[m
-
-[15:40:01] [Server thread/INFO]: Innocent issued server command: /tpa Mrtrump123
-[15:40:08] [Async Chat Thread - #17/INFO]: <9810> ive got full iron and diamond tools[m
-
-[15:40:14] [Async Chat Thread - #17/INFO]: <Innocent> can i get some iron bro?[m
-
-[15:40:15] [Server thread/INFO]: Mrtrump123 issued server command: /tpaccept
-[15:40:25] [Thread-71/INFO]: UUID of player EDP444 is 7f4c4ca8-2e74-3a67-82e5-719a8e99ca91
-[15:40:25] [Server thread/INFO]: EDP444[/[0:0:0:0:0:0:0:1]:58152] logged in with entity id 35525 at ([world]-495.9765270101493, 85.0, 262.4420223481028)
-[15:40:32] [Server thread/INFO]: Innocent issued server command: /tp
-[15:40:35] [Async Chat Thread - #17/INFO]: <Innocent> thankss[m
-
-[15:40:35] [Async Chat Thread - #17/INFO]: <Mrtrump123> more leather[m
-
-[15:40:40] [Thread-72/INFO]: UUID of player mr_guy123 is f218021f-06b8-3d8f-a32e-d3fde9e356e8
-[15:40:40] [Server thread/INFO]: mr_guy123[/[0:0:0:0:0:0:0:1]:35532] logged in with entity id 35693 at ([world]-218.92305644219778, 64.0, 498.69999998807884)
-[15:40:43] [Async Chat Thread - #17/INFO]: <Innocent> u have sugar cane?[m
-
-[15:40:43] [Thread-73/INFO]: UUID of player mileswa1q2 is 24d1f12f-57ff-3135-a019-c218d8b2fef1
-[15:40:44] [Server thread/INFO]: mileswa1q2[/[0:0:0:0:0:0:0:1]:35534] logged in with entity id 35739 at ([world]-303.65573705054635, 63.0, 205.69999998807907)
-[15:40:48] [Async Chat Thread - #17/INFO]: <9810> bro whos trlling me[m
-
-[15:40:55] [Server thread/INFO]: Innocent issued server command: /tpa 9810
-[15:40:58] [Thread-74/INFO]: UUID of player german is 37318338-23f9-3376-bca6-4bcc543a651f
-[15:40:58] [Server thread/INFO]: german[/[0:0:0:0:0:0:0:1]:53504] logged in with entity id 35855 at ([world]74.82131432167931, 11.0, -35.47178574628862)
-[15:41:00] [Server thread/INFO]: mr_guy123 lost connection: Disconnected
-[15:41:00] [Server thread/INFO]: mr_guy123 left the game.
-[15:41:09] [Thread-75/INFO]: UUID of player nubokk is 7369b24b-2dc6-30bf-bcfe-b2f8b12e728d
-[15:41:10] [Server thread/INFO]: nubokk[/[0:0:0:0:0:0:0:1]:54208] logged in with entity id 36061 at ([world]-242.30000001192093, 67.0, 230.30000001192093)
-[15:41:16] [Async Chat Thread - #17/INFO]: <Innocent> hi[m
-
-[15:41:20] [Thread-76/INFO]: UUID of player literalyultraman is def825bd-d70c-36f5-831b-28f4b37fdb0f
-[15:41:20] [Server thread/INFO]: literalyultraman[/[0:0:0:0:0:0:0:1]:55990] logged in with entity id 36263 at ([world]-354.5495226415307, 64.0, 245.30000001192093)
-[15:41:25] [Server thread/INFO]: Innocent issued server command: /hi marshal
-[15:41:30] [Async Chat Thread - #17/INFO]: <Innocent> hi marshall[m
-
-[15:41:31] [Async Chat Thread - #17/INFO]: <EDP444> jacob[m
-
-[15:41:42] [Async Chat Thread - #17/INFO]: <Mrtrump123> yo[m
-
-[15:41:49] [Async Chat Thread - #17/INFO]: <Mrtrump123> i got some amer[m
-
-[15:41:52] [Async Chat Thread - #17/INFO]: <EDP444> jacob come in[m
-
-[15:42:01] [Async Chat Thread - #17/INFO]: <Innocent> 9810 pls[m
-
-[15:42:02] [Thread-77/INFO]: UUID of player buger_alfred is 9a875326-2ed7-37de-96a6-d6e9423721cc
-[15:42:02] [Server thread/INFO]: buger_alfred[/[0:0:0:0:0:0:0:1]:43192] logged in with entity id 36685 at ([world]-265.1226293687887, 66.0, 131.30000001192093)
-[15:42:03] [Server thread/INFO]: mileswa1q2 issued server command: /see Mretrump
-[15:42:07] [Server thread/INFO]: mileswa1q2 issued server command: /see
-[15:42:11] [Server thread/INFO]: Innocent issued server command: /tpa 9810
-[15:42:12] [Server thread/INFO]: literalyultraman was slain by sowrdsmithsoren5
-[15:42:18] [Server thread/INFO]: Mrtrump123 fell from a high place
-[15:42:21] [Server thread/INFO]: 9810 lost connection: Disconnected
-[15:42:21] [Server thread/INFO]: 9810 left the game.
-[15:42:29] [Async Chat Thread - #17/INFO]: <EDP444> jacob what happend[m
-
-[15:42:38] [Async Chat Thread - #17/INFO]: <Innocent> me jacob n u alliance[m
-
-[15:42:43] [Server thread/INFO]: Innocent fell from a high place
-[15:42:48] [Server thread/INFO]: mileswa1q2 issued server command: /data get entity @p Inventory
-[15:42:59] [Async Chat Thread - #17/INFO]: <Mrtrump123> edp[m
-
-[15:42:59] [Async Chat Thread - #17/INFO]: <Innocent> where sgar cane choedken[m
-
-[15:43:00] [Server thread/INFO]: mileswa1q2 issued server command: /data get entity @p Inventory
-[15:43:03] [Server thread/INFO]: mileswa1q2 issued server command: /help
-[15:43:04] [Async Chat Thread - #17/INFO]: <nubokk> idk[m
-
-[15:43:05] [Server thread/INFO]: literalyultraman was slain by sowrdsmithsoren5
-[15:43:07] [Server thread/INFO]: german lost connection: Disconnected
-[15:43:07] [Server thread/INFO]: german left the game.
-[15:43:08] [Server thread/INFO]: nubokk fell from a high place
-[15:43:10] [Server thread/INFO]: mileswa1q2 issued server command: /weather clear
-[15:43:10] [Server thread/INFO]: [mileswa1q2: Changing to clear weather]
-[15:43:10] [Async Chat Thread - #17/INFO]: <Mrtrump123> we are teamed with innocent[m
-
-[15:43:12] [Async Chat Thread - #17/INFO]: <Innocent> oops[m
-
-[15:43:16] [Server thread/INFO]: Your_A_Pedo69420 lost connection: Disconnected
-[15:43:16] [Server thread/INFO]: Your_A_Pedo69420 left the game.
-[15:43:17] [Async Chat Thread - #17/INFO]: <nubokk> who are you[m
-
-[15:43:19] [Thread-78/INFO]: UUID of player 9810 is b5c13ecc-34ff-3fb7-9e3b-479f83904969
-[15:43:19] [Server thread/INFO]: 9810[/[0:0:0:0:0:0:0:1]:41486] logged in with entity id 37589 at ([world]-87.63437265014164, 72.0, 552.3000000119209)
-[15:43:21] [Async Chat Thread - #17/INFO]: <Innocent> miles[m
-
-[15:43:24] [Async Chat Thread - #17/INFO]: <Innocent> do u have sugar cane[m
-
-[15:43:26] [Server thread/INFO]: buger_alfred has just earned the achievement [Taking Inventory]
-[15:43:38] [Server thread/INFO]: Viggyee issued server command: /tp request 9810
-[15:43:41] [Thread-79/INFO]: UUID of player german is 37318338-23f9-3376-bca6-4bcc543a651f
-[15:43:41] [Server thread/INFO]: german[/[0:0:0:0:0:0:0:1]:48978] logged in with entity id 37802 at ([world]101.69999998807907, 10.0, -47.13956327790114)
-[15:43:45] [Async Chat Thread - #17/INFO]: <9810> yooo[m
-
-[15:43:46] [Async Chat Thread - #17/INFO]: <nubokk> yo sorean[m
-
-[15:43:47] [Async Chat Thread - #17/INFO]: <9810> julian[m
-
-[15:43:48] [Server thread/INFO]: german lost connection: Disconnected
-[15:43:48] [Server thread/INFO]: german left the game.
-[15:43:51] [Async Chat Thread - #17/INFO]: <Innocent> 9810[m
-
-[15:43:53] [Async Chat Thread - #17/INFO]: <Innocent> griffin[m
-
-[15:43:56] [Async Chat Thread - #17/INFO]: <9810> ?[m
-
-[15:44:01] [Async Chat Thread - #17/INFO]: <Innocent> can i get some iron brody[m
-
-[15:44:11] [Async Chat Thread - #17/INFO]: <Mrtrump123> ima go mine[m
-
-[15:44:14] [Async Chat Thread - #17/INFO]: <9810> ngl i dont trust no one on this server besides avion and soren[m
-
-[15:44:15] [Async Chat Thread - #17/INFO]: <literalyultraman> sordsmansorran I will find you in real life[m
-
-[15:44:24] [Server thread/INFO]: buger_alfred has just earned the achievement [Getting Wood]
-[15:44:27] [Async Chat Thread - #17/INFO]: <Innocent> im not even stacked my man im not finna kill you[m
-
-[15:44:39] [Server thread/INFO]: Innocent issued server command: /i just kinda started today
-[15:44:44] [Async Chat Thread - #17/INFO]: <Innocent> i started today[m
-
-[15:44:51] [Async Chat Thread - #17/INFO]: <nubokk> who is innocent[m
-
-[15:44:59] [Server thread/INFO]: buger_alfred was slain by sowrdsmithsoren5
-[15:44:59] [Async Chat Thread - #17/INFO]: <Innocent> guess[m
-
-[15:45:00] [Server thread/INFO]: literalyultraman was slain by nubokk
-[15:45:00] [Server thread/INFO]: mileswa1q2 issued server command: /save-all
-[15:45:00] [Server thread/INFO]: [mileswa1q2: Saved the world]
-[15:45:07] [Async Chat Thread - #17/INFO]: <Innocent> guess[m
-
-[15:45:10] [Async Chat Thread - #17/INFO]: <mileswa1q2> ps we need to get morthigs[m
-
-[15:45:10] [Server thread/INFO]: buger_alfred issued server command: /back
-[15:45:14] [Async Chat Thread - #17/INFO]: <9810> Womp womp[m
-
-[15:45:23] [Async Chat Thread - #17/INFO]: <nubokk> who[m
-
-[15:45:28] [Async Chat Thread - #17/INFO]: <Innocent> guess[m
-
-[15:45:28] [Async Chat Thread - #17/INFO]: <mileswa1q2> we have to sut this donw soon[m
-
-[15:45:37] [Async Chat Thread - #17/INFO]: <nubokk> robert[m
-
-[15:45:43] [Async Chat Thread - #17/INFO]: <Innocent> hell no[m
-
-[15:45:50] [Async Chat Thread - #17/INFO]: <nubokk> what race?[m
-
-[15:45:52] [Async Chat Thread - #17/INFO]: <mileswa1q2> miles[m
-
-[15:45:54] [Async Chat Thread - #17/INFO]: <Innocent> crazy[m
-
-[15:45:56] [Async Chat Thread - #17/INFO]: <9810> Bobert[m
-
-[15:45:56] [Server thread/INFO]: Viggyee tried to swim in lava
-[15:45:57] [Async Chat Thread - #17/INFO]: <mileswa1q2> miles allen[m
-
-[15:46:06] [Async Chat Thread - #17/INFO]: <Innocent> what race is insane[m
-
-[15:46:23] [Async Chat Thread - #17/INFO]: <Viggyee> is that u ahmed[m
-
-[15:46:24] [Async Chat Thread - #17/INFO]: <Innocent> AVION[m
-
-[15:46:26] [Async Chat Thread - #17/INFO]: <Innocent> yes[m
-
-[15:46:28] [Async Chat Thread - #17/INFO]: <Innocent> hi[m
-
-[15:46:32] [Async Chat Thread - #17/INFO]: <Innocent> can i get loot[m
-
-[15:46:44] [Async Chat Thread - #17/INFO]: <buger_alfred> hi miles[m
-
-[15:46:49] [Async Chat Thread - #17/INFO]: <Innocent> give me iron man[m
-
-[15:46:55] [Server thread/INFO]: 9810 drowned
-[15:46:57] [Async Chat Thread - #17/INFO]: <Viggyee> ok but i need some too[m
-
-[15:47:00] [Async Chat Thread - #17/INFO]: <Viggyee> let me get what i need first[m
-
-[15:47:01] [Async Chat Thread - #17/INFO]: <Innocent> ok[m
-
-[15:47:03] [Async Chat Thread - #17/INFO]: <Viggyee> ill give u left over[m
-
-[15:47:04] [Async Chat Thread - #17/INFO]: <Innocent> okay[m
-
-[15:47:08] [Async Chat Thread - #17/INFO]: <Innocent> ayayayyayayayayayyayayayayyaysayayay[m
-
-[15:47:16] [Server thread/INFO]: mileswa1q2 was slain by UR_A_FAULAIR
-[15:47:17] [Async Chat Thread - #17/INFO]: <Innocent> hi[m
-
-[15:47:17] [Async Chat Thread - #17/INFO]: <buger_alfred> sorry peter wanted to kill you sorry miles[m
-
-[15:47:27] [Async Chat Thread - #17/INFO]: <buger_alfred> he does not know better[m
-
-[15:47:30] [Async Chat Thread - #17/INFO]: <Innocent> lemme get loot guys[m
-
-[15:47:33] [Async Chat Thread - #17/INFO]: <Innocent> ty avion[m
-
-[15:47:44] [Async Chat Thread - #17/INFO]: <9810> I added some iron btw[m
-
-[15:47:47] [Async Chat Thread - #17/INFO]: <Innocent> ty[m
-
-[15:47:50] [Async Chat Thread - #17/INFO]: <Viggyee> lets build a base after this?[m
-
-[15:47:50] [Async Chat Thread - #17/INFO]: <Innocent> DAM[m
-
-[15:47:51] [Server thread/INFO]: UR_A_FAULAIR fell from a high place
-[15:47:54] [Async Chat Thread - #17/INFO]: <Innocent> all of us?[m
-
-[15:47:58] [Server thread/INFO]: UR_A_FAULAIR issued server command: /back
-[15:48:07] [Async Chat Thread - #17/INFO]: <Innocent> i have a secret one but yea we can all build one[m
-
-[15:48:08] [Async Chat Thread - #17/INFO]: <9810> who this guy[m
-
-[15:48:12] [Server thread/INFO]: UR_A_FAULAIR was slain by 9810
-[15:48:16] [Async Chat Thread - #17/INFO]: <Innocent> peter[m
-
-[15:48:36] [Server thread/INFO]: 9810 lost connection: Internal Exception: java.net.SocketException: Connection reset
-[15:48:36] [Server thread/INFO]: 9810 left the game.
-[15:48:42] [Server thread/INFO]: Viggyee lost connection: Disconnected
-[15:48:42] [Server thread/INFO]: Viggyee left the game.
-[15:48:44] [Async Chat Thread - #17/INFO]: <Innocent> c[m
-
-[15:48:46] [Server thread/INFO]: Mrtrump123 lost connection: Disconnected
-[15:48:46] [Server thread/INFO]: Mrtrump123 left the game.
-[15:48:50] [Server thread/INFO]: Innocent issued server command: /back
-[15:49:08] [Server thread/INFO]: sowrdsmithsoren5 fell from a high place
-[15:49:44] [Thread-81/INFO]: UUID of player 9810 is b5c13ecc-34ff-3fb7-9e3b-479f83904969
-[15:49:44] [Server thread/INFO]: 9810[/[0:0:0:0:0:0:0:1]:34646] logged in with entity id 40618 at ([world]-268.8058671438672, 81.0, 217.1462265394513)
-[15:49:48] [Server thread/INFO]: UR_A_FAULAIR fell from a high place
-[15:49:49] [Async Chat Thread - #18/INFO]: <Innocent> what happend[m
-
-[15:49:52] [Server thread/INFO]: UR_A_FAULAIR issued server command: /back
-[15:50:03] [Async Chat Thread - #18/INFO]: <Innocent> to u and avion[m
-
-[15:50:04] [Server thread/INFO]: buger_alfred was slain by 9810
-[15:50:15] [Server thread/INFO]: buger_alfred issued server command: /back
-[15:50:26] [Async Chat Thread - #18/INFO]: <Innocent> want to see my secret base 9810[m
-
-[15:50:39] [Server thread/INFO]: buger_alfred hit the ground too hard
-[15:50:47] [Server thread/INFO]: Innocent issued server command: /tpahere 9810
-[15:51:08] [Thread-82/INFO]: UUID of player german is 37318338-23f9-3376-bca6-4bcc543a651f
-[15:51:08] [Server thread/INFO]: german[/[0:0:0:0:0:0:0:1]:50890] logged in with entity id 40824 at ([world]101.69999998807907, 10.0, -47.13956327790114)
-[15:51:08] [Server thread/INFO]: buger_alfred was slain by sowrdsmithsoren5
-[15:51:12] [Async Chat Thread - #18/INFO]: <9810> Wsg julian[m
-
-[15:51:16] [Async Chat Thread - #18/INFO]: <Innocent> hi julian[m
-
-[15:51:19] [Server thread/INFO]: buger_alfred issued server command: /back
-[15:51:22] [Server thread/INFO]: nubokk has just earned the achievement [Benchmarking]
-[15:51:28] [Async Chat Thread - #18/INFO]: <9810> Julian im more stacked than you now[m
-
-[15:51:28] [Server thread/INFO]: buger_alfred was slain by sowrdsmithsoren5
-[15:51:34] [Server thread/INFO]: Innocent fell from a high place
-[15:51:38] [Thread-83/INFO]: UUID of player Mrtrump123 is e3f218f8-b4c2-3c0a-840d-ab54f69cc13f
-[15:51:38] [Server thread/INFO]: Mrtrump123[/[0:0:0:0:0:0:0:1]:50504] logged in with entity id 41049 at ([world]-330.6999999880793, 23.0, 418.69999998807907)
-[15:51:45] [Server thread/INFO]: Innocent was slain by buger_alfred
-[15:51:45] [Async Chat Thread - #18/INFO]: <Innocent> tell avion to get on grifin[m
-
-[15:52:33] [Server thread/INFO]: buger_alfred was slain by Innocent
-[15:52:41] [Server thread/INFO]: Innocent issued server command: /REVENGE
-[15:52:43] [Async Chat Thread - #18/INFO]: <Innocent> revenge[m
-
-[15:52:49] [Async Chat Thread - #18/INFO]: <9810> anyone wanna alliance[m
-
-[15:52:52] [Async Chat Thread - #18/INFO]: <Innocent> ,e[m
-
-[15:52:54] [Async Chat Thread - #18/INFO]: <Innocent> sure[m
-
-[15:53:06] [Server thread/INFO]: sowrdsmithsoren5 was slain by UR_A_FAULAIR
-[15:53:24] [Async Chat Thread - #18/INFO]: <Innocent> gtiffin[m
-
-[15:53:25] [Server thread/INFO]: buger_alfred was slain by 9810
-[15:53:25] [Thread-84/INFO]: UUID of player oliver_is_cool__ is a395d75a-a0a6-3dff-b84e-3fb8b4ca353b
-[15:53:25] [Server thread/INFO]: oliver_is_cool__[/[0:0:0:0:0:0:0:1]:50892] logged in with entity id 41645 at ([world]-264.2369107784109, 51.0, 183.52275711151125)
-[15:53:26] [Async Chat Thread - #18/INFO]: <Innocent> griffin[m
-
-[15:53:31] [Server thread/INFO]: buger_alfred issued server command: /back
-[15:53:33] [Server thread/INFO]: oliver_is_cool__ was slain by 9810
-[15:53:37] [Server thread/INFO]: nubokk fell from a high place
-[15:53:39] [Server thread/INFO]: oliver_is_cool__ issued server command: /
-[15:53:41] [Server thread/INFO]: oliver_is_cool__ was slain by Innocent
-[15:53:51] [Server thread/INFO]: Innocent was slain by oliver_is_cool__
-[15:53:59] [Server thread/INFO]: oliver_is_cool__ was slain by 9810
-[15:54:09] [Async Chat Thread - #18/INFO]: <nubokk> its me chokdhen[m
-
-[15:54:19] [Server thread/INFO]: oliver_is_cool__ was slain by 9810
-[15:54:28] [Server thread/INFO]: sowrdsmithsoren5 was slain by UR_A_FAULAIR
-[15:54:29] [Async Chat Thread - #18/INFO]: <9810> Womp womp[m
-
-[15:54:33] [Async Chat Thread - #18/INFO]: <Innocent> womp womp[m
-
-[15:54:44] [Server thread/INFO]: oliver_is_cool__ was slain by 9810
-[15:55:00] [Async Chat Thread - #18/INFO]: <9810> ill stop killing[m
-
-[15:55:02] [Server thread/INFO]: oliver_is_cool__ was slain by Innocent
-[15:55:10] [Server thread/INFO]: oliver_is_cool__ was slain by Innocent
-[15:55:16] [Async Chat Thread - #18/INFO]: <oliver_is_cool__> who are u[m
-
-[15:55:18] [Async Chat Thread - #18/INFO]: <Innocent> he ransacked my base everyday last season[m
-
-[15:55:26] [Server thread/INFO]: 9810 was slain by sowrdsmithsoren5
-[15:55:32] [Server thread/INFO]: sowrdsmithsoren5 was slain by oliver_is_cool__
-[15:55:38] [Server thread/INFO]: oliver_is_cool__ was slain by Innocent
-[15:55:44] [Server thread/INFO]: oliver_is_cool__ lost connection: Disconnected
-[15:55:44] [Server thread/INFO]: oliver_is_cool__ left the game.
-[15:55:44] [Server thread/INFO]: sowrdsmithsoren5 was slain by 9810
-[15:55:54] [Async Chat Thread - #18/INFO]: <Innocent> poor soren[m
-
-[15:56:00] [Server thread/INFO]: 9810 lost connection: Disconnected
-[15:56:00] [Server thread/INFO]: 9810 left the game.
-[15:56:15] [Async Chat Thread - #18/INFO]: <Innocent> soren[m
-
-[15:56:43] [Server thread/INFO]: Innocent fell from a high place
-[15:57:04] [Async Chat Thread - #18/INFO]: <nubokk> who hit me[m
-
-[15:57:05] [Server thread/WARN]: german moved wrongly!
-[15:57:05] [Server thread/INFO]: mileswa1q2 issued server command: /save-all
-[15:57:05] [Server thread/INFO]: [mileswa1q2: Saved the world]
-[15:57:05] [Server thread/WARN]: german moved wrongly!
-[15:57:10] [Async Chat Thread - #18/INFO]: <Innocent> hi peter[m
-
-[15:57:18] [Async Chat Thread - #18/INFO]: <Innocent> can i get sugar cane[m
-
-[15:57:27] [Server thread/INFO]: Innocent was slain by UR_A_FAULAIR
-[15:57:29] [Async Chat Thread - #18/INFO]: <mileswa1q2> sorey have to sut this off i had youssd 75 pesent of the srver sorey miles[m
-
-[15:57:30] [Server thread/INFO]: german has just earned the achievement [Enchanter]
-[15:57:32] [Server thread/INFO]: Innocent issued server command: /back
-[15:57:34] [Server thread/INFO]: mileswa1q2 issued server command: /stop
-[15:57:34] [Server thread/INFO]: [mileswa1q2: Stopping the server]
-[15:57:34] [Server thread/INFO]: Stopping server
-[15:57:34] [Server thread/INFO]: [LoginSecurity] Disabling LoginSecurity v3.2.0
-[15:57:34] [Server thread/INFO]: [LoginSecurity] Waiting for queued tasks...
-[15:57:34] [Server thread/INFO]: [LoginSecurity] ExecutorService shut down, ready to disable.
-[15:57:34] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v6.1;no_git_id
-[15:57:34] [Server thread/INFO]: [SimpleHomes] Disabling SimpleHomes v2.2
-[15:57:34] [Server thread/INFO]: [SimpleTpa] Disabling SimpleTpa v6.4
-[15:57:34] [Server thread/INFO]: [0;36;1m[21m[SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9[m
-
-[15:57:34] [Server thread/INFO]: [0;36;1m[21m[SimpleTpa] Simple Tpa has been disabled on version 6.4[m
-
-[15:57:34] [Server thread/INFO]: Saving players
-[15:57:34] [Server thread/INFO]: EDP444 lost connection: Server closed
-[15:57:34] [Server thread/INFO]: EDP444 left the game.
-[15:57:34] [Server thread/INFO]: UR_A_FAULAIR lost connection: Server closed
-[15:57:34] [Server thread/INFO]: UR_A_FAULAIR left the game.
-[15:57:34] [Server thread/INFO]: Mrtrump123 lost connection: Server closed
-[15:57:34] [Server thread/INFO]: Mrtrump123 left the game.
-[15:57:34] [Server thread/INFO]: nubokk lost connection: Server closed
-[15:57:34] [Server thread/INFO]: nubokk left the game.
-[15:57:34] [Server thread/INFO]: mileswa1q2 lost connection: Server closed
-[15:57:34] [Server thread/INFO]: mileswa1q2 left the game.
-[15:57:34] [Server thread/INFO]: Saving worlds
-[15:57:34] [Server thread/INFO]: Saving chunks for level 'world'/Overworld
-[15:57:34] [Server thread/INFO]: Saving chunks for level 'world_nether'/Nether
-[15:57:34] [Server thread/INFO]: Saving chunks for level 'world_the_end'/The End
