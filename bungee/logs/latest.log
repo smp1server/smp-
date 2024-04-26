@@ -729,3 +729,38 @@
 [15:57:54] [Netty Worker IO Thread #1/WARN]: Error occurred processing connection for Mrtrump123 AnnotatedConnectException : finishConnect(..) failed: Connection refused: localhost/127.0.0.1:25565
 [15:57:54] [Netty Worker IO Thread #1/INFO]: [Mrtrump123] disconnected with: Could not connect to a default or fallback server. Incorrectly configured address/port/firewall? 
 [15:57:54] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:57318|Mrtrump123] -> UpstreamBridge has disconnected
+[15:57:57] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:35536]: Connected via websocket
+[15:57:57] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:35536]: Origin header is https://fun-miles2.netlify.app
+[15:57:57] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:35524]: Connected via websocket
+[15:57:57] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:35524]: Origin header is https://fun-miles-4jub.onrender.com
+[15:57:57] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:35536]: Logged in as 'Innocent'
+[15:57:57] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:35536|Innocent] -> UpstreamBridge has connected
+[15:57:57] [Netty Worker IO Thread #2/WARN]: Error occurred processing connection for Innocent AnnotatedConnectException : finishConnect(..) failed: Connection refused: localhost/127.0.0.1:25565
+[15:57:57] [Netty Worker IO Thread #2/INFO]: [Innocent] disconnected with: Could not connect to a default or fallback server. Incorrectly configured address/port/firewall? 
+[15:57:57] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:35536|Innocent] -> UpstreamBridge has disconnected
+[15:57:58] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:35550]: Connected via websocket
+[15:57:58] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:35550]: Origin header is https://fun-miles2.netlify.app
+[15:57:58] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:35524]: Logged in as '9810'
+[15:57:58] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:35524|9810] -> UpstreamBridge has connected
+[15:57:58] [Netty Worker IO Thread #1/WARN]: Error occurred processing connection for 9810 AnnotatedConnectException : finishConnect(..) failed: Connection refused: localhost/127.0.0.1:25565
+[15:57:58] [Netty Worker IO Thread #1/INFO]: [9810] disconnected with: Could not connect to a default or fallback server. Incorrectly configured address/port/firewall? 
+[15:57:58] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:35524|9810] -> UpstreamBridge has disconnected
+[15:57:58] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:35550]: Logged in as 'sowrdsmithsoren5'
+[15:57:58] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:35550|sowrdsmithsoren5] -> UpstreamBridge has connected
+[15:57:58] [Netty Worker IO Thread #3/WARN]: Error occurred processing connection for sowrdsmithsoren5 AnnotatedConnectException : finishConnect(..) failed: Connection refused: localhost/127.0.0.1:25565
+[15:57:58] [Netty Worker IO Thread #3/INFO]: [sowrdsmithsoren5] disconnected with: Could not connect to a default or fallback server. Incorrectly configured address/port/firewall? 
+[15:57:58] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:35550|sowrdsmithsoren5] -> UpstreamBridge has disconnected
+[15:57:58] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:35554]: Connected via websocket
+[15:57:58] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:35554]: Origin header is null
+[15:57:59] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:35554]: Logged in as 'buger_alfred'
+[15:57:59] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:35554|buger_alfred] -> UpstreamBridge has connected
+[15:57:59] [Netty Worker IO Thread #0/WARN]: Error occurred processing connection for buger_alfred AnnotatedConnectException : finishConnect(..) failed: Connection refused: localhost/127.0.0.1:25565
+[15:57:59] [Netty Worker IO Thread #0/INFO]: [buger_alfred] disconnected with: Could not connect to a default or fallback server. Incorrectly configured address/port/firewall? 
+[15:57:59] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:35554|buger_alfred] -> UpstreamBridge has disconnected
+[15:58:06] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:35570]: Connected via websocket
+[15:58:06] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:35570]: Origin header is null
+[15:58:07] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:35570]: Logged in as 'Mrtrump123'
+[15:58:07] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:35570|Mrtrump123] -> UpstreamBridge has connected
+[15:58:07] [Netty Worker IO Thread #3/WARN]: Error occurred processing connection for Mrtrump123 AnnotatedConnectException : finishConnect(..) failed: Connection refused: localhost/127.0.0.1:25565
+[15:58:07] [Netty Worker IO Thread #3/INFO]: [Mrtrump123] disconnected with: Could not connect to a default or fallback server. Incorrectly configured address/port/firewall? 
+[15:58:07] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:35570|Mrtrump123] -> UpstreamBridge has disconnected
