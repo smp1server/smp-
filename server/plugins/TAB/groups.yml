@@ -23,3 +23,5 @@ per-world:
       tagprefix: '&2&lOwner &a'
 add:
   abovename: admin
+admin:
+  tabprefix: (admin)

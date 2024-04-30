@@ -1,9 +1,9 @@
-[17:16:20] [Server thread/INFO]: Starting minecraft server version 1.8.8
-[17:16:20] [Server thread/INFO]: Loading properties
-[17:16:20] [Server thread/INFO]: Default game type: SURVIVAL
-[17:16:20] [Server thread/INFO]: This server is running CraftBukkit version git-PaperSpigot-445 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)
-[17:16:20] [Server thread/INFO]: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
-[17:16:20] [Server thread/WARN]: Couldn't load server icon
+[15:41:15] [Server thread/INFO]: Starting minecraft server version 1.8.8
+[15:41:15] [Server thread/INFO]: Loading properties
+[15:41:15] [Server thread/INFO]: Default game type: SURVIVAL
+[15:41:15] [Server thread/INFO]: This server is running CraftBukkit version git-PaperSpigot-445 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)
+[15:41:15] [Server thread/INFO]: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
+[15:41:15] [Server thread/WARN]: Couldn't load server icon
 java.lang.IllegalArgumentException: Must be 64 pixels wide
 	at org.apache.commons.lang.Validate.isTrue(Validate.java:136) ~[patched_1.8.8.jar:git-PaperSpigot-445]
 	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.loadServerIcon0(CraftServer.java:1741) ~[patched_1.8.8.jar:git-PaperSpigot-445]
@@ -15,1211 +15,1051 @@ java.lang.IllegalArgumentException: Must be 64 pixels wide
 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:176) ~[patched_1.8.8.jar:git-PaperSpigot-445]
 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563) ~[patched_1.8.8.jar:git-PaperSpigot-445]
 	at java.lang.Thread.run(Thread.java:1583) [?:?]
-[17:16:20] [Server thread/INFO]: Debug logging is disabled
-[17:16:20] [Server thread/INFO]: Spigot Timings: true - Verbose: true - Interval: 5m - Length: 60m
-[17:16:20] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[15:41:15] [Server thread/INFO]: Debug logging is disabled
+[15:41:15] [Server thread/INFO]: Spigot Timings: true - Verbose: true - Interval: 5m - Length: 60m
+[15:41:15] [Server thread/INFO]: Server Ping Player Sample Count: 12
 
-[17:16:20] [Server thread/INFO]: Using 4 threads for Netty based IO
-[17:16:20] [Server thread/INFO]: Data value allowed items: 
-[17:16:20] [Server thread/WARN]: java.lang.NoSuchFieldException: modifiers
+[15:41:15] [Server thread/INFO]: Using 4 threads for Netty based IO
+[15:41:15] [Server thread/INFO]: Data value allowed items: 
+[15:41:15] [Server thread/WARN]: java.lang.NoSuchFieldException: modifiers
 
-[17:16:20] [Server thread/WARN]: 	at java.base/java.lang.Class.getDeclaredField(Class.java:2782)
+[15:41:15] [Server thread/WARN]: 	at java.base/java.lang.Class.getDeclaredField(Class.java:2782)
 
-[17:16:20] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.stackableBuckets(PaperSpigotConfig.java:192)
+[15:41:15] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.stackableBuckets(PaperSpigotConfig.java:192)
 
-[17:16:20] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+[15:41:15] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 
-[17:16:20] [Server thread/WARN]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+[15:41:15] [Server thread/WARN]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 
-[17:16:20] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.readConfig(PaperSpigotConfig.java:84)
+[15:41:15] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.readConfig(PaperSpigotConfig.java:84)
 
-[17:16:20] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.init(PaperSpigotConfig.java:62)
+[15:41:15] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.init(PaperSpigotConfig.java:62)
 
-[17:16:20] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:181)
+[15:41:15] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:181)
 
-[17:16:20] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563)
+[15:41:15] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563)
 
-[17:16:20] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[15:41:15] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
 
-[17:16:20] [Server thread/INFO]: Generating keypair
-[17:16:20] [Server thread/INFO]: Starting Minecraft server on localhost:25565
-[17:16:20] [Server thread/INFO]: Using default channel type
-[17:16:20] [Server thread/INFO]: Set PluginClassLoader as parallel capable
-[17:16:20] [Server thread/INFO]: [PixelMOTD] Loading PixelMOTD v9.3.9-SNAPSHOT
-[17:16:20] [Server thread/INFO]: [SimpleTpa] Loading SimpleTpa v6.4
-[17:16:20] [Server thread/INFO]: [SimpleHomes] Loading SimpleHomes v2.2
-[17:16:20] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1;no_git_id
-[17:16:20] [Server thread/INFO]: [TAB] Loading TAB v4.1.4
-[17:16:20] [Server thread/INFO]: [LoginSecurity] Loading LoginSecurity v3.2.0
-[17:16:20] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[17:16:20] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[17:16:20] [Server thread/WARN]: Whilst this makes it possible to use BungeeCord, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
-[17:16:20] [Server thread/WARN]: Please see http://www.spigotmc.org/wiki/firewall-guide/ for further information.
-[17:16:20] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[17:16:20] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
-[17:16:21] [Server thread/INFO]: Preparing level "world"
-[17:16:21] [Server thread/INFO]: -------- World Settings For [world] --------
-[17:16:21] [Server thread/INFO]: Mob Spawn Range: 4
-[17:16:21] [Server thread/INFO]: Anti X-Ray: true
-[17:16:21] [Server thread/INFO]: 	Engine Mode: 1
-[17:16:21] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
-[17:16:21] [Server thread/INFO]: 	Replace Blocks: [1, 5]
-[17:16:21] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[17:16:21] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[17:16:21] [Server thread/INFO]: Cane Growth Modifier: 100%
-[17:16:21] [Server thread/INFO]: Melon Growth Modifier: 100%
-[17:16:21] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[17:16:21] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[17:16:21] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[17:16:21] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[17:16:21] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[17:16:21] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[17:16:21] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[17:16:21] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
-[17:16:21] [Server thread/INFO]: Random Lighting Updates: false
-[17:16:21] [Server thread/INFO]: Structure Info Saving: true
-[17:16:21] [Server thread/INFO]: Sending up to 10 chunks per packet
-[17:16:21] [Server thread/INFO]: Max Entity Collisions: 8
-[17:16:21] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
-[17:16:21] [Server thread/INFO]: Max TNT Explosions: 100
-[17:16:21] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[17:16:21] [Server thread/INFO]: Item Despawn Rate: 6000
-[17:16:21] [Server thread/INFO]: Item Merge Radius: 2.5
-[17:16:21] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[17:16:21] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[17:16:21] [Server thread/INFO]: View Distance: 4
-[17:16:21] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[17:16:21] [Server thread/INFO]: Chunks to Grow per Tick: 650
-[17:16:21] [Server thread/INFO]: Clear tick list: false
-[17:16:21] [Server thread/INFO]: Experience Merge Radius: 3.0
-[17:16:21] [Server thread/INFO]: -------- World Settings For [world] --------
-[17:16:21] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
-[17:16:21] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
-[17:16:21] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
-[17:16:21] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
-[17:16:21] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
-[17:16:21] [Server thread/INFO]: Water over lava flow speed: 5
-[17:16:21] [Server thread/INFO]: Fix TNT cannons: false
-[17:16:21] [Server thread/INFO]: Allow undead horse types to be leashed: false
-[17:16:21] [Server thread/INFO]: Keep spawn chunk loaded: true
-[17:16:21] [Server thread/INFO]: World async lighting: false
-[17:16:21] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
-[17:16:21] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
-[17:16:21] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[17:16:21] [Server thread/INFO]: Mob Spawn Range: 4
-[17:16:21] [Server thread/INFO]: Anti X-Ray: true
-[17:16:21] [Server thread/INFO]: 	Engine Mode: 1
-[17:16:21] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
-[17:16:21] [Server thread/INFO]: 	Replace Blocks: [1, 5]
-[17:16:21] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[17:16:21] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[17:16:21] [Server thread/INFO]: Cane Growth Modifier: 100%
-[17:16:21] [Server thread/INFO]: Melon Growth Modifier: 100%
-[17:16:21] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[17:16:21] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[17:16:21] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[17:16:21] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[17:16:21] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[17:16:21] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[17:16:21] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[17:16:21] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
-[17:16:21] [Server thread/INFO]: Random Lighting Updates: false
-[17:16:21] [Server thread/INFO]: Structure Info Saving: true
-[17:16:21] [Server thread/INFO]: Sending up to 10 chunks per packet
-[17:16:21] [Server thread/INFO]: Max Entity Collisions: 8
-[17:16:21] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
-[17:16:21] [Server thread/INFO]: Max TNT Explosions: 100
-[17:16:21] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[17:16:21] [Server thread/INFO]: Item Despawn Rate: 6000
-[17:16:21] [Server thread/INFO]: Item Merge Radius: 2.5
-[17:16:21] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[17:16:21] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[17:16:21] [Server thread/INFO]: View Distance: 4
-[17:16:21] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[17:16:21] [Server thread/INFO]: Chunks to Grow per Tick: 650
-[17:16:21] [Server thread/INFO]: Clear tick list: false
-[17:16:21] [Server thread/INFO]: Experience Merge Radius: 3.0
-[17:16:21] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[17:16:21] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
-[17:16:21] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
-[17:16:21] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
-[17:16:21] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
-[17:16:21] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
-[17:16:21] [Server thread/INFO]: Water over lava flow speed: 5
-[17:16:21] [Server thread/INFO]: Fix TNT cannons: false
-[17:16:21] [Server thread/INFO]: Allow undead horse types to be leashed: false
-[17:16:21] [Server thread/INFO]: Keep spawn chunk loaded: true
-[17:16:21] [Server thread/INFO]: World async lighting: false
-[17:16:21] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
-[17:16:21] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
-[17:16:21] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[17:16:21] [Server thread/INFO]: Mob Spawn Range: 4
-[17:16:21] [Server thread/INFO]: Anti X-Ray: true
-[17:16:21] [Server thread/INFO]: 	Engine Mode: 1
-[17:16:21] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
-[17:16:21] [Server thread/INFO]: 	Replace Blocks: [1, 5]
-[17:16:21] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[17:16:21] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[17:16:21] [Server thread/INFO]: Cane Growth Modifier: 100%
-[17:16:21] [Server thread/INFO]: Melon Growth Modifier: 100%
-[17:16:21] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[17:16:21] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[17:16:21] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[17:16:21] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[17:16:21] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[17:16:21] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[17:16:21] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[17:16:21] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
-[17:16:21] [Server thread/INFO]: Random Lighting Updates: false
-[17:16:21] [Server thread/INFO]: Structure Info Saving: true
-[17:16:21] [Server thread/INFO]: Sending up to 10 chunks per packet
-[17:16:21] [Server thread/INFO]: Max Entity Collisions: 8
-[17:16:21] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
-[17:16:21] [Server thread/INFO]: Max TNT Explosions: 100
-[17:16:21] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[17:16:21] [Server thread/INFO]: Item Despawn Rate: 6000
-[17:16:21] [Server thread/INFO]: Item Merge Radius: 2.5
-[17:16:21] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[17:16:21] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[17:16:21] [Server thread/INFO]: View Distance: 4
-[17:16:21] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[17:16:21] [Server thread/INFO]: Chunks to Grow per Tick: 650
-[17:16:21] [Server thread/INFO]: Clear tick list: false
-[17:16:21] [Server thread/INFO]: Experience Merge Radius: 3.0
-[17:16:21] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[17:16:21] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
-[17:16:21] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
-[17:16:21] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
-[17:16:21] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
-[17:16:21] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
-[17:16:21] [Server thread/INFO]: Water over lava flow speed: 5
-[17:16:21] [Server thread/INFO]: Fix TNT cannons: false
-[17:16:21] [Server thread/INFO]: Allow undead horse types to be leashed: false
-[17:16:21] [Server thread/INFO]: Keep spawn chunk loaded: true
-[17:16:21] [Server thread/INFO]: World async lighting: false
-[17:16:21] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
-[17:16:21] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
-[17:16:21] [Server thread/INFO]: Preparing start region for level 0 (Seed: 6490716004152131117)
-[17:16:22] [Server thread/INFO]: Preparing spawn area: 46%
-[17:16:22] [Server thread/INFO]: Preparing start region for level 1 (Seed: 3964490407870043622)
-[17:16:23] [Server thread/INFO]: Preparing spawn area: 48%
-[17:16:24] [Server thread/INFO]: Preparing start region for level 2 (Seed: 3964490407870043622)
-[17:16:24] [Server thread/INFO]: [PixelMOTD] Enabling PixelMOTD v9.3.9-SNAPSHOT
-[17:16:24] [Server thread/INFO]: [0;33;1mPixelMOTD | [0;37;1m[0;37;22mFile [0;33;1msettings.yml [0;37;22mhas been loaded[m
+[15:41:15] [Server thread/INFO]: Generating keypair
+[15:41:16] [Server thread/INFO]: Starting Minecraft server on localhost:25565
+[15:41:16] [Server thread/INFO]: Using default channel type
+[15:41:16] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[15:41:16] [Server thread/INFO]: [PixelMOTD] Loading PixelMOTD v9.3.9-SNAPSHOT
+[15:41:16] [Server thread/INFO]: [SimpleTpa] Loading SimpleTpa v6.4
+[15:41:16] [Server thread/INFO]: [SimpleHomes] Loading SimpleHomes v2.2
+[15:41:16] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1;no_git_id
+[15:41:16] [Server thread/INFO]: [TAB] Loading TAB v4.1.4
+[15:41:16] [Server thread/INFO]: [LoginSecurity] Loading LoginSecurity v3.2.0
+[15:41:16] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[15:41:16] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[15:41:16] [Server thread/WARN]: Whilst this makes it possible to use BungeeCord, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
+[15:41:16] [Server thread/WARN]: Please see http://www.spigotmc.org/wiki/firewall-guide/ for further information.
+[15:41:16] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[15:41:16] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[15:41:16] [Server thread/INFO]: Preparing level "world"
+[15:41:16] [Server thread/INFO]: -------- World Settings For [world] --------
+[15:41:16] [Server thread/INFO]: Mob Spawn Range: 4
+[15:41:16] [Server thread/INFO]: Anti X-Ray: true
+[15:41:16] [Server thread/INFO]: 	Engine Mode: 1
+[15:41:16] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[15:41:16] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[15:41:16] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[15:41:16] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[15:41:16] [Server thread/INFO]: Cane Growth Modifier: 100%
+[15:41:16] [Server thread/INFO]: Melon Growth Modifier: 100%
+[15:41:16] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[15:41:16] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[15:41:16] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[15:41:16] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[15:41:16] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[15:41:16] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[15:41:16] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[15:41:16] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[15:41:16] [Server thread/INFO]: Random Lighting Updates: false
+[15:41:16] [Server thread/INFO]: Structure Info Saving: true
+[15:41:16] [Server thread/INFO]: Sending up to 10 chunks per packet
+[15:41:16] [Server thread/INFO]: Max Entity Collisions: 8
+[15:41:16] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[15:41:16] [Server thread/INFO]: Max TNT Explosions: 100
+[15:41:16] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[15:41:16] [Server thread/INFO]: Item Despawn Rate: 6000
+[15:41:16] [Server thread/INFO]: Item Merge Radius: 2.5
+[15:41:16] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[15:41:16] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[15:41:16] [Server thread/INFO]: View Distance: 4
+[15:41:16] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[15:41:16] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[15:41:16] [Server thread/INFO]: Clear tick list: false
+[15:41:16] [Server thread/INFO]: Experience Merge Radius: 3.0
+[15:41:16] [Server thread/INFO]: -------- World Settings For [world] --------
+[15:41:16] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[15:41:16] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[15:41:16] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[15:41:16] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[15:41:16] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[15:41:16] [Server thread/INFO]: Fix TNT cannons: false
+[15:41:16] [Server thread/INFO]: Water over lava flow speed: 5
+[15:41:16] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[15:41:16] [Server thread/INFO]: Keep spawn chunk loaded: true
+[15:41:16] [Server thread/INFO]: World async lighting: false
+[15:41:16] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[15:41:16] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[15:41:16] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[15:41:16] [Server thread/INFO]: Mob Spawn Range: 4
+[15:41:16] [Server thread/INFO]: Anti X-Ray: true
+[15:41:16] [Server thread/INFO]: 	Engine Mode: 1
+[15:41:16] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[15:41:16] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[15:41:16] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[15:41:16] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[15:41:16] [Server thread/INFO]: Cane Growth Modifier: 100%
+[15:41:16] [Server thread/INFO]: Melon Growth Modifier: 100%
+[15:41:16] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[15:41:16] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[15:41:16] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[15:41:16] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[15:41:16] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[15:41:16] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[15:41:16] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[15:41:16] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[15:41:16] [Server thread/INFO]: Random Lighting Updates: false
+[15:41:16] [Server thread/INFO]: Structure Info Saving: true
+[15:41:16] [Server thread/INFO]: Sending up to 10 chunks per packet
+[15:41:16] [Server thread/INFO]: Max Entity Collisions: 8
+[15:41:16] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[15:41:16] [Server thread/INFO]: Max TNT Explosions: 100
+[15:41:16] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[15:41:16] [Server thread/INFO]: Item Despawn Rate: 6000
+[15:41:16] [Server thread/INFO]: Item Merge Radius: 2.5
+[15:41:16] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[15:41:16] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[15:41:16] [Server thread/INFO]: View Distance: 4
+[15:41:16] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[15:41:16] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[15:41:16] [Server thread/INFO]: Clear tick list: false
+[15:41:16] [Server thread/INFO]: Experience Merge Radius: 3.0
+[15:41:16] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[15:41:16] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[15:41:16] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[15:41:16] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[15:41:16] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[15:41:16] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[15:41:16] [Server thread/INFO]: Fix TNT cannons: false
+[15:41:16] [Server thread/INFO]: Water over lava flow speed: 5
+[15:41:16] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[15:41:16] [Server thread/INFO]: Keep spawn chunk loaded: true
+[15:41:16] [Server thread/INFO]: World async lighting: false
+[15:41:16] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[15:41:16] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[15:41:16] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[15:41:16] [Server thread/INFO]: Mob Spawn Range: 4
+[15:41:16] [Server thread/INFO]: Anti X-Ray: true
+[15:41:16] [Server thread/INFO]: 	Engine Mode: 1
+[15:41:16] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[15:41:16] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[15:41:16] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[15:41:16] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[15:41:16] [Server thread/INFO]: Cane Growth Modifier: 100%
+[15:41:16] [Server thread/INFO]: Melon Growth Modifier: 100%
+[15:41:16] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[15:41:16] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[15:41:16] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[15:41:16] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[15:41:16] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[15:41:16] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[15:41:16] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[15:41:16] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[15:41:16] [Server thread/INFO]: Random Lighting Updates: false
+[15:41:16] [Server thread/INFO]: Structure Info Saving: true
+[15:41:16] [Server thread/INFO]: Sending up to 10 chunks per packet
+[15:41:16] [Server thread/INFO]: Max Entity Collisions: 8
+[15:41:16] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[15:41:16] [Server thread/INFO]: Max TNT Explosions: 100
+[15:41:16] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[15:41:16] [Server thread/INFO]: Item Despawn Rate: 6000
+[15:41:16] [Server thread/INFO]: Item Merge Radius: 2.5
+[15:41:16] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[15:41:16] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[15:41:16] [Server thread/INFO]: View Distance: 4
+[15:41:16] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[15:41:16] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[15:41:16] [Server thread/INFO]: Clear tick list: false
+[15:41:16] [Server thread/INFO]: Experience Merge Radius: 3.0
+[15:41:16] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[15:41:16] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[15:41:16] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[15:41:16] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[15:41:16] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[15:41:16] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[15:41:16] [Server thread/INFO]: Fix TNT cannons: false
+[15:41:16] [Server thread/INFO]: Water over lava flow speed: 5
+[15:41:16] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[15:41:16] [Server thread/INFO]: Keep spawn chunk loaded: true
+[15:41:16] [Server thread/INFO]: World async lighting: false
+[15:41:16] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[15:41:16] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[15:41:16] [Server thread/INFO]: Preparing start region for level 0 (Seed: 6490716004152131117)
+[15:41:17] [Server thread/INFO]: Preparing spawn area: 16%
+[15:41:18] [Server thread/INFO]: Preparing spawn area: 63%
+[15:41:19] [Server thread/INFO]: Preparing start region for level 1 (Seed: 3964490407870043622)
+[15:41:20] [Server thread/INFO]: Preparing spawn area: 25%
+[15:41:21] [Server thread/INFO]: Preparing spawn area: 84%
+[15:41:21] [Server thread/INFO]: Preparing start region for level 2 (Seed: 3964490407870043622)
+[15:41:22] [Server thread/INFO]: [PixelMOTD] Enabling PixelMOTD v9.3.9-SNAPSHOT
+[15:41:22] [Server thread/INFO]: [0;33;1mPixelMOTD | [0;37;1m[0;37;22mFile [0;33;1msettings.yml [0;37;22mhas been loaded[m
 
-[17:16:24] [Server thread/INFO]: [0;33;1mPixelMOTD | [0;37;1m[0;37;22mFile [0;33;1msettings.yml [0;37;22mhas been loaded[m
+[15:41:22] [Server thread/INFO]: [0;33;1mPixelMOTD | [0;37;1m[0;37;22mFile [0;33;1msettings.yml [0;37;22mhas been loaded[m
 
-[17:16:24] [Server thread/INFO]: [0;33;1mPixelMOTD | [0;37;1m[0;37;22mFile [0;33;1mcommands.yml [0;37;22mhas been loaded[m
+[15:41:22] [Server thread/INFO]: [0;33;1mPixelMOTD | [0;37;1m[0;37;22mFile [0;33;1mcommands.yml [0;37;22mhas been loaded[m
 
-[17:16:24] [Server thread/INFO]: [0;33;1mPixelMOTD | [0;37;1m[0;37;22mFile [0;33;1msettings.yml [0;37;22mhas been loaded[m
+[15:41:22] [Server thread/INFO]: [0;33;1mPixelMOTD | [0;37;1m[0;37;22mFile [0;33;1msettings.yml [0;37;22mhas been loaded[m
 
-[17:16:24] [Server thread/INFO]: [0;33;1mPixelMOTD | [0;37;1m[0;37;22mFile [0;33;1mevents.yml [0;37;22mhas been loaded[m
+[15:41:22] [Server thread/INFO]: [0;33;1mPixelMOTD | [0;37;1m[0;37;22mFile [0;33;1mevents.yml [0;37;22mhas been loaded[m
 
-[17:16:24] [Server thread/INFO]: [0;33;1mPixelMOTD | [0;37;1m[0;37;1mUpdater has been disabled for now...[m
+[15:41:22] [Server thread/INFO]: [0;33;1mPixelMOTD | [0;37;1m[0;37;1mUpdater has been disabled for now...[m
 
-[17:16:24] [Server thread/INFO]: [0;33;1mPixelMOTD | [0;37;1m[0;37;22mFile [0;33;1men.yml [0;37;22mhas been loaded[m
+[15:41:22] [Server thread/INFO]: [0;33;1mPixelMOTD | [0;37;1m[0;37;22mFile [0;33;1men.yml [0;37;22mhas been loaded[m
 
-[17:16:24] [Server thread/INFO]: [0;33;1mPixelMOTD | [0;37;1mMessages are loaded from Lang files successfully.[m
+[15:41:22] [Server thread/INFO]: [0;33;1mPixelMOTD | [0;37;1mMessages are loaded from Lang files successfully.[m
 
-[17:16:24] [Server thread/INFO]: [0;33;1mPixelMOTD | [0;37;1mLoading icons[m
+[15:41:22] [Server thread/INFO]: [0;33;1mPixelMOTD | [0;37;1mLoading icons[m
 
-[17:16:24] [Server thread/INFO]: [0;33;1mPixelMOTD | [0;37;1m[0;37;22mFile [0;33;1mtwo.yml [0;37;22mhas been loaded[m
+[15:41:22] [Server thread/INFO]: [0;33;1mPixelMOTD | [0;37;1m[0;37;22mFile [0;33;1mtwo.yml [0;37;22mhas been loaded[m
 
-[17:16:24] [Server thread/INFO]: [0;33;1mPixelMOTD | [0;37;1m[0;37;22mFile [0;33;1mthree.yml [0;37;22mhas been loaded[m
+[15:41:22] [Server thread/INFO]: [0;33;1mPixelMOTD | [0;37;1m[0;37;22mFile [0;33;1mthree.yml [0;37;22mhas been loaded[m
 
-[17:16:24] [Server thread/INFO]: [0;33;1mPixelMOTD | [0;37;1m[0;37;22mFile [0;33;1mfive.yml [0;37;22mhas been loaded[m
+[15:41:22] [Server thread/INFO]: [0;33;1mPixelMOTD | [0;37;1m[0;37;22mFile [0;33;1mfive.yml [0;37;22mhas been loaded[m
 
-[17:16:24] [Server thread/INFO]: [0;33;1mPixelMOTD | [0;37;1m[0;37;22mFile [0;33;1mfour.yml [0;37;22mhas been loaded[m
+[15:41:22] [Server thread/INFO]: [0;33;1mPixelMOTD | [0;37;1m[0;37;22mFile [0;33;1mfour.yml [0;37;22mhas been loaded[m
 
-[17:16:24] [Server thread/INFO]: [0;33;1mPixelMOTD | [0;37;1m[0;37;22mFile [0;33;1mone.yml [0;37;22mhas been loaded[m
+[15:41:22] [Server thread/INFO]: [0;33;1mPixelMOTD | [0;37;1m[0;37;22mFile [0;33;1mone.yml [0;37;22mhas been loaded[m
 
-[17:16:24] [Server thread/INFO]: [0;33;1mPixelMOTD | [0;37;1m[0;37;22mFile [0;33;1msix.yml [0;37;22mhas been loaded[m
+[15:41:22] [Server thread/INFO]: [0;33;1mPixelMOTD | [0;37;1m[0;37;22mFile [0;33;1msix.yml [0;37;22mhas been loaded[m
 
-[17:16:24] [Server thread/INFO]: [0;33;1mPixelMOTD | [0;37;1mUsing default motd system from minecraft, disabling some features..[m
+[15:41:22] [Server thread/INFO]: [0;33;1mPixelMOTD | [0;37;1mUsing default motd system from minecraft, disabling some features..[m
 
-[17:16:24] [Server thread/INFO]: [SimpleTpa] Enabling SimpleTpa v6.4
-[17:16:24] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9[m
+[15:41:22] [Server thread/INFO]: [SimpleTpa] Enabling SimpleTpa v6.4
+[15:41:22] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9[m
 
-[17:16:24] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] Simple Tpa has been enabled on version 6.4[m
+[15:41:22] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] Simple Tpa has been enabled on version 6.4[m
 
-[17:16:24] [Server thread/INFO]: Enabled metrics. You may opt-out by changing plugins/bStats/config.yml
-[17:16:24] [Server thread/INFO]: [SimpleHomes] Enabling SimpleHomes v2.2
-[17:16:24] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.1;no_git_id
-[17:16:25] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[17:16:25] [Server thread/INFO]: [WorldEdit] Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_8_R3 as the Bukkit adapter
-[17:16:25] [Server thread/INFO]: [TAB] Enabling TAB v4.1.4
-[17:16:25] [Server thread/INFO]: [TAB] [0;37;22mLoaded NMS hook in 75ms[m
+[15:41:22] [Server thread/INFO]: Enabled metrics. You may opt-out by changing plugins/bStats/config.yml
+[15:41:22] [Server thread/INFO]: [SimpleHomes] Enabling SimpleHomes v2.2
+[15:41:22] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.1;no_git_id
+[15:41:22] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[15:41:22] [Server thread/INFO]: [WorldEdit] Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_8_R3 as the Bukkit adapter
+[15:41:22] [Server thread/INFO]: [TAB] Enabling TAB v4.1.4
+[15:41:23] [Server thread/INFO]: [TAB] [0;37;22mLoaded NMS hook in 98ms[m
 
-[17:16:25] [Server thread/INFO]: [0;31;1m[TAB] [WARN] File plugins/TAB/config.yml has broken syntax.[m
+[15:41:23] [Server thread/INFO]: [TAB] [0;32;1mEnabled in 177ms[m
 
-[17:16:25] [Server thread/INFO]: [TAB] [0;33;22mError message from yaml parser: mapping values are not allowed here
- in 'reader', line 55, column 12:
-        enabled: false
-               ^
-[m
-
-[17:16:25] [Server thread/INFO]: [0;31;1m[TAB] [WARN] Failed to enable. Did you just invent a new way to break the plugin by misconfiguring it?[m
-
-[17:16:25] [Server thread/INFO]: [0;31;1m[TAB] [WARN] java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0[m
-
-[17:16:25] [Server thread/INFO]: [0;31;1m[TAB] [WARN] 	at me.neznamy.tab.libs.me.neznamy.yamlassist.types.BadIndentation.checkForIndent(BadIndentation.java:30)[m
-
-[17:16:25] [Server thread/INFO]: [0;31;1m[TAB] [WARN] 	at me.neznamy.tab.libs.me.neznamy.yamlassist.types.BadIndentation.getSuggestions(BadIndentation.java:17)[m
-
-[17:16:25] [Server thread/INFO]: [0;31;1m[TAB] [WARN] 	at me.neznamy.tab.libs.me.neznamy.yamlassist.YamlAssist.getSuggestions(YamlAssist.java:63)[m
-
-[17:16:25] [Server thread/INFO]: [0;31;1m[TAB] [WARN] 	at me.neznamy.tab.shared.config.file.YamlConfigurationFile.<init>(YamlConfigurationFile.java:61)[m
-
-[17:16:25] [Server thread/INFO]: [0;31;1m[TAB] [WARN] 	at me.neznamy.tab.shared.config.Configs.<init>(Configs.java:31)[m
-
-[17:16:25] [Server thread/INFO]: [0;31;1m[TAB] [WARN] 	at me.neznamy.tab.shared.TAB.load(TAB.java:171)[m
-
-[17:16:25] [Server thread/INFO]: [0;31;1m[TAB] [WARN] 	at me.neznamy.tab.shared.TAB.create(TAB.java:118)[m
-
-[17:16:25] [Server thread/INFO]: [0;31;1m[TAB] [WARN] 	at me.neznamy.tab.platforms.bukkit.BukkitTAB.onEnable(BukkitTAB.java:17)[m
-
-[17:16:25] [Server thread/INFO]: [0;31;1m[TAB] [WARN] 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:321)[m
-
-[17:16:25] [Server thread/INFO]: [0;31;1m[TAB] [WARN] 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:332)[m
-
-[17:16:25] [Server thread/INFO]: [0;31;1m[TAB] [WARN] 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:407)[m
-
-[17:16:25] [Server thread/INFO]: [0;31;1m[TAB] [WARN] 	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.loadPlugin(CraftServer.java:359)[m
-
-[17:16:25] [Server thread/INFO]: [0;31;1m[TAB] [WARN] 	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.enablePlugins(CraftServer.java:318)[m
-
-[17:16:25] [Server thread/INFO]: [0;31;1m[TAB] [WARN] 	at net.minecraft.server.v1_8_R3.MinecraftServer.s(MinecraftServer.java:408)[m
-
-[17:16:25] [Server thread/INFO]: [0;31;1m[TAB] [WARN] 	at net.minecraft.server.v1_8_R3.MinecraftServer.k(MinecraftServer.java:372)[m
-
-[17:16:25] [Server thread/INFO]: [0;31;1m[TAB] [WARN] 	at net.minecraft.server.v1_8_R3.MinecraftServer.a(MinecraftServer.java:327)[m
-
-[17:16:25] [Server thread/INFO]: [0;31;1m[TAB] [WARN] 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:267)[m
-
-[17:16:25] [Server thread/INFO]: [0;31;1m[TAB] [WARN] 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563)[m
-
-[17:16:25] [Server thread/INFO]: [0;31;1m[TAB] [WARN] 	at java.base/java.lang.Thread.run(Thread.java:1583)[m
-
-[17:16:25] [Server thread/INFO]: [LoginSecurity] Enabling LoginSecurity v3.2.0
-[17:16:25] [Server thread/INFO]: [LoginSecurity] Loading base translations from "en_us"
-[17:16:25] [Server thread/INFO]: [LoginSecurity] Loading specified translations from "en_us"
-[17:16:25] [Server thread/INFO]: [LoginSecurity] Registering commands...
-[17:16:25] [Server thread/INFO]: [LoginSecurity] Registering listeners...
-[17:16:25] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[17:16:25] [Server thread/INFO]: Done (4.519s)! For help, type "help" or "?"
-[17:16:25] [Server thread/ERROR]: Couldn't load server icon
+[15:41:23] [Server thread/INFO]: [LoginSecurity] Enabling LoginSecurity v3.2.0
+[15:41:23] [Server thread/INFO]: [LoginSecurity] Loading base translations from "en_us"
+[15:41:23] [Server thread/INFO]: [LoginSecurity] Loading specified translations from "en_us"
+[15:41:23] [Server thread/INFO]: [LoginSecurity] Registering commands...
+[15:41:23] [Server thread/INFO]: [LoginSecurity] Registering listeners...
+[15:41:23] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[15:41:23] [Server thread/INFO]: Done (7.092s)! For help, type "help" or "?"
+[15:41:23] [Server thread/ERROR]: Couldn't load server icon
 java.lang.IllegalStateException: Must be 64 pixels wide
 	at org.apache.commons.lang3.Validate.validState(Validate.java:826) ~[patched_1.8.8.jar:git-PaperSpigot-445]
 	at net.minecraft.server.v1_8_R3.MinecraftServer.a(MinecraftServer.java:678) ~[patched_1.8.8.jar:git-PaperSpigot-445]
 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:569) ~[patched_1.8.8.jar:git-PaperSpigot-445]
 	at java.lang.Thread.run(Thread.java:1583) [?:?]
-[17:16:25] [Server thread/INFO]: Timings Reset
-[17:16:26] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[21m[SimpleTpa] There is a new update available.[m
+[15:41:23] [Server thread/INFO]: Timings Reset
+[15:41:23] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[21m[SimpleTpa] There is a new update available.[m
 
-[17:16:26] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[SimpleTpa] There is a new update available:[m
+[15:41:23] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[SimpleTpa] There is a new update available:[m
 
-[17:16:26] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[SimpleTpa] https://www.spigotmc.org/resources/simple-tpa.64270/[m
+[15:41:23] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[SimpleTpa] https://www.spigotmc.org/resources/simple-tpa.64270/[m
 
-[17:16:30] [Thread-7/INFO]: UUID of player mileswa1q2 is 24d1f12f-57ff-3135-a019-c218d8b2fef1
-[17:16:30] [Server thread/INFO]: mileswa1q2[/[0:0:0:0:0:0:0:1]:55234] logged in with entity id 568 at ([world]-288.50888191061637, 74.73941607231757, 164.30000001192093)
-[17:17:00] [Server thread/INFO]: mileswa1q2 issued server command: /tab
-[17:17:12] [Server thread/INFO]: mileswa1q2 issued server command: /tab reload
-[17:17:12] [Server thread/INFO]: [0;31;1m[TAB] [WARN] File plugins/TAB/config.yml has broken syntax.[m
+[15:42:27] [Thread-7/INFO]: UUID of player Shawg1234_ is 24495573-af6a-33da-8715-50d9dea4a7cd
+[15:42:27] [Server thread/INFO]: Shawg1234_[/[0:0:0:0:0:0:0:1]:50524] logged in with entity id 646 at ([world]-231.5, 70.0, 219.5)
+[15:42:27] [TAB Processing Thread/INFO]: [0;31;1m[TAB] [WARN] Player Shawg1234_'s group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.[m
 
-[17:17:12] [Server thread/INFO]: [TAB] [0;33;22mError message from yaml parser: mapping values are not allowed here
- in 'reader', line 55, column 12:
-        enabled: false
-               ^
-[m
+[15:42:57] [Server thread/INFO]: Shawg1234_ lost connection: Login timed out!
+[15:42:57] [Server thread/INFO]: Shawg1234_ left the game.
+[15:42:57] [Server thread/WARN]: handleDisconnection() called twice
+[15:43:02] [Thread-8/INFO]: UUID of player Shawg1234_ is 24495573-af6a-33da-8715-50d9dea4a7cd
+[15:43:02] [TAB Processing Thread/INFO]: [0;31;1m[TAB] [WARN] Player Shawg1234_'s group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.[m
 
-[17:17:12] [Server thread/INFO]: [0;31;1m[TAB] [WARN] Failed to enable. Did you just invent a new way to break the plugin by misconfiguring it?[m
+[15:43:02] [Server thread/INFO]: Shawg1234_[/[0:0:0:0:0:0:0:1]:57058] logged in with entity id 659 at ([world]-231.04815301970612, 70.0, 219.09642488227837)
+[15:43:05] [Thread-9/INFO]: UUID of player mileswa1q2 is 24d1f12f-57ff-3135-a019-c218d8b2fef1
+[15:43:05] [TAB Processing Thread/INFO]: [0;31;1m[TAB] [WARN] Player mileswa1q2's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.[m
 
-[17:17:12] [Server thread/INFO]: [0;31;1m[TAB] [WARN] java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0[m
+[15:43:05] [Server thread/INFO]: mileswa1q2[/[0:0:0:0:0:0:0:1]:57060] logged in with entity id 665 at ([world]-301.47439516630897, 57.0, 28.525496390784003)
+[15:43:15] [Thread-10/INFO]: UUID of player german is 37318338-23f9-3376-bca6-4bcc543a651f
+[15:43:16] [TAB Processing Thread/INFO]: [0;31;1m[TAB] [WARN] Player german's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.[m
 
-[17:17:12] [Server thread/INFO]: [0;31;1m[TAB] [WARN] 	at me.neznamy.tab.libs.me.neznamy.yamlassist.types.BadIndentation.checkForIndent(BadIndentation.java:30)[m
+[15:43:16] [Server thread/INFO]: german[/[0:0:0:0:0:0:0:1]:39876] logged in with entity id 739 at ([world]-326.9344225956003, 64.0, 21.699999988079067)
+[15:43:23] [Thread-11/INFO]: UUID of player nubbok is ae6dfcb5-57c1-3aa9-bf2f-d5893b26d396
+[15:43:23] [TAB Processing Thread/INFO]: [0;31;1m[TAB] [WARN] Player nubbok's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.[m
 
-[17:17:12] [Server thread/INFO]: [0;31;1m[TAB] [WARN] 	at me.neznamy.tab.libs.me.neznamy.yamlassist.types.BadIndentation.getSuggestions(BadIndentation.java:17)[m
+[15:43:23] [Server thread/INFO]: nubbok[/[0:0:0:0:0:0:0:1]:39882] logged in with entity id 755 at ([world]-282.94552829589315, 63.0, 200.67575756842095)
+[15:43:43] [Server thread/INFO]: Shawg1234_ lost connection: Disconnected
+[15:43:43] [Server thread/INFO]: Shawg1234_ left the game.
+[15:43:46] [Thread-12/INFO]: UUID of player Shawg1234_ is 24495573-af6a-33da-8715-50d9dea4a7cd
+[15:43:46] [TAB Processing Thread/INFO]: [0;31;1m[TAB] [WARN] Player Shawg1234_'s group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.[m
 
-[17:17:12] [Server thread/INFO]: [0;31;1m[TAB] [WARN] 	at me.neznamy.tab.libs.me.neznamy.yamlassist.YamlAssist.getSuggestions(YamlAssist.java:63)[m
+[15:43:46] [Server thread/INFO]: Shawg1234_[/[0:0:0:0:0:0:0:1]:59438] logged in with entity id 832 at ([world]-215.2762327126138, 68.0, 219.12725611216757)
+[15:44:39] [Async Chat Thread - #0/INFO]: <Shawg1234_> woah[m
 
-[17:17:12] [Server thread/INFO]: [0;31;1m[TAB] [WARN] 	at me.neznamy.tab.shared.config.file.YamlConfigurationFile.<init>(YamlConfigurationFile.java:61)[m
+[15:45:24] [Server thread/INFO]: Shawg1234_ was slain by nubbok
+[15:45:27] [Async Chat Thread - #0/INFO]: <nubbok> ez[m
 
-[17:17:12] [Server thread/INFO]: [0;31;1m[TAB] [WARN] 	at me.neznamy.tab.shared.config.Configs.<init>(Configs.java:31)[m
+[15:45:34] [Async Chat Thread - #0/INFO]: <nubbok> that what u get[m
 
-[17:17:12] [Server thread/INFO]: [0;31;1m[TAB] [WARN] 	at me.neznamy.tab.shared.TAB.load(TAB.java:171)[m
+[15:45:36] [Async Chat Thread - #0/INFO]: <Shawg1234_> bro i just started bro[m
 
-[17:17:12] [Server thread/INFO]: [0;31;1m[TAB] [WARN] 	at me.neznamy.tab.shared.command.DisabledCommand.execute(DisabledCommand.java:30)[m
+[15:45:42] [Async Chat Thread - #0/INFO]: <nubbok> fine[m
 
-[17:17:12] [Server thread/INFO]: [0;31;1m[TAB] [WARN] 	at me.neznamy.tab.platforms.bukkit.BukkitTabCommand.onCommand(BukkitTabCommand.java:25)[m
+[15:45:45] [Async Chat Thread - #0/INFO]: <nubbok> who r u[m
 
-[17:17:12] [Server thread/INFO]: [0;31;1m[TAB] [WARN] 	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45)[m
+[15:45:52] [Async Chat Thread - #0/INFO]: <nubbok> im chokden[m
 
-[17:17:12] [Server thread/INFO]: [0;31;1m[TAB] [WARN] 	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:146)[m
+[15:45:53] [Async Chat Thread - #0/INFO]: <Shawg1234_> who are you?[m
 
-[17:17:12] [Server thread/INFO]: [0;31;1m[TAB] [WARN] 	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.dispatchCommand(CraftServer.java:666)[m
+[15:46:02] [Async Chat Thread - #0/INFO]: <Shawg1234_> im jorge[m
 
-[17:17:12] [Server thread/INFO]: [0;31;1m[TAB] [WARN] 	at net.minecraft.server.v1_8_R3.PlayerConnection.handleCommand(PlayerConnection.java:1189)[m
+[15:46:05] [Async Chat Thread - #0/INFO]: <nubbok> og[m
 
-[17:17:12] [Server thread/INFO]: [0;31;1m[TAB] [WARN] 	at net.minecraft.server.v1_8_R3.PlayerConnection.a(PlayerConnection.java:1001)[m
+[15:46:08] [Async Chat Thread - #0/INFO]: <nubbok> come[m
 
-[17:17:12] [Server thread/INFO]: [0;31;1m[TAB] [WARN] 	at net.minecraft.server.v1_8_R3.PacketPlayInChat.a(PacketPlayInChat.java:45)[m
+[15:46:11] [Server thread/INFO]: Shawg1234_ issued server command: /e
+[15:46:20] [Async Chat Thread - #0/INFO]: <nubbok> we gonna raid charyangs house[m
 
-[17:17:12] [Server thread/INFO]: [0;31;1m[TAB] [WARN] 	at net.minecraft.server.v1_8_R3.PacketPlayInChat.a(PacketPlayInChat.java:1)[m
+[15:46:22] [Async Chat Thread - #0/INFO]: <Shawg1234_> \[m
 
-[17:17:12] [Server thread/INFO]: [0;31;1m[TAB] [WARN] 	at net.minecraft.server.v1_8_R3.PlayerConnectionUtils$1.run(SourceFile:13)[m
+[15:46:28] [Async Chat Thread - #0/INFO]: <Shawg1234_> bey[m
 
-[17:17:12] [Server thread/INFO]: [0;31;1m[TAB] [WARN] 	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)[m
+[15:46:30] [Server thread/INFO]: Shawg1234_ issued server command: /bet
+[15:46:32] [Async Chat Thread - #0/INFO]: <Shawg1234_> bet[m
 
-[17:17:12] [Server thread/INFO]: [0;31;1m[TAB] [WARN] 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)[m
+[15:46:48] [Server thread/INFO]: german lost connection: Disconnected
+[15:46:48] [Server thread/INFO]: german left the game.
+[15:47:06] [Server thread/WARN]: Shawg1234_ moved wrongly!
+[15:47:22] [Thread-14/INFO]: UUID of player german is 37318338-23f9-3376-bca6-4bcc543a651f
+[15:47:22] [TAB Processing Thread/INFO]: [0;31;1m[TAB] [WARN] Player german's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.[m
 
-[17:17:12] [Server thread/INFO]: [0;31;1m[TAB] [WARN] 	at net.minecraft.server.v1_8_R3.SystemUtils.a(SourceFile:44)[m
+[15:47:22] [Server thread/INFO]: german[/[0:0:0:0:0:0:0:1]:55596] logged in with entity id 1279 at ([world]-368.69999998807907, 63.0, 36.75288927257093)
+[15:47:26] [Async Chat Thread - #0/INFO]: <nubbok> i got to die real quich[m
 
-[17:17:12] [Server thread/INFO]: [0;31;1m[TAB] [WARN] 	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:774)[m
+[15:47:30] [Server thread/INFO]: nubbok drowned
+[15:47:54] [Server thread/INFO]: nubbok issued server command: /back
+[15:47:55] [Thread-15/INFO]: UUID of player 9810 is b5c13ecc-34ff-3fb7-9e3b-479f83904969
+[15:47:55] [TAB Processing Thread/INFO]: [0;31;1m[TAB] [WARN] Player 9810's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.[m
 
-[17:17:12] [Server thread/INFO]: [0;31;1m[TAB] [WARN] 	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378)[m
+[15:47:55] [Server thread/INFO]: 9810[/[0:0:0:0:0:0:0:1]:57806] logged in with entity id 1385 at ([world]-272.62377865335117, 68.0, 160.30000001192093)
+[15:47:57] [Thread-16/INFO]: UUID of player sowrdsmithsoren5 is d05d5a39-cf40-3b2d-b5dc-3b8e2c6bb6a6
+[15:47:57] [Server thread/INFO]: sowrdsmithsoren5[/[0:0:0:0:0:0:0:1]:46336] logged in with entity id 1426 at ([world]-308.409516224464, 60.0, 26.67073970162542)
+[15:47:57] [TAB Processing Thread/INFO]: [0;31;1m[TAB] [WARN] Player sowrdsmithsoren5's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.[m
 
-[17:17:12] [Server thread/INFO]: [0;31;1m[TAB] [WARN] 	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713)[m
+[15:48:03] [Async Chat Thread - #0/INFO]: <nubbok> give me my stuff[m
 
-[17:17:12] [Server thread/INFO]: [0;31;1m[TAB] [WARN] 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616)[m
+[15:48:08] [Server thread/INFO]: Shawg1234_ has just earned the achievement [Taking Inventory]
+[15:48:17] [Async Chat Thread - #0/INFO]: <nubbok> all of it[m
 
-[17:17:12] [Server thread/INFO]: [0;31;1m[TAB] [WARN] 	at java.base/java.lang.Thread.run(Thread.java:1583)[m
+[15:48:22] [Async Chat Thread - #0/INFO]: <mileswa1q2> we or movie com with me[m
 
-[17:17:45] [Server thread/INFO]: mileswa1q2 issued server command: /tab reload
-[17:17:46] [Server thread/INFO]: [0;31;1m[TAB] [WARN] Player mileswa1q2's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.[m
+[15:48:25] [Async Chat Thread - #0/INFO]: <nubbok> i mean mine[m
 
-[17:17:46] [Server thread/INFO]: [TAB] [0;32;1mEnabled in 215ms[m
+[15:48:42] [Server thread/INFO]: 9810 lost connection: Disconnected
+[15:48:43] [Server thread/INFO]: 9810 left the game.
+[15:48:48] [Thread-17/INFO]: UUID of player UR_A_FAULAIR_ is 1eeb9ff0-794a-3ac1-b090-78cb8fb41335
+[15:48:48] [TAB Processing Thread/INFO]: [0;31;1m[TAB] [WARN] Player UR_A_FAULAIR_'s group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.[m
 
-[17:17:52] [Server thread/INFO]: mileswa1q2 issued server command: /tab
-[17:18:30] [Server thread/INFO]: mileswa1q2 issued server command: /tab groups add
-[17:18:38] [Async Chat Thread - #0/INFO]: <mileswa1q2> add[m
+[15:48:48] [Server thread/INFO]: UR_A_FAULAIR_[/[0:0:0:0:0:0:0:1]:49082] logged in with entity id 1673 at ([world]-263.77220517911536, 25.0, 118.27816399954246)
+[15:48:53] [Server thread/INFO]: german lost connection: Disconnected
+[15:48:53] [Server thread/INFO]: german left the game.
+[15:48:53] [Async Chat Thread - #0/INFO]: <sowrdsmithsoren5> miles what happened[m
 
-[17:18:45] [Server thread/INFO]: mileswa1q2 issued server command: /tab add
-[17:19:04] [Server thread/INFO]: mileswa1q2 issued server command: /tab announce bar
-[17:19:07] [Server thread/INFO]: mileswa1q2 issued server command: /tab announce bar
-[17:19:35] [Thread-8/INFO]: UUID of player german is 37318338-23f9-3376-bca6-4bcc543a651f
-[17:19:35] [TAB Processing Thread/INFO]: [0;31;1m[TAB] [WARN] Player german's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.[m
+[15:48:55] [Async Chat Thread - #0/INFO]: <nubbok> come[m
 
-[17:19:35] [Server thread/INFO]: german[/[0:0:0:0:0:0:0:1]:37680] logged in with entity id 686 at ([world]-300.76399692804665, 67.0, 206.61917873468707)
-[17:19:36] [Server thread/INFO]: mileswa1q2 issued server command: /tab parse mileswa1q2 kool prsen
-[17:19:41] [Async Chat Thread - #1/INFO]: <mileswa1q2> t[m
+[15:49:07] [Async Chat Thread - #0/INFO]: <nubbok> stop[m
 
-[17:19:48] [Thread-9/INFO]: UUID of player ElleganceEaston is e355c365-81d0-3180-b6d1-593829850e57
-[17:19:48] [Server thread/INFO]: ElleganceEaston[/[0:0:0:0:0:0:0:1]:35070] logged in with entity id 690 at ([world]-224.5, 68.0, 225.5)
-[17:19:48] [TAB Processing Thread/INFO]: [0;31;1m[TAB] [WARN] Player ElleganceEaston's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.[m
+[15:49:18] [Server thread/INFO]: UR_A_FAULAIR_ tried to swim in lava
+[15:49:19] [Async Chat Thread - #0/INFO]: <nubbok> come[m
 
-[17:19:54] [Server thread/INFO]: mileswa1q2 issued server command: /tab parse mileswa1q2 admin
-[17:19:56] [Thread-10/INFO]: UUID of player literalyultraman is def825bd-d70c-36f5-831b-28f4b37fdb0f
-[17:19:56] [TAB Processing Thread/INFO]: [0;31;1m[TAB] [WARN] Player literalyultraman's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.[m
+[15:49:22] [Async Chat Thread - #0/INFO]: <mileswa1q2> it got radeid and i tokm the rest ov the stiuf i em making a new bass for us[m
 
-[17:19:56] [Server thread/INFO]: literalyultraman[/[0:0:0:0:0:0:0:1]:35072] logged in with entity id 720 at ([world]-181.69999998807907, 54.0, 117.30000001192097)
-[17:20:32] [Thread-11/INFO]: UUID of player UR_A_FAULAIR_ is 1eeb9ff0-794a-3ac1-b090-78cb8fb41335
-[17:20:33] [Server thread/INFO]: UR_A_FAULAIR_[/[0:0:0:0:0:0:0:1]:40044] logged in with entity id 823 at ([world]-213.45679030833716, 66.0, 226.5582838420956)
-[17:20:33] [TAB Processing Thread/INFO]: [0;31;1m[TAB] [WARN] Player UR_A_FAULAIR_'s group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.[m
+[15:49:40] [Async Chat Thread - #0/INFO]: <nubbok> come[m
 
-[17:20:43] [Server thread/INFO]: mileswa1q2 issued server command: /tab nametag preview
-[17:20:48] [Thread-12/INFO]: UUID of player Innocentjhh is fbe9c512-a580-3054-b978-6e242a4e42b0
-[17:20:48] [TAB Processing Thread/INFO]: [0;31;1m[TAB] [WARN] Player Innocentjhh's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.[m
+[15:49:49] [Server thread/INFO]: Shawg1234_ issued server command: /wait
+[15:49:53] [Async Chat Thread - #0/INFO]: <Shawg1234_> wait[m
 
-[17:20:48] [Server thread/INFO]: Innocentjhh[/[0:0:0:0:0:0:0:1]:43892] logged in with entity id 850 at ([world]-270.2807568101564, 61.75387387605112, 99.49092570050794)
-[17:20:51] [Thread-13/INFO]: UUID of player oliver_is_cool__ is a395d75a-a0a6-3dff-b84e-3fb8b4ca353b
-[17:20:51] [Server thread/INFO]: oliver_is_cool__[/[0:0:0:0:0:0:0:1]:43904] logged in with entity id 867 at ([world]-176.30000001192093, 51.41999998688698, 125.69999998807906)
-[17:20:51] [TAB Processing Thread/INFO]: [0;31;1m[TAB] [WARN] Player oliver_is_cool__'s group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.[m
+[15:49:58] [Server thread/INFO]: Shawg1234_ was slain by nubbok
+[15:50:04] [Server thread/INFO]: UR_A_FAULAIR_ was slain by nubbok
+[15:50:06] [Thread-18/INFO]: UUID of player literalyultraman is def825bd-d70c-36f5-831b-28f4b37fdb0f
+[15:50:06] [TAB Processing Thread/INFO]: [0;31;1m[TAB] [WARN] Player literalyultraman's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.[m
 
-[17:20:52] [Thread-14/INFO]: UUID of player Jack23 is 4bf92215-7b1a-382f-8bf6-e2c8c1bd3d23
-[17:20:53] [TAB Processing Thread/INFO]: [0;31;1m[TAB] [WARN] Player Jack23's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.[m
+[15:50:06] [Server thread/INFO]: literalyultraman[/[0:0:0:0:0:0:0:1]:40026] logged in with entity id 2041 at ([world]-293.30000001192093, 81.0, 152.50656764465154)
+[15:50:31] [Thread-19/INFO]: UUID of player german is 37318338-23f9-3376-bca6-4bcc543a651f
+[15:50:31] [TAB Processing Thread/INFO]: [0;31;1m[TAB] [WARN] Player german's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.[m
 
-[17:20:53] [Server thread/INFO]: Jack23[/[0:0:0:0:0:0:0:1]:43920] logged in with entity id 877 at ([world]-528.3000000119209, 28.0, 232.30000001192093)
-[17:20:56] [Server thread/INFO]: UR_A_FAULAIR_ has just earned the achievement [Taking Inventory]
-[17:21:00] [Server thread/INFO]: mileswa1q2 issued server command: /tab nametag preview
-[17:21:27] [Server thread/INFO]: mileswa1q2 issued server command: /tab nametag preview
-[17:21:32] [Server thread/INFO]: mileswa1q2 issued server command: /tab nametag preview
-[17:21:35] [Server thread/INFO]: literalyultraman was slain by oliver_is_cool__
-[17:21:39] [Server thread/INFO]: mileswa1q2 issued server command: /tab reload
-[17:21:39] [Server thread/INFO]: [TAB] [0;32;1mDisabled in 14ms[m
+[15:50:31] [Server thread/INFO]: german[/[0:0:0:0:0:0:0:1]:43758] logged in with entity id 2187 at ([world]-380.379086075915, 63.0, 22.587259241258025)
+[15:50:32] [Server thread/INFO]: sowrdsmithsoren5 issued server command: /tpa milesw1q2
+[15:50:39] [Server thread/INFO]: german lost connection: Disconnected
+[15:50:39] [Server thread/INFO]: german left the game.
+[15:50:57] [Async Chat Thread - #1/INFO]: <Shawg1234_> nahhh[m
 
-[17:21:39] [Server thread/INFO]: [0;31;1m[TAB] [WARN] File plugins/TAB/config.yml has broken syntax.[m
+[15:51:02] [Async Chat Thread - #1/INFO]: <Shawg1234_> bro why[m
 
-[17:21:39] [Server thread/INFO]: [TAB] [0;33;22mError message from yaml parser: mapping values are not allowed here
- in 'reader', line 55, column 12:
-        enabled: false
-               ^
-[m
+[15:51:11] [Async Chat Thread - #1/INFO]: <Shawg1234_> hi[m
 
-[17:21:39] [Server thread/INFO]: [0;31;1m[TAB] [WARN] Failed to enable. Did you just invent a new way to break the plugin by misconfiguring it?[m
+[15:51:25] [Async Chat Thread - #1/INFO]: <nubbok> jorge[m
 
-[17:21:39] [Server thread/INFO]: [0;31;1m[TAB] [WARN] java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0[m
+[15:51:27] [Async Chat Thread - #1/INFO]: <Shawg1234_> what[m
 
-[17:21:39] [Server thread/INFO]: [0;31;1m[TAB] [WARN] 	at me.neznamy.tab.libs.me.neznamy.yamlassist.types.BadIndentation.checkForIndent(BadIndentation.java:30)[m
+[15:51:30] [Async Chat Thread - #1/INFO]: <nubbok> come[m
 
-[17:21:39] [Server thread/INFO]: [0;31;1m[TAB] [WARN] 	at me.neznamy.tab.libs.me.neznamy.yamlassist.types.BadIndentation.getSuggestions(BadIndentation.java:17)[m
+[15:51:31] [Async Chat Thread - #1/INFO]: <Shawg1234_> wya[m
 
-[17:21:39] [Server thread/INFO]: [0;31;1m[TAB] [WARN] 	at me.neznamy.tab.libs.me.neznamy.yamlassist.YamlAssist.getSuggestions(YamlAssist.java:63)[m
+[15:51:37] [Async Chat Thread - #1/INFO]: <nubbok> wait[m
 
-[17:21:39] [Server thread/INFO]: [0;31;1m[TAB] [WARN] 	at me.neznamy.tab.shared.config.file.YamlConfigurationFile.<init>(YamlConfigurationFile.java:61)[m
+[15:51:42] [Async Chat Thread - #1/INFO]: <sowrdsmithsoren5> miles were are you[m
 
-[17:21:39] [Server thread/INFO]: [0;31;1m[TAB] [WARN] 	at me.neznamy.tab.shared.config.Configs.<init>(Configs.java:31)[m
+[15:51:44] [Server thread/INFO]: UR_A_FAULAIR_ has just earned the achievement [Getting Wood]
+[15:51:55] [Async Chat Thread - #1/INFO]: <nubbok> come[m
 
-[17:21:39] [Server thread/INFO]: [0;31;1m[TAB] [WARN] 	at me.neznamy.tab.shared.TAB.load(TAB.java:171)[m
+[15:52:32] [Server thread/INFO]: Shawg1234_ issued server command: /yoo
+[15:52:34] [Async Chat Thread - #1/INFO]: <Shawg1234_> yoo[m
 
-[17:21:39] [Server thread/INFO]: [0;31;1m[TAB] [WARN] 	at me.neznamy.tab.shared.command.ReloadCommand.execute(ReloadCommand.java:24)[m
+[15:52:40] [Async Chat Thread - #1/INFO]: <Shawg1234_> lemme make a boat[m
 
-[17:21:39] [Server thread/INFO]: [0;31;1m[TAB] [WARN] 	at me.neznamy.tab.shared.command.TabCommand.execute(TabCommand.java:52)[m
+[15:52:40] [Async Chat Thread - #1/INFO]: <nubbok> i got to go[m
 
-[17:21:39] [Server thread/INFO]: [0;31;1m[TAB] [WARN] 	at me.neznamy.tab.platforms.bukkit.BukkitTabCommand.onCommand(BukkitTabCommand.java:34)[m
+[15:52:50] [Async Chat Thread - #1/INFO]: <nubbok> lunch[m
 
-[17:21:39] [Server thread/INFO]: [0;31;1m[TAB] [WARN] 	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45)[m
+[15:52:51] [Async Chat Thread - #1/INFO]: <Shawg1234_> nahh[m
 
-[17:21:39] [Server thread/INFO]: [0;31;1m[TAB] [WARN] 	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:146)[m
+[15:52:58] [Async Chat Thread - #1/INFO]: <Shawg1234_> bro[m
 
-[17:21:39] [Server thread/INFO]: [0;31;1m[TAB] [WARN] 	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.dispatchCommand(CraftServer.java:666)[m
+[15:53:04] [Async Chat Thread - #1/INFO]: <Shawg1234_> we have like 20 min left[m
 
-[17:21:39] [Server thread/INFO]: [0;31;1m[TAB] [WARN] 	at net.minecraft.server.v1_8_R3.PlayerConnection.handleCommand(PlayerConnection.java:1189)[m
+[15:53:55] [Server thread/INFO]: Shawg1234_ lost connection: Disconnected
+[15:53:55] [Server thread/INFO]: Shawg1234_ left the game.
+[15:53:58] [Thread-20/INFO]: UUID of player ghost is 2b6c795d-6b4b-373c-bbf0-2a727527e75d
+[15:53:58] [TAB Processing Thread/INFO]: [0;31;1m[TAB] [WARN] Player ghost's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.[m
 
-[17:21:39] [Server thread/INFO]: [0;31;1m[TAB] [WARN] 	at net.minecraft.server.v1_8_R3.PlayerConnection.a(PlayerConnection.java:1001)[m
+[15:53:58] [Server thread/INFO]: ghost[/[0:0:0:0:0:0:0:1]:33738] logged in with entity id 3472 at ([world]-15.300000011920929, 11.0, 490.2891226244089)
+[15:54:04] [Thread-21/INFO]: UUID of player Shawg1234_ is 24495573-af6a-33da-8715-50d9dea4a7cd
+[15:54:04] [TAB Processing Thread/INFO]: [0;31;1m[TAB] [WARN] Player Shawg1234_'s group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.[m
 
-[17:21:39] [Server thread/INFO]: [0;31;1m[TAB] [WARN] 	at net.minecraft.server.v1_8_R3.PacketPlayInChat.a(PacketPlayInChat.java:45)[m
+[15:54:04] [Server thread/INFO]: Shawg1234_[/[0:0:0:0:0:0:0:1]:33742] logged in with entity id 3661 at ([world]-216.92975766297903, 66.0, 228.16298112796466)
+[15:54:11] [Server thread/INFO]: UR_A_FAULAIR_ lost connection: Disconnected
+[15:54:11] [Server thread/INFO]: UR_A_FAULAIR_ left the game.
+[15:54:28] [Server thread/INFO]: nubbok lost connection: Disconnected
+[15:54:28] [Server thread/INFO]: nubbok left the game.
+[15:54:34] [Thread-22/INFO]: UUID of player EaglerYee667____ is 46162bb0-084b-3cfd-bf25-bcebd227f994
+[15:54:34] [Server thread/INFO]: EaglerYee667____[/[0:0:0:0:0:0:0:1]:59488] logged in with entity id 3828 at ([world]-298.62154555685663, 76.23746137480084, 187.4468229270365)
+[15:54:34] [TAB Processing Thread/INFO]: [0;31;1m[TAB] [WARN] Player EaglerYee667____'s group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.[m
 
-[17:21:39] [Server thread/INFO]: [0;31;1m[TAB] [WARN] 	at net.minecraft.server.v1_8_R3.PacketPlayInChat.a(PacketPlayInChat.java:1)[m
+[15:54:44] [Thread-23/INFO]: UUID of player UR_A_FAULAIR_ is 1eeb9ff0-794a-3ac1-b090-78cb8fb41335
+[15:54:44] [Server thread/INFO]: UR_A_FAULAIR_[/[0:0:0:0:0:0:0:1]:56618] logged in with entity id 3891 at ([world]-307.5502167485898, 71.0, 148.61462890147902)
+[15:54:44] [TAB Processing Thread/INFO]: [0;31;1m[TAB] [WARN] Player UR_A_FAULAIR_'s group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.[m
 
-[17:21:39] [Server thread/INFO]: [0;31;1m[TAB] [WARN] 	at net.minecraft.server.v1_8_R3.PlayerConnectionUtils$1.run(SourceFile:13)[m
+[15:54:47] [Server thread/INFO]: ghost lost connection: Disconnected
+[15:54:47] [Server thread/INFO]: ghost left the game.
+[15:55:15] [Async Chat Thread - #2/INFO]: <EaglerYee667____> soren[m
 
-[17:21:39] [Server thread/INFO]: [0;31;1m[TAB] [WARN] 	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)[m
+[15:55:27] [Async Chat Thread - #2/INFO]: <sowrdsmithsoren5> what[m
 
-[17:21:39] [Server thread/INFO]: [0;31;1m[TAB] [WARN] 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)[m
+[15:55:42] [Async Chat Thread - #2/INFO]: <sowrdsmithsoren5> arebasegot raided[m
 
-[17:21:39] [Server thread/INFO]: [0;31;1m[TAB] [WARN] 	at net.minecraft.server.v1_8_R3.SystemUtils.a(SourceFile:44)[m
+[15:55:45] [Async Chat Thread - #2/INFO]: <EaglerYee667____> robert killed me and took my stuff[m
 
-[17:21:39] [Server thread/INFO]: [0;31;1m[TAB] [WARN] 	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:774)[m
+[15:55:50] [Async Chat Thread - #2/INFO]: <Shawg1234_> womp womp[m
 
-[17:21:39] [Server thread/INFO]: [0;31;1m[TAB] [WARN] 	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378)[m
+[15:56:04] [Async Chat Thread - #2/INFO]: <sowrdsmithsoren5> he probley did not khow who you are[m
 
-[17:21:39] [Server thread/INFO]: [0;31;1m[TAB] [WARN] 	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713)[m
+[15:56:14] [Async Chat Thread - #2/INFO]: <EaglerYee667____> who tf are you shawg[m
 
-[17:21:39] [Server thread/INFO]: [0;31;1m[TAB] [WARN] 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616)[m
+[15:56:34] [Async Chat Thread - #2/INFO]: <Shawg1234_> who are you?[m
 
-[17:21:39] [Server thread/INFO]: [0;31;1m[TAB] [WARN] 	at java.base/java.lang.Thread.run(Thread.java:1583)[m
+[15:56:42] [Async Chat Thread - #2/INFO]: <EaglerYee667____> i asked first[m
 
-[17:21:42] [Server thread/INFO]: Innocentjhh was blown up by Creeper
-[17:21:44] [Thread-16/INFO]: UUID of player EDP444 is 7f4c4ca8-2e74-3a67-82e5-719a8e99ca91
-[17:21:44] [Server thread/INFO]: EDP444[/[0:0:0:0:0:0:0:1]:54912] logged in with entity id 1138 at ([world]-254.66117900433585, 69.0, -0.2165221256205441)
-[17:21:48] [Server thread/INFO]: Innocentjhh issued server command: /back
-[17:22:00] [Thread-17/INFO]: UUID of player Mrtrump123 is e3f218f8-b4c2-3c0a-840d-ab54f69cc13f
-[17:22:00] [Server thread/INFO]: Mrtrump123[/[0:0:0:0:0:0:0:1]:51616] logged in with entity id 1234 at ([world]-540.9346879906823, 135.0, 264.75179760469496)
-[17:22:02] [Thread-18/INFO]: UUID of player 9810 is b5c13ecc-34ff-3fb7-9e3b-479f83904969
-[17:22:02] [Server thread/INFO]: 9810[/[0:0:0:0:0:0:0:1]:51622] logged in with entity id 1273 at ([world]-308.48602272880146, 56.11199999707937, 198.61521797876193)
-[17:22:05] [Server thread/INFO]: mileswa1q2 issued server command: /tab
-[17:22:15] [Server thread/INFO]: mileswa1q2 issued server command: /tab reload
-[17:22:15] [Server thread/INFO]: [0;31;1m[TAB] [WARN] File plugins/TAB/config.yml has broken syntax.[m
+[15:56:44] [Thread-24/INFO]: UUID of player nubbok is ae6dfcb5-57c1-3aa9-bf2f-d5893b26d396
+[15:56:44] [TAB Processing Thread/INFO]: [0;31;1m[TAB] [WARN] Player nubbok's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.[m
 
-[17:22:15] [Server thread/INFO]: [TAB] [0;33;22mError message from yaml parser: while scanning a simple key
- in 'reader', line 54, column 3:
-      unlimited-nametag-mode:true
-      ^
-could not find expected ':'
- in 'reader', line 55, column 12:
-        enabled: false
-               ^
-[m
+[15:56:44] [Server thread/INFO]: nubbok[/[0:0:0:0:0:0:0:1]:54350] logged in with entity id 4216 at ([world]55.1513975507828, 62.26319032581432, 222.9752667547327)
+[15:56:45] [Server thread/INFO]: mileswa1q2 issued server command: /gamemode c
+[15:56:45] [Server thread/INFO]: [mileswa1q2: Set own game mode to Creative Mode]
+[15:56:58] [Server thread/INFO]: nubbok lost connection: Disconnected
+[15:56:58] [Server thread/INFO]: nubbok left the game.
+[15:57:03] [Async Chat Thread - #2/INFO]: <sowrdsmithsoren5> mile avion and griffn are going to make a lag machine[m
 
-[17:22:15] [Server thread/INFO]: [0;31;1m[TAB] [WARN] Failed to enable. Did you just invent a new way to break the plugin by misconfiguring it?[m
+[15:57:38] [Server thread/INFO]: literalyultraman was slain by EaglerYee667____
+[15:57:39] [Server thread/INFO]: sowrdsmithsoren5 issued server command: /tpa mileswa1q2
+[15:57:58] [Async Chat Thread - #2/INFO]: <EaglerYee667____> soren tp me[m
 
-[17:22:15] [Server thread/INFO]: [0;31;1m[TAB] [WARN] java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0[m
+[15:58:08] [Server thread/INFO]: mileswa1q2 issued server command: /tpahere EaglerYee667____
+[15:58:12] [Thread-25/INFO]: UUID of player german is 37318338-23f9-3376-bca6-4bcc543a651f
+[15:58:12] [TAB Processing Thread/INFO]: [0;31;1m[TAB] [WARN] Player german's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.[m
 
-[17:22:15] [Server thread/INFO]: [0;31;1m[TAB] [WARN] 	at me.neznamy.tab.libs.me.neznamy.yamlassist.types.BadIndentation.checkForIndent(BadIndentation.java:30)[m
+[15:58:12] [Server thread/INFO]: german[/[0:0:0:0:0:0:0:1]:37294] logged in with entity id 4459 at ([world]-380.379086075915, 63.0, 22.587259241258025)
+[15:58:19] [Server thread/INFO]: EaglerYee667____ issued server command: /tpaccept
+[15:58:39] [Async Chat Thread - #2/INFO]: <Shawg1234_> bro my chromebook lagging out like crap[m
 
-[17:22:15] [Server thread/INFO]: [0;31;1m[TAB] [WARN] 	at me.neznamy.tab.libs.me.neznamy.yamlassist.types.BadIndentation.getSuggestions(BadIndentation.java:17)[m
+[15:58:56] [Server thread/INFO]: german lost connection: Disconnected
+[15:58:56] [Server thread/INFO]: german left the game.
+[15:59:06] [Async Chat Thread - #2/INFO]: <sowrdsmithsoren5> no[m
 
-[17:22:15] [Server thread/INFO]: [0;31;1m[TAB] [WARN] 	at me.neznamy.tab.libs.me.neznamy.yamlassist.YamlAssist.getSuggestions(YamlAssist.java:63)[m
+[15:59:15] [Async Chat Thread - #2/INFO]: <EaglerYee667____> why[m
 
-[17:22:15] [Server thread/INFO]: [0;31;1m[TAB] [WARN] 	at me.neznamy.tab.shared.config.file.YamlConfigurationFile.<init>(YamlConfigurationFile.java:61)[m
+[15:59:23] [Server thread/INFO]: Shawg1234_ lost connection: Disconnected
+[15:59:23] [Server thread/INFO]: Shawg1234_ left the game.
+[15:59:26] [Async Chat Thread - #2/INFO]: <sowrdsmithsoren5> why what[m
 
-[17:22:15] [Server thread/INFO]: [0;31;1m[TAB] [WARN] 	at me.neznamy.tab.shared.config.Configs.<init>(Configs.java:31)[m
+[15:59:26] [Thread-26/INFO]: UUID of player Shawg1234_ is 24495573-af6a-33da-8715-50d9dea4a7cd
+[15:59:26] [Server thread/INFO]: Shawg1234_[/[0:0:0:0:0:0:0:1]:53028] logged in with entity id 4702 at ([world]-232.8628342184714, 71.0, 222.673740065977)
+[15:59:26] [TAB Processing Thread/INFO]: [0;31;1m[TAB] [WARN] Player Shawg1234_'s group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.[m
 
-[17:22:15] [Server thread/INFO]: [0;31;1m[TAB] [WARN] 	at me.neznamy.tab.shared.TAB.load(TAB.java:171)[m
+[15:59:39] [Async Chat Thread - #2/INFO]: <EaglerYee667____> why will you not tp me[m
 
-[17:22:15] [Server thread/INFO]: [0;31;1m[TAB] [WARN] 	at me.neznamy.tab.shared.command.DisabledCommand.execute(DisabledCommand.java:30)[m
+[15:59:46] [Async Chat Thread - #2/INFO]: <sowrdsmithsoren5> i cant[m
 
-[17:22:15] [Server thread/INFO]: [0;31;1m[TAB] [WARN] 	at me.neznamy.tab.platforms.bukkit.BukkitTabCommand.onCommand(BukkitTabCommand.java:25)[m
+[15:59:52] [Async Chat Thread - #2/INFO]: <mileswa1q2> this is or new bass[m
 
-[17:22:15] [Server thread/INFO]: [0;31;1m[TAB] [WARN] 	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45)[m
+[15:59:54] [Async Chat Thread - #2/INFO]: <EaglerYee667____> oh[m
 
-[17:22:15] [Server thread/INFO]: [0;31;1m[TAB] [WARN] 	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:146)[m
+[16:00:09] [Async Chat Thread - #2/INFO]: <EaglerYee667____> then where is soren[m
 
-[17:22:15] [Server thread/INFO]: [0;31;1m[TAB] [WARN] 	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.dispatchCommand(CraftServer.java:666)[m
+[16:00:40] [Thread-27/INFO]: UUID of player 9810 is b5c13ecc-34ff-3fb7-9e3b-479f83904969
+[16:00:40] [TAB Processing Thread/INFO]: [0;31;1m[TAB] [WARN] Player 9810's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.[m
 
-[17:22:15] [Server thread/INFO]: [0;31;1m[TAB] [WARN] 	at net.minecraft.server.v1_8_R3.PlayerConnection.handleCommand(PlayerConnection.java:1189)[m
+[16:00:40] [Server thread/INFO]: 9810[/[0:0:0:0:0:0:0:1]:57600] logged in with entity id 5177 at ([world]-266.82581366038755, 67.0, 166.30000001192093)
+[16:00:44] [Async Chat Thread - #2/INFO]: <EaglerYee667____> miles i need my stuff back so i can get you all more coal[m
 
-[17:22:15] [Server thread/INFO]: [0;31;1m[TAB] [WARN] 	at net.minecraft.server.v1_8_R3.PlayerConnection.a(PlayerConnection.java:1001)[m
+[16:01:02] [Server thread/INFO]: sowrdsmithsoren5 issued server command: /tpa mileswa1q2
+[16:01:18] [Server thread/INFO]: mileswa1q2 issued server command: /tpahere
+[16:01:22] [Server thread/INFO]: Shawg1234_ drowned
+[16:01:31] [Server thread/INFO]: mileswa1q2 issued server command: /tpahere sowrdsmithsoren5
+[16:01:37] [Server thread/INFO]: sowrdsmithsoren5 issued server command: /tpaccept
+[16:01:38] [Async Chat Thread - #2/INFO]: <mileswa1q2> this is the new bass[m
 
-[17:22:15] [Server thread/INFO]: [0;31;1m[TAB] [WARN] 	at net.minecraft.server.v1_8_R3.PacketPlayInChat.a(PacketPlayInChat.java:45)[m
+[16:01:45] [Async Chat Thread - #2/INFO]: <sowrdsmithsoren5> ew[m
 
-[17:22:15] [Server thread/INFO]: [0;31;1m[TAB] [WARN] 	at net.minecraft.server.v1_8_R3.PacketPlayInChat.a(PacketPlayInChat.java:1)[m
+[16:01:48] [Async Chat Thread - #2/INFO]: <Shawg1234_> whos ultra man[m
 
-[17:22:15] [Server thread/INFO]: [0;31;1m[TAB] [WARN] 	at net.minecraft.server.v1_8_R3.PlayerConnectionUtils$1.run(SourceFile:13)[m
+[16:02:09] [Thread-28/INFO]: UUID of player ghost is 2b6c795d-6b4b-373c-bbf0-2a727527e75d
+[16:02:09] [TAB Processing Thread/INFO]: [0;31;1m[TAB] [WARN] Player ghost's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.[m
 
-[17:22:15] [Server thread/INFO]: [0;31;1m[TAB] [WARN] 	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)[m
+[16:02:09] [Server thread/INFO]: ghost[/[0:0:0:0:0:0:0:1]:47608] logged in with entity id 5498 at ([world]-15.300000011920929, 11.0, 490.2891226244089)
+[16:02:16] [Server thread/INFO]: mileswa1q2 issued server command: /gamemode s
+[16:02:16] [Server thread/INFO]: [mileswa1q2: Set own game mode to Survival Mode]
+[16:02:24] [Async Chat Thread - #2/INFO]: <sowrdsmithsoren5> were is our loot[m
 
-[17:22:15] [Server thread/INFO]: [0;31;1m[TAB] [WARN] 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)[m
+[16:02:28] [Server thread/INFO]: UR_A_FAULAIR_ lost connection: Disconnected
+[16:02:28] [Server thread/INFO]: UR_A_FAULAIR_ left the game.
+[16:02:31] [Server thread/INFO]: ghost has just earned the achievement [Time to Mine!]
+[16:02:31] [Server thread/INFO]: ghost has just earned the achievement [Getting an Upgrade]
+[16:02:40] [Async Chat Thread - #2/INFO]: <sowrdsmithsoren5> i will make a nether portal[m
 
-[17:22:15] [Server thread/INFO]: [0;31;1m[TAB] [WARN] 	at net.minecraft.server.v1_8_R3.SystemUtils.a(SourceFile:44)[m
+[16:02:55] [Async Chat Thread - #2/INFO]: <sowrdsmithsoren5> but i wnot light it[m
 
-[17:22:15] [Server thread/INFO]: [0;31;1m[TAB] [WARN] 	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:774)[m
+[16:02:55] [Async Chat Thread - #2/INFO]: <mileswa1q2> i em working on it[m
 
-[17:22:15] [Server thread/INFO]: [0;31;1m[TAB] [WARN] 	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378)[m
+[16:02:57] [Async Chat Thread - #2/INFO]: <EaglerYee667____> soren can you get me a pick and armour and a sword[m
 
-[17:22:15] [Server thread/INFO]: [0;31;1m[TAB] [WARN] 	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713)[m
+[16:03:19] [Async Chat Thread - #2/INFO]: <sowrdsmithsoren5> i dont have eney thing[m
 
-[17:22:15] [Server thread/INFO]: [0;31;1m[TAB] [WARN] 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616)[m
+[16:03:20] [Server thread/INFO]: literalyultraman was slain by Shawg1234_
+[16:03:26] [Async Chat Thread - #2/INFO]: <9810> does anyone have foo[m
 
-[17:22:15] [Server thread/INFO]: [0;31;1m[TAB] [WARN] 	at java.base/java.lang.Thread.run(Thread.java:1583)[m
+[16:03:27] [Async Chat Thread - #2/INFO]: <9810> food[m
 
-[17:22:26] [Server thread/INFO]: EDP444 issued server command: /tpa MrTrump123
-[17:22:27] [Thread-19/INFO]: UUID of player Viggyee is 486aade3-d423-3ba4-ab11-0c276ac78afe
-[17:22:27] [Server thread/INFO]: Viggyee[/[0:0:0:0:0:0:0:1]:44616] logged in with entity id 1380 at ([world]-717.4524863363487, 20.0, 277.1052621650301)
-[17:22:31] [Server thread/INFO]: mileswa1q2 issued server command: /tab reload
-[17:22:31] [Server thread/INFO]: [0;31;1m[TAB] [WARN] Player EDP444's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.[m
+[16:03:36] [Async Chat Thread - #2/INFO]: <9810> ill give the person who gives me food 21 iron ore[m
 
-[17:22:31] [Server thread/INFO]: [0;31;1m[TAB] [WARN] Player Viggyee's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.[m
+[16:03:36] [Async Chat Thread - #2/INFO]: <sowrdsmithsoren5> miles were should i bild a portal[m
 
-[17:22:31] [Server thread/INFO]: [0;31;1m[TAB] [WARN] Player literalyultraman's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.[m
+[16:03:44] [Async Chat Thread - #2/INFO]: <9810> ill give the person who gives me food 21 iron ore[m
 
-[17:22:31] [Server thread/INFO]: [0;31;1m[TAB] [WARN] Player german's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.[m
+[16:03:56] [Thread-29/INFO]: UUID of player UR_A_FAULAIR_ is 1eeb9ff0-794a-3ac1-b090-78cb8fb41335
+[16:03:56] [TAB Processing Thread/INFO]: [0;31;1m[TAB] [WARN] Player UR_A_FAULAIR_'s group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.[m
 
-[17:22:31] [Server thread/INFO]: [0;31;1m[TAB] [WARN] Player UR_A_FAULAIR_'s group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.[m
+[16:03:56] [Server thread/INFO]: UR_A_FAULAIR_[/[0:0:0:0:0:0:0:1]:35728] logged in with entity id 5956 at ([world]-303.70668228655404, 65.0, 115.59783008457083)
+[16:03:57] [Server thread/INFO]: Shawg1234_ was shot by Skeleton
+[16:03:59] [Server thread/INFO]: EaglerYee667____ lost connection: Disconnected
+[16:03:59] [Server thread/INFO]: EaglerYee667____ left the game.
+[16:03:59] [Async Chat Thread - #2/INFO]: <9810> ill give the person who gives me food 21 iron ore[m
 
-[17:22:31] [Server thread/INFO]: [0;31;1m[TAB] [WARN] Player Innocentjhh's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.[m
+[16:04:10] [Server thread/INFO]: UR_A_FAULAIR_ lost connection: Disconnected
+[16:04:10] [Server thread/INFO]: UR_A_FAULAIR_ left the game.
+[16:04:41] [Server thread/INFO]: ghost lost connection: Disconnected
+[16:04:41] [Server thread/INFO]: ghost left the game.
+[16:05:56] [Server thread/INFO]: Shawg1234_ was shot by Skeleton
+[16:06:05] [Thread-30/INFO]: UUID of player Penguinrobert is a712e519-7a05-375b-8a16-9e02441f0e70
+[16:06:06] [TAB Processing Thread/INFO]: [0;31;1m[TAB] [WARN] Player Penguinrobert's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.[m
 
-[17:22:31] [Server thread/INFO]: [0;31;1m[TAB] [WARN] Player oliver_is_cool__'s group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.[m
+[16:06:06] [Server thread/INFO]: Penguinrobert[/[0:0:0:0:0:0:0:1]:52042] logged in with entity id 6563 at ([world]-378.69999998807907, 64.0, -15.300000011920929)
+[16:06:51] [Server thread/INFO]: Shawg1234_ lost connection: Disconnected
+[16:06:51] [Server thread/INFO]: Shawg1234_ left the game.
+[16:06:55] [Thread-31/INFO]: UUID of player EDP444 is 7f4c4ca8-2e74-3a67-82e5-719a8e99ca91
+[16:06:55] [TAB Processing Thread/INFO]: [0;31;1m[TAB] [WARN] Player EDP444's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.[m
 
-[17:22:31] [Server thread/INFO]: [0;31;1m[TAB] [WARN] Player mileswa1q2's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.[m
+[16:06:55] [Server thread/INFO]: EDP444[/[0:0:0:0:0:0:0:1]:47870] logged in with entity id 6748 at ([world]-551.6999999880791, 112.0, 229.75816696361653)
+[16:07:10] [Server thread/INFO]: 9810 fell from a high place
+[16:07:19] [Server thread/INFO]: 9810 issued server command: /back
+[16:07:24] [Server thread/INFO]: Penguinrobert lost connection: Disconnected
+[16:07:24] [Server thread/INFO]: Penguinrobert left the game.
+[16:07:57] [Async Chat Thread - #3/INFO]: <sowrdsmithsoren5> miles were is are loot[m
 
-[17:22:31] [Server thread/INFO]: [0;31;1m[TAB] [WARN] Player Mrtrump123's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.[m
+[16:09:02] [Thread-32/INFO]: UUID of player german is 37318338-23f9-3376-bca6-4bcc543a651f
+[16:09:02] [TAB Processing Thread/INFO]: [0;31;1m[TAB] [WARN] Player german's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.[m
 
-[17:22:31] [Server thread/INFO]: [0;31;1m[TAB] [WARN] Player 9810's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.[m
+[16:09:02] [Server thread/INFO]: german[/[0:0:0:0:0:0:0:1]:55008] logged in with entity id 7133 at ([world]-380.30000001192093, 68.0, 12.046686891686566)
+[16:09:04] [Thread-33/INFO]: UUID of player Shawg1234_ is 24495573-af6a-33da-8715-50d9dea4a7cd
+[16:09:04] [TAB Processing Thread/INFO]: [0;31;1m[TAB] [WARN] Player Shawg1234_'s group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.[m
 
-[17:22:31] [Server thread/INFO]: [0;31;1m[TAB] [WARN] Player Jack23's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.[m
+[16:09:04] [Server thread/INFO]: Shawg1234_[/[0:0:0:0:0:0:0:1]:55022] logged in with entity id 7204 at ([world]-222.69999998807907, 68.0, 222.51594983663986)
+[16:09:49] [Server thread/INFO]: literalyultraman was slain by Shawg1234_
+[16:09:57] [Thread-34/INFO]: UUID of player UR_A_FAULAIR_ is 1eeb9ff0-794a-3ac1-b090-78cb8fb41335
+[16:09:57] [TAB Processing Thread/INFO]: [0;31;1m[TAB] [WARN] Player UR_A_FAULAIR_'s group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.[m
 
-[17:22:31] [Server thread/INFO]: [0;31;1m[TAB] [WARN] Player ElleganceEaston's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.[m
+[16:09:57] [Server thread/INFO]: UR_A_FAULAIR_[/[0:0:0:0:0:0:0:1]:49428] logged in with entity id 7567 at ([world]-303.70668228655404, 65.0, 115.59783008457083)
+[16:10:10] [Server thread/INFO]: Shawg1234_ has just earned the achievement [Getting Wood]
+[16:11:01] [Server thread/INFO]: literalyultraman was slain by 9810
+[16:11:19] [Server thread/INFO]: german lost connection: Disconnected
+[16:11:19] [Server thread/INFO]: german left the game.
+[16:11:24] [Async Chat Thread - #4/INFO]: <Shawg1234_> yo[m
 
-[17:22:31] [Server thread/INFO]: [TAB] [0;32;1mEnabled in 154ms[m
+[16:11:35] [Server thread/INFO]: 9810 lost connection: Disconnected
+[16:11:35] [Server thread/INFO]: 9810 left the game.
+[16:11:39] [Thread-35/INFO]: UUID of player german is 37318338-23f9-3376-bca6-4bcc543a651f
+[16:11:39] [TAB Processing Thread/INFO]: [0;31;1m[TAB] [WARN] Player german's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.[m
 
-[17:22:32] [Server thread/INFO]: 9810 lost connection: Login timed out!
-[17:22:32] [Server thread/INFO]: 9810 left the game.
-[17:22:32] [Server thread/WARN]: handleDisconnection() called twice
-[17:22:37] [Server thread/INFO]: mileswa1q2 issued server command: /tab add
-[17:22:38] [Server thread/INFO]: literalyultraman was slain by Zombie
-[17:22:48] [Async Chat Thread - #2/INFO]: <Jack23> german stole edp444 diomond[m
+[16:11:39] [Server thread/INFO]: german[/[0:0:0:0:0:0:0:1]:36382] logged in with entity id 7904 at ([world]-345.8108744280651, 63.0, 8.222246357860197)
+[16:11:41] [Server thread/INFO]: UR_A_FAULAIR_ lost connection: Disconnected
+[16:11:41] [Server thread/INFO]: UR_A_FAULAIR_ left the game.
+[16:11:59] [Server thread/INFO]: german issued server command: /unregister
+[16:12:02] [Server thread/INFO]: Shawg1234_ fell from a high place
+[16:12:03] [Thread-36/INFO]: UUID of player UR_A_FAULAIR_ is 1eeb9ff0-794a-3ac1-b090-78cb8fb41335
+[16:12:03] [TAB Processing Thread/INFO]: [0;31;1m[TAB] [WARN] Player UR_A_FAULAIR_'s group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.[m
 
-[17:22:50] [Server thread/INFO]: ElleganceEaston was blown up by Creeper
-[17:22:51] [Server thread/INFO]: UR_A_FAULAIR_ lost connection: Disconnected
-[17:22:51] [Server thread/INFO]: UR_A_FAULAIR_ left the game.
-[17:22:54] [Async Chat Thread - #2/INFO]: <Jack23> german is julian[m
+[16:12:03] [Server thread/INFO]: UR_A_FAULAIR_[/[0:0:0:0:0:0:0:1]:41232] logged in with entity id 8080 at ([world]-318.30000001192093, 66.0, 140.34598092790526)
+[16:12:10] [Thread-37/INFO]: UUID of player Yuilo83013 is 90941fc3-431f-32c1-a1db-7917ee02c962
+[16:12:10] [TAB Processing Thread/INFO]: [0;31;1m[TAB] [WARN] Player Yuilo83013's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.[m
 
-[17:23:01] [Server thread/INFO]: ElleganceEaston has just earned the achievement [Taking Inventory]
-[17:23:06] [Server thread/INFO]: mileswa1q2 issued server command: /tab group/player miles 10
-[17:23:07] [Async Chat Thread - #2/INFO]: <Innocentjhh> can i get free diamonds[m
+[16:12:10] [Server thread/INFO]: Yuilo83013[/[0:0:0:0:0:0:0:1]:38938] logged in with entity id 8112 at ([world]-222.5, 70.0, 218.5)
+[16:12:11] [Server thread/INFO]: german issued server command: /unregister german
+[16:12:27] [Server thread/INFO]: UR_A_FAULAIR_ lost connection: Disconnected
+[16:12:27] [Server thread/INFO]: UR_A_FAULAIR_ left the game.
+[16:12:35] [Async Chat Thread - #4/INFO]: <sowrdsmithsoren5> miles[m
 
-[17:23:08] [Async Chat Thread - #2/INFO]: <EDP444> really juilan[m
+[16:12:44] [Server thread/INFO]: Shawg1234_ fell from a high place
+[16:12:51] [Async Chat Thread - #4/INFO]: <Yuilo83013> @sowrdsmithsoren5 Can i have some stuff pls[m
 
-[17:23:35] [Server thread/INFO]: oliver_is_cool__ fell from a high place
-[17:23:37] [Thread-20/INFO]: UUID of player 9810 is b5c13ecc-34ff-3fb7-9e3b-479f83904969
-[17:23:37] [Server thread/INFO]: 9810[/[0:0:0:0:0:0:0:1]:54338] logged in with entity id 2120 at ([world]-308.48602272880146, 56.0, 198.61521797876193)
-[17:23:37] [TAB Processing Thread/INFO]: [0;31;1m[TAB] [WARN] Player 9810's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.[m
+[16:13:04] [Async Chat Thread - #4/INFO]: <sowrdsmithsoren5> who are you[m
 
-[17:23:38] [Async Chat Thread - #2/INFO]: <Mrtrump123> yo[m
+[16:13:11] [Async Chat Thread - #4/INFO]: <Shawg1234_> am jorge[m
 
-[17:23:39] [Server thread/INFO]: ElleganceEaston has just earned the achievement [Getting Wood]
-[17:23:42] [Async Chat Thread - #2/INFO]: <Mrtrump123> wheres german[m
+[16:13:30] [Server thread/INFO]: Yuilo83013 lost connection: Disconnected
+[16:13:30] [Server thread/INFO]: Yuilo83013 left the game.
+[16:14:17] [Server thread/INFO]: sowrdsmithsoren5 lost connection: Internal Exception: java.net.SocketException: Connection reset
+[16:14:17] [Server thread/INFO]: sowrdsmithsoren5 left the game.
+[16:14:32] [Server thread/INFO]: literalyultraman lost connection: Disconnected
+[16:14:32] [Server thread/INFO]: literalyultraman left the game.
+[16:15:00] [Server thread/INFO]: Shawg1234_ was shot by Skeleton
+[16:15:05] [Server thread/INFO]: Shawg1234_ issued server command: /
+[16:15:07] [Async Chat Thread - #5/INFO]: <Shawg1234_> bro[m
 
-[17:23:45] [Server thread/INFO]: EDP444 issued server command: /tpa MrTrump123
-[17:23:50] [Server thread/INFO]: ElleganceEaston issued server command: /tpa Jack23
-[17:23:55] [Server thread/INFO]: Mrtrump123 issued server command: /tpaccept
-[17:23:59] [Server thread/INFO]: Jack23 issued server command: /tpaccept
-[17:24:01] [Server thread/INFO]: 9810 drowned
-[17:24:05] [Server thread/INFO]: Innocentjhh has just earned the achievement [Benchmarking]
-[17:24:47] [Server thread/INFO]: mileswa1q2 issued server command: /tab reload
-[17:24:47] [Server thread/INFO]: [TAB] [0;32;1mDisabled in 14ms[m
+[16:15:08] [Server thread/INFO]: mileswa1q2 lost connection: Disconnected
+[16:15:08] [Server thread/INFO]: mileswa1q2 left the game.
+[16:15:17] [Server thread/INFO]: german lost connection: Disconnected
+[16:15:17] [Server thread/INFO]: german left the game.
+[16:17:23] [Server thread/INFO]: EDP444 lost connection: Disconnected
+[16:17:23] [Server thread/INFO]: EDP444 left the game.
+[16:18:04] [Thread-39/INFO]: UUID of player sowrdsmithsoren5 is d05d5a39-cf40-3b2d-b5dc-3b8e2c6bb6a6
+[16:18:04] [TAB Processing Thread/INFO]: [0;31;1m[TAB] [WARN] Player sowrdsmithsoren5's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.[m
 
-[17:24:47] [Server thread/INFO]: [0;31;1m[TAB] [WARN] File plugins/TAB/config.yml has broken syntax.[m
+[16:18:04] [Server thread/INFO]: sowrdsmithsoren5[/[0:0:0:0:0:0:0:1]:60064] logged in with entity id 9670 at ([world]-287.7391461594428, 71.0, -103.10426367129439)
+[16:18:11] [Server thread/INFO]: Shawg1234_ issued server command: /
+[16:18:13] [Thread-40/INFO]: UUID of player EDP444 is 7f4c4ca8-2e74-3a67-82e5-719a8e99ca91
+[16:18:13] [TAB Processing Thread/INFO]: [0;31;1m[TAB] [WARN] Player EDP444's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.[m
 
-[17:24:47] [Server thread/INFO]: [TAB] [0;33;22mError message from yaml parser: mapping values are not allowed here
- in 'reader', line 176, column 16:
-              slots:
-                   ^
-[m
+[16:18:13] [Server thread/INFO]: EDP444[/[0:0:0:0:0:0:0:1]:47992] logged in with entity id 9764 at ([world]-559.2795953893, 114.0, 233.3537082410805)
+[16:18:20] [Thread-41/INFO]: UUID of player Penguinrobert is a712e519-7a05-375b-8a16-9e02441f0e70
+[16:18:21] [TAB Processing Thread/INFO]: [0;31;1m[TAB] [WARN] Player Penguinrobert's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.[m
 
-[17:24:47] [Server thread/INFO]: [0;31;1m[TAB] [WARN] Failed to enable. Did you just invent a new way to break the plugin by misconfiguring it?[m
+[16:18:21] [Server thread/INFO]: Penguinrobert[/[0:0:0:0:0:0:0:1]:53606] logged in with entity id 9871 at ([world]-378.69999998807907, 64.0, -15.300000011920929)
+[16:18:28] [Thread-42/INFO]: UUID of player Skillalogan7722 is a869545a-574b-317f-8ce2-a3161b83a6f8
+[16:18:28] [Server thread/INFO]: Skillalogan7722[/[0:0:0:0:0:0:0:1]:60922] logged in with entity id 9938 at ([world]-241.69999998807927, 15.0, 153.30000001192093)
+[16:18:28] [TAB Processing Thread/INFO]: [0;31;1m[TAB] [WARN] Player Skillalogan7722's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.[m
 
-[17:24:47] [Server thread/INFO]: [0;31;1m[TAB] [WARN] java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0[m
+[16:18:32] [Thread-43/INFO]: UUID of player tropics is eb239b6e-8e7d-3772-88fc-a1ae6e10a600
+[16:18:32] [Server thread/INFO]: tropics[/[0:0:0:0:0:0:0:1]:60936] logged in with entity id 9945 at ([world]-234.5, 64.0, 209.5)
+[16:18:32] [TAB Processing Thread/INFO]: [0;31;1m[TAB] [WARN] Player tropics's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.[m
 
-[17:24:47] [Server thread/INFO]: [0;31;1m[TAB] [WARN] 	at me.neznamy.tab.libs.me.neznamy.yamlassist.types.BadIndentation.checkForIndent(BadIndentation.java:30)[m
+[16:19:06] [Thread-44/INFO]: UUID of player literalyultraman is def825bd-d70c-36f5-831b-28f4b37fdb0f
+[16:19:06] [Server thread/INFO]: literalyultraman[/[0:0:0:0:0:0:0:1]:49384] logged in with entity id 10008 at ([world]-293.30000001192093, 65.0, 138.01782375375797)
+[16:19:06] [TAB Processing Thread/INFO]: [0;31;1m[TAB] [WARN] Player literalyultraman's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.[m
 
-[17:24:47] [Server thread/INFO]: [0;31;1m[TAB] [WARN] 	at me.neznamy.tab.libs.me.neznamy.yamlassist.types.BadIndentation.getSuggestions(BadIndentation.java:17)[m
+[16:19:07] [Thread-45/INFO]: UUID of player Christinayasss is 7fc6bfc6-4821-3a0e-9657-c52ad11e06cf
+[16:19:07] [TAB Processing Thread/INFO]: [0;31;1m[TAB] [WARN] Player Christinayasss's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.[m
 
-[17:24:47] [Server thread/INFO]: [0;31;1m[TAB] [WARN] 	at me.neznamy.tab.libs.me.neznamy.yamlassist.YamlAssist.getSuggestions(YamlAssist.java:63)[m
+[16:19:07] [Server thread/INFO]: Christinayasss[/[0:0:0:0:0:0:0:1]:49386] logged in with entity id 10013 at ([world]-240.89297478559703, 63.0, 167.30000001192093)
+[16:19:31] [Server thread/INFO]: tropics has just earned the achievement [Taking Inventory]
+[16:19:36] [Server thread/INFO]: Shawg1234_ was slain by Zombie
+[16:20:06] [Server thread/INFO]: Penguinrobert issued server command: /tpa sowrdsmithsoren
+[16:20:16] [Server thread/INFO]: tropics lost connection: Disconnected
+[16:20:16] [Server thread/INFO]: tropics left the game.
+[16:20:17] [Thread-46/INFO]: UUID of player _killer_ is 320d3c42-24a2-3b4c-a641-31e6adf311ff
+[16:20:17] [TAB Processing Thread/INFO]: [0;31;1m[TAB] [WARN] Player _killer_'s group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.[m
 
-[17:24:47] [Server thread/INFO]: [0;31;1m[TAB] [WARN] 	at me.neznamy.tab.shared.config.file.YamlConfigurationFile.<init>(YamlConfigurationFile.java:61)[m
+[16:20:17] [Server thread/INFO]: _killer_[/[0:0:0:0:0:0:0:1]:46718] logged in with entity id 10312 at ([world]-263.52382539564627, 14.0, 34.72874201219356)
+[16:20:21] [Server thread/INFO]: sowrdsmithsoren5 issued server command: /tpaccept
+[16:20:22] [Server thread/INFO]: EDP444 lost connection: Disconnected
+[16:20:22] [Server thread/INFO]: EDP444 left the game.
+[16:20:23] [Server thread/INFO]: sowrdsmithsoren5 issued server command: /tpaccept
+[16:20:25] [Async Chat Thread - #6/INFO]: <sowrdsmithsoren5> e[m
 
-[17:24:47] [Server thread/INFO]: [0;31;1m[TAB] [WARN] 	at me.neznamy.tab.shared.config.Configs.<init>(Configs.java:31)[m
+[16:20:25] [Server thread/INFO]: Skillalogan7722 lost connection: Disconnected
+[16:20:25] [Server thread/INFO]: Skillalogan7722 left the game.
+[16:20:30] [Server thread/INFO]: literalyultraman lost connection: Disconnected
+[16:20:30] [Server thread/INFO]: literalyultraman left the game.
+[16:21:33] [Thread-47/INFO]: UUID of player ThatSpinnyThing_ is ce13fea4-e09a-309e-b366-b75f2b305215
+[16:21:33] [TAB Processing Thread/INFO]: [0;31;1m[TAB] [WARN] Player ThatSpinnyThing_'s group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.[m
 
-[17:24:47] [Server thread/INFO]: [0;31;1m[TAB] [WARN] 	at me.neznamy.tab.shared.TAB.load(TAB.java:171)[m
+[16:21:33] [Server thread/INFO]: ThatSpinnyThing_[/[0:0:0:0:0:0:0:1]:59140] logged in with entity id 10495 at ([world]-293.6844923929548, 50.0, 23.457471082223773)
+[16:21:45] [Server thread/INFO]: _killer_ issued server command: /tpa sowrdsmithsoren5
+[16:21:50] [Server thread/INFO]: sowrdsmithsoren5 issued server command: /tpaccept
+[16:21:52] [Async Chat Thread - #7/INFO]: <sowrdsmithsoren5> e[m
 
-[17:24:47] [Server thread/INFO]: [0;31;1m[TAB] [WARN] 	at me.neznamy.tab.shared.command.ReloadCommand.execute(ReloadCommand.java:24)[m
+[16:22:47] [Server thread/INFO]: _killer_ lost connection: Disconnected
+[16:22:47] [Server thread/INFO]: _killer_ left the game.
+[16:23:12] [Async Chat Thread - #8/INFO]: <Penguinrobert> e[m
 
-[17:24:47] [Server thread/INFO]: [0;31;1m[TAB] [WARN] 	at me.neznamy.tab.shared.command.TabCommand.execute(TabCommand.java:52)[m
+[16:23:14] [Async Chat Thread - #8/INFO]: <Penguinrobert> e[m
 
-[17:24:47] [Server thread/INFO]: [0;31;1m[TAB] [WARN] 	at me.neznamy.tab.platforms.bukkit.BukkitTabCommand.onCommand(BukkitTabCommand.java:34)[m
+[16:23:14] [Async Chat Thread - #8/INFO]: <Penguinrobert> e[m
 
-[17:24:47] [Server thread/INFO]: [0;31;1m[TAB] [WARN] 	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45)[m
+[16:23:14] [Async Chat Thread - #8/INFO]: <Penguinrobert> e[m
 
-[17:24:47] [Server thread/INFO]: [0;31;1m[TAB] [WARN] 	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:146)[m
+[16:23:14] [Async Chat Thread - #8/INFO]: <Penguinrobert> e[m
 
-[17:24:47] [Server thread/INFO]: [0;31;1m[TAB] [WARN] 	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.dispatchCommand(CraftServer.java:666)[m
+[16:23:15] [Async Chat Thread - #8/INFO]: <Penguinrobert> e[m
 
-[17:24:47] [Server thread/INFO]: [0;31;1m[TAB] [WARN] 	at net.minecraft.server.v1_8_R3.PlayerConnection.handleCommand(PlayerConnection.java:1189)[m
+[16:23:15] [Async Chat Thread - #8/INFO]: <Penguinrobert> e[m
 
-[17:24:47] [Server thread/INFO]: [0;31;1m[TAB] [WARN] 	at net.minecraft.server.v1_8_R3.PlayerConnection.a(PlayerConnection.java:1001)[m
+[16:23:15] [Async Chat Thread - #8/INFO]: <Penguinrobert> e[m
 
-[17:24:47] [Server thread/INFO]: [0;31;1m[TAB] [WARN] 	at net.minecraft.server.v1_8_R3.PacketPlayInChat.a(PacketPlayInChat.java:45)[m
+[16:23:15] [Async Chat Thread - #8/INFO]: <Penguinrobert> e[m
 
-[17:24:47] [Server thread/INFO]: [0;31;1m[TAB] [WARN] 	at net.minecraft.server.v1_8_R3.PacketPlayInChat.a(PacketPlayInChat.java:1)[m
+[16:23:16] [Async Chat Thread - #8/INFO]: <Penguinrobert> e[m
 
-[17:24:47] [Server thread/INFO]: [0;31;1m[TAB] [WARN] 	at net.minecraft.server.v1_8_R3.PlayerConnectionUtils$1.run(SourceFile:13)[m
+[16:23:16] [Async Chat Thread - #8/INFO]: <Penguinrobert> e[m
 
-[17:24:47] [Server thread/INFO]: [0;31;1m[TAB] [WARN] 	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)[m
+[16:23:16] [Async Chat Thread - #8/INFO]: <Penguinrobert> e[m
 
-[17:24:47] [Server thread/INFO]: [0;31;1m[TAB] [WARN] 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)[m
+[16:23:17] [Async Chat Thread - #8/INFO]: <Penguinrobert> e[m
 
-[17:24:47] [Server thread/INFO]: [0;31;1m[TAB] [WARN] 	at net.minecraft.server.v1_8_R3.SystemUtils.a(SourceFile:44)[m
+[16:23:17] [Async Chat Thread - #8/INFO]: <Penguinrobert> e[m
 
-[17:24:47] [Server thread/INFO]: [0;31;1m[TAB] [WARN] 	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:774)[m
+[16:23:17] [Async Chat Thread - #8/INFO]: <sowrdsmithsoren5> eeeee[m
 
-[17:24:47] [Server thread/INFO]: [0;31;1m[TAB] [WARN] 	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378)[m
+[16:23:17] [Async Chat Thread - #8/INFO]: <sowrdsmithsoren5> e[m
 
-[17:24:47] [Server thread/INFO]: [0;31;1m[TAB] [WARN] 	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713)[m
+[16:23:17] [Async Chat Thread - #8/INFO]: <Penguinrobert> e[m
 
-[17:24:47] [Server thread/INFO]: [0;31;1m[TAB] [WARN] 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616)[m
+[16:23:17] [Server thread/INFO]: Penguinrobert lost connection: disconnect.spam
+[16:23:17] [Server thread/INFO]: Penguinrobert left the game.
+[16:23:17] [Server thread/WARN]: handleDisconnection() called twice
+[16:23:17] [Async Chat Thread - #8/INFO]: <sowrdsmithsoren5> e[m
 
-[17:24:47] [Server thread/INFO]: [0;31;1m[TAB] [WARN] 	at java.base/java.lang.Thread.run(Thread.java:1583)[m
+[16:23:18] [Async Chat Thread - #8/INFO]: <sowrdsmithsoren5> e[m
 
-[17:24:51] [Async Chat Thread - #3/INFO]: <9810> bro[m
+[16:23:18] [Async Chat Thread - #8/INFO]: <sowrdsmithsoren5> e[m
 
-[17:24:51] [Server thread/INFO]: ElleganceEaston has just earned the achievement [Benchmarking]
-[17:24:51] [Async Chat Thread - #3/INFO]: <mileswa1q2> hi[m
+[16:23:18] [Async Chat Thread - #8/INFO]: <sowrdsmithsoren5> e[m
 
-[17:24:54] [Async Chat Thread - #3/INFO]: <9810> hi[m
+[16:23:18] [Async Chat Thread - #8/INFO]: <sowrdsmithsoren5> e[m
 
-[17:25:02] [Async Chat Thread - #3/INFO]: <Mrtrump123> yo miles[m
+[16:23:18] [Async Chat Thread - #8/INFO]: <sowrdsmithsoren5> e[m
 
-[17:25:08] [Async Chat Thread - #3/INFO]: <EDP444> jack where are you[m
+[16:23:19] [Server thread/INFO]: ThatSpinnyThing_ issued server command: /tpa sowrdsmithsoren5
+[16:23:19] [Async Chat Thread - #8/INFO]: <sowrdsmithsoren5> e[m
 
-[17:25:10] [Thread-21/INFO]: UUID of player UR_A_FAULAIR_ is 1eeb9ff0-794a-3ac1-b090-78cb8fb41335
-[17:25:10] [Server thread/INFO]: UR_A_FAULAIR_[/[0:0:0:0:0:0:0:1]:51262] logged in with entity id 2812 at ([world]-255.59542671627378, 63.0, 182.69999998807907)
-[17:25:11] [Async Chat Thread - #3/INFO]: <Mrtrump123> can i tp to spawn[m
+[16:23:19] [Async Chat Thread - #8/INFO]: <sowrdsmithsoren5> e[m
 
-[17:25:14] [Server thread/INFO]: mileswa1q2 issued server command: /tab relod
-[17:25:15] [Server thread/INFO]: ElleganceEaston has just earned the achievement [Time to Mine!]
-[17:25:22] [Server thread/INFO]: mileswa1q2 issued server command: /tab reload
-[17:25:22] [Server thread/INFO]: [0;31;1m[TAB] [WARN] Player EDP444's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.[m
+[16:23:19] [Async Chat Thread - #8/INFO]: <sowrdsmithsoren5> e[m
 
-[17:25:22] [Server thread/INFO]: [0;31;1m[TAB] [WARN] Player Viggyee's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.[m
+[16:23:19] [Async Chat Thread - #8/INFO]: <sowrdsmithsoren5> e[m
 
-[17:25:22] [Server thread/INFO]: [0;31;1m[TAB] [WARN] Player literalyultraman's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.[m
+[16:23:21] [Server thread/INFO]: sowrdsmithsoren5 issued server command: /tpaccept
+[16:23:24] [Thread-48/INFO]: UUID of player Penguinrobert is a712e519-7a05-375b-8a16-9e02441f0e70
+[16:23:24] [TAB Processing Thread/INFO]: [0;31;1m[TAB] [WARN] Player Penguinrobert's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.[m
 
-[17:25:22] [Server thread/INFO]: [0;31;1m[TAB] [WARN] Player german's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.[m
+[16:23:24] [Server thread/INFO]: Penguinrobert[/[0:0:0:0:0:0:0:1]:33710] logged in with entity id 10826 at ([world]-265.5, 71.0999984741211, -111.5)
+[16:23:30] [Thread-49/INFO]: UUID of player oliver_is_cool__ is a395d75a-a0a6-3dff-b84e-3fb8b4ca353b
+[16:23:30] [TAB Processing Thread/INFO]: [0;31;1m[TAB] [WARN] Player oliver_is_cool__'s group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.[m
 
-[17:25:22] [Server thread/INFO]: [0;31;1m[TAB] [WARN] Player UR_A_FAULAIR_'s group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.[m
+[16:23:30] [Server thread/INFO]: oliver_is_cool__[/[0:0:0:0:0:0:0:1]:58942] logged in with entity id 10894 at ([world]-194.92982013511028, 48.0, 128.51886085792333)
+[16:23:38] [Async Chat Thread - #8/INFO]: <Christinayasss> death comes upon those who spam[m
 
-[17:25:22] [Server thread/INFO]: [0;31;1m[TAB] [WARN] Player Innocentjhh's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.[m
+[16:23:43] [Thread-50/INFO]: UUID of player Skillalogan7722 is a869545a-574b-317f-8ce2-a3161b83a6f8
+[16:23:43] [TAB Processing Thread/INFO]: [0;31;1m[TAB] [WARN] Player Skillalogan7722's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.[m
 
-[17:25:22] [Server thread/INFO]: [0;31;1m[TAB] [WARN] Player oliver_is_cool__'s group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.[m
+[16:23:43] [Server thread/INFO]: Skillalogan7722[/[0:0:0:0:0:0:0:1]:58934] logged in with entity id 10939 at ([world]-239.97671016428941, 12.0, 147.41571861504823)
+[16:23:51] [Thread-51/INFO]: UUID of player idk is 89048e4d-07c4-38bc-a1af-595e66b07e25
+[16:23:51] [Server thread/INFO]: idk[/[0:0:0:0:0:0:0:1]:58712] logged in with entity id 10990 at ([world]-318.5843760129258, 32.0, 181.36485116299252)
+[16:23:51] [TAB Processing Thread/INFO]: [0;31;1m[TAB] [WARN] Player idk's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.[m
 
-[17:25:22] [Server thread/INFO]: [0;31;1m[TAB] [WARN] Player mileswa1q2's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.[m
+[16:23:52] [Server thread/INFO]: Skillalogan7722 lost connection: Disconnected
+[16:23:52] [Server thread/INFO]: Skillalogan7722 left the game.
+[16:24:15] [Server thread/INFO]: ThatSpinnyThing_ lost connection: Disconnected
+[16:24:15] [Server thread/INFO]: ThatSpinnyThing_ left the game.
+[16:24:16] [Server thread/INFO]: Christinayasss lost connection: Disconnected
+[16:24:16] [Server thread/INFO]: Christinayasss left the game.
+[16:24:23] [Server thread/INFO]: Penguinrobert issued server command: /leave
+[16:24:25] [Thread-52/INFO]: UUID of player german is 37318338-23f9-3376-bca6-4bcc543a651f
+[16:24:25] [TAB Processing Thread/INFO]: [0;31;1m[TAB] [WARN] Player german's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.[m
 
-[17:25:22] [Server thread/INFO]: [0;31;1m[TAB] [WARN] Player Mrtrump123's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.[m
+[16:24:25] [Server thread/INFO]: german[/[0:0:0:0:0:0:0:1]:58554] logged in with entity id 11058 at ([world]-348.30000001192093, 69.0, 105.58532255623103)
+[16:24:25] [Server thread/INFO]: Penguinrobert lost connection: Disconnected
+[16:24:25] [Server thread/INFO]: Penguinrobert left the game.
+[16:24:29] [Server thread/INFO]: sowrdsmithsoren5 lost connection: Disconnected
+[16:24:29] [Server thread/INFO]: sowrdsmithsoren5 left the game.
+[16:24:40] [Server thread/INFO]: german lost connection: Disconnected
+[16:24:40] [Server thread/INFO]: german left the game.
+[16:24:51] [Thread-53/INFO]: UUID of player tropics is eb239b6e-8e7d-3772-88fc-a1ae6e10a600
+[16:24:51] [TAB Processing Thread/INFO]: [0;31;1m[TAB] [WARN] Player tropics's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.[m
 
-[17:25:22] [Server thread/INFO]: [0;31;1m[TAB] [WARN] Player 9810's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.[m
+[16:24:51] [Server thread/INFO]: tropics[/[0:0:0:0:0:0:0:1]:34690] logged in with entity id 11103 at ([world]-371.6999999880791, 69.0, 29.200984440134892)
+[16:25:12] [Server thread/INFO]: Shawg1234_ was slain by Spider
+[16:26:17] [Thread-54/INFO]: UUID of player Christinayasss is 7fc6bfc6-4821-3a0e-9657-c52ad11e06cf
+[16:26:17] [TAB Processing Thread/INFO]: [0;31;1m[TAB] [WARN] Player Christinayasss's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.[m
 
-[17:25:22] [Server thread/INFO]: [0;31;1m[TAB] [WARN] Player Jack23's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.[m
+[16:26:17] [Server thread/INFO]: Christinayasss[/[0:0:0:0:0:0:0:1]:53428] logged in with entity id 11319 at ([world]-292.30000001192093, 78.0, 147.06410881714737)
+[16:26:21] [Thread-55/INFO]: UUID of player Skillalogan7722 is a869545a-574b-317f-8ce2-a3161b83a6f8
+[16:26:21] [TAB Processing Thread/INFO]: [0;31;1m[TAB] [WARN] Player Skillalogan7722's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.[m
 
-[17:25:22] [Server thread/INFO]: [0;31;1m[TAB] [WARN] Player ElleganceEaston's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.[m
+[16:26:21] [Server thread/INFO]: Skillalogan7722[/[0:0:0:0:0:0:0:1]:53432] logged in with entity id 11339 at ([world]-239.97671016428941, 12.0, 147.41571861504823)
+[16:26:33] [Thread-56/INFO]: UUID of player SecretSwmSociety is 63adb29a-a5c9-3bfd-b5de-cfba538d2b57
+[16:26:33] [TAB Processing Thread/INFO]: [0;31;1m[TAB] [WARN] Player SecretSwmSociety's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.[m
 
-[17:25:22] [Server thread/INFO]: [TAB] [0;32;1mEnabled in 59ms[m
+[16:26:33] [Server thread/INFO]: SecretSwmSociety[/[0:0:0:0:0:0:0:1]:53700] logged in with entity id 11370 at ([world]-310.4561548939134, 60.0, 22.955290845769834)
+[16:26:34] [Async Chat Thread - #9/INFO]: <Skillalogan7722> Julian you bad boy[m
 
-[17:25:44] [Async Chat Thread - #3/INFO]: <Mrtrump123> tpa mileswa1q2[m
+[16:26:43] [Async Chat Thread - #9/INFO]: <Skillalogan7722> Give me your dimands[m
 
-[17:25:58] [Server thread/INFO]: Mrtrump123 issued server command: /tpa mileswa1q2
-[17:26:04] [Async Chat Thread - #3/INFO]: <Mrtrump123> miles[m
+[16:26:47] [Server thread/INFO]: SecretSwmSociety lost connection: Disconnected
+[16:26:47] [Server thread/INFO]: SecretSwmSociety left the game.
+[16:26:53] [Thread-57/INFO]: UUID of player SecretSwmSociety is 63adb29a-a5c9-3bfd-b5de-cfba538d2b57
+[16:26:53] [Server thread/INFO]: SecretSwmSociety[/[0:0:0:0:0:0:0:1]:53758] logged in with entity id 11441 at ([world]-310.4561548939134, 60.0, 22.955290845769834)
+[16:26:53] [TAB Processing Thread/INFO]: [0;31;1m[TAB] [WARN] Player SecretSwmSociety's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.[m
 
-[17:26:18] [Server thread/INFO]: oliver_is_cool__ fell from a high place
-[17:26:18] [Async Chat Thread - #3/INFO]: <Mrtrump123> tpa EDP444[m
+[16:26:55] [Async Chat Thread - #9/INFO]: <tropics> cesar you are the hacker[m
 
-[17:26:23] [Thread-22/INFO]: UUID of player Penguinrobert is a712e519-7a05-375b-8a16-9e02441f0e70
-[17:26:23] [TAB Processing Thread/INFO]: [0;31;1m[TAB] [WARN] Player Penguinrobert's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.[m
+[16:26:59] [Server thread/INFO]: Christinayasss lost connection: Disconnected
+[16:26:59] [Server thread/INFO]: Christinayasss left the game.
+[16:26:59] [Async Chat Thread - #9/INFO]: <Skillalogan7722> No[m
 
-[17:26:23] [Server thread/INFO]: Penguinrobert[/[0:0:0:0:0:0:0:1]:40112] logged in with entity id 3307 at ([world]-300.8752457757515, 56.0, 24.114252384337796)
-[17:26:28] [Server thread/INFO]: Mrtrump123 issued server command: /tpa EDP444
-[17:26:33] [Server thread/INFO]: EDP444 issued server command: /tpaccept
-[17:26:35] [Async Chat Thread - #3/INFO]: <Innocentjhh> yoo im staff thanks[m
+[16:27:06] [Async Chat Thread - #9/INFO]: <Skillalogan7722> Lyer[m
 
-[17:27:05] [Server thread/INFO]: UR_A_FAULAIR_ was slain by oliver_is_cool__
-[17:27:09] [Server thread/INFO]: german lost connection: Disconnected
-[17:27:09] [Server thread/INFO]: german left the game.
-[17:27:11] [Thread-23/INFO]: UUID of player german is 37318338-23f9-3376-bca6-4bcc543a651f
-[17:27:11] [Server thread/INFO]: german[/[0:0:0:0:0:0:0:1]:54398] logged in with entity id 3794 at ([world]-235.84507819390257, 64.0, 211.69999998807907)
-[17:27:11] [TAB Processing Thread/INFO]: [0;31;1m[TAB] [WARN] Player german's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.[m
+[16:27:09] [Thread-58/INFO]: UUID of player EDP444 is 7f4c4ca8-2e74-3a67-82e5-719a8e99ca91
+[16:27:09] [TAB Processing Thread/INFO]: [0;31;1m[TAB] [WARN] Player EDP444's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.[m
 
-[17:27:13] [Server thread/INFO]: UR_A_FAULAIR_ issued server command: /back
-[17:27:18] [Async Chat Thread - #3/INFO]: <9810> miles[m
+[16:27:09] [Server thread/INFO]: EDP444[/[0:0:0:0:0:0:0:1]:42222] logged in with entity id 11513 at ([world]-551.1960861059556, 117.0, 235.39343983353552)
+[16:27:27] [Async Chat Thread - #9/INFO]: <tropics> why where your blocks se through[m
 
-[17:27:23] [Async Chat Thread - #3/INFO]: <9810> i found your base :][m
+[16:27:35] [Async Chat Thread - #9/INFO]: <Skillalogan7722> Bro they aint[m
 
-[17:27:26] [Async Chat Thread - #3/INFO]: <9810> YO[m
+[16:27:35] [Async Chat Thread - #9/INFO]: <tropics> on your computer[m
 
-[17:27:29] [Server thread/INFO]: mileswa1q2 issued server command: /tad mileswa1q2 admen
-[17:27:30] [Async Chat Thread - #3/INFO]: <9810> BRO HAS SO MUCH LOOT[m
+[16:27:46] [Server thread/INFO]: tropics lost connection: Disconnected
+[16:27:46] [Server thread/INFO]: tropics left the game.
+[16:27:54] [Async Chat Thread - #9/INFO]: <Skillalogan7722> Ay liam you here??[m
 
-[17:27:32] [Async Chat Thread - #3/INFO]: <9810> WTH[m
+[16:28:51] [Server thread/INFO]: Skillalogan7722 tried to swim in lava
+[16:29:00] [Server thread/INFO]: Shawg1234_ lost connection: Disconnected
+[16:29:00] [Server thread/INFO]: Shawg1234_ left the game.
+[16:29:00] [Async Chat Thread - #10/INFO]: <Skillalogan7722> Nooo[m
 
-[17:27:32] [Async Chat Thread - #3/INFO]: <mileswa1q2> yess[m
+[16:29:00] [Server thread/INFO]: SecretSwmSociety was slain by Spider
+[16:29:27] [Server thread/INFO]: Skillalogan7722 lost connection: Disconnected
+[16:29:27] [Server thread/INFO]: Skillalogan7722 left the game.
+[16:29:56] [Server thread/INFO]: EDP444 lost connection: Disconnected
+[16:29:56] [Server thread/INFO]: EDP444 left the game.
+[16:30:25] [Thread-59/INFO]: UUID of player ThatSpinnyThing_ is ce13fea4-e09a-309e-b366-b75f2b305215
+[16:30:25] [TAB Processing Thread/INFO]: [0;31;1m[TAB] [WARN] Player ThatSpinnyThing_'s group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.[m
 
-[17:27:37] [Async Chat Thread - #3/INFO]: <Mrtrump123> pussy cat[m
+[16:30:25] [Server thread/INFO]: ThatSpinnyThing_[/[0:0:0:0:0:0:0:1]:48072] logged in with entity id 12673 at ([world]-262.3622801600301, 71.0, -104.32250388048475)
+[16:30:32] [Server thread/INFO]: ThatSpinnyThing_ issued server command: /lodin 052105
+[16:30:35] [Thread-60/INFO]: UUID of player Skillalogan7722 is a869545a-574b-317f-8ce2-a3161b83a6f8
+[16:30:35] [Server thread/INFO]: Skillalogan7722[/[0:0:0:0:0:0:0:1]:41290] logged in with entity id 12777 at ([world]-233.84678955776724, 70.0, 226.30000001192093)
+[16:30:35] [TAB Processing Thread/INFO]: [0;31;1m[TAB] [WARN] Player Skillalogan7722's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.[m
 
-[17:27:41] [Server thread/INFO]: german lost connection: Login timed out!
-[17:27:41] [Server thread/INFO]: german left the game.
-[17:27:41] [Server thread/WARN]: handleDisconnection() called twice
-[17:27:42] [Async Chat Thread - #3/INFO]: <Mrtrump123> log in[m
+[16:31:13] [Thread-61/INFO]: UUID of player Yuilo83013 is 90941fc3-431f-32c1-a1db-7917ee02c962
+[16:31:13] [TAB Processing Thread/INFO]: [0;31;1m[TAB] [WARN] Player Yuilo83013's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.[m
 
-[17:27:47] [Thread-24/INFO]: UUID of player german is 37318338-23f9-3376-bca6-4bcc543a651f
-[17:27:47] [TAB Processing Thread/INFO]: [0;31;1m[TAB] [WARN] Player german's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.[m
+[16:31:13] [Server thread/INFO]: Yuilo83013[/[0:0:0:0:0:0:0:1]:38048] logged in with entity id 12898 at ([world]-214.02793115750268, 68.0, 219.01292462647126)
+[16:31:27] [Async Chat Thread - #11/INFO]: <Yuilo83013> e[m
 
-[17:27:47] [Server thread/INFO]: german[/[0:0:0:0:0:0:0:1]:35414] logged in with entity id 4014 at ([world]-235.9959485480027, 64.0, 211.5012730935322)
-[17:27:50] [Async Chat Thread - #3/INFO]: <Jack23> take away the cat and yummy[m
+[16:31:39] [Async Chat Thread - #11/INFO]: <oliver_is_cool__> I FOUND DIMINDS[m
 
-[17:28:00] [Async Chat Thread - #3/INFO]: <mileswa1q2> that is not my d it wus raded aretey[m
+[16:31:47] [Async Chat Thread - #11/INFO]: <Yuilo83013> No one cares lol[m
 
-[17:28:08] [Server thread/INFO]: mileswa1q2 issued server command: /tab
-[17:28:09] [Server thread/INFO]: UR_A_FAULAIR_ was slain by oliver_is_cool__
-[17:28:17] [Server thread/INFO]: german lost connection: Login timed out!
-[17:28:17] [Server thread/INFO]: german left the game.
-[17:28:17] [Server thread/WARN]: handleDisconnection() called twice
-[17:28:18] [Server thread/INFO]: UR_A_FAULAIR_ issued server command: /back
-[17:28:26] [Async Chat Thread - #3/INFO]: <Innocentjhh> my old base got raided[m
+[16:33:00] [Server thread/INFO]: Yuilo83013 lost connection: Disconnected
+[16:33:00] [Server thread/INFO]: Yuilo83013 left the game.
+[16:33:46] [Thread-62/INFO]: UUID of player Yuilo83013 is 90941fc3-431f-32c1-a1db-7917ee02c962
+[16:33:46] [TAB Processing Thread/INFO]: [0;31;1m[TAB] [WARN] Player Yuilo83013's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.[m
 
-[17:28:30] [Server thread/INFO]: oliver_is_cool__ issued server command: /spawn
-[17:28:37] [Async Chat Thread - #3/INFO]: <Innocentjhh> that why i quit[m
+[16:33:46] [Server thread/INFO]: Yuilo83013[/[0:0:0:0:0:0:0:1]:40770] logged in with entity id 13717 at ([world]-246.5104660143617, 71.0, 218.2582390817282)
+[16:33:54] [Thread-63/INFO]: UUID of player literalyultraman is def825bd-d70c-36f5-831b-28f4b37fdb0f
+[16:33:54] [TAB Processing Thread/INFO]: [0;31;1m[TAB] [WARN] Player literalyultraman's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.[m
 
-[17:28:42] [Server thread/INFO]: oliver_is_cool__ was slain by Enderman
-[17:28:43] [Async Chat Thread - #3/INFO]: <Penguinrobert> miles[m
+[16:33:54] [Server thread/INFO]: literalyultraman[/[0:0:0:0:0:0:0:1]:40774] logged in with entity id 13787 at ([world]-296.589642417208, 68.0, 131.75557350566362)
+[16:34:11] [Thread-64/INFO]: UUID of player _killer_ is 320d3c42-24a2-3b4c-a641-31e6adf311ff
+[16:34:11] [TAB Processing Thread/INFO]: [0;31;1m[TAB] [WARN] Player _killer_'s group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.[m
 
-[17:28:48] [Thread-25/INFO]: UUID of player german is 37318338-23f9-3376-bca6-4bcc543a651f
-[17:28:48] [Server thread/INFO]: german[/[0:0:0:0:0:0:0:1]:52688] logged in with entity id 4423 at ([world]-235.0777883476237, 64.0, 211.02664276165862)
-[17:28:48] [TAB Processing Thread/INFO]: [0;31;1m[TAB] [WARN] Player german's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.[m
+[16:34:11] [Server thread/INFO]: _killer_[/[0:0:0:0:0:0:0:1]:42550] logged in with entity id 13857 at ([world]-260.69999998807907, 71.0, -115.30546795451917)
+[16:34:46] [Thread-65/INFO]: UUID of player Christinayasss is 7fc6bfc6-4821-3a0e-9657-c52ad11e06cf
+[16:34:46] [TAB Processing Thread/INFO]: [0;31;1m[TAB] [WARN] Player Christinayasss's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.[m
 
-[17:28:49] [Server thread/INFO]: oliver_is_cool__ was slain by UR_A_FAULAIR_
-[17:28:56] [Server thread/INFO]: mileswa1q2 issued server command: /tab admin the boss 90
-[17:28:59] [Server thread/INFO]: ElleganceEaston has just earned the achievement [Getting an Upgrade]
-[17:29:09] [Server thread/INFO]: Penguinrobert lost connection: Disconnected
-[17:29:09] [Server thread/INFO]: Penguinrobert left the game.
-[17:29:10] [Thread-26/INFO]: UUID of player Penguinrobert is a712e519-7a05-375b-8a16-9e02441f0e70
-[17:29:10] [TAB Processing Thread/INFO]: [0;31;1m[TAB] [WARN] Player Penguinrobert's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.[m
+[16:34:46] [Server thread/INFO]: Christinayasss[/[0:0:0:0:0:0:0:1]:36586] logged in with entity id 13999 at ([world]-268.02615267512493, 74.0, 162.38349457036892)
+[16:35:19] [Async Chat Thread - #12/INFO]: <Yuilo83013> Can someone please give me some stuff!![m
 
-[17:29:10] [Server thread/INFO]: Penguinrobert[/[0:0:0:0:0:0:0:1]:39662] logged in with entity id 4555 at ([world]-263.2264612493529, 19.0, 23.393267835570125)
-[17:29:11] [Server thread/INFO]: german lost connection: Disconnected
-[17:29:11] [Server thread/INFO]: german left the game.
-[17:29:12] [Async Chat Thread - #3/INFO]: <9810> whos the best here at pvp[m
+[16:35:21] [Server thread/INFO]: Yuilo83013 was slain by Christinayasss
+[16:35:40] [Async Chat Thread - #12/INFO]: <idk> are playing right now soren?[m
 
-[17:29:12] [Server thread/INFO]: oliver_is_cool__ lost connection: Disconnected
-[17:29:12] [Server thread/INFO]: oliver_is_cool__ left the game.
-[17:29:28] [Server thread/INFO]: mileswa1q2 issued server command: /tab group player mileswa1q2
-[17:29:44] [Server thread/INFO]: Innocentjhh was slain by UR_A_FAULAIR_
-[17:29:45] [Thread-27/INFO]: UUID of player german is 37318338-23f9-3376-bca6-4bcc543a651f
-[17:29:45] [TAB Processing Thread/INFO]: [0;31;1m[TAB] [WARN] Player german's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.[m
+[16:35:49] [Thread-66/INFO]: UUID of player Penguinrobert is a712e519-7a05-375b-8a16-9e02441f0e70
+[16:35:49] [TAB Processing Thread/INFO]: [0;31;1m[TAB] [WARN] Player Penguinrobert's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.[m
 
-[17:29:45] [Server thread/INFO]: german[/[0:0:0:0:0:0:0:1]:52700] logged in with entity id 4821 at ([world]-248.01351666371542, 71.0, 215.82132348302798)
-[17:29:51] [Thread-28/INFO]: UUID of player oliver_is_cool__ is a395d75a-a0a6-3dff-b84e-3fb8b4ca353b
-[17:29:51] [Server thread/INFO]: oliver_is_cool__[/[0:0:0:0:0:0:0:1]:60476] logged in with entity id 4876 at ([world]-226.09171734956894, 69.0, 224.09489015396073)
-[17:29:51] [TAB Processing Thread/INFO]: [0;31;1m[TAB] [WARN] Player oliver_is_cool__'s group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.[m
+[16:35:49] [Server thread/INFO]: Penguinrobert[/[0:0:0:0:0:0:0:1]:46904] logged in with entity id 14295 at ([world]-269.5527045510888, 71.0, -107.31820016591769)
+[16:35:59] [Thread-67/INFO]: UUID of player Innocentjhh is fbe9c512-a580-3054-b978-6e242a4e42b0
+[16:35:59] [TAB Processing Thread/INFO]: [0;31;1m[TAB] [WARN] Player Innocentjhh's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.[m
 
-[17:29:52] [Server thread/INFO]: mileswa1q2 issued server command: /tab playeruuid
-[17:29:55] [Async Chat Thread - #3/INFO]: <9810> @here I am going to make a lag machine so Ban me trust[m
+[16:35:59] [Server thread/INFO]: Innocentjhh[/[0:0:0:0:0:0:0:1]:49346] logged in with entity id 14392 at ([world]75.3000000119209, 73.0, 558.3000000119209)
+[16:36:03] [Async Chat Thread - #12/INFO]: <Christinayasss> who is Yuilo, It wasn't personal, i was starving[m
 
-[17:30:03] [Server thread/INFO]: mileswa1q2 issued server command: /tab playeruuid mileswa1q2
-[17:30:10] [Server thread/INFO]: mileswa1q2 issued server command: /tab mileswa1q2
-[17:30:12] [Async Chat Thread - #3/INFO]: <9810> Why did i just see "Bot Joined the game"[m
+[16:36:07] [Server thread/INFO]: SecretSwmSociety lost connection: Disconnected
+[16:36:07] [Server thread/INFO]: SecretSwmSociety left the game.
+[16:36:11] [Async Chat Thread - #12/INFO]: <Yuilo83013> bro[m
 
-[17:30:14] [Server thread/WARN]: oliver_is_cool__ moved wrongly!
-[17:30:15] [Server thread/INFO]: german lost connection: Login timed out!
-[17:30:15] [Server thread/INFO]: german left the game.
-[17:30:15] [Server thread/WARN]: handleDisconnection() called twice
-[17:30:21] [Thread-29/INFO]: UUID of player german is 37318338-23f9-3376-bca6-4bcc543a651f
-[17:30:21] [TAB Processing Thread/INFO]: [0;31;1m[TAB] [WARN] Player german's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.[m
+[16:36:15] [Async Chat Thread - #12/INFO]: <Yuilo83013> nah i see how it is[m
 
-[17:30:21] [Server thread/INFO]: german[/[0:0:0:0:0:0:0:1]:55510] logged in with entity id 5210 at ([world]-248.0297369159063, 70.0, 215.2750450860117)
-[17:30:23] [Async Chat Thread - #3/INFO]: <9810> Bot lobby[m
+[16:36:20] [Server thread/INFO]: Innocentjhh suffocated in a wall
+[16:36:22] [Async Chat Thread - #12/INFO]: <Christinayasss> lmfao[m
 
-[17:30:32] [Thread-30/INFO]: UUID of player Your_A_Pedo69420 is a7fbdb2b-4271-3e73-a533-b76ec35b7dad
-[17:30:32] [TAB Processing Thread/INFO]: [0;31;1m[TAB] [WARN] Player Your_A_Pedo69420's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.[m
+[16:36:24] [Server thread/INFO]: Innocentjhh issued server command: /back
+[16:36:26] [Server thread/INFO]: Innocentjhh issued server command: /back
+[16:36:30] [Async Chat Thread - #12/INFO]: <Yuilo83013> maybe like[m
 
-[17:30:32] [Server thread/INFO]: Your_A_Pedo69420[/[0:0:0:0:0:0:0:1]:52632] logged in with entity id 5246 at ([world]-197.7772920321269, 48.0, 126.30535272476371)
-[17:30:34] [Server thread/INFO]: mileswa1q2 issued server command: /tab parse mileswa1q2 admin
-[17:30:42] [Server thread/INFO]: mileswa1q2 issued server command: /groop
-[17:30:44] [Server thread/INFO]: ElleganceEaston fell from a high place
-[17:30:46] [Server thread/INFO]: UR_A_FAULAIR_ lost connection: Disconnected
-[17:30:46] [Server thread/INFO]: UR_A_FAULAIR_ left the game.
-[17:30:51] [Server thread/INFO]: german lost connection: Login timed out!
-[17:30:51] [Server thread/INFO]: german left the game.
-[17:30:51] [Server thread/WARN]: handleDisconnection() called twice
-[17:30:52] [Async Chat Thread - #3/INFO]: <Innocentjhh> SKibidy[m
+[16:36:30] [Async Chat Thread - #12/INFO]: <Innocentjhh> hello[m
 
-[17:30:53] [Server thread/INFO]: ElleganceEaston issued server command: /tpa Jack23
-[17:30:53] [Server thread/INFO]: mileswa1q2 issued server command: /tab group
-[17:30:55] [Server thread/INFO]: Innocentjhh issued server command: /back
-[17:31:00] [Server thread/INFO]: mileswa1q2 issued server command: /tab group admin
-[17:31:03] [Server thread/INFO]: Jack23 issued server command: /tpaccept
-[17:31:06] [Async Chat Thread - #3/INFO]: <mileswa1q2> mileswa1q2[m
+[16:36:32] [Async Chat Thread - #12/INFO]: <Yuilo83013> get ur own food[m
 
-[17:31:11] [Server thread/INFO]: Innocentjhh was slain by Your_A_Pedo69420
-[17:31:14] [Server thread/INFO]: Innocentjhh issued server command: /back
-[17:31:20] [Server thread/INFO]: mileswa1q2 issued server command: /tab group admin
-[17:31:23] [Server thread/INFO]: ElleganceEaston issued server command: /tpa Jack23
-[17:31:28] [Server thread/INFO]: Your_A_Pedo69420 was slain by Innocentjhh
-[17:31:28] [Thread-31/INFO]: UUID of player german is 37318338-23f9-3376-bca6-4bcc543a651f
-[17:31:28] [TAB Processing Thread/INFO]: [0;31;1m[TAB] [WARN] Player german's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.[m
+[16:36:35] [Async Chat Thread - #12/INFO]: <Christinayasss> I did[m
 
-[17:31:28] [Server thread/INFO]: german[/[0:0:0:0:0:0:0:1]:40802] logged in with entity id 5608 at ([world]-248.0297369159063, 70.0, 215.2750450860117)
-[17:31:30] [Server thread/INFO]: Jack23 issued server command: /tpaccept
-[17:31:32] [Async Chat Thread - #3/INFO]: <9810> Why everyone here built like a bot[m
+[16:36:39] [Async Chat Thread - #12/INFO]: <Christinayasss> i killed you[m
 
-[17:31:33] [Server thread/WARN]: Penguinrobert moved wrongly!
-[17:31:34] [Server thread/INFO]: Your_A_Pedo69420 was slain by Innocentjhh
-[17:31:35] [Server thread/INFO]: mileswa1q2 issued server command: /tab group admin mileswa1q2
-[17:31:37] [Server thread/INFO]: Your_A_Pedo69420 was slain by Innocentjhh
-[17:31:38] [Async Chat Thread - #3/INFO]: <9810> Besides Avion[m
+[16:36:40] [Server thread/INFO]: Innocentjhh suffocated in a wall
+[16:36:42] [Server thread/INFO]: Skillalogan7722 lost connection: Disconnected
+[16:36:42] [Server thread/INFO]: Skillalogan7722 left the game.
+[16:36:44] [Server thread/INFO]: Innocentjhh issued server command: /back
+[16:36:48] [Async Chat Thread - #12/INFO]: <Innocentjhh> i keep suffocating[m
 
-[17:31:40] [Server thread/INFO]: Innocentjhh was slain by Your_A_Pedo69420
-[17:31:43] [Server thread/INFO]: mileswa1q2 issued server command: /tab
-[17:31:44] [Server thread/INFO]: Innocentjhh issued server command: /back
-[17:31:52] [Server thread/WARN]: Innocentjhh moved wrongly!
-[17:31:58] [Server thread/INFO]: german lost connection: Login timed out!
-[17:31:58] [Server thread/INFO]: german left the game.
-[17:32:01] [Server thread/INFO]: mileswa1q2 issued server command: /tab parse mileswa1q2 admin
-[17:32:12] [Async Chat Thread - #3/INFO]: <9810> Yo[m
+[16:36:51] [Async Chat Thread - #12/INFO]: <Christinayasss> maybe like, get your own loot to defend yourself[m
 
-[17:32:13] [Async Chat Thread - #3/INFO]: <9810> Yo[m
+[16:36:56] [Async Chat Thread - #12/INFO]: <oliver_is_cool__> hehhe[m
 
-[17:32:13] [Async Chat Thread - #3/INFO]: <9810> Yo[m
+[16:37:00] [Thread-68/INFO]: UUID of player sowrdsmithsoren5 is d05d5a39-cf40-3b2d-b5dc-3b8e2c6bb6a6
+[16:37:00] [TAB Processing Thread/INFO]: [0;31;1m[TAB] [WARN] Player sowrdsmithsoren5's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.[m
 
-[17:32:13] [Async Chat Thread - #3/INFO]: <9810> Yo[m
+[16:37:00] [Server thread/INFO]: sowrdsmithsoren5[/[0:0:0:0:0:0:0:1]:37552] logged in with entity id 15407 at ([world]-286.5136580854327, 74.0, -107.69999998807907)
+[16:37:03] [Async Chat Thread - #12/INFO]: <Yuilo83013> i just joined like 5 minutes ago[m
 
-[17:32:13] [Thread-32/INFO]: UUID of player german is 37318338-23f9-3376-bca6-4bcc543a651f
-[17:32:13] [TAB Processing Thread/INFO]: [0;31;1m[TAB] [WARN] Player german's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.[m
+[16:37:08] [Async Chat Thread - #12/INFO]: <Christinayasss> skill issue[m
 
-[17:32:13] [Server thread/INFO]: german[/[0:0:0:0:0:0:0:1]:39568] logged in with entity id 5890 at ([world]-248.00432630145778, 70.0, 215.69999998807907)
-[17:32:14] [Async Chat Thread - #3/INFO]: <9810> Yo[m
+[16:37:09] [Async Chat Thread - #12/INFO]: <ThatSpinnyThing_> food pls[m
 
-[17:32:14] [Async Chat Thread - #3/INFO]: <9810> Yo[m
+[16:37:17] [Async Chat Thread - #12/INFO]: <oliver_is_cool__> come fight me then cristinayassss[m
 
-[17:32:15] [Async Chat Thread - #3/INFO]: <9810> Yo[m
+[16:37:22] [Async Chat Thread - #12/INFO]: <Yuilo83013> thats not a skill issue, i wasnt allowed to break any wood[m
 
-[17:32:16] [Async Chat Thread - #3/INFO]: <9810> Yo[m
+[16:37:28] [Async Chat Thread - #12/INFO]: <Yuilo83013> are you real[m
 
-[17:32:16] [Async Chat Thread - #3/INFO]: <9810> Yo[m
+[16:37:35] [Async Chat Thread - #12/INFO]: <ThatSpinnyThing_> food[m
 
-[17:32:17] [Async Chat Thread - #3/INFO]: <9810> Yo[m
+[16:37:38] [Async Chat Thread - #12/INFO]: <Christinayasss> oliver, consider how you spell things before picking a fight[m
 
-[17:32:18] [Async Chat Thread - #3/INFO]: <9810> Yo[m
+[16:37:48] [Async Chat Thread - #12/INFO]: <oliver_is_cool__> who are u irl[m
 
-[17:32:19] [Async Chat Thread - #3/INFO]: <9810> Yo[m
+[16:37:52] [Async Chat Thread - #12/INFO]: <Christinayasss> Chris[m
 
-[17:32:23] [Async Chat Thread - #3/INFO]: <9810> Yo[m
+[16:37:54] [Async Chat Thread - #12/INFO]: <ThatSpinnyThing_> food food food food food[m
 
-[17:32:25] [Async Chat Thread - #3/INFO]: <9810> Yo[m
+[16:37:59] [Async Chat Thread - #12/INFO]: <oliver_is_cool__> tangen?[m
 
-[17:32:27] [Async Chat Thread - #3/INFO]: <9810> Yo[m
+[16:38:04] [Async Chat Thread - #12/INFO]: <Christinayasss> yeah[m
 
-[17:32:28] [Async Chat Thread - #3/INFO]: <9810> Yo[m
+[16:38:06] [Async Chat Thread - #12/INFO]: <oliver_is_cool__> cool[m
 
-[17:32:29] [Async Chat Thread - #3/INFO]: <9810> Yo[m
+[16:38:12] [Async Chat Thread - #12/INFO]: <Christinayasss> also how do you know my last name[m
 
-[17:32:29] [Async Chat Thread - #3/INFO]: <9810> Yo[m
+[16:38:12] [Async Chat Thread - #12/INFO]: <Innocentjhh> i lost my stuff and died ina wall and idk where my stuff is[m
 
-[17:32:30] [Async Chat Thread - #3/INFO]: <9810> Yo[m
+[16:38:13] [Async Chat Thread - #12/INFO]: <Christinayasss> damn[m
 
-[17:32:31] [Async Chat Thread - #3/INFO]: <9810> Yo[m
+[16:38:32] [Async Chat Thread - #12/INFO]: <Innocentjhh> chris watch out for oliver[m
 
-[17:32:31] [Async Chat Thread - #3/INFO]: <9810> Yo[m
+[16:38:34] [Async Chat Thread - #12/INFO]: <Innocentjhh> coming to y'[m
 
-[17:32:32] [Async Chat Thread - #3/INFO]: <9810> Yo[m
+[16:38:34] [Async Chat Thread - #12/INFO]: <idk> hi chris[m
 
-[17:32:32] [Server thread/INFO]: Penguinrobert lost connection: Disconnected
-[17:32:32] [Server thread/INFO]: Penguinrobert left the game.
-[17:32:32] [Async Chat Thread - #3/INFO]: <9810> Yo[m
+[16:38:43] [Async Chat Thread - #12/INFO]: <Innocentjhh> hi noah[m
 
-[17:32:33] [Async Chat Thread - #3/INFO]: <9810> Yo[m
+[16:39:15] [Async Chat Thread - #12/INFO]: <oliver_is_cool__> ur cooked chris[m
 
-[17:32:33] [Async Chat Thread - #3/INFO]: <9810> Yo[m
+[16:39:16] [Async Chat Thread - #12/INFO]: <Christinayasss> hey noah[m
 
-[17:32:34] [Async Chat Thread - #3/INFO]: <9810> Yo[m
+[16:39:28] [Server thread/INFO]: Yuilo83013 has just earned the achievement [Taking Inventory]
+[16:39:32] [Async Chat Thread - #12/INFO]: <Christinayasss> oliver just came and slapped me in the back of my face[m
 
-[17:32:34] [Async Chat Thread - #3/INFO]: <Innocentjhh> Shut the[m
+[16:39:56] [Server thread/INFO]: Christinayasss has just earned the achievement [Benchmarking]
+[16:40:08] [Thread-69/INFO]: UUID of player SecretSwmSociety is 63adb29a-a5c9-3bfd-b5de-cfba538d2b57
+[16:40:08] [TAB Processing Thread/INFO]: [0;31;1m[TAB] [WARN] Player SecretSwmSociety's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.[m
 
-[17:32:35] [Async Chat Thread - #3/INFO]: <9810> Yo[m
+[16:40:08] [Server thread/INFO]: SecretSwmSociety[/[0:0:0:0:0:0:0:1]:50026] logged in with entity id 16606 at ([world]-266.0654051385083, 71.0, -108.84306667546944)
+[16:40:20] [Async Chat Thread - #12/INFO]: <ThatSpinnyThing_> dont kill secret gu[m
 
-[17:32:35] [Async Chat Thread - #3/INFO]: <9810> Yo[m
+[16:40:22] [Async Chat Thread - #12/INFO]: <Innocentjhh> e[m
 
-[17:32:36] [Async Chat Thread - #3/INFO]: <9810> Yo[m
+[16:40:34] [Async Chat Thread - #12/INFO]: <ThatSpinnyThing_> guy[m
 
-[17:32:36] [Async Chat Thread - #3/INFO]: <9810> Yo[m
+[16:40:36] [Async Chat Thread - #12/INFO]: <Yuilo83013> hi[m
 
-[17:32:36] [Async Chat Thread - #3/INFO]: <9810> Yo[m
+[16:40:39] [Async Chat Thread - #12/INFO]: <idk> hi[m
 
-[17:32:37] [Async Chat Thread - #3/INFO]: <9810> Yo[m
+[16:40:41] [Async Chat Thread - #12/INFO]: <Christinayasss> it wont let me break or place anything[m
 
-[17:32:37] [Async Chat Thread - #3/INFO]: <9810> Yo[m
+[16:41:12] [Async Chat Thread - #12/INFO]: <Yuilo83013> any stuff[m
 
-[17:32:38] [Async Chat Thread - #3/INFO]: <9810> Yo[m
+[16:41:14] [Async Chat Thread - #12/INFO]: <Yuilo83013> drop[m
 
-[17:32:38] [Async Chat Thread - #3/INFO]: <9810> Yo[m
+[16:41:24] [Server thread/INFO]: idk was slain by Yuilo83013
+[16:41:25] [Server thread/INFO]: literalyultraman has just earned the achievement [Monster Hunter]
+[16:42:04] [Server thread/INFO]: Yuilo83013 lost connection: Disconnected
+[16:42:04] [Server thread/INFO]: Yuilo83013 left the game.
+[16:42:16] [Async Chat Thread - #13/INFO]: <idk> ???[m
 
-[17:32:38] [Server thread/INFO]: 9810 lost connection: disconnect.spam
-[17:32:38] [Server thread/INFO]: 9810 left the game.
-[17:32:38] [Server thread/WARN]: handleDisconnection() called twice
-[17:32:38] [Server thread/INFO]: Innocentjhh was slain by oliver_is_cool__
-[17:32:39] [Server thread/INFO]: mileswa1q2 issued server command: /tab nametag preview
-[17:32:41] [Server thread/INFO]: Innocentjhh issued server command: /back
-[17:32:43] [Async Chat Thread - #3/INFO]: <Innocentjhh> bet olvier[m
+[16:42:29] [Async Chat Thread - #13/INFO]: <idk> who is yuilo?[m
 
-[17:32:44] [Server thread/INFO]: german lost connection: Login timed out!
-[17:32:44] [Server thread/INFO]: german left the game.
-[17:32:45] [Thread-33/INFO]: UUID of player 9810 is b5c13ecc-34ff-3fb7-9e3b-479f83904969
-[17:32:45] [TAB Processing Thread/INFO]: [0;31;1m[TAB] [WARN] Player 9810's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.[m
+[16:43:12] [Server thread/INFO]: Christinayasss lost connection: Disconnected
+[16:43:12] [Server thread/INFO]: Christinayasss left the game.
+[16:43:17] [Server thread/INFO]: Penguinrobert lost connection: Disconnected
+[16:43:17] [Server thread/INFO]: Penguinrobert left the game.
+[16:43:23] [Server thread/INFO]: _killer_ lost connection: Disconnected
+[16:43:23] [Server thread/INFO]: _killer_ left the game.
+[16:43:30] [Server thread/INFO]: literalyultraman lost connection: Disconnected
+[16:43:30] [Server thread/INFO]: literalyultraman left the game.
+[16:44:10] [Thread-70/INFO]: UUID of player Penguinrobert is a712e519-7a05-375b-8a16-9e02441f0e70
+[16:44:10] [TAB Processing Thread/INFO]: [0;31;1m[TAB] [WARN] Player Penguinrobert's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.[m
 
-[17:32:45] [Server thread/INFO]: 9810[/[0:0:0:0:0:0:0:1]:56770] logged in with entity id 5982 at ([world]-273.7648916005635, 74.0, 131.97338292923644)
-[17:32:49] [Thread-34/INFO]: UUID of player german is 37318338-23f9-3376-bca6-4bcc543a651f
-[17:32:49] [TAB Processing Thread/INFO]: [0;31;1m[TAB] [WARN] Player german's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.[m
+[16:44:10] [Server thread/INFO]: Penguinrobert[/[0:0:0:0:0:0:0:1]:59508] logged in with entity id 18019 at ([world]-265.5, 71.0, -111.5)
+[16:44:15] [Server thread/INFO]: oliver_is_cool__ lost connection: Disconnected
+[16:44:15] [Server thread/INFO]: oliver_is_cool__ left the game.
+[16:44:36] [Async Chat Thread - #14/INFO]: <Penguinrobert> shift if in base[m
 
-[17:32:49] [Server thread/INFO]: german[/[0:0:0:0:0:0:0:1]:41742] logged in with entity id 5987 at ([world]-248.00432630145778, 70.0, 215.69999998807907)
-[17:32:58] [Thread-35/INFO]: UUID of player sowrdsmithsoren5 is d05d5a39-cf40-3b2d-b5dc-3b8e2c6bb6a6
-[17:32:58] [TAB Processing Thread/INFO]: [0;31;1m[TAB] [WARN] Player sowrdsmithsoren5's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.[m
-
-[17:32:58] [Server thread/INFO]: sowrdsmithsoren5[/[0:0:0:0:0:0:0:1]:35714] logged in with entity id 6056 at ([world]-295.69999998807907, 51.0, 24.055264758932612)
-[17:33:02] [Server thread/INFO]: sowrdsmithsoren5 issued server command: /ogin hills.621
-[17:33:04] [Server thread/INFO]: oliver_is_cool__ was slain by Your_A_Pedo69420
-[17:33:07] [Server thread/INFO]: EDP444 hit the ground too hard
-[17:33:12] [Server thread/INFO]: EDP444 issued server command: /back
-[17:33:13] [Server thread/INFO]: oliver_is_cool__ issued server command: /back
-[17:33:19] [Server thread/INFO]: german lost connection: Login timed out!
-[17:33:19] [Server thread/INFO]: german left the game.
-[17:33:19] [Server thread/WARN]: handleDisconnection() called twice
-[17:33:29] [Server thread/INFO]: oliver_is_cool__ was slain by Your_A_Pedo69420
-[17:33:32] [Server thread/INFO]: EDP444 lost connection: Disconnected
-[17:33:32] [Server thread/INFO]: EDP444 left the game.
-[17:33:35] [Server thread/INFO]: oliver_is_cool__ issued server command: /back
-[17:33:36] [Server thread/INFO]: Mrtrump123 lost connection: Disconnected
-[17:33:36] [Server thread/INFO]: Mrtrump123 left the game.
-[17:33:43] [Server thread/INFO]: oliver_is_cool__ was slain by Your_A_Pedo69420
-[17:33:47] [Server thread/INFO]: Innocentjhh fell from a high place
-[17:33:50] [Server thread/INFO]: Innocentjhh issued server command: /back
-[17:33:58] [Server thread/INFO]: mileswa1q2 issued server command: /tab reload
-[17:33:58] [Server thread/INFO]: [TAB] [0;32;1mDisabled in 14ms[m
-
-[17:33:58] [Server thread/INFO]: [0;31;1m[TAB] [WARN] File plugins/TAB/config.yml has broken syntax.[m
-
-[17:33:58] [Server thread/INFO]: [TAB] [0;33;22mError message from yaml parser: mapping values are not allowed here
- in 'reader', line 55, column 12:
-        enabled: false
-               ^
-[m
-
-[17:33:58] [Server thread/INFO]: [0;31;1m[TAB] [WARN] Failed to enable. Did you just invent a new way to break the plugin by misconfiguring it?[m
-
-[17:33:58] [Server thread/INFO]: [0;31;1m[TAB] [WARN] java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0[m
-
-[17:33:58] [Server thread/INFO]: [0;31;1m[TAB] [WARN] 	at me.neznamy.tab.libs.me.neznamy.yamlassist.types.BadIndentation.checkForIndent(BadIndentation.java:30)[m
-
-[17:33:58] [Server thread/INFO]: [0;31;1m[TAB] [WARN] 	at me.neznamy.tab.libs.me.neznamy.yamlassist.types.BadIndentation.getSuggestions(BadIndentation.java:17)[m
-
-[17:33:58] [Server thread/INFO]: [0;31;1m[TAB] [WARN] 	at me.neznamy.tab.libs.me.neznamy.yamlassist.YamlAssist.getSuggestions(YamlAssist.java:63)[m
-
-[17:33:58] [Server thread/INFO]: [0;31;1m[TAB] [WARN] 	at me.neznamy.tab.shared.config.file.YamlConfigurationFile.<init>(YamlConfigurationFile.java:61)[m
-
-[17:33:58] [Server thread/INFO]: [0;31;1m[TAB] [WARN] 	at me.neznamy.tab.shared.config.Configs.<init>(Configs.java:31)[m
-
-[17:33:58] [Server thread/INFO]: [0;31;1m[TAB] [WARN] 	at me.neznamy.tab.shared.TAB.load(TAB.java:171)[m
-
-[17:33:58] [Server thread/INFO]: [0;31;1m[TAB] [WARN] 	at me.neznamy.tab.shared.command.ReloadCommand.execute(ReloadCommand.java:24)[m
-
-[17:33:58] [Server thread/INFO]: [0;31;1m[TAB] [WARN] 	at me.neznamy.tab.shared.command.TabCommand.execute(TabCommand.java:52)[m
-
-[17:33:58] [Server thread/INFO]: [0;31;1m[TAB] [WARN] 	at me.neznamy.tab.platforms.bukkit.BukkitTabCommand.onCommand(BukkitTabCommand.java:34)[m
-
-[17:33:58] [Server thread/INFO]: [0;31;1m[TAB] [WARN] 	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45)[m
-
-[17:33:58] [Server thread/INFO]: [0;31;1m[TAB] [WARN] 	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:146)[m
-
-[17:33:58] [Server thread/INFO]: [0;31;1m[TAB] [WARN] 	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.dispatchCommand(CraftServer.java:666)[m
-
-[17:33:58] [Server thread/INFO]: [0;31;1m[TAB] [WARN] 	at net.minecraft.server.v1_8_R3.PlayerConnection.handleCommand(PlayerConnection.java:1189)[m
-
-[17:33:58] [Server thread/INFO]: [0;31;1m[TAB] [WARN] 	at net.minecraft.server.v1_8_R3.PlayerConnection.a(PlayerConnection.java:1001)[m
-
-[17:33:58] [Server thread/INFO]: [0;31;1m[TAB] [WARN] 	at net.minecraft.server.v1_8_R3.PacketPlayInChat.a(PacketPlayInChat.java:45)[m
-
-[17:33:58] [Server thread/INFO]: [0;31;1m[TAB] [WARN] 	at net.minecraft.server.v1_8_R3.PacketPlayInChat.a(PacketPlayInChat.java:1)[m
-
-[17:33:58] [Server thread/INFO]: [0;31;1m[TAB] [WARN] 	at net.minecraft.server.v1_8_R3.PlayerConnectionUtils$1.run(SourceFile:13)[m
-
-[17:33:58] [Server thread/INFO]: [0;31;1m[TAB] [WARN] 	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)[m
-
-[17:33:58] [Server thread/INFO]: [0;31;1m[TAB] [WARN] 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)[m
-
-[17:33:58] [Server thread/INFO]: [0;31;1m[TAB] [WARN] 	at net.minecraft.server.v1_8_R3.SystemUtils.a(SourceFile:44)[m
-
-[17:33:58] [Server thread/INFO]: [0;31;1m[TAB] [WARN] 	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:774)[m
-
-[17:33:58] [Server thread/INFO]: [0;31;1m[TAB] [WARN] 	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378)[m
-
-[17:33:58] [Server thread/INFO]: [0;31;1m[TAB] [WARN] 	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713)[m
-
-[17:33:58] [Server thread/INFO]: [0;31;1m[TAB] [WARN] 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616)[m
-
-[17:33:58] [Server thread/INFO]: [0;31;1m[TAB] [WARN] 	at java.base/java.lang.Thread.run(Thread.java:1583)[m
-
-[17:33:58] [Server thread/INFO]: oliver_is_cool__ was slain by 9810
-[17:34:02] [Server thread/INFO]: mileswa1q2 issued server command: /tab
-[17:34:05] [Server thread/INFO]: oliver_is_cool__ was slain by 9810
-[17:34:09] [Server thread/INFO]: oliver_is_cool__ issued server command: /back
-[17:34:09] [Server thread/INFO]: oliver_is_cool__ was slain by 9810
-[17:34:10] [Async Chat Thread - #4/INFO]: <Your_A_Pedo69420> pls nobody come in my base[m
-
-[17:34:15] [Server thread/INFO]: oliver_is_cool__ issued server command: /back
-[17:34:17] [Server thread/INFO]: mileswa1q2 issued server command: /tab
-[17:34:23] [Server thread/INFO]: mileswa1q2 issued server command: /tab reload
-[17:34:23] [Server thread/INFO]: [0;31;1m[TAB] [WARN] Player Viggyee's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.[m
-
-[17:34:23] [Server thread/INFO]: [0;31;1m[TAB] [WARN] Player literalyultraman's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.[m
-
-[17:34:23] [Server thread/INFO]: [0;31;1m[TAB] [WARN] Player Innocentjhh's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.[m
-
-[17:34:23] [Server thread/INFO]: [0;31;1m[TAB] [WARN] Player oliver_is_cool__'s group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.[m
-
-[17:34:23] [Server thread/INFO]: [0;31;1m[TAB] [WARN] Player mileswa1q2's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.[m
-
-[17:34:23] [Server thread/INFO]: [0;31;1m[TAB] [WARN] Player sowrdsmithsoren5's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.[m
-
-[17:34:23] [Server thread/INFO]: [0;31;1m[TAB] [WARN] Player 9810's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.[m
-
-[17:34:23] [Server thread/INFO]: [0;31;1m[TAB] [WARN] Player Jack23's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.[m
-
-[17:34:23] [Server thread/INFO]: [0;31;1m[TAB] [WARN] Player Your_A_Pedo69420's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.[m
-
-[17:34:23] [Server thread/INFO]: [0;31;1m[TAB] [WARN] Player ElleganceEaston's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.[m
-
-[17:34:23] [Server thread/INFO]: [TAB] [0;32;1mEnabled in 42ms[m
-
-[17:34:24] [Server thread/INFO]: oliver_is_cool__ fell from a high place
-[17:34:27] [Server thread/INFO]: mileswa1q2 issued server command: /tab
-[17:34:29] [Server thread/INFO]: oliver_is_cool__ issued server command: /back
-[17:34:34] [Thread-36/INFO]: UUID of player german is 37318338-23f9-3376-bca6-4bcc543a651f
-[17:34:34] [TAB Processing Thread/INFO]: [0;31;1m[TAB] [WARN] Player german's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.[m
-
-[17:34:34] [Server thread/INFO]: german[/[0:0:0:0:0:0:0:1]:46784] logged in with entity id 6345 at ([world]-248.00432630145778, 70.0, 215.69999998807907)
-[17:34:39] [Server thread/INFO]: Innocentjhh lost connection: Disconnected
-[17:34:39] [Server thread/INFO]: Innocentjhh left the game.
-[17:34:55] [Server thread/INFO]: mileswa1q2 issued server command: /tab player mileswa1q2 admin
-[17:35:06] [Server thread/INFO]: Viggyee tried to swim in lava
-[17:35:21] [Server thread/INFO]: Viggyee was slain by german
-[17:35:27] [Server thread/INFO]: literalyultraman was slain by Your_A_Pedo69420
-[17:35:27] [Server thread/INFO]: mileswa1q2 issued server command: /tab player mileswa1q2 customtagname admin
-[17:35:27] [Server thread/INFO]: [0;31;1m[TAB] [WARN] Player mileswa1q2's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.[m
-
-[17:35:48] [Server thread/INFO]: mileswa1q2 issued server command: /tab group admin
-[17:35:52] [Server thread/INFO]: mileswa1q2 issued server command: /tab player mileswa1q2 customtagname admin
-[17:35:52] [Server thread/INFO]: oliver_is_cool__ was slain by Your_A_Pedo69420
-[17:35:57] [Server thread/INFO]: oliver_is_cool__ issued server command: /back
-[17:36:07] [Server thread/INFO]: mileswa1q2 lost connection: Disconnected
-[17:36:07] [Server thread/INFO]: mileswa1q2 left the game.
-[17:36:10] [Thread-37/INFO]: UUID of player Penguinrobert is a712e519-7a05-375b-8a16-9e02441f0e70
-[17:36:10] [TAB Processing Thread/INFO]: [0;31;1m[TAB] [WARN] Player Penguinrobert's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.[m
-
-[17:36:10] [Server thread/INFO]: Penguinrobert[/[0:0:0:0:0:0:0:1]:35974] logged in with entity id 6968 at ([world]-189.66675730595904, 5.0, 74.40940844973584)
-[17:36:26] [Server thread/INFO]: Your_A_Pedo69420 was slain by oliver_is_cool__
-[17:36:35] [Server thread/INFO]: oliver_is_cool__ was slain by Your_A_Pedo69420
-[17:36:41] [Async Chat Thread - #5/INFO]: <Your_A_Pedo69420> fuck off oliver[m
-
-[17:36:53] [Server thread/INFO]: oliver_is_cool__ was slain by Your_A_Pedo69420
-[17:36:57] [Server thread/INFO]: oliver_is_cool__ was slain by Your_A_Pedo69420
-[17:37:03] [Server thread/INFO]: oliver_is_cool__ was slain by Your_A_Pedo69420
-[17:37:03] [Server thread/INFO]: Your_A_Pedo69420 was slain by oliver_is_cool__
-[17:37:12] [Server thread/INFO]: oliver_is_cool__ was slain by Your_A_Pedo69420
-[17:37:16] [Server thread/INFO]: Your_A_Pedo69420 was slain by oliver_is_cool__
-[17:37:16] [Server thread/INFO]: oliver_is_cool__ was slain by Your_A_Pedo69420
-[17:37:22] [Server thread/INFO]: oliver_is_cool__ was slain by Your_A_Pedo69420
-[17:37:25] [Server thread/INFO]: Your_A_Pedo69420 lost connection: Disconnected
-[17:37:25] [Server thread/INFO]: Your_A_Pedo69420 left the game.
-[17:37:30] [Async Chat Thread - #5/INFO]: <ElleganceEaston> t[m
-
-[17:37:31] [Server thread/INFO]: 9810 lost connection: Disconnected
-[17:37:31] [Server thread/INFO]: 9810 left the game.
-[17:37:41] [Thread-38/INFO]: UUID of player Innocentjhhg is 02fc4bbc-96fe-3932-9955-9fae68eefa6f
-[17:37:41] [Server thread/INFO]: Innocentjhhg[/[0:0:0:0:0:0:0:1]:35992] logged in with entity id 7497 at ([world]-235.5, 63.0, 207.5)
-[17:37:41] [TAB Processing Thread/INFO]: [0;31;1m[TAB] [WARN] Player Innocentjhhg's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.[m
-
-[17:37:56] [Server thread/INFO]: literalyultraman lost connection: Disconnected
-[17:37:56] [Server thread/INFO]: literalyultraman left the game.
-[17:37:58] [Server thread/INFO]: Innocentjhhg lost connection: Disconnected
-[17:37:58] [Server thread/INFO]: Innocentjhhg left the game.
-[17:38:07] [Server thread/INFO]: german lost connection: Disconnected
-[17:38:07] [Server thread/INFO]: german left the game.
-[17:38:09] [Thread-39/INFO]: UUID of player Innocentjhh is fbe9c512-a580-3054-b978-6e242a4e42b0
-[17:38:09] [TAB Processing Thread/INFO]: [0;31;1m[TAB] [WARN] Player Innocentjhh's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.[m
-
-[17:38:09] [Server thread/INFO]: Innocentjhh[/[0:0:0:0:0:0:0:1]:49700] logged in with entity id 7614 at ([world]-243.3971263376699, 37.0, 131.34972788903025)
-[17:38:14] [Server thread/INFO]: Viggyee lost connection: Disconnected
-[17:38:14] [Server thread/INFO]: Viggyee left the game.
-[17:38:18] [Server thread/INFO]: sowrdsmithsoren5 lost connection: Disconnected
-[17:38:18] [Server thread/INFO]: sowrdsmithsoren5 left the game.
-[17:38:19] [Server thread/INFO]: oliver_is_cool__ lost connection: Disconnected
-[17:38:19] [Server thread/INFO]: oliver_is_cool__ left the game.
-[17:38:24] [Server thread/INFO]: ElleganceEaston lost connection: Disconnected
-[17:38:24] [Server thread/INFO]: ElleganceEaston left the game.
-[17:38:34] [Server thread/INFO]: Innocentjhh lost connection: Disconnected
-[17:38:34] [Server thread/INFO]: Innocentjhh left the game.
-[17:38:50] [Server thread/INFO]: Jack23 lost connection: Disconnected
-[17:38:50] [Server thread/INFO]: Jack23 left the game.
-[17:39:21] [Thread-40/INFO]: UUID of player EDP444 is 7f4c4ca8-2e74-3a67-82e5-719a8e99ca91
-[17:39:21] [Server thread/INFO]: EDP444[/[0:0:0:0:0:0:0:1]:48124] logged in with entity id 7818 at ([world]-245.3480205963376, 71.0, 218.72059360174617)
-[17:39:21] [TAB Processing Thread/INFO]: [0;31;1m[TAB] [WARN] Player EDP444's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.[m
-
-[17:39:58] [Thread-41/INFO]: UUID of player ElleganceEaston is e355c365-81d0-3180-b6d1-593829850e57
-[17:39:58] [TAB Processing Thread/INFO]: [0;31;1m[TAB] [WARN] Player ElleganceEaston's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.[m
-
-[17:39:58] [Server thread/INFO]: ElleganceEaston[/[0:0:0:0:0:0:0:1]:46388] logged in with entity id 7932 at ([world]-548.4298972859093, 5.0, 248.30000001192093)
-[17:40:10] [Server thread/INFO]: Saving...
-[17:40:10] [Server thread/INFO]: Saved the world
-[17:40:16] [Server thread/INFO]: Stopping the server
-[17:40:16] [Server thread/INFO]: Stopping server
-[17:40:16] [Server thread/INFO]: [LoginSecurity] Disabling LoginSecurity v3.2.0
-[17:40:16] [Server thread/INFO]: [LoginSecurity] Waiting for queued tasks...
-[17:40:16] [Server thread/INFO]: [LoginSecurity] ExecutorService shut down, ready to disable.
-[17:40:16] [Server thread/INFO]: [TAB] Disabling TAB v4.1.4
-[17:40:16] [Server thread/INFO]: [TAB] [0;32;1mDisabled in 2ms[m
-
-[17:40:16] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v6.1;no_git_id
-[17:40:16] [Server thread/INFO]: [SimpleHomes] Disabling SimpleHomes v2.2
-[17:40:16] [Server thread/INFO]: [SimpleTpa] Disabling SimpleTpa v6.4
-[17:40:16] [Server thread/INFO]: [0;36;1m[21m[SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9[m
-
-[17:40:16] [Server thread/INFO]: [0;36;1m[21m[SimpleTpa] Simple Tpa has been disabled on version 6.4[m
-
-[17:40:16] [Server thread/INFO]: [PixelMOTD] Disabling PixelMOTD v9.3.9-SNAPSHOT
-[17:40:16] [Server thread/INFO]: Saving players
-[17:40:16] [Server thread/INFO]: Penguinrobert lost connection: Server closed
-[17:40:16] [Server thread/INFO]: Penguinrobert left the game.
-[17:40:16] [Server thread/INFO]: ElleganceEaston lost connection: Server closed
-[17:40:16] [Server thread/INFO]: ElleganceEaston left the game.
-[17:40:16] [Server thread/INFO]: Saving worlds
-[17:40:16] [Server thread/INFO]: Saving chunks for level 'world'/Overworld
-[17:40:17] [Server thread/INFO]: Saving chunks for level 'world_nether'/Nether
-[17:40:17] [Server thread/INFO]: Saving chunks for level 'world_the_end'/The End
+[16:44:37] [Server thread/INFO]: SecretSwmSociety was slain by ThatSpinnyThing_
