@@ -55,6 +55,11 @@ Penguinrobert:
     X: -338.0290856171039
     Y: 63.0
     Z: -93.8095399937803
+  base:
+    world: world
+    X: -263.6998437068504
+    Y: 24.0
+    Z: -55.04825290910192
 sowrdsmithsoren5:
   sowrdsmith:
     world: world
@@ -87,6 +92,11 @@ linglingg_:
     X: -198.69648144797864
     Y: 48.0
     Z: 130.69999998807904
+  pedo:
+    world: world
+    X: -195.38691934224084
+    Y: 48.0
+    Z: 125.61976583332005
 ghost:
   ghost:
     world: world

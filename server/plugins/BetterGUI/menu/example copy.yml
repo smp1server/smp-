@@ -1,0 +1,41 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+menu-settings:
+  name: '&c&l\shop'
+  rows: 6
+  command: menu
+  auto-refresh: 5
+  open-action:
+    - 'tell: &eYou opened the example menu'
+  close-action:
+    - 'tell: &cYou closed the example menu'
+
+multi-slot:
+  slot: 0-8,45,46,47-52
+  type: animated
+  update: 10
+  child:
+    frame1:
+      name: ' '
+      id:
+        - black stained glass pane
+        - STAINED_GLASS_PANE:15
+    frame2:
+      name: ' '
+      id:
+        - gray stained glass pane
+        - STAINED_GLASS_PANE:7
+    frame3:
+      name: ' '
+      id:
+        - white stained glass pane
+        - STAINED_GLASS_PANE
+
+close-the-menu:
+  id: BARRIER
+  slot: 53
+  name: '&cClose the menu'
+  close-on-click: true

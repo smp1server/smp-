@@ -1,0 +1,95 @@
+# Novaconomy Configuration File
+Database:
+  Enabled: false
+  Convert: true
+  Service: mysql
+  Host: localhost
+  Port: 3306
+  Database: novaconomy
+  Username: ''
+  Password: ''
+Notifications: true
+Language: en
+NaturalCauses:
+  EnchantBonus: true
+  MaxIncrease: 1000
+  KillIncrease: true
+  KillIncreaseChance: 100
+  KillIncreaseIndirect: true
+  FishingIncrease: true
+  FishingIncreaseChance: 70
+  FarmingIncrease: true
+  FarmingIncreaseChance: 40
+  MiningIncrease: true
+  MiningIncreaseChance: 30
+  BuildingIncrease: true
+  BuildingIncreaseChance: 10
+  DeathDecrease: true
+  DeathDivider: 2
+  Modifiers:
+    Mining: {}
+    Killing: {}
+    Fishing: {}
+    Farming: {}
+    Building: {}
+    Death: {}
+  Ignore: []
+Interest:
+  Enabled: true
+  IntervalTicks: 1728000
+  ValueMultiplier: 1.03
+Taxes:
+  Online: false
+  MaxWithdraw:
+    Global: 100
+    Bypass:
+    - OPS
+  Ignore:
+  - OPS
+  Automatic:
+    Interval: 1728000
+    Enabled: false
+    Ignore: []
+  Minimums:
+    Global: 0
+  Events:
+    Enabled: true
+  Income:
+    NaturalCauses:
+      Enabled: false
+      Tax: 0.02
+      Ignore: []
+    Business:
+      Enabled: true
+      Tax: 0.03
+      Ignore: []
+Bounties:
+  Broadcast: true
+  Enabled: true
+Business:
+  Advertising:
+    Enabled: true
+    ClickReward: 5
+Corporation:
+  ExperienceIncrease:
+    ProductIncrease: true
+    ProductIncreaseModifier: 1.0
+Market:
+  Enabled: true
+  PriceOverride: {}
+  Deposit: true
+  SellPercentage: 0.75
+  SellStock: true
+  MaxPurchases: -1
+  Blacklisted: []
+  Restock:
+    Enabled: true
+    Amount: 1000
+    IntervalTicks: 1728000
+  Membership:
+    Enabled: true
+    Amount: 10000.0
+  Purchasing:
+    WhitelistedEconomies: []
+    BlacklistedEconomies: []
+  CustomItems: []

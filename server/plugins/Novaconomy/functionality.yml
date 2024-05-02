@@ -1,0 +1,34 @@
+# Novaconomy Functionality Configuration File
+CommandVersion: auto
+MessageHandler: auto
+NegativeBalances:
+  Enabled: false
+  MaxNegativeBalance: -100
+  IncludeZero: true
+  BypassMax:
+  - OPS
+  WhenNegative:
+    PurchaseProducts: false
+    PurchaseMarket: true
+    PurchaseAuction: false
+    PayPlayers: true
+    PayBanks: true
+    CreateChecks: false
+    CreateBounties: false
+    ConvertBalance: false
+    PurchaseBusiness: false
+MaxConvertAmount: -1
+EconomyMaxConvertAmounts: {}
+VaultEconomy: -1
+Essentials:
+  NickCost:
+    Enabled: false
+    Amount: 0
+    Economy: default
+  TeleportCost:
+    Enabled: false
+    Amount: 0
+    Economy: default
+  WarpCost:
+    Enabled: false
+    Amount: 0

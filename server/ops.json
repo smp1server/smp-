@@ -4,5 +4,11 @@
     "name": "mileswa1q2",
     "level": 4,
     "bypassesPlayerLimit": true
+  },
+  {
+    "uuid": "ee44f354-581f-3fac-bdaf-95328c80f6cc",
+    "name": "star",
+    "level": 4,
+    "bypassesPlayerLimit": false
   }
 ]

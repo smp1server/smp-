@@ -16,7 +16,7 @@ mysql:
 # messages in this language will be used.
 #
 # NOTE: Definitely don't use locale which is not a perfectly valid language file
-default-server-language: 'af_ZA'
+default-server-language: 'en_US'
 
 # You can enter the names of the players you want to protect from all punish commands.
 exempt-players:

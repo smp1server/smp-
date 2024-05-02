@@ -1,18 +1,1 @@
-[
-  {
-    "uuid": "4fdecc43-e79b-46f7-82ff-c866f07d5686",
-    "name": "Viggy",
-    "created": "2024-04-29 18:13:47 +0000",
-    "source": "Server",
-    "expires": "forever",
-    "reason": "Banned by an operator."
-  },
-  {
-    "uuid": "486aade3-d423-3ba4-ab11-0c276ac78afe",
-    "name": "Viggyee",
-    "created": "2024-04-29 18:15:18 +0000",
-    "source": "Server",
-    "expires": "forever",
-    "reason": "Banned by an operator."
-  }
-]
+[]

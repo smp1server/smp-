@@ -1,0 +1,10 @@
+have-met-requirement-placeholder: 'Yes'
+menu-not-found: '&cThat menu does not exist'
+player-not-found: '&cThe player is not found. Maybe he is offline or didn''t join
+  your server'
+no-permission: '&cYou don''t have permission to do this'
+menu-required: '&cYou should specify a menu'
+player-only: '&cYou must be a player to do this'
+invalid-number: '&cError converting! {input} is not a valid number'
+prefix: '&f[&bBetterGUI&f] '
+success: '&aSuccess'
