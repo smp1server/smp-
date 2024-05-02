@@ -1,0 +1,174 @@
+#Placeholders:
+#%reason% -> Reason of punishment.
+#%duration% -> Duration of punishment.
+#%operator% -> Operator of punishment.
+#%player% -> Name of the player being punished.
+main:
+  prefix: '&6PunishManager'
+  exempt-player: 'Du kannst diesen Spieler nicht bestrafen.'
+  defaultReason: 'keine'
+  not-on-yourself: 'Du kannst diesen Befehl nicht an dir selbst verwenden!'
+  not-logged-server: '&cDu kannst niemanden bestrafen der den Server noch nicht betreten hat.'
+  setlanguage: '&aDeine Sprache wurde zu {0} gesetzt.'
+  setdefaultlanguage: '&aDie Standardsprache für den Server wurde zu {0} gesetzt.'
+  mustInteger: '&cBitte geben Sie einen gültigen Integer-Wert ein.'
+  online: '&aOnline'
+  offline: '&8Offline'
+  timelayout:
+    #Variables to be used when showing the duration of the punishment.
+    year: '%y% Jahr(e)'
+    month: '%mo% Monat(e)'
+    week: '%w% Woche(n)'
+    day: '%d% Tag(e)'
+    hour: '%h% Stunde(n)'
+    minute: '%m% Minute(n)'
+    second: '%s% Sekunde(n)'
+gui:
+  clickNoPerm: '&cDu hast keine Berechtigung dafür.'
+  backbutton:
+    name: '&7Zurück'
+  main:
+    title: '&6&lPunishManager GUI'
+    languageselector:
+      name: '&eSprachauswahl'
+      lore:
+        - '&7'
+        - '&eWähle die Sprache des Plugins für dich selbst.'
+    managepunishments:
+      name: '&eBestrafungen verwalten'
+      lore:
+        - '&7'
+        - '&eVerwalte alle bestehenden Bestrafungen durch Anklicken.'
+    adminpanel:
+      name: '&eAdministrationsbereich'
+      lore:
+        - '&7'
+        - '&eVerwalte das Plugin über eine Benutzeroberfläche.'
+  languageselector:
+    title: '&eSprachauswahl - Aktuell: &8{0}'
+  adminpanel:
+    title: '&eAdminbereich'
+    reload:
+      name: '&aAlle Konfigurationsdateien neu laden'
+  managepunishments:
+    title: '&eBestrafungen verwalten - Gesamt &6{0}'
+    next:
+      name: '&7Nächste Seite'
+    previous:
+      name: '&7Vorherige Seite'
+    punishment:
+      name: '&bBestrafung #%id%'
+      #Variables: %player%, %uuid%, %type%, %reason%, %operator%, %ip%
+      lore:
+        - '&6Name: &e%player%'
+        - '&6Typ: &e%type%'
+        - '&6Grund: &e%reason%'
+        - '&6Dauer: &e%duration%'
+        - '&6Operator: &e%operator%'
+        - '&6Ip: &e%ip%'
+        - '&7'
+        - '&7Linksklick zum &Eremove &7die Strafe.'
+  confirmation:
+    title: '&eBestätigung'
+    confirm:
+      name: '&7Klicke hier, um zu bestätigen'
+    return:
+      name: '&7Klicke hier zum &cReturn'
+ban:
+  punished: '&%player% erfolgreich gesperrt.'
+  alreadyPunished: '&e%player% ist bereits gesperrt.'
+  layout:
+    - '%prefix%'
+    - '&7'
+    - '&6Du hast von diesem Server gebannt.'
+    - '&2Operator: &ein%operator%'
+    - '&2Grund: &ein%reason%'
+    - '&eKontakt & Support'
+    - "&6Web &7» Bald"
+    - "&6Discord &7» Bald"
+  announce: '&a%player% &ewurde von &a%operator% &eaufgrund von &e%reason% &egesperrt.'
+  description: 'Spieler sperren.'
+tempban:
+  punished: '&%player% erfolgreich gesperrt.'
+  alreadyPunished: '&e%player% ist bereits gesperrt.'
+  layout:
+    - '%prefix%'
+    - '&7'
+    - '&6Du wurdest von diesem Server gebannt.'
+    - '&2Operator: &a%operator%'
+    - '&2Grund: &a%reason%'
+    - '&2Dauer: &a%duration%'
+    - '&eKontakt & Support'
+    - "&6Web &7» Demnächst"
+    - "&6Discord &7» Demnächst"
+  announce: '&a%player% &ewurde von &a%operator% &efür &a%duration% &edue für &a%reason% gebannt.'
+  description: 'Sperrt vorübergehen einen Spieler.'
+ipban:
+  punished: '&%player% erfolgreich gesperrt.'
+  alreadyPunished: '&e%player% ist bereits gesperrt.'
+  layout:
+    - '%prefix%'
+    - '&7'
+    - '&6Du wurdest von diesem Server gesperrt.'
+    - '&2Operator: &a%operator%'
+    - '&2Grund: &a%reason%'
+    - '&eKontakt & Support'
+    - "&6Web &7» Demnächst"
+    - "&6Discord &7» Demnächst"
+  announce: '&a%player% &ewurde von &a%operator% &eaufgrund von &e%reason% &egesperrt.'
+  description: 'Sperrt die IP-Adresse eines Spielers.'
+kick:
+  punished: '&%player% erfolgreich gekickt.'
+  notOnline: '&e%player% ist nicht online.'
+  layout:
+    - '%prefix%'
+    - '&7'
+    - '&6Du wurdest von diesem Server gekickt.'
+    - '&2Grund: &ein%reason%'
+  description: 'Kickt einen Spieler vom Server.'
+mute:
+  punished: '&%player% erfolgreich stumm.'
+  alreadyPunished: '&e%player% ist bereits stumm.'
+  layout:
+    - '&eDu wurdest von &a%operator% &edue zum &a%reason%&e.'
+  announce: '&%player% &emutiert von &a%operator% &edue zu &a%reason%.'
+  description: 'Spieler stummschalten.'
+tempmute:
+  punished: '&%player% erfolgreich stumm.'
+  alreadyPunished: '&e%player% ist bereits stumm.'
+  layout:
+    - '&eDu wurdest von &a%operator% &efür &a%duration% &edue zum &a%reason%&e.'
+  announce: '&a%player% &ewurde von &a%operator% &efür &a%duration% &eaufgrund von &a%reason% &estummgeschalten.'
+  description: 'Stummschaltung eines Spielers.'
+unban:
+  notPunished: '&e%player% ist nicht gebannt.'
+  done: '&Der Bann von%player%wurde entfernt.'
+  description: 'Entfernt den Bann eines Spielers.'
+unmute:
+  notPunished: '&e%player% ist nicht stumm.'
+  done: '&Die Stummschaltung von%player%wurde entfernt.'
+  description: 'Entfernt den Stumm eines Spielers.'
+unpunish:
+  notPunished: '&e%player% wird nicht bestraft.'
+  done: '&Die Strafen von%player%wurden entfernt.'
+  description: 'Entfernt alle Strafen von einem Spieler.'
+check:
+  checking: '&eÜberprüfe &a%player% &7(%online%&7)'
+  playerNotFound: '&c%player% nicht gefunden!'
+  country: '&eLand: &a%country%'
+  language: '&eSprache: &a%language%'
+  banStatus: '&eSperr-Status: &c%status%'
+  banReason: '&e-> Sperrgrund: &c%reason%'
+  banOperator: '&e-> Ausgeführt durch: &c%operator%'
+  muteStatus: '&eStummschalten Status: &c%status%'
+  muteReason: '&e-> Grund stummschalten: &c%reason%'
+  muteOperator: '&e-> Ausgeführt durch: &c%operator%'
+  punishId: '&e-> Bestrafungs Id: &c%id%'
+  notPunished: '&anicht bestraft'
+  description: 'Überprüft den aktuellen Status eines Spielers.'
+punishmanager:
+  description: 'Der Hauptbefehl des Plugins.'
+changereason:
+  description: 'Ändert den Grund für eine Bestrafung.'
+  punishmentNotFound: '&eGesuchte Bestrafung nicht gefunden.'
+  done: '&aDer Grund für die Bestrafung mit der ID &e#%id% &awurde zu &e%reason% &ageändert.'

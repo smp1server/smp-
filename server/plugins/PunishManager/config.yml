@@ -1,0 +1,94 @@
+# This plugin was written by Mehmet_27.
+# Its main purpose is to save you from paid plugins.
+# If you need help using the plugin, you can reach us here: https://discord.gg/MYjmmEqKvE
+
+# If you don't use mysql connection it will automatically use a local database.
+mysql:
+  enable: false
+  host: "localhost"
+  port: 3306
+  database: "database"
+  username: "username"
+  password: "password"
+
+# This will be your server's default language.
+# If the player who entered does not have a language file,
+# messages in this language will be used.
+#
+# NOTE: Definitely don't use locale which is not a perfectly valid language file
+default-server-language: 'af_ZA'
+
+# You can enter the names of the players you want to protect from all punish commands.
+exempt-players:
+  - 'examplePlayer'
+
+# Prevents staff from using punish commands on themselves
+self-punish: false
+
+# If you turn this on, all player names that have entered the server
+# before will also appear in tab completions.
+show-all-names-in-tab-completion: true
+
+# Commands you don't want players to use while muted.
+banned-commands-while-mute:
+  - 'me'
+  - 'say'
+  - 'msg'
+
+# If you enable it, you will now need "punishmanager.command.check.ip" permission to see the ip info in the check command.
+check-command-show-ip-require-perm: false
+
+templates:
+  1:
+    type: MUTE
+    slot: 18
+    reason: 'Test'
+  2:
+    type: TEMPMUTE
+    slot: 19
+    duration: 1d
+    reason: 'Test'
+  3:
+    type: BAN
+    slot: 20
+    reason: 'Test'
+  4:
+    type: TEMPBAN
+    slot: 21
+    duration: 1d
+    reason: 'Test'
+  5:
+    type: IPBAN
+    slot: 22
+    reason: 'Test'
+  6:
+    type: KICK
+    slot: 23
+    reason: 'Test'
+
+discord:
+  enable: false
+  token: 'yourBotToken'
+  serverId: 'yourServerId'
+  punish-announce:
+    enable: false
+    channel-id: 'yourAnnounceChannelId'
+    embeds:
+      ban: true
+      ipban: true
+      kick: true
+      mute: true
+      tempban: true
+      tempmute: true
+      unban: true
+      unmute: true
+      unpunish: true
+
+# Use %ip% variable for player's ip address
+apis:
+  countryApi:
+    url: 'http://ip-api.com/json/%ip%?fields=country'
+    key: 'country'
+
+updateChecker: true
+debug: false
