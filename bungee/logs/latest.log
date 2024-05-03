@@ -469,3 +469,94 @@ Discord » coming soon
 [13:51:43] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:58144|kitty19562] -> UpstreamBridge has disconnected
 [13:51:44] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:38356]: Connected via websocket
 [13:51:44] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:38356]: Origin header is https://fun-miles2.netlify.app
+[13:51:44] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:38380]: Connected via websocket
+[13:51:44] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:38380]: Origin header is https://localhost:8081
+[13:51:44] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:38396]: Connected via websocket
+[13:51:44] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:38396]: Origin header is https://fun-miles-4jub.onrender.com
+[13:51:44] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:38356]: Logged in as 'black_kid'
+[13:51:44] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:38356|black_kid] -> UpstreamBridge has connected
+[13:51:44] [Netty Worker IO Thread #1/WARN]: Error occurred processing connection for black_kid AnnotatedConnectException : finishConnect(..) failed: Connection refused: localhost/127.0.0.1:25565
+[13:51:44] [Netty Worker IO Thread #1/INFO]: [black_kid] disconnected with: Could not connect to a default or fallback server. Incorrectly configured address/port/firewall? 
+[13:51:44] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:38356|black_kid] -> UpstreamBridge has disconnected
+[13:51:45] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:38396]: Logged in as 'LeoisHIM__'
+[13:51:45] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:38396|LeoisHIM__] -> UpstreamBridge has connected
+[13:51:45] [Netty Worker IO Thread #0/WARN]: Error occurred processing connection for LeoisHIM__ AnnotatedConnectException : finishConnect(..) failed: Connection refused: localhost/127.0.0.1:25565
+[13:51:45] [Netty Worker IO Thread #0/INFO]: [LeoisHIM__] disconnected with: Could not connect to a default or fallback server. Incorrectly configured address/port/firewall? 
+[13:51:45] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:38396|LeoisHIM__] -> UpstreamBridge has disconnected
+[13:51:45] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:38380]: Logged in as 'sials'
+[13:51:45] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:38380|sials] -> UpstreamBridge has connected
+[13:51:45] [Netty Worker IO Thread #3/WARN]: Error occurred processing connection for sials AnnotatedConnectException : finishConnect(..) failed: Connection refused: localhost/127.0.0.1:25565
+[13:51:45] [Netty Worker IO Thread #3/INFO]: [sials] disconnected with: Could not connect to a default or fallback server. Incorrectly configured address/port/firewall? 
+[13:51:45] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:38380|sials] -> UpstreamBridge has disconnected
+[13:51:46] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:38416]: Connected via websocket
+[13:51:46] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:38416]: Origin header is https://fun-miles2.netlify.app
+[13:51:46] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:38416]: Logged in as 'Zane'
+[13:51:46] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:38416|Zane] -> UpstreamBridge has connected
+[13:51:46] [Netty Worker IO Thread #2/WARN]: Error occurred processing connection for Zane AnnotatedConnectException : finishConnect(..) failed: Connection refused: localhost/127.0.0.1:25565
+[13:51:46] [Netty Worker IO Thread #2/INFO]: [Zane] disconnected with: Could not connect to a default or fallback server. Incorrectly configured address/port/firewall? 
+[13:51:46] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:38416|Zane] -> UpstreamBridge has disconnected
+[13:51:47] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:38432]: Connected via websocket
+[13:51:47] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:38432]: Origin header is https://localhost:8081
+[13:51:47] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:38448]: Connected via websocket
+[13:51:47] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:38448]: Origin header is null
+[13:51:47] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:38432]: Logged in as 'oreo_cooki_cat'
+[13:51:47] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:38432|oreo_cooki_cat] -> UpstreamBridge has connected
+[13:51:47] [Netty Worker IO Thread #3/WARN]: Error occurred processing connection for oreo_cooki_cat AnnotatedConnectException : finishConnect(..) failed: Connection refused: localhost/127.0.0.1:25565
+[13:51:47] [Netty Worker IO Thread #3/INFO]: [oreo_cooki_cat] disconnected with: Could not connect to a default or fallback server. Incorrectly configured address/port/firewall? 
+[13:51:47] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:38432|oreo_cooki_cat] -> UpstreamBridge has disconnected
+[13:51:48] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:38448]: Logged in as 'Mrtrump123'
+[13:51:48] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:38448|Mrtrump123] -> UpstreamBridge has connected
+[13:51:48] [Netty Worker IO Thread #0/WARN]: Error occurred processing connection for Mrtrump123 AnnotatedConnectException : finishConnect(..) failed: Connection refused: localhost/127.0.0.1:25565
+[13:51:48] [Netty Worker IO Thread #0/INFO]: [Mrtrump123] disconnected with: Could not connect to a default or fallback server. Incorrectly configured address/port/firewall? 
+[13:51:48] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:38448|Mrtrump123] -> UpstreamBridge has disconnected
+[13:51:48] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:38478]: Connected via websocket
+[13:51:48] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:38478]: Origin header is https://fun-miles-4jub.onrender.com
+[13:51:48] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:38478]: Logged in as 'mo_mowso'
+[13:51:48] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:38478|mo_mowso] -> UpstreamBridge has connected
+[13:51:48] [Netty Worker IO Thread #3/WARN]: Error occurred processing connection for mo_mowso AnnotatedConnectException : finishConnect(..) failed: Connection refused: localhost/127.0.0.1:25565
+[13:51:48] [Netty Worker IO Thread #3/INFO]: [mo_mowso] disconnected with: Could not connect to a default or fallback server. Incorrectly configured address/port/firewall? 
+[13:51:48] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:38478|mo_mowso] -> UpstreamBridge has disconnected
+[13:51:50] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:38522]: Connected via websocket
+[13:51:50] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:38522]: Origin header is https://localhost:8081
+[13:51:51] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:38522]: Logged in as 'sials'
+[13:51:51] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:38522|sials] -> UpstreamBridge has connected
+[13:51:51] [Netty Worker IO Thread #3/WARN]: Error occurred processing connection for sials AnnotatedConnectException : finishConnect(..) failed: Connection refused: localhost/127.0.0.1:25565
+[13:51:51] [Netty Worker IO Thread #3/INFO]: [sials] disconnected with: Could not connect to a default or fallback server. Incorrectly configured address/port/firewall? 
+[13:51:51] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:38522|sials] -> UpstreamBridge has disconnected
+[13:51:51] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:38544]: Connected via websocket
+[13:51:51] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:38544]: Origin header is https://fun-miles2.netlify.app
+[13:51:52] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:38544]: Logged in as 'Your_A_Pedo69420'
+[13:51:52] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:38544|Your_A_Pedo69420] -> UpstreamBridge has connected
+[13:51:52] [Netty Worker IO Thread #1/WARN]: Error occurred processing connection for Your_A_Pedo69420 AnnotatedConnectException : finishConnect(..) failed: Connection refused: localhost/127.0.0.1:25565
+[13:51:52] [Netty Worker IO Thread #1/INFO]: [Your_A_Pedo69420] disconnected with: Could not connect to a default or fallback server. Incorrectly configured address/port/firewall? 
+[13:51:52] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:38544|Your_A_Pedo69420] -> UpstreamBridge has disconnected
+[13:51:52] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:38550]: Connected via websocket
+[13:51:52] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:38550]: Origin header is https://localhost:8081
+[13:51:52] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:38550]: Logged in as 'kitty19562'
+[13:51:52] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:38550|kitty19562] -> UpstreamBridge has connected
+[13:51:52] [Netty Worker IO Thread #3/WARN]: Error occurred processing connection for kitty19562 AnnotatedConnectException : finishConnect(..) failed: Connection refused: localhost/127.0.0.1:25565
+[13:51:52] [Netty Worker IO Thread #3/INFO]: [kitty19562] disconnected with: Could not connect to a default or fallback server. Incorrectly configured address/port/firewall? 
+[13:51:52] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:38550|kitty19562] -> UpstreamBridge has disconnected
+[13:51:53] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:58820]: Connected via websocket
+[13:51:53] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:58820]: Origin header is null
+[13:51:53] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:58820]: Logged in as 'Mrtrump123'
+[13:51:53] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:58820|Mrtrump123] -> UpstreamBridge has connected
+[13:51:53] [Netty Worker IO Thread #1/WARN]: Error occurred processing connection for Mrtrump123 AnnotatedConnectException : finishConnect(..) failed: Connection refused: localhost/127.0.0.1:25565
+[13:51:53] [Netty Worker IO Thread #1/INFO]: [Mrtrump123] disconnected with: Could not connect to a default or fallback server. Incorrectly configured address/port/firewall? 
+[13:51:53] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:58820|Mrtrump123] -> UpstreamBridge has disconnected
+[13:51:54] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:58874]: Connected via websocket
+[13:51:54] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:58874]: Origin header is https://fun-miles-4jub.onrender.com
+[13:51:54] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:58874]: Logged in as 'mo_mowso'
+[13:51:54] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:58874|mo_mowso] -> UpstreamBridge has connected
+[13:51:54] [Netty Worker IO Thread #1/WARN]: Error occurred processing connection for mo_mowso AnnotatedConnectException : finishConnect(..) failed: Connection refused: localhost/127.0.0.1:25565
+[13:51:54] [Netty Worker IO Thread #1/INFO]: [mo_mowso] disconnected with: Could not connect to a default or fallback server. Incorrectly configured address/port/firewall? 
+[13:51:54] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:58874|mo_mowso] -> UpstreamBridge has disconnected
+[13:51:56] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:58896]: Connected via websocket
+[13:51:56] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:58896]: Origin header is https://fun-miles2.netlify.app
+[13:51:56] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:58896]: Logged in as 'oliver_is_cool__'
+[13:51:56] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:58896|oliver_is_cool__] -> UpstreamBridge has connected
+[13:51:56] [Netty Worker IO Thread #0/WARN]: Error occurred processing connection for oliver_is_cool__ AnnotatedConnectException : finishConnect(..) failed: Connection refused: localhost/127.0.0.1:25565
+[13:51:56] [Netty Worker IO Thread #0/INFO]: [oliver_is_cool__] disconnected with: Could not connect to a default or fallback server. Incorrectly configured address/port/firewall? 
+[13:51:56] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:58896|oliver_is_cool__] -> UpstreamBridge has disconnected
+[13:51:57] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:58932]: Connected via websocket
+[13:51:57] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:58932]: Origin header is https://fun-miles2.netlify.app
