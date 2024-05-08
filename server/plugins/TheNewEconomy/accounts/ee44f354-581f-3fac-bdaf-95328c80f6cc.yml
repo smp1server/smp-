@@ -1,0 +1,13 @@
+Info:
+  ID: ee44f354-581f-3fac-bdaf-95328c80f6cc
+  Name: star
+  Type: player
+  Status: normal
+  CreationDate: 1715103772614
+  Pin: ''
+  LastOnline: 1715109383160
+Holdings:
+  Main Server:
+    world:
+      ca11ee3e-afb8-4cef-9570-a3de39affd8d:
+        tne:VIRTUAL_HOLDINGS: '10000.00'

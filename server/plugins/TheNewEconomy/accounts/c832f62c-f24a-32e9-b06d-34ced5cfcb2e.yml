@@ -1,0 +1,13 @@
+Info:
+  ID: c832f62c-f24a-32e9-b06d-34ced5cfcb2e
+  Name: guled
+  Type: player
+  Status: normal
+  CreationDate: 1715103760681
+  Pin: ''
+  LastOnline: 1715181626774
+Holdings:
+  Main Server:
+    world:
+      ca11ee3e-afb8-4cef-9570-a3de39affd8d:
+        tne:VIRTUAL_HOLDINGS: '200.0'

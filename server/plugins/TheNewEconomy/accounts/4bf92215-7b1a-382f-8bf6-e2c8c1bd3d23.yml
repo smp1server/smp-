@@ -1,0 +1,13 @@
+Info:
+  ID: 4bf92215-7b1a-382f-8bf6-e2c8c1bd3d23
+  Name: Jack23
+  Type: player
+  Status: normal
+  CreationDate: 1715175868386
+  Pin: ''
+  LastOnline: 1715177896928
+Holdings:
+  Main Server:
+    world:
+      ca11ee3e-afb8-4cef-9570-a3de39affd8d:
+        tne:VIRTUAL_HOLDINGS: '200.0'

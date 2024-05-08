@@ -1,0 +1,13 @@
+Info:
+  ID: 21ae12e7-dc3d-331c-8e8a-c649600ffada
+  Name: ElectricMan14
+  Type: player
+  Status: normal
+  CreationDate: 1715108648399
+  Pin: ''
+  LastOnline: 1715108648399
+Holdings:
+  Main Server:
+    world:
+      ca11ee3e-afb8-4cef-9570-a3de39affd8d:
+        tne:VIRTUAL_HOLDINGS: '200.0'

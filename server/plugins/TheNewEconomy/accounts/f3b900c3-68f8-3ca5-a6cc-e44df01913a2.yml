@@ -1,0 +1,13 @@
+Info:
+  ID: f3b900c3-68f8-3ca5-a6cc-e44df01913a2
+  Name: sials
+  Type: player
+  Status: normal
+  CreationDate: 1715175813017
+  Pin: ''
+  LastOnline: 1715182635094
+Holdings:
+  Main Server:
+    world:
+      ca11ee3e-afb8-4cef-9570-a3de39affd8d:
+        tne:VIRTUAL_HOLDINGS: '200.0'

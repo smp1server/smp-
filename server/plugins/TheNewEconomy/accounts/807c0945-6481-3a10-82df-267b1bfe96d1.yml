@@ -1,0 +1,13 @@
+Info:
+  ID: 807c0945-6481-3a10-82df-267b1bfe96d1
+  Name: stare
+  Type: player
+  Status: normal
+  CreationDate: 1715109391171
+  Pin: ''
+  LastOnline: 1715109391171
+Holdings:
+  Main Server:
+    world:
+      ca11ee3e-afb8-4cef-9570-a3de39affd8d:
+        tne:VIRTUAL_HOLDINGS: '200.0'

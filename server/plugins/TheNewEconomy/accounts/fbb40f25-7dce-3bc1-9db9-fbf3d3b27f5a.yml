@@ -1,0 +1,13 @@
+Info:
+  ID: fbb40f25-7dce-3bc1-9db9-fbf3d3b27f5a
+  Name: Mohamed
+  Type: player
+  Status: normal
+  CreationDate: 1715104482653
+  Pin: ''
+  LastOnline: 1715107297517
+Holdings:
+  Main Server:
+    world:
+      ca11ee3e-afb8-4cef-9570-a3de39affd8d:
+        tne:VIRTUAL_HOLDINGS: '200.0'

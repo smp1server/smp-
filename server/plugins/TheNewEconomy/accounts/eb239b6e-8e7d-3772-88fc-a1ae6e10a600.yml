@@ -1,0 +1,13 @@
+Info:
+  ID: eb239b6e-8e7d-3772-88fc-a1ae6e10a600
+  Name: tropics
+  Type: player
+  Status: normal
+  CreationDate: 1715172347222
+  Pin: ''
+  LastOnline: 1715184973333
+Holdings:
+  Main Server:
+    world:
+      ca11ee3e-afb8-4cef-9570-a3de39affd8d:
+        tne:VIRTUAL_HOLDINGS: '200.0'

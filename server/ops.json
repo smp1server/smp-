@@ -22,23 +22,5 @@
     "name": "SecrtSwmSociety1",
     "level": 4,
     "bypassesPlayerLimit": false
-  },
-  {
-    "uuid": "60290b52-9e2d-3424-8663-bb56d0225303",
-    "name": "oreo_cooki_cat",
-    "level": 4,
-    "bypassesPlayerLimit": false
-  },
-  {
-    "uuid": "d67b9d30-77b6-3fb9-aab1-fb6772fe8bd2",
-    "name": "hussaine1",
-    "level": 4,
-    "bypassesPlayerLimit": false
-  },
-  {
-    "uuid": "2a2482f3-26b0-38c3-acd3-836068efb1ba",
-    "name": "no",
-    "level": 4,
-    "bypassesPlayerLimit": false
   }
 ]

@@ -1,0 +1,13 @@
+Info:
+  ID: 1bb8beba-2ed1-3e74-a0dd-8e45f1eda98d
+  Name: LCC
+  Type: player
+  Status: normal
+  CreationDate: 1715104001013
+  Pin: ''
+  LastOnline: 1715104372749
+Holdings:
+  Main Server:
+    world:
+      ca11ee3e-afb8-4cef-9570-a3de39affd8d:
+        tne:VIRTUAL_HOLDINGS: '200.0'

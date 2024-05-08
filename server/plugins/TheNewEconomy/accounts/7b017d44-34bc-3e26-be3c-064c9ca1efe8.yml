@@ -1,0 +1,13 @@
+Info:
+  ID: 7b017d44-34bc-3e26-be3c-064c9ca1efe8
+  Name: SecrtSwmSociety1
+  Type: player
+  Status: normal
+  CreationDate: 1715103623552
+  Pin: ''
+  LastOnline: 1715188044781
+Holdings:
+  Main Server:
+    world:
+      ca11ee3e-afb8-4cef-9570-a3de39affd8d:
+        tne:VIRTUAL_HOLDINGS: '200.0'

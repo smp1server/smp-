@@ -1,0 +1,13 @@
+Info:
+  ID: 2b6c795d-6b4b-373c-bbf0-2a727527e75d
+  Name: ghost
+  Type: player
+  Status: normal
+  CreationDate: 1715107307326
+  Pin: ''
+  LastOnline: 1715109558573
+Holdings:
+  Main Server:
+    world:
+      ca11ee3e-afb8-4cef-9570-a3de39affd8d:
+        tne:VIRTUAL_HOLDINGS: '200.0'

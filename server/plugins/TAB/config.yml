@@ -94,7 +94,7 @@ bossbar:
       style: "PROGRESS" # for 1.9+: PROGRESS, NOTCHED_6, NOTCHED_10, NOTCHED_12, NOTCHED_20
       color: "%animation:barcolors%" # for 1.9+: BLUE, GREEN, PINK, PURPLE, RED, WHITE, YELLOW
       progress: "100" # in %
-      text: "&fWebsite: &bwww.domain.com"
+      text: "&fWebsite: &bwww.lanfunmiles.free.nf"
 
 # https://github.com/NEZNAMY/TAB/wiki/Feature-guide:-Scoreboard
 scoreboard:
