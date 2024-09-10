@@ -22,5 +22,11 @@
     "name": "SecrtSwmSociety1",
     "level": 4,
     "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "d5c43670-61c2-345a-815b-29302474c30c",
+    "name": "PenguinRobertSig",
+    "level": 4,
+    "bypassesPlayerLimit": false
   }
 ]
