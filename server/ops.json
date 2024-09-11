@@ -1,5 +1,11 @@
 [
   {
+    "uuid": "b622c7da-8c4e-49d3-9602-9e072e289579",
+    "name": "SimSimNosnaws",
+    "level": 2,
+    "bypassesPlayerLimit": false
+  },
+  {
     "uuid": "d5c43670-61c2-345a-815b-29302474c30c",
     "name": "PenguinRobertSig",
     "level": 4,
