@@ -1,14 +1,8 @@
 [
   {
-    "uuid": "32d3d939-e447-34ae-a476-d0dc622b1fe1",
-    "name": "Mileswa1q",
-    "level": 4,
-    "bypassesPlayerLimit": false
-  },
-  {
     "uuid": "d5c43670-61c2-345a-815b-29302474c30c",
     "name": "PenguinRobertSig",
     "level": 4,
-    "bypassesPlayerLimit": false
+    "bypassesPlayerLimit": true
   }
 ]
