@@ -218,6 +218,11 @@ PenguinRobertSig:
     X: -124.5622441816023
     Y: 62.0
     Z: 46.459993355280304
+  idk:
+    world: world
+    X: -395.4144549954327
+    Y: 17.0
+    Z: -807.4830769170311
 simsimnawsnaws:
   deletelater:
     world: world
