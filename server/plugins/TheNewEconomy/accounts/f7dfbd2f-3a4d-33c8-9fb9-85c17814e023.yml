@@ -1,0 +1,13 @@
+Info:
+  ID: f7dfbd2f-3a4d-33c8-9fb9-85c17814e023
+  Name: oli_boi
+  Type: player
+  Status: normal
+  CreationDate: 1726057532658
+  Pin: ''
+  LastOnline: 1726057532658
+Holdings:
+  Main Server:
+    world:
+      ca11ee3e-afb8-4cef-9570-a3de39affd8d:
+        tne:VIRTUAL_HOLDINGS: '200.0'

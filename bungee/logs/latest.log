@@ -75,3 +75,21 @@ java.lang.IllegalArgumentException: Server icon must be exactly 64x64 pixels
 [12:09:02] [main/INFO] [EaglercraftXBungee]: Connected to database: jdbc:sqlite:eaglercraft_skins_cache.db
 [12:09:02] [main/INFO]: Enabled plugin EaglercraftXBungee version 1.0.9 by lax1dude
 [12:09:02] [Netty Boss IO Thread #0/INFO]: Listening on /127.0.0.1:25577
+[12:11:04] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:52594]: Connected via websocket
+[12:11:04] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:52594]: Origin header is https://localhost:8081
+[12:11:05] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:52594]: Logged in as 'PenguinRobertSig'
+[12:11:05] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:52594|PenguinRobertSig] -> UpstreamBridge has connected
+[12:11:05] [Netty Worker IO Thread #2/INFO]: [PenguinRobertSig|/[0:0:0:0:0:0:0:1%0]:52594] <-> ServerConnector [lobby] has connected
+[12:16:06] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:52594|PenguinRobertSig] -> UpstreamBridge has disconnected
+[12:16:06] [Netty Worker IO Thread #2/INFO]: [PenguinRobertSig] disconnected with: Proxy lost connection to server.
+[12:16:06] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:52594|PenguinRobertSig] <-> DownstreamBridge <-> [lobby] has disconnected
+[12:19:46] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:40020]: Connected via websocket
+[12:19:46] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:40020]: Origin header is https://localhost:8081
+[12:19:46] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:40020]: Logged in as 'PenguinRobertSig'
+[12:19:46] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:40020|PenguinRobertSig] -> UpstreamBridge has connected
+[12:19:46] [Netty Worker IO Thread #0/INFO]: [PenguinRobertSig|/[0:0:0:0:0:0:0:1%0]:40020] <-> ServerConnector [lobby] has connected
+[12:25:32] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:35764]: Connected via websocket
+[12:25:32] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:35764]: Origin header is https://fun-miles2.netlify.app
+[12:25:32] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:35764]: Logged in as 'oli_boi'
+[12:25:32] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:35764|oli_boi] -> UpstreamBridge has connected
+[12:25:32] [Netty Worker IO Thread #2/INFO]: [oli_boi|/[0:0:0:0:0:0:0:1%0]:35764] <-> ServerConnector [lobby] has connected
