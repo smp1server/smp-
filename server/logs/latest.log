@@ -2794,3 +2794,172 @@ java.lang.IllegalStateException: Must be 64 pixels wide
 [19:12:07] [TAB Processing Thread/INFO]: [0;31;1m[TAB] [WARN] Player oli_boi's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.[m
 
 [19:12:07] [Server thread/INFO]: oli_boi[/[0:0:0:0:0:0:0:1]:49758] logged in with entity id 276 at ([world]-112.45947733082954, 71.0, 78.6067674761054)
+[19:12:26] [Thread-14/INFO]: UUID of player PenguinRobertSig is d5c43670-61c2-345a-815b-29302474c30c
+[19:12:26] [TAB Processing Thread/INFO]: [0;31;1m[TAB] [WARN] Player PenguinRobertSig's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.[m
+
+[19:12:26] [Server thread/INFO]: PenguinRobertSig[/[0:0:0:0:0:0:0:1]:35836] logged in with entity id 342 at ([world]-93.719083657439, 74.28176069400673, 91.3140846173076)
+[19:12:45] [Server thread/INFO]: oli_boi lost connection: Disconnected
+[19:12:45] [Server thread/INFO]: oli_boi left the game.
+[19:16:08] [Server thread/INFO]: PenguinRobertSig issued server command: /gamemode s
+[19:16:08] [Server thread/INFO]: [PenguinRobertSig: Set own game mode to Survival Mode]
+[19:16:14] [Server thread/INFO]: PenguinRobertSig has just earned the achievement [Getting Wood]
+[19:16:18] [Server thread/INFO]: PenguinRobertSig issued server command: /gamemode c
+[19:16:18] [Server thread/INFO]: [PenguinRobertSig: Set own game mode to Creative Mode]
+[19:17:00] [Server thread/ERROR]: Could not pass event EntityDeathEvent to TheNewEconomy v0.1.2.9
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:302) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:78) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:517) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:502) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.event.CraftEventFactory.callEntityDeathEvent(CraftEventFactory.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityLiving.die(EntityLiving.java:884) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntitySkeleton.die(EntitySkeleton.java:142) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityLiving.damageEntity(EntityLiving.java:822) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityMonster.damageEntity(EntityMonster.java:42) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.Entity.K(Entity.java:337) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityLiving.K(EntityLiving.java:174) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityInsentient.K(EntityInsentient.java:150) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.Entity.t_(Entity.java:263) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityLiving.t_(EntityLiving.java:1457) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityInsentient.t_(EntityInsentient.java:194) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityMonster.t_(EntityMonster.java:24) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.World.entityJoinedWorld(World.java:1650) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.World.g(World.java:1617) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.World.tickEntities(World.java:1450) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.WorldServer.tickEntities(WorldServer.java:600) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:846) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.NoSuchMethodError: 'org.bukkit.NamespacedKey org.bukkit.Material.getKey()'
+	at net.tnemc.bukkit.listeners.entity.EntityKilledListener.lambda$onDeath$0(EntityKilledListener.java:42) ~[?:?]
+	at java.util.ArrayList.removeIf(ArrayList.java:1755) ~[?:?]
+	at java.util.ArrayList.removeIf(ArrayList.java:1743) ~[?:?]
+	at net.tnemc.bukkit.listeners.entity.EntityKilledListener.onDeath(EntityKilledListener.java:42) ~[?:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:300) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	... 25 more
+[19:18:54] [Thread-16/INFO]: UUID of player simsimnawsnaws is 9ebfcc3b-4ef2-30f5-9ae5-1511d2f9c70e
+[19:18:54] [TAB Processing Thread/INFO]: [0;31;1m[TAB] [WARN] Player simsimnawsnaws's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.[m
+
+[19:18:54] [Server thread/INFO]: simsimnawsnaws[/[0:0:0:0:0:0:0:1]:41310] logged in with entity id 645 at ([world]-412.0945907421331, 77.0, -755.3000000119209)
+[19:19:27] [Server thread/INFO]: simsimnawsnaws issued server command: /gamemode c
+[19:19:44] [Server thread/ERROR]: Could not pass event EntityDeathEvent to TheNewEconomy v0.1.2.9
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:302) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:78) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:517) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:502) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.event.CraftEventFactory.callEntityDeathEvent(CraftEventFactory.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityLiving.die(EntityLiving.java:884) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityZombie.die(EntityZombie.java:561) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityLiving.damageEntity(EntityLiving.java:822) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityMonster.damageEntity(EntityMonster.java:42) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityZombie.damageEntity(EntityZombie.java:167) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.Entity.K(Entity.java:337) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityLiving.K(EntityLiving.java:174) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityInsentient.K(EntityInsentient.java:150) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.Entity.t_(Entity.java:263) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityLiving.t_(EntityLiving.java:1457) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityInsentient.t_(EntityInsentient.java:194) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityMonster.t_(EntityMonster.java:24) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityZombie.t_(EntityZombie.java:221) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.World.entityJoinedWorld(World.java:1650) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.World.g(World.java:1617) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.World.tickEntities(World.java:1450) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.WorldServer.tickEntities(WorldServer.java:600) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:846) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.NoSuchMethodError: 'org.bukkit.NamespacedKey org.bukkit.Material.getKey()'
+	at net.tnemc.bukkit.listeners.entity.EntityKilledListener.lambda$onDeath$0(EntityKilledListener.java:42) ~[?:?]
+	at java.util.ArrayList.removeIf(ArrayList.java:1755) ~[?:?]
+	at java.util.ArrayList.removeIf(ArrayList.java:1743) ~[?:?]
+	at net.tnemc.bukkit.listeners.entity.EntityKilledListener.onDeath(EntityKilledListener.java:42) ~[?:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:300) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	... 27 more
+[19:19:51] [Server thread/INFO]: simsimnawsnaws issued server command: /give
+[19:20:46] [Server thread/INFO]: simsimnawsnaws lost connection: Disconnected
+[19:20:46] [Server thread/INFO]: simsimnawsnaws left the game.
+[19:20:51] [Server thread/INFO]: PenguinRobertSig issued server command: /home admin
+[19:20:53] [Server thread/INFO]: [@] you will be banned if you swear
+[19:20:53] [Server thread/INFO]: [@] you will be banned if you swear
+[19:20:54] [Server thread/INFO]: [@] you will be banned if you swear
+[19:20:54] [Server thread/INFO]: [@] you will be banned if you swear
+[19:20:54] [Server thread/INFO]: [@] you will be banned if you swear
+[19:20:55] [Server thread/INFO]: [@] you will be banned if you swear
+[19:20:55] [Server thread/INFO]: [@] you will be banned if you swear
+[19:20:56] [Server thread/INFO]: [@] you will be banned if you swear
+[19:20:56] [Server thread/INFO]: [@] you will be banned if you swear
+[19:20:57] [Server thread/INFO]: [@] you will be banned if you swear
+[19:20:57] [Server thread/INFO]: [@] you will be banned if you swear
+[19:20:58] [Server thread/INFO]: [@] you will be banned if you swear
+[19:20:58] [Server thread/INFO]: [@] you will be banned if you swear
+[19:21:28] [Server thread/INFO]: PenguinRobertSig issued server command: /gamemode spectator
+[19:21:28] [Server thread/INFO]: [PenguinRobertSig: Set own game mode to Spectator Mode]
+[19:21:33] [Server thread/INFO]: PenguinRobertSig issued server command: /gamemode c
+[19:21:33] [Server thread/INFO]: [PenguinRobertSig: Set own game mode to Creative Mode]
+[19:22:58] [Server thread/INFO]: PenguinRobertSig issued server command: /home admin
+[19:23:24] [Server thread/INFO]: PenguinRobertSig issued server command: /gamemode spectator
+[19:23:24] [Server thread/INFO]: [PenguinRobertSig: Set own game mode to Spectator Mode]
+[19:23:30] [Server thread/INFO]: PenguinRobertSig issued server command: /gamemode c
+[19:23:30] [Server thread/INFO]: [PenguinRobertSig: Set own game mode to Creative Mode]
+[19:25:51] [Server thread/INFO]: PenguinRobertSig issued server command: /stop
+[19:25:51] [Server thread/INFO]: [PenguinRobertSig: Stopping the server]
+[19:25:51] [Server thread/INFO]: Stopping server
+[19:25:51] [Server thread/INFO]: [BetterKeepInventory] Disabling BetterKeepInventory v1.0.2
+[19:25:51] [Server thread/INFO]: [PunishManager] Disabling PunishManager v1.4.10
+[19:25:51] [Server thread/INFO]: [PunishManager] Shutdown process initiated...
+[19:25:51] [Server thread/ERROR]: Error occurred while disabling PunishManager v1.4.10 (Is it up to date?)
+org.bukkit.plugin.IllegalPluginAccessException: Plugin attempted to register task while disabled
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftScheduler.validate(CraftScheduler.java:407) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftScheduler.runTaskTimerAsynchronously(CraftScheduler.java:144) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftScheduler.runTaskLaterAsynchronously(CraftScheduler.java:118) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftScheduler.runTaskAsynchronously(CraftScheduler.java:101) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at dev.mehmet27.punishmanager.bukkit.BukkitMethods.runAsync(BukkitMethods.java:135) ~[?:?]
+	at dev.mehmet27.punishmanager.storage.H2Core.executeUpdateAsync(H2Core.java:57) ~[?:?]
+	at dev.mehmet27.punishmanager.managers.StorageManager.unPunishPlayer(StorageManager.java:139) ~[?:?]
+	at dev.mehmet27.punishmanager.managers.StorageManager.removeAllExpiredPunishes(StorageManager.java:331) ~[?:?]
+	at dev.mehmet27.punishmanager.PunishManager.onDisable(PunishManager.java:61) ~[?:?]
+	at dev.mehmet27.punishmanager.bukkit.PMBukkit.onDisable(PMBukkit.java:38) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:323) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.java.JavaPluginLoader.disablePlugin(JavaPluginLoader.java:360) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.disablePlugin(SimplePluginManager.java:427) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.disablePlugins(SimplePluginManager.java:420) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.disablePlugins(CraftServer.java:338) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.stop(MinecraftServer.java:456) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:652) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+[19:25:51] [Server thread/INFO]: [TAB] Disabling TAB v4.1.4
+[19:25:51] [Server thread/INFO]: [TAB] [0;32;1mDisabled in 4ms[m
+
+[19:25:51] [Server thread/INFO]: [SimpleHomes] Disabling SimpleHomes v2.2
+[19:25:51] [Server thread/INFO]: [TheNewEconomy] Disabling TheNewEconomy v0.1.2.9
+[19:25:51] [Server thread/INFO]: [BetterGUI] Disabling BetterGUI v9.6
+[19:25:51] [Server thread/INFO]: [LoginSecurity] Disabling LoginSecurity v3.2.0
+[19:25:51] [Server thread/INFO]: [LoginSecurity] Waiting for queued tasks...
+[19:25:51] [Server thread/INFO]: [LoginSecurity] ExecutorService shut down, ready to disable.
+[19:25:51] [Server thread/INFO]: [TMOTD] Disabling TMOTD v1.4
+[19:25:51] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v6.1;no_git_id
+[19:25:51] [Server thread/INFO]: [ajQueue] Disabling ajQueue v2.6.0
+[19:25:51] [Server thread/INFO]: [PixelMOTD] Disabling PixelMOTD v9.3.9-SNAPSHOT
+[19:25:51] [Server thread/INFO]: [SimpleTpa] Disabling SimpleTpa v6.4
+[19:25:51] [Server thread/INFO]: [0;36;1m[21m[SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9[m
+
+[19:25:51] [Server thread/INFO]: [0;36;1m[21m[SimpleTpa] Simple Tpa has been disabled on version 6.4[m
+
+[19:25:51] [Server thread/INFO]: Saving players
+[19:25:51] [Server thread/INFO]: PenguinRobertSig lost connection: Server closed
+[19:25:51] [Server thread/INFO]: PenguinRobertSig left the game.
+[19:25:51] [Server thread/INFO]: Saving worlds
+[19:25:51] [Server thread/INFO]: Saving chunks for level 'world'/Overworld
+[19:25:51] [Server thread/INFO]: Saving chunks for level 'world_nether'/Nether
+[19:25:51] [Server thread/INFO]: Saving chunks for level 'world_the_end'/The End
