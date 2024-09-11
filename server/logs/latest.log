@@ -2813,3 +2813,64 @@ java.lang.IllegalStateException: Must be 64 pixels wide
 [23:07:47] [Server thread/INFO]: [PenguinRobertSig: Set sowrdsmithsoren5's game mode to Survival Mode]
 [23:07:48] [Server thread/INFO]: sowrdsmithsoren5 fell from a high place
 [23:07:56] [Server thread/INFO]: idk issued server command: /home spawn
+[23:08:22] [Async Chat Thread - #0/INFO]: <PenguinRobertSig> ok try agian[m
+
+[23:08:27] [Server thread/INFO]: idk hit the ground too hard
+[23:08:28] [Async Chat Thread - #0/INFO]: <sowrdsmithsoren5> i whent in to certive and then i whent to srvial[m
+
+[23:08:33] [Server thread/INFO]: idk issued server command: /back
+[23:08:42] [Server thread/INFO]: sowrdsmithsoren5 issued server command: /gamemode c
+[23:08:42] [Server thread/INFO]: [sowrdsmithsoren5: Set own game mode to Creative Mode]
+[23:08:48] [Server thread/INFO]: PenguinRobertSig issued server command: /stop
+[23:08:48] [Server thread/INFO]: [PenguinRobertSig: Stopping the server]
+[23:08:48] [Server thread/INFO]: Stopping server
+[23:08:48] [Server thread/INFO]: [BetterKeepInventory] Disabling BetterKeepInventory v1.0.2
+[23:08:48] [Server thread/INFO]: [PunishManager] Disabling PunishManager v1.4.10
+[23:08:48] [Server thread/INFO]: [PunishManager] Shutdown process initiated...
+[23:08:48] [Server thread/ERROR]: Error occurred while disabling PunishManager v1.4.10 (Is it up to date?)
+org.bukkit.plugin.IllegalPluginAccessException: Plugin attempted to register task while disabled
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftScheduler.validate(CraftScheduler.java:407) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftScheduler.runTaskTimerAsynchronously(CraftScheduler.java:144) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftScheduler.runTaskLaterAsynchronously(CraftScheduler.java:118) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftScheduler.runTaskAsynchronously(CraftScheduler.java:101) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at dev.mehmet27.punishmanager.bukkit.BukkitMethods.runAsync(BukkitMethods.java:135) ~[?:?]
+	at dev.mehmet27.punishmanager.storage.H2Core.executeUpdateAsync(H2Core.java:57) ~[?:?]
+	at dev.mehmet27.punishmanager.managers.StorageManager.unPunishPlayer(StorageManager.java:139) ~[?:?]
+	at dev.mehmet27.punishmanager.managers.StorageManager.removeAllExpiredPunishes(StorageManager.java:331) ~[?:?]
+	at dev.mehmet27.punishmanager.PunishManager.onDisable(PunishManager.java:61) ~[?:?]
+	at dev.mehmet27.punishmanager.bukkit.PMBukkit.onDisable(PMBukkit.java:38) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:323) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.java.JavaPluginLoader.disablePlugin(JavaPluginLoader.java:360) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.disablePlugin(SimplePluginManager.java:427) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.disablePlugins(SimplePluginManager.java:420) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.disablePlugins(CraftServer.java:338) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.stop(MinecraftServer.java:456) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:652) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+[23:08:48] [Server thread/INFO]: [TAB] Disabling TAB v4.1.4
+[23:08:48] [Server thread/INFO]: [TAB] [0;32;1mDisabled in 3ms[m
+
+[23:08:48] [Server thread/INFO]: [SimpleHomes] Disabling SimpleHomes v2.2
+[23:08:48] [Server thread/INFO]: [TheNewEconomy] Disabling TheNewEconomy v0.1.2.9
+[23:08:48] [Server thread/INFO]: [BetterGUI] Disabling BetterGUI v9.6
+[23:08:48] [Server thread/INFO]: [LoginSecurity] Disabling LoginSecurity v3.2.0
+[23:08:48] [Server thread/INFO]: [LoginSecurity] Waiting for queued tasks...
+[23:08:48] [Server thread/INFO]: [LoginSecurity] ExecutorService shut down, ready to disable.
+[23:08:48] [Server thread/INFO]: [TMOTD] Disabling TMOTD v1.4
+[23:08:48] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v6.1;no_git_id
+[23:08:48] [Server thread/INFO]: [ajQueue] Disabling ajQueue v2.6.0
+[23:08:48] [Server thread/INFO]: [PixelMOTD] Disabling PixelMOTD v9.3.9-SNAPSHOT
+[23:08:48] [Server thread/INFO]: [SimpleTpa] Disabling SimpleTpa v6.4
+[23:08:48] [Server thread/INFO]: [0;36;1m[21m[SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9[m
+
+[23:08:48] [Server thread/INFO]: [0;36;1m[21m[SimpleTpa] Simple Tpa has been disabled on version 6.4[m
+
+[23:08:48] [Server thread/INFO]: Saving players
+[23:08:48] [Server thread/INFO]: PenguinRobertSig lost connection: Server closed
+[23:08:48] [Server thread/INFO]: PenguinRobertSig left the game.
+[23:08:48] [Server thread/INFO]: idk lost connection: Server closed
+[23:08:48] [Server thread/INFO]: idk left the game.
+[23:08:49] [Server thread/INFO]: Saving worlds
+[23:08:49] [Server thread/INFO]: Saving chunks for level 'world'/Overworld
+[23:08:49] [Server thread/INFO]: Saving chunks for level 'world_nether'/Nether
+[23:08:49] [Server thread/INFO]: Saving chunks for level 'world_the_end'/The End
