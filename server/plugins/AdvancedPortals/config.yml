@@ -31,4 +31,4 @@ CommandLogs: true
 ForceEnableProxySupport: false
 ProxyTeleportDelay: 0
 DisableProxyWarning: false
-WorldEditIntegration: false
+WorldEditIntegration: true
