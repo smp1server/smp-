@@ -2797,3 +2797,19 @@ java.lang.IllegalStateException: Must be 64 pixels wide
 [23:06:06] [TAB Processing Thread/INFO]: [0;31;1m[TAB] [WARN] Player idk's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.[m
 
 [23:06:06] [Server thread/INFO]: idk[/[0:0:0:0:0:0:0:1]:34214] logged in with entity id 248 at ([world]-390.44220561822453, 16.0, -807.4562643705492)
+[23:06:42] [Thread-15/INFO]: UUID of player PenguinRobertSig is d5c43670-61c2-345a-815b-29302474c30c
+[23:06:42] [TAB Processing Thread/INFO]: [0;31;1m[TAB] [WARN] Player PenguinRobertSig's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.[m
+
+[23:06:42] [Server thread/INFO]: PenguinRobertSig[/[0:0:0:0:0:0:0:1]:43954] logged in with entity id 408 at ([world]-96.85103025055051, 70.0, 82.76174341204994)
+[23:07:20] [Async Chat Thread - #0/INFO]: <idk> could i also get admin?[m
+
+[23:07:20] [Async Chat Thread - #0/INFO]: <PenguinRobertSig> ok soren[m
+
+[23:07:32] [Async Chat Thread - #0/INFO]: <PenguinRobertSig> try to go in creative[m
+
+[23:07:38] [Server thread/INFO]: sowrdsmithsoren5 issued server command: /gamemode c
+[23:07:38] [Server thread/INFO]: [sowrdsmithsoren5: Set own game mode to Creative Mode]
+[23:07:47] [Server thread/INFO]: PenguinRobertSig issued server command: /gamemode s sowrdsmithsoren5
+[23:07:47] [Server thread/INFO]: [PenguinRobertSig: Set sowrdsmithsoren5's game mode to Survival Mode]
+[23:07:48] [Server thread/INFO]: sowrdsmithsoren5 fell from a high place
+[23:07:56] [Server thread/INFO]: idk issued server command: /home spawn
