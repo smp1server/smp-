@@ -3320,3 +3320,14 @@ Caused by: java.lang.NoSuchMethodError: 'org.bukkit.NamespacedKey org.bukkit.Mat
 [12:39:15] [Server thread/INFO]: PenguinRobertSig[/[0:0:0:0:0:0:0:1]:46412] logged in with entity id 3272 at ([world]-248.58866982987757, 95.3431464494557, -65.11792679453617)
 [12:43:21] [Server thread/INFO]: PenguinRobertSig lost connection: Disconnected
 [12:43:21] [Server thread/INFO]: PenguinRobertSig left the game.
+[12:44:36] [Thread-19/INFO]: UUID of player PenguinRobertSig is d5c43670-61c2-345a-815b-29302474c30c
+[12:44:36] [TAB Processing Thread/INFO]: [0;31;1m[TAB] [WARN] Player PenguinRobertSig's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.[m
+
+[12:44:36] [Server thread/INFO]: PenguinRobertSig[/[0:0:0:0:0:0:0:1]:48224] logged in with entity id 3850 at ([world]-311.39114671001585, 68.02577086253515, -57.10555943048602)
+[12:44:57] [Server thread/INFO]: PenguinRobertSig issued server command: /lac update
+[12:44:57] [Craft Scheduler Thread - 33/INFO]: [LoginSecurity] Downloading file LoginSecurity-3.2.0-Bukkit (1).jar...
+[12:44:57] [Craft Scheduler Thread - 33/INFO]: [LoginSecurity] Download complete!
+[12:45:26] [Server thread/INFO]: PenguinRobertSig issued server command: /cyl
+[12:46:48] [Server thread/INFO]: PenguinRobertSig issued server command: /timeban oli_boi 5m
+[12:46:51] [Server thread/INFO]: PenguinRobertSig lost connection: Disconnected
+[12:46:51] [Server thread/INFO]: PenguinRobertSig left the game.

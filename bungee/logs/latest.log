@@ -107,3 +107,11 @@ java.lang.IllegalArgumentException: Server icon must be exactly 64x64 pixels
 [12:43:21] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:58220|PenguinRobertSig] -> UpstreamBridge has disconnected
 [12:43:21] [Netty Worker IO Thread #0/INFO]: [PenguinRobertSig] disconnected with: Proxy lost connection to server.
 [12:43:21] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:58220|PenguinRobertSig] <-> DownstreamBridge <-> [lobby] has disconnected
+[12:44:35] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:56730]: Connected via websocket
+[12:44:35] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:56730]: Origin header is https://localhost:8081
+[12:44:36] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:56730]: Logged in as 'PenguinRobertSig'
+[12:44:36] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:56730|PenguinRobertSig] -> UpstreamBridge has connected
+[12:44:36] [Netty Worker IO Thread #1/INFO]: [PenguinRobertSig|/[0:0:0:0:0:0:0:1%0]:56730] <-> ServerConnector [lobby] has connected
+[12:46:51] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:56730|PenguinRobertSig] -> UpstreamBridge has disconnected
+[12:46:51] [Netty Worker IO Thread #1/INFO]: [PenguinRobertSig] disconnected with: Proxy lost connection to server.
+[12:46:51] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:56730|PenguinRobertSig] <-> DownstreamBridge <-> [lobby] has disconnected
