@@ -37,6 +37,7 @@ world-settings:
     allow-block-location-tab-completion: true
     disable-teleportation-suffocation-check: false
     player-blocking-damage-multiplier: 0.5
+    optimize-explosions: false
     mob-spawner-tick-rate: 1
     cache-chunk-maps: false
     tnt-explosion-volume: 4.0
@@ -56,12 +57,11 @@ world-settings:
       soft: 32
       hard: 128
     falling-block-height-nerf: 0
-    optimize-explosions: false
-    remove-invalid-mob-spawner-tile-entities: true
     remove-unloaded:
       enderpearls: true
       tnt-entities: false
       falling-blocks: true
+    remove-invalid-mob-spawner-tile-entities: true
     game-mechanics:
       boats-drop-boats: true
       disable-player-crits: false
@@ -83,8 +83,8 @@ world-settings:
     fix-cannons: false
     tnt-entity-height-nerf: 0
     use-hopper-check: false
-    allow-undead-horse-leashing: true
     all-chunks-are-slime-chunks: true
+    allow-undead-horse-leashing: true
     container-update-tick-rate: 1
     keep-spawn-loaded: true
     falling-blocks-collide-with-signs: false
