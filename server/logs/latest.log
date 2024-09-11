@@ -2790,3 +2790,7 @@ java.lang.IllegalStateException: Must be 64 pixels wide
 [15:45:53] [Server thread/WARN]: [BetterGUI] Duplicated "menu" command ! Ignored
 [15:45:53] [Thread-12/WARN]: [BetterGUI] There is an available update
 [15:45:53] [Thread-12/WARN]: [BetterGUI] New Version: 10.1
+[15:48:14] [Thread-13/INFO]: UUID of player PenguinRobertSig is d5c43670-61c2-345a-815b-29302474c30c
+[15:48:14] [TAB Processing Thread/INFO]: [0;31;1m[TAB] [WARN] Player PenguinRobertSig's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.[m
+
+[15:48:14] [Server thread/INFO]: PenguinRobertSig[/[0:0:0:0:0:0:0:1]:51944] logged in with entity id 224 at ([world]-81.43050831159307, 82.83431494207991, 76.96895586062824)

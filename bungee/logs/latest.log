@@ -75,3 +75,8 @@ java.lang.IllegalArgumentException: Server icon must be exactly 64x64 pixels
 [15:46:14] [main/INFO] [EaglercraftXBungee]: Connected to database: jdbc:sqlite:eaglercraft_skins_cache.db
 [15:46:14] [main/INFO]: Enabled plugin EaglercraftXBungee version 1.0.9 by lax1dude
 [15:46:14] [Netty Boss IO Thread #0/INFO]: Listening on /127.0.0.1:25577
+[15:48:13] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:41144]: Connected via websocket
+[15:48:13] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:41144]: Origin header is https://localhost:8081
+[15:48:13] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:41144]: Logged in as 'PenguinRobertSig'
+[15:48:13] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:41144|PenguinRobertSig] -> UpstreamBridge has connected
+[15:48:14] [Netty Worker IO Thread #1/INFO]: [PenguinRobertSig|/[0:0:0:0:0:0:0:1%0]:41144] <-> ServerConnector [lobby] has connected
