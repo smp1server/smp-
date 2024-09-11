@@ -93,3 +93,9 @@ java.lang.IllegalArgumentException: Server icon must be exactly 64x64 pixels
 [12:25:32] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:35764]: Logged in as 'oli_boi'
 [12:25:32] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:35764|oli_boi] -> UpstreamBridge has connected
 [12:25:32] [Netty Worker IO Thread #2/INFO]: [oli_boi|/[0:0:0:0:0:0:0:1%0]:35764] <-> ServerConnector [lobby] has connected
+[12:29:35] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:35764|oli_boi] -> UpstreamBridge has disconnected
+[12:29:35] [Netty Worker IO Thread #2/INFO]: [oli_boi] disconnected with: Proxy lost connection to server.
+[12:29:35] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:35764|oli_boi] <-> DownstreamBridge <-> [lobby] has disconnected
+[12:32:18] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:40020|PenguinRobertSig] -> UpstreamBridge has disconnected
+[12:32:18] [Netty Worker IO Thread #0/INFO]: [PenguinRobertSig] disconnected with: Proxy lost connection to server.
+[12:32:18] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:40020|PenguinRobertSig] <-> DownstreamBridge <-> [lobby] has disconnected
