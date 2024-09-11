@@ -80,3 +80,8 @@ java.lang.IllegalArgumentException: Server icon must be exactly 64x64 pixels
 [15:48:13] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:41144]: Logged in as 'PenguinRobertSig'
 [15:48:13] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:41144|PenguinRobertSig] -> UpstreamBridge has connected
 [15:48:14] [Netty Worker IO Thread #1/INFO]: [PenguinRobertSig|/[0:0:0:0:0:0:0:1%0]:41144] <-> ServerConnector [lobby] has connected
+[15:49:11] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:49722]: Connected via websocket
+[15:49:11] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:49722]: Origin header is https://fun-miles2.netlify.app
+[15:49:11] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:49722]: Logged in as 'simsimnawsnaws'
+[15:49:11] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:49722|simsimnawsnaws] -> UpstreamBridge has connected
+[15:49:11] [Netty Worker IO Thread #3/INFO]: [simsimnawsnaws|/[0:0:0:0:0:0:0:1%0]:49722] <-> ServerConnector [lobby] has connected

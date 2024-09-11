@@ -2794,3 +2794,7 @@ java.lang.IllegalStateException: Must be 64 pixels wide
 [15:48:14] [TAB Processing Thread/INFO]: [0;31;1m[TAB] [WARN] Player PenguinRobertSig's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.[m
 
 [15:48:14] [Server thread/INFO]: PenguinRobertSig[/[0:0:0:0:0:0:0:1]:51944] logged in with entity id 224 at ([world]-81.43050831159307, 82.83431494207991, 76.96895586062824)
+[15:49:11] [Thread-14/INFO]: UUID of player simsimnawsnaws is 9ebfcc3b-4ef2-30f5-9ae5-1511d2f9c70e
+[15:49:11] [TAB Processing Thread/INFO]: [0;31;1m[TAB] [WARN] Player simsimnawsnaws's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.[m
+
+[15:49:11] [Server thread/INFO]: simsimnawsnaws[/[0:0:0:0:0:0:0:1]:40552] logged in with entity id 228 at ([world]-77.5, 70.0, 88.5)
