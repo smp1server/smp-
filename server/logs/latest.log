@@ -3318,3 +3318,5 @@ Caused by: java.lang.NoSuchMethodError: 'org.bukkit.NamespacedKey org.bukkit.Mat
 [12:39:15] [TAB Processing Thread/INFO]: [0;31;1m[TAB] [WARN] Player PenguinRobertSig's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.[m
 
 [12:39:15] [Server thread/INFO]: PenguinRobertSig[/[0:0:0:0:0:0:0:1]:46412] logged in with entity id 3272 at ([world]-248.58866982987757, 95.3431464494557, -65.11792679453617)
+[12:43:21] [Server thread/INFO]: PenguinRobertSig lost connection: Disconnected
+[12:43:21] [Server thread/INFO]: PenguinRobertSig left the game.
