@@ -2794,3 +2794,111 @@ java.lang.IllegalStateException: Must be 64 pixels wide
 [18:42:35] [Thread-12/WARN]: [BetterGUI] New Version: 10.1
 [18:43:20] [Server thread/INFO]: Opped PenguinRobertSig
 [18:43:39] [Server thread/INFO]: Opped Mileswa1q
+[18:44:33] [Thread-13/INFO]: UUID of player PenguinRobertSig is d5c43670-61c2-345a-815b-29302474c30c
+[18:44:34] [TAB Processing Thread/INFO]: [0;31;1m[TAB] [WARN] Player PenguinRobertSig's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.[m
+
+[18:44:34] [Server thread/INFO]: PenguinRobertSig[/[0:0:0:0:0:0:0:1]:54052] logged in with entity id 243 at ([world]-100.39117456578671, 71.0, 93.17543286528968)
+[18:44:46] [Server thread/INFO]: [@] you will be banned if you swear
+[18:44:49] [Server thread/INFO]: [@] you will be banned if you swear
+[18:45:00] [Thread-14/INFO]: UUID of player simsimnawsnaws is 9ebfcc3b-4ef2-30f5-9ae5-1511d2f9c70e
+[18:45:00] [TAB Processing Thread/INFO]: [0;31;1m[TAB] [WARN] Player simsimnawsnaws's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.[m
+
+[18:45:00] [Server thread/INFO]: simsimnawsnaws[/[0:0:0:0:0:0:0:1]:54228] logged in with entity id 247 at ([world]-429.30000001192093, 74.0, -738.6348633331385)
+[18:45:05] [Server thread/INFO]: [@] you will be banned if you swear
+[18:45:23] [Server thread/INFO]: PenguinRobertSig issued server command: /gamemode s
+[18:45:23] [Server thread/INFO]: [PenguinRobertSig: Set own game mode to Survival Mode]
+[18:45:29] [Server thread/INFO]: PenguinRobertSig issued server command: /gamemode spectator
+[18:45:29] [Server thread/INFO]: [PenguinRobertSig: Set own game mode to Spectator Mode]
+[18:45:37] [Server thread/INFO]: PenguinRobertSig issued server command: /gamemode c
+[18:45:37] [Server thread/INFO]: [PenguinRobertSig: Set own game mode to Creative Mode]
+[18:45:58] [Server thread/INFO]: simsimnawsnaws issued server command: /home home
+[18:46:04] [Server thread/INFO]: simsimnawsnaws issued server command: /home list
+[18:46:08] [Server thread/INFO]: simsimnawsnaws issued server command: /homelist
+[18:46:19] [Server thread/INFO]: PenguinRobertSig issued server command: /home list
+[18:46:29] [Server thread/INFO]: simsimnawsnaws issued server command: /listhome
+[18:46:31] [Server thread/INFO]: simsimnawsnaws issued server command: /help
+[18:46:42] [Server thread/INFO]: simsimnawsnaws issued server command: /help home
+[18:46:50] [Server thread/INFO]: simsimnawsnaws issued server command: /help 2
+[18:46:55] [Server thread/INFO]: simsimnawsnaws issued server command: /help 3
+[18:47:00] [Server thread/INFO]: simsimnawsnaws issued server command: /help 4
+[18:47:03] [Server thread/INFO]: simsimnawsnaws issued server command: /help 5
+[18:47:10] [Server thread/INFO]: simsimnawsnaws issued server command: /homes
+[18:47:35] [Server thread/INFO]: simsimnawsnaws issued server command: /homes 1
+[18:48:03] [Server thread/INFO]: simsimnawsnaws lost connection: Internal Exception: java.net.SocketException: Connection reset
+[18:48:03] [Server thread/INFO]: simsimnawsnaws left the game.
+[18:48:37] [Thread-16/INFO]: UUID of player simsimnawsnaws is 9ebfcc3b-4ef2-30f5-9ae5-1511d2f9c70e
+[18:48:37] [TAB Processing Thread/INFO]: [0;31;1m[TAB] [WARN] Player simsimnawsnaws's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.[m
+
+[18:48:37] [Server thread/INFO]: simsimnawsnaws[/[0:0:0:0:0:0:0:1]:46258] logged in with entity id 599 at ([world]-412.0945907421331, 77.0, -755.3000000119209)
+[18:48:42] [Server thread/INFO]: PenguinRobertSig issued server command: /tp simsimnawsnaws
+[18:48:42] [Server thread/INFO]: [PenguinRobertSig: Teleported PenguinRobertSig to simsimnawsnaws]
+[18:49:08] [Server thread/INFO]: simsimnawsnaws lost connection: Disconnected
+[18:49:08] [Server thread/INFO]: simsimnawsnaws left the game.
+[18:49:32] [Server thread/INFO]: PenguinRobertSig issued server command: /home admin
+[18:49:40] [Server thread/INFO]: PenguinRobertSig issued server command: /gamemode spectator
+[18:49:40] [Server thread/INFO]: [PenguinRobertSig: Set own game mode to Spectator Mode]
+[18:49:47] [Server thread/INFO]: PenguinRobertSig issued server command: /gamemode c
+[18:49:47] [Server thread/INFO]: [PenguinRobertSig: Set own game mode to Creative Mode]
+[18:51:43] [Server thread/INFO]: PenguinRobertSig issued server command: /setworldspawn
+[18:51:43] [Server thread/INFO]: [PenguinRobertSig: Set the world spawn point to (-106, 75, 78)]
+[18:58:52] [Server thread/INFO]: [@] you will be banned if you swear
+[18:58:53] [Server thread/INFO]: [@] you will be banned if you swear
+[18:58:53] [Server thread/INFO]: [@] you will be banned if you swear
+[18:58:53] [Server thread/INFO]: [@] you will be banned if you swear
+[18:58:54] [Server thread/INFO]: [@] you will be banned if you swear
+[18:58:54] [Server thread/INFO]: [@] you will be banned if you swear
+[18:58:55] [Server thread/INFO]: [@] you will be banned if you swear
+[18:58:55] [Server thread/INFO]: [@] you will be banned if you swear
+[18:58:56] [Server thread/INFO]: [@] you will be banned if you swear
+[18:58:56] [Server thread/INFO]: [@] you will be banned if you swear
+[19:06:21] [Server thread/INFO]: PenguinRobertSig issued server command: /stop
+[19:06:21] [Server thread/INFO]: [PenguinRobertSig: Stopping the server]
+[19:06:21] [Server thread/INFO]: Stopping server
+[19:06:21] [Server thread/INFO]: [BetterKeepInventory] Disabling BetterKeepInventory v1.0.2
+[19:06:21] [Server thread/INFO]: [PunishManager] Disabling PunishManager v1.4.10
+[19:06:21] [Server thread/INFO]: [PunishManager] Shutdown process initiated...
+[19:06:21] [Server thread/ERROR]: Error occurred while disabling PunishManager v1.4.10 (Is it up to date?)
+org.bukkit.plugin.IllegalPluginAccessException: Plugin attempted to register task while disabled
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftScheduler.validate(CraftScheduler.java:407) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftScheduler.runTaskTimerAsynchronously(CraftScheduler.java:144) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftScheduler.runTaskLaterAsynchronously(CraftScheduler.java:118) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftScheduler.runTaskAsynchronously(CraftScheduler.java:101) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at dev.mehmet27.punishmanager.bukkit.BukkitMethods.runAsync(BukkitMethods.java:135) ~[?:?]
+	at dev.mehmet27.punishmanager.storage.H2Core.executeUpdateAsync(H2Core.java:57) ~[?:?]
+	at dev.mehmet27.punishmanager.managers.StorageManager.unPunishPlayer(StorageManager.java:139) ~[?:?]
+	at dev.mehmet27.punishmanager.managers.StorageManager.removeAllExpiredPunishes(StorageManager.java:331) ~[?:?]
+	at dev.mehmet27.punishmanager.PunishManager.onDisable(PunishManager.java:61) ~[?:?]
+	at dev.mehmet27.punishmanager.bukkit.PMBukkit.onDisable(PMBukkit.java:38) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:323) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.java.JavaPluginLoader.disablePlugin(JavaPluginLoader.java:360) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.disablePlugin(SimplePluginManager.java:427) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.disablePlugins(SimplePluginManager.java:420) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.disablePlugins(CraftServer.java:338) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.stop(MinecraftServer.java:456) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:652) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+[19:06:21] [Server thread/INFO]: [TAB] Disabling TAB v4.1.4
+[19:06:21] [Server thread/INFO]: [TAB] [0;32;1mDisabled in 3ms[m
+
+[19:06:21] [Server thread/INFO]: [SimpleHomes] Disabling SimpleHomes v2.2
+[19:06:21] [Server thread/INFO]: [TheNewEconomy] Disabling TheNewEconomy v0.1.2.9
+[19:06:21] [Server thread/INFO]: [BetterGUI] Disabling BetterGUI v9.6
+[19:06:21] [Server thread/INFO]: [LoginSecurity] Disabling LoginSecurity v3.2.0
+[19:06:21] [Server thread/INFO]: [LoginSecurity] Waiting for queued tasks...
+[19:06:21] [Server thread/INFO]: [LoginSecurity] ExecutorService shut down, ready to disable.
+[19:06:21] [Server thread/INFO]: [TMOTD] Disabling TMOTD v1.4
+[19:06:21] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v6.1;no_git_id
+[19:06:21] [Server thread/INFO]: [ajQueue] Disabling ajQueue v2.6.0
+[19:06:21] [Server thread/INFO]: [PixelMOTD] Disabling PixelMOTD v9.3.9-SNAPSHOT
+[19:06:21] [Server thread/INFO]: [SimpleTpa] Disabling SimpleTpa v6.4
+[19:06:21] [Server thread/INFO]: [0;36;1m[21m[SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9[m
+
+[19:06:21] [Server thread/INFO]: [0;36;1m[21m[SimpleTpa] Simple Tpa has been disabled on version 6.4[m
+
+[19:06:21] [Server thread/INFO]: Saving players
+[19:06:21] [Server thread/INFO]: PenguinRobertSig lost connection: Server closed
+[19:06:21] [Server thread/INFO]: PenguinRobertSig left the game.
+[19:06:21] [Server thread/INFO]: Saving worlds
+[19:06:21] [Server thread/INFO]: Saving chunks for level 'world'/Overworld
+[19:06:21] [Server thread/INFO]: Saving chunks for level 'world_nether'/Nether
+[19:06:21] [Server thread/INFO]: Saving chunks for level 'world_the_end'/The End
