@@ -2789,3 +2789,4 @@ java.lang.IllegalStateException: Must be 64 pixels wide
 [19:09:41] [Thread-11/WARN]: [BetterGUI] New Version: 10.1
 [19:09:50] [Server thread/INFO]: Unknown command. Type "/help" for help.
 
+[19:10:05] [Thread-1/INFO]: Stopping server
