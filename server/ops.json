@@ -6,6 +6,12 @@
     "bypassesPlayerLimit": true
   },
   {
+    "uuid": "d05d5a39-cf40-3b2d-b5dc-3b8e2c6bb6a6",
+    "name": "sowrdsmithsoren5",
+    "level": 1,
+    "bypassesPlayerLimit": false
+  },
+  {
     "uuid": "b622c7da-8c4e-49d3-9602-9e072e289579",
     "name": "SimSimNosnaws",
     "level": 2,
