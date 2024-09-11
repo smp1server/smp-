@@ -2796,3 +2796,9 @@ java.lang.IllegalStateException: Must be 64 pixels wide
 [17:28:32] [Server thread/INFO]: mileswa1q2 issued server command: /puma
 [17:28:54] [Server thread/INFO]: mileswa1q2 issued server command: /help
 [17:29:06] [Server thread/INFO]: mileswa1q2 issued server command: /help nAntiBot
+[17:29:11] [Server thread/INFO]: mileswa1q2 issued server command: /nantibot
+[17:29:16] [Thread-14/INFO]: UUID of player idk is 89048e4d-07c4-38bc-a1af-595e66b07e25
+[17:29:16] [TAB Processing Thread/INFO]: [0;31;1m[TAB] [WARN] Player idk's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.[m
+
+[17:29:16] [Server thread/INFO]: idk[/[0:0:0:0:0:0:0:1]:48542] logged in with entity id 274 at ([world]-81.5, 72.0, 87.5)
+[17:29:16] [Server thread/INFO]: mileswa1q2 issued server command: /help 2

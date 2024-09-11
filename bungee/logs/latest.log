@@ -101,3 +101,8 @@ java.lang.IllegalArgumentException: Server icon must be exactly 64x64 pixels
 [17:27:44] [main/ERROR]: 	at org.jline.utils.NonBlockingReader.read(NonBlockingReader.java:57)
 [17:27:44] [main/ERROR]: 	at org.jline.keymap.BindingReader.readCharacter(BindingReader.java:160)
 [17:27:44] [main/ERROR]: 	... 10 more
+[17:29:15] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:51690]: Connected via websocket
+[17:29:15] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:51690]: Origin header is https://fun-miles2.netlify.app
+[17:29:16] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:51690]: Logged in as 'idk'
+[17:29:16] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:51690|idk] -> UpstreamBridge has connected
+[17:29:16] [Netty Worker IO Thread #2/INFO]: [idk|/[0:0:0:0:0:0:0:1%0]:51690] <-> ServerConnector [lobby] has connected
