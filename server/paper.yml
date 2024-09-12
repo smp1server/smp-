@@ -36,8 +36,19 @@ world-settings:
       flat-bedrock: true
     allow-block-location-tab-completion: true
     disable-teleportation-suffocation-check: false
-    optimize-explosions: false
+    remove-unloaded:
+      enderpearls: true
+      tnt-entities: false
+      falling-blocks: true
+    game-mechanics:
+      boats-drop-boats: true
+      disable-player-crits: false
+      disable-chest-cat-detection: false
+      disable-end-credits: false
+    nether-ceiling-void-damage: false
     player-blocking-damage-multiplier: 0.5
+    remove-invalid-mob-spawner-tile-entities: true
+    optimize-explosions: false
     mob-spawner-tick-rate: 1
     cache-chunk-maps: false
     tnt-explosion-volume: 4.0
@@ -57,17 +68,6 @@ world-settings:
       soft: 32
       hard: 128
     falling-block-height-nerf: 0
-    remove-invalid-mob-spawner-tile-entities: true
-    remove-unloaded:
-      enderpearls: true
-      tnt-entities: false
-      falling-blocks: true
-    game-mechanics:
-      boats-drop-boats: true
-      disable-player-crits: false
-      disable-chest-cat-detection: false
-      disable-end-credits: false
-    nether-ceiling-void-damage: false
     load-chunks:
       enderpearls: false
       tnt-entities: false
@@ -85,8 +85,8 @@ world-settings:
     use-hopper-check: false
     all-chunks-are-slime-chunks: true
     allow-undead-horse-leashing: true
-    container-update-tick-rate: 1
     keep-spawn-loaded: true
+    container-update-tick-rate: 1
     falling-blocks-collide-with-signs: false
     disable-mood-sounds: false
     use-async-lighting: false
