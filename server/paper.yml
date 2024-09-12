@@ -36,14 +36,9 @@ world-settings:
       flat-bedrock: true
     allow-block-location-tab-completion: true
     disable-teleportation-suffocation-check: false
-    lava-flow-speed:
-      normal: 30
-      nether: 10
     optimize-explosions: false
-    fast-drain:
-      lava: true
-      water: false
     mob-spawner-tick-rate: 1
+    player-blocking-damage-multiplier: 0.5
     cache-chunk-maps: false
     tnt-explosion-volume: 4.0
     squid-spawn-height:
@@ -58,11 +53,11 @@ world-settings:
     player-exhaustion:
       block-break: 0.02500000037252903
       swimming: 0.014999999664723873
-    remove-invalid-mob-spawner-tile-entities: true
     despawn-ranges:
       soft: 32
       hard: 128
     falling-block-height-nerf: 0
+    remove-invalid-mob-spawner-tile-entities: true
     remove-unloaded:
       enderpearls: true
       tnt-entities: false
@@ -77,7 +72,12 @@ world-settings:
       enderpearls: false
       tnt-entities: false
       falling-blocks: false
-    player-blocking-damage-multiplier: 0.5
+    fast-drain:
+      lava: true
+      water: false
+    lava-flow-speed:
+      normal: 30
+      nether: 10
     disable-explosion-knockback: false
     water-over-lava-flow-speed: 5
     fix-cannons: false
@@ -85,8 +85,8 @@ world-settings:
     use-hopper-check: false
     all-chunks-are-slime-chunks: true
     allow-undead-horse-leashing: true
-    keep-spawn-loaded: true
     container-update-tick-rate: 1
+    keep-spawn-loaded: true
     falling-blocks-collide-with-signs: false
     disable-mood-sounds: false
     use-async-lighting: false
