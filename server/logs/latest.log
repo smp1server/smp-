@@ -2789,3 +2789,256 @@ java.lang.IllegalStateException: Must be 64 pixels wide
 [12:19:46] [Thread-11/WARN]: [BetterGUI] The addon 'VaultBridge' has a new update. New Version: 5.0
 [12:19:47] [Thread-12/WARN]: [BetterGUI] There is an available update
 [12:19:47] [Thread-12/WARN]: [BetterGUI] New Version: 10.1
+[12:21:16] [Thread-13/INFO]: UUID of player PenguinRobertSig is d5c43670-61c2-345a-815b-29302474c30c
+[12:21:16] [TAB Processing Thread/INFO]: [0;31;1m[TAB] [WARN] Player PenguinRobertSig's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.[m
+
+[12:21:16] [Server thread/INFO]: PenguinRobertSig[/[0:0:0:0:0:0:0:1]:60048] logged in with entity id 274 at ([world]-102.8855613282621, 69.0, 87.38027193081672)
+[12:21:53] [Server thread/INFO]: PenguinRobertSig issued server command: /home admin
+[12:23:23] [Server thread/INFO]: PenguinRobertSig issued server command: /home spawn
+[12:23:29] [Server thread/INFO]: PenguinRobertSig issued server command: /gamemode c
+[12:23:29] [Server thread/INFO]: [PenguinRobertSig: Set own game mode to Creative Mode]
+[12:24:36] [Thread-14/INFO]: UUID of player oli_boi is f7dfbd2f-3a4d-33c8-9fb9-85c17814e023
+[12:24:36] [TAB Processing Thread/INFO]: [0;31;1m[TAB] [WARN] Player oli_boi's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.[m
+
+[12:24:36] [Server thread/INFO]: oli_boi[/[0:0:0:0:0:0:0:1]:49882] logged in with entity id 353 at ([world]-114.6768504690781, 70.0, 78.30000001192093)
+[12:24:46] [Server thread/INFO]: oli_boi issued server command: /lo
+[12:24:57] [Server thread/ERROR]: Could not pass event EntityDeathEvent to TheNewEconomy v0.1.2.9
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:302) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:78) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:517) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:502) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.event.CraftEventFactory.callEntityDeathEvent(CraftEventFactory.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityLiving.die(EntityLiving.java:884) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntitySkeleton.die(EntitySkeleton.java:142) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityLiving.damageEntity(EntityLiving.java:822) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityMonster.damageEntity(EntityMonster.java:42) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityHuman.attack(EntityHuman.java:1002) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityPlayer.attack(EntityPlayer.java:1086) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnection.a(PlayerConnection.java:1382) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PacketPlayInUseEntity.a(SourceFile:52) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PacketPlayInUseEntity.a(SourceFile:11) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnectionUtils$1.run(SourceFile:13) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at net.minecraft.server.v1_8_R3.SystemUtils.a(SourceFile:44) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:774) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.NoSuchMethodError: 'org.bukkit.NamespacedKey org.bukkit.Material.getKey()'
+	at net.tnemc.bukkit.listeners.entity.EntityKilledListener.lambda$onDeath$0(EntityKilledListener.java:42) ~[?:?]
+	at java.util.ArrayList.removeIf(ArrayList.java:1755) ~[?:?]
+	at java.util.ArrayList.removeIf(ArrayList.java:1743) ~[?:?]
+	at net.tnemc.bukkit.listeners.entity.EntityKilledListener.onDeath(EntityKilledListener.java:42) ~[?:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:300) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	... 23 more
+[12:24:58] [Server thread/INFO]: PenguinRobertSig issued server command: /home admin
+[12:25:08] [Server thread/INFO]: PenguinRobertSig issued server command: /tp oli_boi
+[12:25:08] [Server thread/INFO]: [PenguinRobertSig: Teleported PenguinRobertSig to oli_boi]
+[12:25:15] [Thread-16/INFO]: UUID of player noonoon is c9d7a872-56c2-37f2-a471-7c60b9f9c171
+[12:25:15] [TAB Processing Thread/INFO]: [0;31;1m[TAB] [WARN] Player noonoon's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.[m
+
+[12:25:15] [Server thread/INFO]: noonoon[/[0:0:0:0:0:0:0:1]:54070] logged in with entity id 501 at ([world]-109.5, 71.0, 75.5)
+[12:25:23] [Server thread/ERROR]: Could not pass event EntityDeathEvent to TheNewEconomy v0.1.2.9
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:302) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:78) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:517) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:502) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.event.CraftEventFactory.callEntityDeathEvent(CraftEventFactory.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityLiving.die(EntityLiving.java:884) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityZombie.die(EntityZombie.java:561) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityLiving.damageEntity(EntityLiving.java:822) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityMonster.damageEntity(EntityMonster.java:42) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityZombie.damageEntity(EntityZombie.java:167) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.Entity.K(Entity.java:337) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityLiving.K(EntityLiving.java:174) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityInsentient.K(EntityInsentient.java:150) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.Entity.t_(Entity.java:263) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityLiving.t_(EntityLiving.java:1457) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityInsentient.t_(EntityInsentient.java:194) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityMonster.t_(EntityMonster.java:24) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityZombie.t_(EntityZombie.java:221) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.World.entityJoinedWorld(World.java:1650) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.World.g(World.java:1617) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.World.tickEntities(World.java:1450) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.WorldServer.tickEntities(WorldServer.java:600) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:846) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.NoSuchMethodError: 'org.bukkit.NamespacedKey org.bukkit.Material.getKey()'
+	at net.tnemc.bukkit.listeners.entity.EntityKilledListener.lambda$onDeath$0(EntityKilledListener.java:42) ~[?:?]
+	at java.util.ArrayList.removeIf(ArrayList.java:1755) ~[?:?]
+	at java.util.ArrayList.removeIf(ArrayList.java:1743) ~[?:?]
+	at net.tnemc.bukkit.listeners.entity.EntityKilledListener.onDeath(EntityKilledListener.java:42) ~[?:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:300) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	... 27 more
+[12:25:43] [Server thread/ERROR]: Could not pass event EntityDeathEvent to TheNewEconomy v0.1.2.9
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:302) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:78) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:517) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:502) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.event.CraftEventFactory.callEntityDeathEvent(CraftEventFactory.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityLiving.die(EntityLiving.java:884) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityLiving.damageEntity(EntityLiving.java:822) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityHuman.attack(EntityHuman.java:1002) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityPlayer.attack(EntityPlayer.java:1086) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnection.a(PlayerConnection.java:1382) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PacketPlayInUseEntity.a(SourceFile:52) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PacketPlayInUseEntity.a(SourceFile:11) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnectionUtils$1.run(SourceFile:13) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at net.minecraft.server.v1_8_R3.SystemUtils.a(SourceFile:44) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:774) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.NoSuchMethodError: 'org.bukkit.NamespacedKey org.bukkit.Material.getKey()'
+	at net.tnemc.bukkit.listeners.entity.EntityKilledListener.lambda$onDeath$0(EntityKilledListener.java:42) ~[?:?]
+	at java.util.ArrayList.removeIf(ArrayList.java:1755) ~[?:?]
+	at java.util.ArrayList.removeIf(ArrayList.java:1743) ~[?:?]
+	at net.tnemc.bukkit.listeners.entity.EntityKilledListener.onDeath(EntityKilledListener.java:42) ~[?:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:300) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	... 21 more
+[12:25:54] [Server thread/INFO]: noonoon was slain by oli_boi
+[12:26:11] [Async Chat Thread - #0/INFO]: <oli_boi> stay away frm my base[m
+
+[12:27:14] [Async Chat Thread - #1/INFO]: <oli_boi> rbert can i have admin if i giv diminds[m
+
+[12:27:17] [Server thread/INFO]: PenguinRobertSig issued server command: /tp noonoon PenguinRobertSig
+[12:27:17] [Server thread/INFO]: [PenguinRobertSig: Teleported noonoon to PenguinRobertSig]
+[12:27:21] [Server thread/ERROR]: Could not pass event EntityDeathEvent to TheNewEconomy v0.1.2.9
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:302) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:78) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:62) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:517) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:502) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.event.CraftEventFactory.callEntityDeathEvent(CraftEventFactory.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityLiving.die(EntityLiving.java:884) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntitySkeleton.die(EntitySkeleton.java:142) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityLiving.damageEntity(EntityLiving.java:822) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityMonster.damageEntity(EntityMonster.java:42) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityHuman.attack(EntityHuman.java:1002) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.EntityPlayer.attack(EntityPlayer.java:1086) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnection.a(PlayerConnection.java:1382) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PacketPlayInUseEntity.a(SourceFile:52) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PacketPlayInUseEntity.a(SourceFile:11) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.PlayerConnectionUtils$1.run(SourceFile:13) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at net.minecraft.server.v1_8_R3.SystemUtils.a(SourceFile:44) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:774) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.NoSuchMethodError: 'org.bukkit.NamespacedKey org.bukkit.Material.getKey()'
+	at net.tnemc.bukkit.listeners.entity.EntityKilledListener.lambda$onDeath$0(EntityKilledListener.java:42) ~[?:?]
+	at java.util.ArrayList.removeIf(ArrayList.java:1755) ~[?:?]
+	at java.util.ArrayList.removeIf(ArrayList.java:1743) ~[?:?]
+	at net.tnemc.bukkit.listeners.entity.EntityKilledListener.onDeath(EntityKilledListener.java:42) ~[?:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:300) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	... 23 more
+[12:27:38] [Server thread/INFO]: noonoon was slain by oli_boi
+[12:27:59] [Server thread/INFO]: noonoon has just earned the achievement [Taking Inventory]
+[12:28:07] [Async Chat Thread - #1/INFO]: <oli_boi> who are u[m
+
+[12:28:07] [Server thread/INFO]: noonoon was slain by oli_boi
+[12:28:40] [Server thread/INFO]: PenguinRobertSig issued server command: /home soren
+[12:28:42] [Thread-17/INFO]: UUID of player simsimnawsnaws is 9ebfcc3b-4ef2-30f5-9ae5-1511d2f9c70e
+[12:28:42] [TAB Processing Thread/INFO]: [0;31;1m[TAB] [WARN] Player simsimnawsnaws's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.[m
+
+[12:28:42] [Server thread/INFO]: simsimnawsnaws[/[0:0:0:0:0:0:0:1]:56216] logged in with entity id 1047 at ([world]-413.4742756396196, 77.0, -754.2519757459186)
+[12:28:53] [Server thread/INFO]: oli_boi fell from a high place
+[12:28:54] [Server thread/INFO]: PenguinRobertSig issued server command: /home spawn
+[12:28:57] [Server thread/INFO]: simsimnawsnaws lost connection: Disconnected
+[12:28:57] [Server thread/INFO]: simsimnawsnaws left the game.
+[12:28:58] [Server thread/INFO]: oli_boi issued server command: /back
+[12:29:03] [Thread-18/INFO]: UUID of player simsimnawsnaws is 9ebfcc3b-4ef2-30f5-9ae5-1511d2f9c70e
+[12:29:03] [TAB Processing Thread/INFO]: [0;31;1m[TAB] [WARN] Player simsimnawsnaws's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.[m
+
+[12:29:04] [Server thread/INFO]: simsimnawsnaws[/[0:0:0:0:0:0:0:1]:51562] logged in with entity id 1156 at ([world]-413.4742756396196, 77.0, -754.2519757459186)
+[12:29:18] [Server thread/INFO]: simsimnawsnaws lost connection: Disconnected
+[12:29:18] [Server thread/INFO]: simsimnawsnaws left the game.
+[12:29:28] [Thread-19/INFO]: UUID of player simsimnawsnaws is 9ebfcc3b-4ef2-30f5-9ae5-1511d2f9c70e
+[12:29:28] [TAB Processing Thread/INFO]: [0;31;1m[TAB] [WARN] Player simsimnawsnaws's group (none) is not in sorting list! Sorting list: owner,admin,mod,helper,builder,vip,default. Player will be sorted on the bottom.[m
+
+[12:29:28] [Server thread/INFO]: simsimnawsnaws[/[0:0:0:0:0:0:0:1]:34288] logged in with entity id 1262 at ([world]-414.4007347977458, 77.0, -752.3000000119209)
+[12:29:39] [Server thread/INFO]: noonoon lost connection: Disconnected
+[12:29:39] [Server thread/INFO]: noonoon left the game.
+[12:29:42] [Server thread/INFO]: simsimnawsnaws lost connection: Disconnected
+[12:29:42] [Server thread/INFO]: simsimnawsnaws left the game.
+[12:32:16] [Server thread/INFO]: oli_boi lost connection: Disconnected
+[12:32:16] [Server thread/INFO]: oli_boi left the game.
+[12:35:10] [Async Chat Thread - #2/INFO]: <PenguinRobertSig> server go bye bye till lunch[m
+
+[12:35:16] [Server thread/INFO]: PenguinRobertSig issued server command: /stop
+[12:35:16] [Server thread/INFO]: [PenguinRobertSig: Stopping the server]
+[12:35:16] [Server thread/INFO]: Stopping server
+[12:35:16] [Server thread/INFO]: [BetterKeepInventory] Disabling BetterKeepInventory v1.0.2
+[12:35:16] [Server thread/INFO]: [PunishManager] Disabling PunishManager v1.4.10
+[12:35:16] [Server thread/INFO]: [PunishManager] Shutdown process initiated...
+[12:35:16] [Server thread/ERROR]: Error occurred while disabling PunishManager v1.4.10 (Is it up to date?)
+org.bukkit.plugin.IllegalPluginAccessException: Plugin attempted to register task while disabled
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftScheduler.validate(CraftScheduler.java:407) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftScheduler.runTaskTimerAsynchronously(CraftScheduler.java:144) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftScheduler.runTaskLaterAsynchronously(CraftScheduler.java:118) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftScheduler.runTaskAsynchronously(CraftScheduler.java:101) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at dev.mehmet27.punishmanager.bukkit.BukkitMethods.runAsync(BukkitMethods.java:135) ~[?:?]
+	at dev.mehmet27.punishmanager.storage.H2Core.executeUpdateAsync(H2Core.java:57) ~[?:?]
+	at dev.mehmet27.punishmanager.managers.StorageManager.unPunishPlayer(StorageManager.java:139) ~[?:?]
+	at dev.mehmet27.punishmanager.managers.StorageManager.removeAllExpiredPunishes(StorageManager.java:331) ~[?:?]
+	at dev.mehmet27.punishmanager.PunishManager.onDisable(PunishManager.java:61) ~[?:?]
+	at dev.mehmet27.punishmanager.bukkit.PMBukkit.onDisable(PMBukkit.java:38) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:323) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.java.JavaPluginLoader.disablePlugin(JavaPluginLoader.java:360) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.disablePlugin(SimplePluginManager.java:427) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.disablePlugins(SimplePluginManager.java:420) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.disablePlugins(CraftServer.java:338) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.stop(MinecraftServer.java:456) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:652) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+[12:35:16] [Server thread/INFO]: [TAB] Disabling TAB v4.1.4
+[12:35:16] [Server thread/INFO]: [TAB] [0;32;1mDisabled in 3ms[m
+
+[12:35:16] [Server thread/INFO]: [SimpleHomes] Disabling SimpleHomes v2.2
+[12:35:16] [Server thread/INFO]: [TheNewEconomy] Disabling TheNewEconomy v0.1.2.9
+[12:35:16] [Server thread/INFO]: [BetterGUI] Disabling BetterGUI v9.6
+[12:35:16] [Server thread/INFO]: [LoginSecurity] Disabling LoginSecurity v3.2.0
+[12:35:16] [Server thread/INFO]: [LoginSecurity] Waiting for queued tasks...
+[12:35:16] [Server thread/INFO]: [LoginSecurity] ExecutorService shut down, ready to disable.
+[12:35:16] [Server thread/INFO]: [TMOTD] Disabling TMOTD v1.4
+[12:35:16] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v6.1;no_git_id
+[12:35:16] [Server thread/INFO]: [ajQueue] Disabling ajQueue v2.6.0
+[12:35:16] [Server thread/INFO]: [PixelMOTD] Disabling PixelMOTD v9.3.9-SNAPSHOT
+[12:35:16] [Server thread/INFO]: [SimpleTpa] Disabling SimpleTpa v6.4
+[12:35:16] [Server thread/INFO]: [0;36;1m[21m[SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9[m
+
+[12:35:16] [Server thread/INFO]: [0;36;1m[21m[SimpleTpa] Simple Tpa has been disabled on version 6.4[m
+
+[12:35:16] [Server thread/INFO]: Saving players
+[12:35:16] [Server thread/INFO]: PenguinRobertSig lost connection: Server closed
+[12:35:16] [Server thread/INFO]: PenguinRobertSig left the game.
+[12:35:16] [Server thread/INFO]: Saving worlds
+[12:35:16] [Server thread/INFO]: Saving chunks for level 'world'/Overworld
+[12:35:16] [Server thread/INFO]: Saving chunks for level 'world_nether'/Nether
+[12:35:16] [Server thread/INFO]: Saving chunks for level 'world_the_end'/The End

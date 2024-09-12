@@ -75,3 +75,51 @@ java.lang.IllegalArgumentException: Server icon must be exactly 64x64 pixels
 [12:20:31] [main/INFO] [EaglercraftXBungee]: Connected to database: jdbc:sqlite:eaglercraft_skins_cache.db
 [12:20:31] [main/INFO]: Enabled plugin EaglercraftXBungee version 1.0.9 by lax1dude
 [12:20:31] [Netty Boss IO Thread #0/INFO]: Listening on /127.0.0.1:25577
+[12:21:15] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:40508]: Connected via websocket
+[12:21:15] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:40508]: Origin header is https://localhost:8081
+[12:21:15] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:40508]: Logged in as 'PenguinRobertSig'
+[12:21:15] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:40508|PenguinRobertSig] -> UpstreamBridge has connected
+[12:21:16] [Netty Worker IO Thread #2/INFO]: [PenguinRobertSig|/[0:0:0:0:0:0:0:1%0]:40508] <-> ServerConnector [lobby] has connected
+[12:24:35] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:54460]: Connected via websocket
+[12:24:35] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:54460]: Origin header is https://fun-miles2.netlify.app
+[12:24:36] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:54460]: Logged in as 'oli_boi'
+[12:24:36] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:54460|oli_boi] -> UpstreamBridge has connected
+[12:24:36] [Netty Worker IO Thread #3/INFO]: [oli_boi|/[0:0:0:0:0:0:0:1%0]:54460] <-> ServerConnector [lobby] has connected
+[12:25:15] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:36190]: Connected via websocket
+[12:25:15] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:36190]: Origin header is https://localhost:8081
+[12:25:15] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:36190]: Logged in as 'noonoon'
+[12:25:15] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:36190|noonoon] -> UpstreamBridge has connected
+[12:25:15] [Netty Worker IO Thread #1/INFO]: [noonoon|/[0:0:0:0:0:0:0:1%0]:36190] <-> ServerConnector [lobby] has connected
+[12:28:42] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:59586]: Connected via websocket
+[12:28:42] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:59586]: Origin header is https://fun-miles2.netlify.app
+[12:28:42] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:59586]: Logged in as 'simsimnawsnaws'
+[12:28:42] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:59586|simsimnawsnaws] -> UpstreamBridge has connected
+[12:28:42] [Netty Worker IO Thread #2/INFO]: [simsimnawsnaws|/[0:0:0:0:0:0:0:1%0]:59586] <-> ServerConnector [lobby] has connected
+[12:28:57] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:59586|simsimnawsnaws] -> UpstreamBridge has disconnected
+[12:28:57] [Netty Worker IO Thread #2/INFO]: [simsimnawsnaws] disconnected with: Proxy lost connection to server.
+[12:28:57] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:59586|simsimnawsnaws] <-> DownstreamBridge <-> [lobby] has disconnected
+[12:29:03] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:37188]: Connected via websocket
+[12:29:03] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:37188]: Origin header is https://fun-miles2.netlify.app
+[12:29:03] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:37188]: Logged in as 'simsimnawsnaws'
+[12:29:03] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:37188|simsimnawsnaws] -> UpstreamBridge has connected
+[12:29:03] [Netty Worker IO Thread #3/INFO]: [simsimnawsnaws|/[0:0:0:0:0:0:0:1%0]:37188] <-> ServerConnector [lobby] has connected
+[12:29:18] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:37188|simsimnawsnaws] -> UpstreamBridge has disconnected
+[12:29:18] [Netty Worker IO Thread #3/INFO]: [simsimnawsnaws] disconnected with: Proxy lost connection to server.
+[12:29:18] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:37188|simsimnawsnaws] <-> DownstreamBridge <-> [lobby] has disconnected
+[12:29:27] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:40646]: Connected via websocket
+[12:29:27] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:40646]: Origin header is https://fun-miles2.netlify.app
+[12:29:28] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:40646]: Logged in as 'simsimnawsnaws'
+[12:29:28] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:40646|simsimnawsnaws] -> UpstreamBridge has connected
+[12:29:28] [Netty Worker IO Thread #0/INFO]: [simsimnawsnaws|/[0:0:0:0:0:0:0:1%0]:40646] <-> ServerConnector [lobby] has connected
+[12:29:39] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:36190|noonoon] -> UpstreamBridge has disconnected
+[12:29:39] [Netty Worker IO Thread #1/INFO]: [noonoon] disconnected with: Proxy lost connection to server.
+[12:29:39] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:36190|noonoon] <-> DownstreamBridge <-> [lobby] has disconnected
+[12:29:42] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:40646|simsimnawsnaws] -> UpstreamBridge has disconnected
+[12:29:42] [Netty Worker IO Thread #0/INFO]: [simsimnawsnaws] disconnected with: Proxy lost connection to server.
+[12:29:42] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:40646|simsimnawsnaws] <-> DownstreamBridge <-> [lobby] has disconnected
+[12:32:16] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:54460|oli_boi] -> UpstreamBridge has disconnected
+[12:32:16] [Netty Worker IO Thread #3/INFO]: [oli_boi] disconnected with: Proxy lost connection to server.
+[12:32:16] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:54460|oli_boi] <-> DownstreamBridge <-> [lobby] has disconnected
+[12:35:16] [Netty Worker IO Thread #2/INFO]: [PenguinRobertSig] disconnected with: Server closed
+[12:35:16] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:40508|PenguinRobertSig] -> UpstreamBridge has disconnected
+[12:35:16] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:40508|PenguinRobertSig] <-> DownstreamBridge <-> [lobby] has disconnected
