@@ -36,19 +36,13 @@ world-settings:
       flat-bedrock: true
     allow-block-location-tab-completion: true
     disable-teleportation-suffocation-check: false
-    remove-unloaded:
-      enderpearls: true
-      tnt-entities: false
-      falling-blocks: true
-    game-mechanics:
-      boats-drop-boats: true
-      disable-player-crits: false
-      disable-chest-cat-detection: false
-      disable-end-credits: false
-    nether-ceiling-void-damage: false
-    player-blocking-damage-multiplier: 0.5
-    remove-invalid-mob-spawner-tile-entities: true
+    lava-flow-speed:
+      normal: 30
+      nether: 10
     optimize-explosions: false
+    fast-drain:
+      lava: true
+      water: false
     mob-spawner-tick-rate: 1
     cache-chunk-maps: false
     tnt-explosion-volume: 4.0
@@ -64,20 +58,26 @@ world-settings:
     player-exhaustion:
       block-break: 0.02500000037252903
       swimming: 0.014999999664723873
+    remove-invalid-mob-spawner-tile-entities: true
     despawn-ranges:
       soft: 32
       hard: 128
     falling-block-height-nerf: 0
+    remove-unloaded:
+      enderpearls: true
+      tnt-entities: false
+      falling-blocks: true
+    game-mechanics:
+      boats-drop-boats: true
+      disable-player-crits: false
+      disable-chest-cat-detection: false
+      disable-end-credits: false
+    nether-ceiling-void-damage: false
     load-chunks:
       enderpearls: false
       tnt-entities: false
       falling-blocks: false
-    fast-drain:
-      lava: true
-      water: false
-    lava-flow-speed:
-      normal: 30
-      nether: 10
+    player-blocking-damage-multiplier: 0.5
     disable-explosion-knockback: false
     water-over-lava-flow-speed: 5
     fix-cannons: false
