@@ -1,0 +1,13 @@
+Info:
+  ID: ca123607-700e-372e-ab71-3274d6da1938
+  Name: PRESIDENT_TRUMP
+  Type: player
+  Status: normal
+  CreationDate: 1730998769349
+  Pin: ''
+  LastOnline: 1730999672758
+Holdings:
+  Main Server:
+    world:
+      ca11ee3e-afb8-4cef-9570-a3de39affd8d:
+        tne:VIRTUAL_HOLDINGS: '200.0'
