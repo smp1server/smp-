@@ -1,0 +1,13 @@
+Info:
+  ID: 6b4cd6c5-90d6-31ca-81c0-200b0a12322e
+  Name: Seamus
+  Type: player
+  Status: normal
+  CreationDate: 1730997430755
+  Pin: ''
+  LastOnline: 1730997583147
+Holdings:
+  Main Server:
+    world:
+      ca11ee3e-afb8-4cef-9570-a3de39affd8d:
+        tne:VIRTUAL_HOLDINGS: '200.0'
