@@ -3,7 +3,7 @@ header-footer:
   enabled: true
   header:
     - "<#FFFFFF>&m                                                </#FFFF00>"
-    - "&3highview smp"
+    - "&3&lServer name"
     - "&7&l>> %animation:Welcome%&3 &l%player%&7&l! &7&l<<"
     - "&7Online players: &f%online%"
     - "&6Online staff: &e%staffonline%"
@@ -51,7 +51,7 @@ scoreboard-teams:
   can-see-friendly-invisibles: false
   disable-condition: '%world%=disabledworld'
   # https://github.com/NEZNAMY/TAB/wiki/Feature-guide:-Unlimited-nametag-mode
-  unlimited-nametag-mode: 
+  unlimited-nametag-mode:
     enabled: false
     disable-on-boats: true
     disable-condition: '%world%=disabledworld'
@@ -94,7 +94,7 @@ bossbar:
       style: "PROGRESS" # for 1.9+: PROGRESS, NOTCHED_6, NOTCHED_10, NOTCHED_12, NOTCHED_20
       color: "%animation:barcolors%" # for 1.9+: BLUE, GREEN, PINK, PURPLE, RED, WHITE, YELLOW
       progress: "100" # in %
-      text: "&fWebsite: &bwww.lanfunmiles.free.nf"
+      text: "&fWebsite: &bwww.domain.com"
 
 # https://github.com/NEZNAMY/TAB/wiki/Feature-guide:-Scoreboard
 scoreboard:
@@ -172,7 +172,7 @@ layout:
           condition: permission:tab.staff
           slots:
             - 24-40
-        players: 
+        players:
           slots:
             - 44-80
 

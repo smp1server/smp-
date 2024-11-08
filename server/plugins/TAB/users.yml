@@ -1,43 +1,7 @@
 _NEZNAMY_:
-  tabprefix: '&6&lTAB&r &a'
-  tagprefix: '&6&lTAB&r &a'
-  abovename: '&bOh look, 3 lines of text !'
-  belowname: '&eThere''s only one plugin out there supporting it'
-237d8b55-3f97-4749-aa60-e9fe97b45062:
-  tabsuffix: ' &b&lVerified'
-mileswa1q2:
-  customtagname: admin
-  tabprefix: '[Penguin Raiders+admin]'
-Penguinrobert:
-  tabprefix: '[Penguin Raiders]'
-sowrdsmithsoren5:
-  tabprefix: '[Penguin Raiders]'
-ThatSpinnyThing_:
-  tabprefix: '[Penguin Raiders]'
-_killer_:
-  tabprefix: '[Penguin Raiders]'
-SecretSwmSociety:
-  tabprefix: '[Penguin Raiders]'
-EaglerYee667____:
-  tabprefix: '[Penguin Raiders]'
-oreo_cooki_cat:
-  tabprefix: '[ice brakers]'
-Mrtrump123:
-  tabprefix: '[KKK]'
-EDP444:
-  tabprefix: '[KKK]'
-jack23:
-  tabprefix: '[KKK]'
-star:
-  tabprefix: '[u are my sunshine+admin]'
-zane1:
-  tabprefix: '[The Ohio bandits]'
-UR_A_FAULAIR_:
-  tabprefix: '[u are my sunshine]'
-oliver_is_cool__:
-  tabprefix: '[u are my sunshine]'
-6b4cd6c5-90d6-31ca-81c0-200b0a12322e:
-  tabprefix: (moo)
-ca123607-700e-372e-ab71-3274d6da1938:
-  tabprefix: (moo)
-24d1f12f-57ff-3135-a019-c218d8b2fef1: {}
+  tabprefix: "&6&lTAB&r &a"
+  tagprefix: "&6&lTAB&r &a"
+  abovename: "&bOh look, 3 lines of text !"
+  belowname: "&eThere's only one plugin out there supporting it"
+237d8b55-3f97-4749-aa60-e9fe97b45062: # my online uuid
+  tabsuffix: " &b&lVerified"
